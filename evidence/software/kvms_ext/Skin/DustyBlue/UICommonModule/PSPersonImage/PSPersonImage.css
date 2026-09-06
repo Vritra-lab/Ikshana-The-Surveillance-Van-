@@ -1,0 +1,34 @@
+
+QPushButton#m_btnUpLoad,
+QPushButton#m_btnCapture,
+QPushButton#m_btnVistorCapture,
+QPushButton#m_btnPhotoDelete,
+QPushButton#m_btnTurnPage,
+QPushButton#m_btnIDCard {
+	background-color: rgba(71, 77, 86, 50%);
+	border: none;
+	color: #ffffff;
+}
+
+QPushButton#m_btnTurnPage {
+	background-color: rgba(71, 77, 86, 50%);
+	border: none;
+	color: #ffffff;
+	border-radius:5px;
+	font-weight:bolder;
+}
+
+QPushButton#m_btnUpLoad:hover,
+QPushButton#m_btnCapture:hover,
+QPushButton#m_btnVistorCapture:hover,
+QPushButton#m_btnIDCard:hover,
+QPushButton#m_btnPhotoDelete:hover,
+QPushButton#m_btnTurnPage:hover,
+QPushButton#m_btnUpLoad:pressed,
+QPushButton#m_btnCapture:pressed,
+QPushButton#m_btnVistorCapture:pressed,
+QPushButton#m_btnPhotoDelete:pressed,
+QPushButton#m_btnTurnPage:pressed,
+QPushButton#m_btnIDCard:pressed  {
+	color: #C40123;
+}

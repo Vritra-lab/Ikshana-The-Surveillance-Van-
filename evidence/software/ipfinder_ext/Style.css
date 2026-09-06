@@ -1,0 +1,268 @@
+﻿QWidget {
+        font-size: 12px;
+        font-family: "Arial";
+}
+
+QLabel
+{
+	font-size: 12px;
+}
+
+/*QTreeView START*/
+QTreeView::branch {background-color: rgb(61,66,72); }
+QTreeView::item {
+		font-family: "Arial";
+		font-size: 14px;
+	/*color: white;*/
+        background-color: transparent;
+}
+QTreeView::item:selected {
+        color: white;
+        background-color: rgb(61,66,72);
+}
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings {
+border-image: none;
+        image: url(./Skin/close.png);
+}
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings  {
+border-image: none;
+        image: url(./Skin/open.png);
+}
+	
+QTreeView#TemplateUsing 
+{ 
+	background-color: rgb(61,66,72); 	
+	border:1px rgb(240,240,240);
+	border-style:none solid solid solid;
+}
+	
+QTreeView 
+{
+	font-family: "Arial";
+	font-size: 14px;
+	/*background-color: rgb(61,66,72); 	*/
+	border:1px rgb(190,190,190);
+	border-style:solid solid solid solid;
+}
+
+	
+/*QTreeView END*/
+
+
+ /*QScrollBar Start*/
+QScrollBar:horizontal {
+        background: rgb(153, 153, 153);
+        margin: 0px 0px 0px 0px;
+        height: 8px;
+        border-radius:3px
+}
+QScrollBar:vertical {
+        background: rgb(153, 153, 153);
+        margin: 0px 0px 0px 0px;
+        width: 8px;
+        border-radius:3px
+}
+QScrollBar::handle:horizontal {
+        background-color:qlineargradient(x1:0, y1:0.2, x2:0, y2:1, stop:0 #ffffff, stop:1 #888888);
+        border-radius:3px
+        }
+QScrollBar::handle:vertical {
+        background-color:qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #ffffff, stop:1 #888888);
+        border-radius:3px
+        }
+QScrollBar::add-line:horizontal {width: 0px}
+QScrollBar::sub-line:horizontal {width: 0px}
+QScrollBar::sub-line:vertical {height:0px}
+QScrollBar::add-line:vertical {height:0px}
+QScrollBar::add-page {background-color: none; }
+QScrollBar::sub-page {background-color: none; }
+ /*QScrollBar END*/
+ 
+QLineEdit#Search { background-image:  url("./Skin/search_bg_210_n.png");}
+
+QLineEdit#Others { background-color: rgb(61,66,72);
+        color: white;
+        border-radius: 4px;
+        border: 1px solid rgb(212,214,219);
+        padding: 0 8px; }
+
+QLineEdit#ParentEdit{ background:rgb(61,66,72);
+		color:white;
+		image: url(./Skin/bg_ipedit_nor.png); }
+
+QTextEdit#Others{
+		background-color: rgb(61,66,72);
+        color: white;
+        border-radius: 4px;
+        border: 1px solid rgb(212,214,219);
+        padding: 0 8px;}
+	
+QHeaderView::section {
+        background-color: rgb(252,252,252);
+        /*color: white;*/
+        border: 1px rgb(212,212,212);
+        padding: 5px 5px 5px 5px;
+        border-style:none  none solid none;
+		font-family: "Arial";
+		font-size: 14px;
+}
+QHeaderView::section:checked
+{
+        background-color: rgb(252,252,252);
+}
+/*
+QHeaderView#WaterDetail::section {
+        background-color: qlineargradient(x1:0, y1:0.2, x2:0, y2:1, stop:0 #f7f7f7, stop:1 #afafaf);
+        color: black;
+        border: 1px gray;
+        padding: 5px 5px 5px 5px;
+        border-style:none  solid solid none;
+}
+
+QTableWidget#WaterDetail{ border: 1px rgb(101,110,129); border-style:solid solid solid solid;
+        color: black;
+		background-color: rgb(213,216,222);
+}
+QTableWidget#WaterDetail::item:selected {
+        color: white;
+        background: rgb(56,117,215);
+        outline:0px;
+}
+*/
+QTableWidget{ border:  1px rgb(212,212,212); border-style:solid none solid none;
+		background-color: #30353B;
+		font-size: 12px;
+		color: white;
+}
+
+
+QTableWidget::item:selected 
+{
+	border:1px rgb(212,212,212);
+	border-style:none none none none;
+        color: white;
+        background: #4F545D;
+        outline:0px;
+}
+
+QTableWidget#NotifyDlg{ border: none;
+		  color: white;
+		background-color: rgb(39,42,47);
+}
+QTableWidget#NotifyDlg::item:selected {
+        color: white;
+        background: rgb(56,117,215);
+}
+
+
+/*QTreeView START*/
+QTreeView::branch {background-color: rgb(61,66,72); }
+QTreeView::item {
+	
+	background-color: transparent;
+}
+QTreeView::item:selected {
+	color: black;
+	background-color: rgb(237,239,245);
+	border-style:none none none none;
+	outline:0px;
+}
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings {
+border-image: none;
+	image: url(./Skin/close.png);
+}
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings  {
+border-image: none;
+	image: url(./Skin/open.png);
+}
+/*QTreeView { border-style:none none none none;
+	background-color: rgb(61,66,72);
+}*/
+/*QTreeView END*/
+
+ /*QScrollBar Start*/
+QScrollBar:horizontal {
+	background: white;
+	margin: 0px 0px 0px 0px;
+	height: 8px;
+	border-radius:4px 
+}
+QScrollBar:vertical {
+	background: white;
+	margin: 0px 0px 0px 0px;
+	width: 8px;
+	border-radius:4px 
+}
+QScrollBar::handle {background-color:rgb(92, 101, 118); border-radius:4px }
+QScrollBar::add-line:horizontal {width: 0px}
+QScrollBar::sub-line:horizontal {width: 0px}
+QScrollBar::sub-line:vertical {height:0px}
+QScrollBar::add-line:vertical {height:0px}
+QScrollBar::add-page {background-color: none; }
+QScrollBar::sub-page {background-color: none; }
+ /*QScrollBar END*/
+
+
+
+QHeaderView::section {
+	background-color: rgb(252,252,252);
+	border-right: 1px rgb(230,230,230);
+	padding: 12px 5px 5px 5px;
+	border-style:none none none none;
+	font: bold 12px;
+}
+QHeaderView#ALL::section:checked
+{
+	background-color: rgb(113,126,150);
+}
+
+QHeaderView::down-arrow {
+  	width:14 px;
+  	height: 14 px;
+  	margin-right:15px;
+  	image: url("./Skin/down_n.png");
+}
+
+QHeaderView::up-arrow {
+  	width:14 px;
+  	height: 14 px;
+  	margin-right:15px;
+  	image: url("./Skin/up_n.png");
+}
+
+QTableWidget#ALL{ border: 1px rgb(101,110,129); border-style:solid solid none none;
+	color: white;
+	gridline-color: rgb(136,136,136);
+	background: #c5cad3;
+}
+QTableWidget#ALL::item:selected {
+	color: white;
+	background: #6eaff7;
+}
+
+QProgressBar { border: 1px solid grey;
+border-radius: 0px;
+} 
+	
+QMenu{  color: white;
+		background: rgb(48,48,48);
+		border: 1px solid rgb(68,68,68);
+		padding: 5px 0px 5px 5px; 
+}
+	
+QMenu::indicator:checked{ image: url(./Skin/right.png);}
+
+QMenu::item {
+	padding: 5px 25px 5px 20px;
+}
+	
+QMenu::item:selected {
+		color: white;
+	background-color: rgb(94,94,94);
+}
+
+/*QMenu{ image: url("./Skin/menu_bg.png"); }*/

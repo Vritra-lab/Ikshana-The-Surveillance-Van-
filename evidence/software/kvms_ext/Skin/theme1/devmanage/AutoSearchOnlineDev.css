@@ -1,0 +1,41 @@
+﻿
+
+QWidget#wgtBackground
+{
+	border:none;
+	background: #2f3337;
+}
+
+QPushButton#btnRefresh,
+QPushButton#btnModifyIP,
+QPushButton#btnInitDev
+{
+   background:transparent;
+   border:none;
+   text-align:left;
+   color:#fefefe;
+}
+ 
+QPushButton#btnRefresh:hover,
+QPushButton#btnModifyIP:hover, 
+QPushButton#btnInitDev:hover,
+QPushButton#btnRefresh:check,
+QPushButton#btnModifyIP:check,
+QPushButton#btnInitDev:check,
+QPushButton#btnRefresh:checked,
+QPushButton#btnModifyIP:checked,
+QPushButton#btnInitDev:checked
+{
+   border-image:url(./Skin/theme1/common/button_imp.png) 0 280 0 0;
+   border-width:0 0 0 0;
+   margin: 0 0 0 0;
+   border:none;
+   text-align:left;
+   color:#ffffff;
+}
+QPushButton#btnAdd,
+QPushButton#btnAdd:hover,
+QPushButton#btnAdd:checked
+{
+   text-align:center;
+}

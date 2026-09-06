@@ -1,0 +1,74 @@
+QLabel#lblTip
+{
+	color: #dddddd;
+}
+/*选项item*/
+QPushButton#QCommonNotificationItem,
+QPushButton#btnTip,
+QPushButton#btnPicFile,
+QPushButton#btnPicFolder,
+QPushButton#btnRecordFolder
+{
+	border: 0px none;
+}
+QPushButton#QCommonNotificationItem[bHighLight=true]
+{
+	background: #292D32;
+}
+QPushButton#QCommonNotificationItem[bHighLight=false]
+{
+	background: #2F3337;
+}
+QPushButton#QCommonNotificationItem:checked,
+QPushButton#QCommonNotificationItem:hover
+{
+	background: #000000;
+}
+/*图标*/
+QLabel#lblPix[NotifyType_e="0"]
+{
+	border-image: url(./Skin/theme1/Notify/TextTip.png) 0 0 32 0;
+}
+
+/**
+	按钮
+*/
+QPushButton#btnPicFolder,
+QPushButton#btnRecordFolder
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/Notify/ListFileview.png) 0 54 0 0;
+}
+QPushButton#btnPicFolder:hover,
+QPushButton#btnRecordFolder:hover
+{
+	border-image: url(./Skin/theme1/Notify/ListFileview.png) 0 36 0 18;
+}
+QPushButton#btnPicFolder:pressed,
+QPushButton#btnRecordFolder:pressed
+{
+	border-image: url(./Skin/theme1/Notify/ListFileview.png) 0 18 0 36;
+}
+QPushButton#btnPicFolder:disabled,
+QPushButton#btnRecordFolder:disabled
+{
+	border-image: url(./Skin/theme1/Notify/ListFileview.png) 0 0 0 54;
+}
+
+QPushButton#btnPicFile
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/Notify/ListPicview.png) 0 54 0 0;
+}
+QPushButton#btnPicFile:hover
+{
+	border-image: url(./Skin/theme1/Notify/ListPicview.png) 0 36 0 18;
+}
+QPushButton#btnPicFile:pressed
+{
+	border-image: url(./Skin/theme1/Notify/ListPicview.png) 0 18 0 36;
+}
+QPushButton#btnPicFile:disabled
+{
+	border-image: url(./Skin/theme1/Notify/ListPicview.png) 0 0 0 54;
+}

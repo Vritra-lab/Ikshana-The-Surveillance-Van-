@@ -1,0 +1,167 @@
+
+QTaskPlanEditor > QWidget#wndBg
+{
+	background: #1D1F22;
+}
+QTaskPlanArea QWidget#wndBg,
+QTaskArea QWidget#wndBg
+{
+	border: 1px solid #3A3E43;
+	background: #2F3337;
+}
+QTaskPlanArea QListView,
+QTaskArea QWidget#wndTasks
+{
+	border: 0px none;
+	background: #2F3337;
+}
+QTaskPlanArea QWidget#wndHeader
+{
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                stop:0 rgba(115, 119, 124,255), stop:1 rgb(96, 100, 104, 255));
+}
+QTaskArea QWidget#wndHeader
+{
+	background: #3A3E43;
+}
+QTaskArea QWidget#wndTasks
+{
+	border-top: 7px solid qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                stop:0 #2A2D32, stop:1 #2E3236);
+}
+QTaskArea QScrollArea
+{
+	border: 0px none;
+}
+QTaskButton QWidget#wndBg
+{
+	border: 1px solid #131314;
+}
+QTaskButton QWidget#wndBg:hover
+{
+	border: 1px solid #C40123;
+}
+
+QTaskPlanEditor QWidget#wndBtns QPushButton
+{
+	background: transparent;
+	color: #eeeeee;
+	text-align: left;
+	padding-left: 24px;
+}
+/**
+	ListView
+*/
+QTaskPlanArea QListView:item
+{
+	border: 0px none;
+	padding-left: 13px;
+	height: 30px;
+}
+QTaskPlanArea QListView:item:hover,
+QTaskPlanArea QListView:item:selected
+{
+	background: #000000;
+}
+
+QTaskPlanArea QPushButton#btnEdit,
+QTaskButton QPushButton#btnEdit
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 54 0 0;
+}
+QTaskPlanArea QPushButton#btnEdit:hover,
+QTaskButton QPushButton#btnEdit:hover
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 36 0 18;
+}
+QTaskPlanArea QPushButton#btnEdit:pressed,
+QTaskButton QPushButton#btnEdit:pressed
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 18 0 36;
+}
+QTaskPlanArea QPushButton#btnEdit:disabled,
+QTaskButton QPushButton#btnEdit:disabled
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 0 0 54;
+}
+
+QTaskPlanArea QPushButton#btnDayPlan
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/MonitorTask/TimedTaskPlan.png) 0 54 0 0;
+}
+QTaskPlanArea QPushButton#btnDayPlan:hover
+{
+	border-image: url(./Skin/theme1/MonitorTask/TimedTaskPlan.png) 0 36 0 18;
+}
+QTaskPlanArea QPushButton#btnDayPlan:pressed
+{
+	border-image: url(./Skin/theme1/MonitorTask/TimedTaskPlan.png) 0 18 0 36;
+}
+QTaskPlanArea QPushButton#btnDayPlan:disabled
+{
+	border-image: url(./Skin/theme1/MonitorTask/TimedTaskPlan.png) 0 0 0 54;
+}
+
+QTaskPlanArea QListView::indicator
+{
+	width : 12 px;
+	height: 12 px;
+}
+QTaskPlanArea QListView::indicator:unchecked
+{
+    image:url(./Skin/theme1/common/UnCheckedNormal.png);
+}
+
+QTaskPlanArea QListView::indicator:unchecked:hover,
+QTaskPlanArea QListView::indicator:unchecked:focus
+{
+    image:url(./Skin/theme1/common/UnCheckedNormal.png);
+}
+
+QTaskPlanArea QListView::indicator:unchecked:disabled
+{
+    image:url(./Skin/theme1/common/UnCheckedDiabled.png);
+}
+
+QTaskPlanArea QListView::indicator:checked
+{
+    image:url(./Skin/theme1/common/CheckedNormal.png);
+}
+
+QTaskPlanArea QListView::indicator:checked:disabled
+{
+    image:url(./Skin/theme1/common/CheckedDiabled.png);
+}
+
+QTaskPlanArea QListView::indicator:indeterminate
+{
+    image:url(./Skin/theme1/common/CheckedIndeterminateNormal.png);
+}
+QTaskPlanArea QListView::indicator:indeterminate:disabled
+{
+    image:url(./Skin/theme1/common/uncheckedIndeterminateNormal.png);
+}
+QTaskPlanArea QListView::item
+{
+	padding-right: 30px;
+}
+
+QTaskButton QPushButton#btnDel
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 54 0 0;
+}
+QTaskButton QPushButton#btnDel:hover
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 36 0 18;
+}
+QTaskButton QPushButton#btnDel:pressed
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 18 0 36;
+}
+QTaskButton QPushButton#btnDel:disabled
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 0 0 54;
+}

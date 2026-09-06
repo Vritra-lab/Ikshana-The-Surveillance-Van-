@@ -1,0 +1,107 @@
+DevAddWidget
+{
+	background:#transparent;
+}
+
+QWidget#wgtContainer
+{
+	background:#35393e;
+	background-image: linear-gradient(
+		#35393e, 
+		#35393e), 
+	linear-gradient(
+		#2b2f33, 
+		#2b2f33);
+	background-blend-mode: normal, 
+		normal;
+}
+
+QWidget#wgtDevOpt
+{
+	border-top: 1px solid  #212326;
+	border-bottom: 1px solid  #212326;
+}
+
+QWidget#wgtDevTab
+{
+	border-top: 1px solid  #212326;
+}
+
+QPushButton#btnAdd,
+QPushButton#btnAutoSearch,
+QPushButton#btnDel,
+QPushButton#btnExportDev,
+QPushButton#btnImportDev
+{
+    background:transparent;
+	border:none;
+	color:#aaaaaa;
+    padding-left:18px;
+}
+
+QPushButton#btnAdd:hover,
+QPushButton#btnAutoSearch:hover,
+QPushButton#btnDel:hover,
+QPushButton#btnExportDev:hover,
+QPushButton#btnImportDev:hover
+{
+   background:transparent;
+   border:none;
+   color:#ffffff;
+}
+
+QPushButton#btnAdd:pressed,
+QPushButton#btnAutoSearch:pressed,
+QPushButton#btnDel:pressed,
+QPushButton#btnExportDev:pressed,
+QPushButton#btnImportDev:pressed,
+QPushButton#btnAdd:checked,
+QPushButton#btnAutoSearch:checked,
+QPushButton#btnDel:checked,
+QPushButton#btnExportDev:checked,
+QPushButton#btnImportDev:checked
+{
+   background:transparent;
+   border:none;
+   color:#C40123;
+}
+
+QPushButton#btnAllDevice,
+QPushButton#btnEncodeDevice,
+QPushButton#btnDecodeDevice,
+QPushButton#btnMatrixDevice,
+QPushButton#btnControllerDevice,
+QPushButton#btnACSDevice,
+QPushButton#btnVDPDevice,
+QPushButton#btnAlarmHostDevice,
+QPushButton#btnAttendanceDevice
+{
+    background:transparent;
+	border:none;
+	color:#aaaaaa;
+}
+
+QPushButton#btnAllDevice:pressed,
+QPushButton#btnEncodeDevice:pressed,
+QPushButton#btnDecodeDevice:pressed,
+QPushButton#btnMatrixDevice:pressed,
+QPushButton#btnControllerDevice:pressed,
+QPushButton#btnACSDevice:pressed,
+QPushButton#btnVDPDevice:pressed,
+QPushButton#btnAlarmHostDevice:pressed,
+QPushButton#btnAttendanceDevice:pressed,
+QPushButton#btnAllDevice:checked,
+QPushButton#btnEncodeDevice:checked,
+QPushButton#btnDecodeDevice:checked,
+QPushButton#btnMatrixDevice:checked,
+QPushButton#btnControllerDevice:checked,
+QPushButton#btnACSDevice:checked,
+QPushButton#btnVDPDevice:checked,
+QPushButton#btnAlarmHostDevice:checked,
+QPushButton#btnAttendanceDevice:checked
+{
+   background:transparent;
+   border:none;
+   border-bottom:3px solid #C40123;
+   color:#C40123;
+}

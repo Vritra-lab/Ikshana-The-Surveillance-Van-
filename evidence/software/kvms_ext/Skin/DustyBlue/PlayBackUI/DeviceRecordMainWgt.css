@@ -1,0 +1,46 @@
+﻿
+/**
+ * 显示隐藏缩略图列表控件
+ */
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="true"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 42 0 0;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="true"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 28 0 14;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="true"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 14 0 28;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="true"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 0 0 42;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="false"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 42 0 0;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="false"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 28 0 14;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="false"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 14 0 28;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="false"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 0 0 42;
+}
+
+
+

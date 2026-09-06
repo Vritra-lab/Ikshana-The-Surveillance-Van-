@@ -1,0 +1,26 @@
+﻿
+
+CPlayBackDownLoadlistDlg QWidget#wgtShowInfo
+{
+	border:1px solid #2A2B2E;
+}
+
+
+
+CPlayBackDownLoadlistDlg QPushButton#btnDelete, QPushButton#btnStart, QPushButton#btnPause
+{
+	border: 0px none;
+}
+
+CPlayBackDownLoadlistDlg QPushButton#m_btnDownloading,
+CPlayBackDownLoadlistDlg QPushButton#m_btnDownloaded
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/tab_pending.png) 0 22 0 4;
+}
+
+CPlayBackDownLoadlistDlg QPushButton#m_btnDownloading:checked,
+CPlayBackDownLoadlistDlg QPushButton#m_btnDownloaded:checked
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/tab_current.png) 0 22 0 4;
+}

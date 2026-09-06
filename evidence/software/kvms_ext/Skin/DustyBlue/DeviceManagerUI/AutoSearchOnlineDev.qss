@@ -1,0 +1,87 @@
+QWidget#wgtBackground
+{
+	border:none;
+	background: #2f3337;
+}
+
+QPushButton#btnRefresh
+{
+	background-color: #2f3337;
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/refresh-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	margin:0px;
+	padding-left:22px;
+	text-align:left;
+	border:none;
+	color: #abb2bd;
+}
+QPushButton#btnRefresh:pressed
+{
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/refresh-p.png);
+	color:#C40123;
+}
+QPushButton#btnRefresh:hover:!pressed
+{
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/refresh-h.png);
+	color:#ffffff;
+}
+QPushButton#btnRefresh:disabled
+{
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/refresh-d.png);
+} 
+
+
+QPushButton#btnModifyIP
+{
+	background-color: #2f3337;
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/modifyIP-n.png);
+	background-repeat:no-repeat;
+	background-position: left; 
+	margin:0px;
+	padding-left:22px;
+	text-align:left;
+	color: #abb2bd;
+	border:none;
+}
+QPushButton#btnModifyIP:pressed
+{
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/modifyIP-p.png);
+	color:#C40123;
+}
+QPushButton#btnModifyIP:hover:!pressed
+{
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/modifyIP-h.png);
+	color:#ffffff;
+}
+QPushButton#btnModifyIP:disabled
+{
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/modifyIP-d.png);
+} 
+
+QPushButton#btnInitDev
+{
+	background-color: #2f3337;
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/init-n.png); 
+	background-repeat:no-repeat;
+	background-position: left;
+	padding-left:22px;
+	text-align:left;
+	margin:0px;
+	color: #abb2bd;
+	border:none;
+}
+QPushButton#btnInitDev:pressed
+{
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/init-p.png);
+	color:#C40123;
+}
+QPushButton#btnInitDev:hover:!pressed
+{
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/init-h.png);
+	color:#ffffff;
+}
+QPushButton#btnInitDev:disabled
+{
+	background-image: url(./Skin/DustyBlue/DeviceManagerUI/init-d.png);
+} 

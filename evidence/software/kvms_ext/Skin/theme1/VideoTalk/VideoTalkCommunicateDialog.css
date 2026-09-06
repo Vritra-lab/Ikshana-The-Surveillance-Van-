@@ -1,0 +1,322 @@
+VideoTalkCommunicateDialog QLabel#lblTime,QLabel#lblTalkTime
+{
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255, 0);
+}
+
+VideoTalkCommunicateDialog QWidget#wgtRedial
+{
+	background-color: rgb(51, 53, 56,160);
+}
+
+VideoTalkCommunicateDialog QLabel#lblReDialTalk
+{
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255, 0);
+	font: 14pt "Times New Roman";
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnShout
+{
+	min-width: 80px;
+	max-width: 80px;
+	min-height: 33px;
+	max-height: 33px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/shout.png) 0 240 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnShout:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/shout.png) 0 160 0 80; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnShout:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/shout.png) 0 80 0 160; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnShout:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/shout.png) 0 0 0 240;
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnStopShout
+{
+	min-width: 80px;
+	max-width: 80px;
+	min-height: 33px;
+	max-height: 33px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/stop_shout.png) 0 240 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnStopShout:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/stop_shout.png) 0 160 0 80; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnStopShout:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/stop_shout.png) 0 80 0 160; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnStopShout:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/stop_shout.png) 0 0 0 240;
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnUnlock
+{
+	min-width: 80px;
+	max-width: 80px;
+	min-height: 33px;
+	max-height: 33px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/unlock.png) 0 240 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnUnlock:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/unlock.png) 0 160 0 80; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnUnlock:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/unlock.png) 0 80 0 160; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnUnlock:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/unlock.png) 0 0 0 240;
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnAccept
+{
+	min-width: 80px;
+	max-width: 80px;
+	min-height: 33px;
+	max-height: 33px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_accept.png) 0 240 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnAccept:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_accept.png) 0 160 0 80; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnAccept:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_accept.png) 0 80 0 160; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnAccept:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_accept.png) 0 0 0 240;
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnHangUp
+{
+	min-width: 80px;
+	max-width: 80px;
+	min-height: 33px;
+	max-height: 33px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_off.png) 0 240 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnHangUp:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_off.png) 0 160 0 80; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnHangUp:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_off.png) 0 80 0 160; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnHangUp:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_off.png) 0 0 0 240;
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnReDialHangUp
+{
+	min-width: 80px;
+	max-width: 80px;
+	min-height: 33px;
+	max-height: 33px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_off.png) 0 240 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnReDialHangUp:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_off.png) 0 160 0 80; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnReDialHangUp:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_off.png) 0 80 0 160; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnReDialHangUp:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_off.png) 0 0 0 240;
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnReDial
+{
+	min-width: 80px;
+	max-width: 80px;
+	min-height: 33px;
+	max-height: 33px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_accept.png) 0 240 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnReDial:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_accept.png) 0 160 0 80; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnReDial:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_accept.png) 0 80 0 160; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnReDial:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_accept.png) 0 0 0 240;
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnSnapshot
+{
+	min-width: 18px;
+	max-width: 18px;
+	min-height: 18px;
+	max-height: 18px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_snapshot.png) 0 54 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnSnapshot:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_snapshot.png) 0 36 0 18; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnSnapshot:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_snapshot.png) 0 18 0 36; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnSnapshot:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_snapshot.png) 0 0 0 54;
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnRecord
+{
+	min-width: 18px;
+	max-width: 18px;
+	min-height: 18px;
+	max-height: 18px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_record.png) 0 54 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnRecord:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_record.png) 0 36 0 18; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnRecord:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_record.png) 0 18 0 36; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnRecord:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_record.png) 0 0 0 54;
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnStartRecord
+{
+	min-width: 18px;
+	max-width: 18px;
+	min-height: 18px;
+	max-height: 18px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_record_start.png) 0 54 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnStartRecord:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_record_start.png) 0 36 0 18; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnStartRecord:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_record_start.png) 0 18 0 36; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnStartRecord:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_record_start.png) 0 0 0 54;
+}
+
+
+VideoTalkCommunicateDialog QToolButton#btnAudio
+{
+	min-width: 18px;
+	max-width: 18px;
+	min-height: 18px;
+	max-height: 18px;	
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_audio.png) 0 54 0 0;
+}
+
+VideoTalkCommunicateDialog QToolButton#btnAudio:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_audio.png) 0 36 0 18; 
+}
+
+VideoTalkCommunicateDialog QToolButton#btnAudio:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_audio.png) 0 18 0 36; 
+
+}
+
+VideoTalkCommunicateDialog QToolButton#btnAudio:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/monitor_audio.png) 0 0 0 54;
+}
+
+
+
+
+
+VideoTalkCommunicateDialog QToolButton#btnLabel
+{
+	min-width: 34px;
+	max-width: 34px;
+	min-height: 30px;
+	max-height: 30px;	
+	border-image: url(./Skin/theme1/VideoTalk/warning.png);
+}
+
+
+VideoTalkCommunicateDialog QWidget #wgtRealPlayCtrl
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/call_background.png);
+}

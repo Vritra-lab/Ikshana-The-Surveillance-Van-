@@ -1,0 +1,76 @@
+FavoriteTree
+{   
+	background-color: #2b2f33 ;
+	color: #EEEEEE;
+	border:none;
+   	show-decoration-selected: 1 ;
+	font-size: 14px;
+}
+
+FavoriteTree::branch
+{ 
+	image:none;
+	background-color: transparent; 
+}
+FavoriteTree::indicator
+{
+    width:20px;
+    height:20px;
+}
+
+FavoriteTree::item {
+	background-color: transparent;
+	height:30px;
+	color: #abb2bd;
+}
+
+FavoriteTree::item:hover ,FavoriteTree::branch:hover{
+	background-color:#35393e;
+}
+
+FavoriteTree::item:selected ,FavoriteTree::branch:selected{
+    color: #FFFFFF;
+	background-color:#595f69;
+}
+
+FavoriteTree::branch:closed:has-children:!has-siblings,
+FavoriteTree::branch:closed:has-children:has-siblings
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_n.png);
+}
+
+FavoriteTree::branch:closed:has-children:!has-siblings:hover,
+FavoriteTree::branch:closed:has-children:has-siblings:hover
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+FavoriteTree::branch:closed:has-children:!has-siblings:pressed,
+FavoriteTree::branch:closed:has-children:has-siblings:pressed
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+FavoriteTree::branch:closed:has-children:!has-siblings:disabled,
+FavoriteTree::branch:closed:has-children:has-siblings:disabled
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_n.png);
+}
+FavoriteTree::branch:open:has-children:!has-siblings,
+FavoriteTree::branch:open:has-children:has-siblings
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_n.png);
+}
+FavoriteTree::branch:open:has-children:!has-siblings:hover,
+FavoriteTree::branch:open:has-children:has-siblings:hover
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_h.png);
+}
+FavoriteTree::branch:open:has-children:!has-siblings:pressed,
+FavoriteTree::branch:open:has-children:has-siblings:pressed
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+FavoriteTree::branch:open:has-children:!has-siblings:disabled,
+FavoriteTree::branch:open:has-children:has-siblings:disabled
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_n.png);
+}

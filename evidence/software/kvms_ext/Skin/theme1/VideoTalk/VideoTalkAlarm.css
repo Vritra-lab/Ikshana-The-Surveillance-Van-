@@ -1,0 +1,4 @@
+VideoTalkAlarmDialog QLabel#lblIcon
+{
+	border-image: url(./Skin/theme1/VideoTalk/Warning.png);
+}

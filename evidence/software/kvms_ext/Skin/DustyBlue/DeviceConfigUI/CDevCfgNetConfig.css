@@ -1,0 +1,10 @@
+
+QPushButton#btnAllPort
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/switchoff.png);
+}
+
+QPushButton#btnAllPort:checked
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/switchon.png);
+}

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KVMSEssential>
+<SolutionS>
+<Solution id="MainFrame">
+<Version>1.0</Version>
+<ReleaseDate>1765814400000</ReleaseDate>
+<State>2</State>
+</Solution>
+<Solution id="Monitor">
+<Version>1.0</Version>
+<ReleaseDate>1765814400000</ReleaseDate>
+<State>2</State>
+</Solution>
+<Solution id="VideoIntercom">
+<Version>1.0</Version>
+<ReleaseDate>1765814400000</ReleaseDate>
+<State>2</State>
+</Solution>
+</SolutionS>
+</KVMSEssential>

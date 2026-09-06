@@ -1,0 +1,10 @@
+﻿
+
+QDownloadingProgressBar QProgressBar::chunk
+{
+	background-color: #C40123;
+	border-radius: 6px;
+	width: 1px;
+}
+
+

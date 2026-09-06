@@ -1,0 +1,9 @@
+AccessControlUI--CentralizeGroupSelectWidget  QWidget#wgtFrame
+{  
+	border:1px solid rgb(88,93,100);
+}
+
+AccessControlUI--CentralizeGroupSelectWidget  QScrollArea#scrollArea ,QWidget#scrollAreaWidgetContents
+{ 
+	background:transparent;
+}

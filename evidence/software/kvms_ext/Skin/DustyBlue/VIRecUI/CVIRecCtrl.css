@@ -1,0 +1,41 @@
+QWidget#bgVIRecCtrl
+{
+	background-color:#2e3236;
+}
+
+QWidget#wgtVIRectRight
+{
+	background-color:#2e3236;
+	border: 1px solid #222528;
+}
+
+QWidget#wgtOperateBtn
+{
+	background-color:#35393e;
+}
+
+QPushButton#btnExport
+{
+	padding-left: 22px;
+	background-image: url(./Skin/DustyBlue/VIRecUI/Export-n.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-color: transparent;
+	text-align:left center;
+	color:#c2cad7;
+}
+QPushButton#btnExport:hover
+{
+	background-image: url(./Skin/DustyBlue/VIRecUI/Export-h.png);
+	color: #ffffff;
+}
+QPushButton#btnExport:pressed
+{
+	background-image: url(./Skin/DustyBlue/VIRecUI/Export-p.png);
+	color: #C40123;
+}
+QPushButton#btnExport:disabled
+{
+	background-image: url(./Skin/DustyBlue/VIRecUI/Export-d.png);
+	color: #4a515a;
+}

@@ -1,0 +1,24 @@
+﻿
+
+LocalExportProcessDlg QPushButton#btnDownloadingDelete,
+LocalExportProcessDlg QPushButton#btnDownLoadedDelete
+{
+	border: 0px none;
+}
+
+
+LocalExportProcessDlg QPushButton#btnDownloading,
+LocalExportProcessDlg QPushButton#btnDownloaded
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/tab_pending.png) 0 22 0 4;
+}
+
+LocalExportProcessDlg QPushButton#btnDownloading:checked,
+LocalExportProcessDlg QPushButton#btnDownloaded:checked
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/tab_current.png) 0 22 0 4;
+}
+
+
+

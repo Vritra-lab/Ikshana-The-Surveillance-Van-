@@ -1,0 +1,155 @@
+QDialog
+{
+	background:transparent;
+}
+QWidget#wgtTop
+{
+	background-color: #2B2f33;
+	border-bottom:1px solid #232629;
+}
+
+QWidget#wgtSetPwd,#wgtSecurePwd,#wgtChangeIP
+{
+	background-color: #35393E;
+}
+QWidget#wgtSetBottom,#wgtSecureBottom,#wgtChnageBottom
+{
+	background-color: #35393E;
+	border-top:1px solid #232629;
+}
+QLabel#m_lbUnMatch,#m_lbChangeUnmatch
+{
+	border-image: url(Skin/DustyBlue/DeviceManagerUI/failed.png);
+}
+
+QLabel#m_lbMatch,#m_lbChangeMatch
+{
+	border-image: url(Skin/DustyBlue/DeviceManagerUI/success.png);
+}
+QLabel#labNext,#labNext2
+{
+	border-image: url(Skin/DustyBlue/DeviceManagerUI/next-n.png);
+}
+QPushButton#m_pbStepOne
+{
+	border-image: url(Skin/DustyBlue/DeviceManagerUI/stepleft-n.png);
+	color:#ABB2BD;
+	font-weight:bold;
+	font-size:12px;
+}
+QPushButton#m_pbStepOne:pressed
+			,#m_pbStepOne:checked
+{
+	border-image: url(Skin/DustyBlue/DeviceManagerUI/stepleft-s.png);
+	color:#C70022;
+	border:none;
+    border-bottom:4px solid #C40123;
+}
+QPushButton#m_pbStepTwo
+{
+	border-image: url(Skin/DustyBlue/DeviceManagerUI/stepmid-n.png);
+	color:#ABB2BD;
+	font-weight:bold;
+	font-size:12px;
+}
+QPushButton#m_pbStepTwo:pressed
+		  ,#m_pbStepTwo:checked
+{
+	border-image: url(Skin/DustyBlue/DeviceManagerUI/stepmid-s.png);
+	color:#C70022;
+	border:none;
+    border-bottom:4px solid #C40123;
+
+}
+QPushButton#m_pbStepThree
+{
+	border-image: url(Skin/DustyBlue/DeviceManagerUI/stepright-n.png);
+	color:#ABB2BD;
+	font-weight:bold;
+	font-size:12px;
+}
+QPushButton#m_pbStepThree:pressed
+		  ,#m_pbStepThree:checked
+{
+	border-image: url(Skin/DustyBlue/DeviceManagerUI/stepright-s.png);
+	color:#C70022;
+    border:none;
+    border-bottom:4px solid #C40123;
+}
+
+QPushButton#btnPwdSecure,#btnChangeIP
+{
+	padding-left:10px;
+	padding-right:6px;
+	border-radius: 2px;
+	background-color: #C40123;
+	color: #ffffff;
+    outline: none;
+	icon-size:20px 20px;
+	font-size:12px;
+	text-align:center;
+}
+QPushButton#btnPwdSecure:hover:!pressed,
+					#btnChangeIP:hover:!pressed
+{
+	border-image: none;
+	border-radius: 2px;
+	background-color: #C70022;
+	color: #ffffff;
+    outline: none;    
+}
+QPushButton#btnPwdSecure:pressed,
+				   #btnChangeIP:pressed
+{
+	border-image: none;
+	border-radius: 2px;
+	background-color: #C40123;
+	color: #ffffff;
+    outline: none;
+}
+QPushButton#btnPwdSecure:disabled,
+				   #btnChangeIP:disabled
+{
+	border-image: none;
+	border-radius: 2px;
+	background-color: #41464b;
+	color: #5a6068;
+    outline: none;
+}
+QPushButton#btnBack,#btnLastBack
+{
+	padding-left:10px;
+	padding-right:10px;
+	border-radius: 2px;
+	background-color: #4b535b;
+	color: #ffffff;
+    outline: none;
+	font-size:12px;
+}
+QPushButton#btnBack:hover:!pressed,
+					#btnLastBack:hover:!pressed
+{
+	border-image: none;
+	border-radius: 2px;
+	background-color: #5a6371;
+	color: #ffffff;
+    outline: none;    
+}
+QPushButton#btnBack:pressed,
+				   #btnLastBack:pressed
+{
+	border-image: none;
+	border-radius: 2px;
+	background-color: #545d6a;
+	color: #ffffff;
+    outline: none;
+}
+DSGUI--DSSubPushButton#btnBack:disabled,
+				   #btnLastBack:disabled
+{
+	border-image: none;
+	border-radius: 2px;
+	background-color: #41464b;
+	color: #5a6068;
+    outline: none;
+}

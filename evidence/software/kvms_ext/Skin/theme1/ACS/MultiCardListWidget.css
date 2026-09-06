@@ -1,0 +1,38 @@
+QWidget#wdtRemind
+{    
+   background:transparent; 
+   border:none;
+   text-align:left;
+   color:#fefefe;
+}
+
+QWidget#wdgDiableParent
+{    
+   background-color: rgba(47,51,55, 150);
+   border:none;
+   text-align:left;
+   color:#fefefe;
+}
+
+QLabel#RemindInfo
+{  
+	background:transparent; 
+    font: 18pt; 
+}
+ 
+QWidget#wdtDirectionPic
+{
+   background:transparent;
+   image: url(./Skin/theme1/ACS/AddUserGroup.png);
+   border:none;
+   text-align:left;
+   color:#fefefe;
+}
+
+QWidget#wdtDirection
+{
+   background:transparent; 
+   border:none;
+   text-align:left;
+   color:#fefefe;
+}

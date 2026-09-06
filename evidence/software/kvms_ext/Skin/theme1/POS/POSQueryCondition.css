@@ -1,0 +1,257 @@
+﻿POSQueryCondition 
+{
+    background-color: #2A2B2E;
+}
+
+PlayCtrlToolBar QPushButton#btnDownloadDlg
+{
+	border-image: url(./Skin/theme1/playback/ToolbarDownLoad.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnDownloadDlg:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarDownLoad.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnDownloadDlg:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarDownLoad.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnDownloadDlg:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarDownLoad.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnCutDownload
+{
+	border-image: url(./Skin/theme1/playback/ToolbarCut.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnCutDownload:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarCut.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnCutDownload:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarCut.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnCutDownload:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarCut.png) 0 0 0 54;
+}
+
+
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="false"]
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFrequency.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="false"]:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFrequency.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="false"]:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFrequency.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="false"]:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFrequency.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="true"]
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFrequencyPause.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="true"]:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFrequencyPause.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="true"]:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFrequencyPause.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="true"]:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFrequencyPause.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnDaofang[checked="true"]
+{
+	border-image: url(./Skin/theme1/playback/ToolbarRecede.png) 0 72 0 0;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="true"]:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarRecede.png) 0 48 0 24;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="true"]:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarRecede.png) 0 24 0 48;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="true"]:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarRecede.png) 0 0 0 72;
+}
+
+PlayCtrlToolBar QPushButton#btnDaofang[checked="false"]
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlayback.png) 0 72 0 0;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="false"]:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlayback.png) 0 48 0 24;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="false"]:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlayback.png) 0 24 0 48;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="false"]:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlayback.png) 0 0 0 72;
+}
+
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="true"]
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlay.png) 0 90 0 0;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="true"]:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlay.png) 0 60 0 30;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="true"]:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlay.png) 0 30 0 60;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="true"]:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlay.png) 0 0 0 90;
+}
+
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="false"]
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPause.png) 0 90 0 0;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="false"]:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPause.png) 0 60 0 30;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="false"]:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPause.png) 0 30 0 60;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="false"]:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPause.png) 0 0 0 90;
+}
+
+PlayCtrlToolBar QPushButton#btnStop
+{
+	border-image: url(./Skin/theme1/playback/ToolbarStop.png) 0 72 0 0;
+}
+PlayCtrlToolBar QPushButton#btnStop:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarStop.png) 0 48 0 24;
+}
+PlayCtrlToolBar QPushButton#btnStop:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarStop.png) 0 24 0 48;
+}
+PlayCtrlToolBar QPushButton#btnStop:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarStop.png) 0 0 0 72;
+}
+
+PlayCtrlToolBar QPushButton#btnPreviousFrame
+{
+	border-image: url(./Skin/theme1/playback/ToolbarLastFram.png) 0 72 0 0;
+}
+PlayCtrlToolBar QPushButton#btnPreviousFrame:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarLastFram.png) 0 48 0 24;
+}
+PlayCtrlToolBar QPushButton#btnPreviousFrame:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarLastFram.png) 0 24 0 48;
+}
+PlayCtrlToolBar QPushButton#btnPreviousFrame:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarLastFram.png) 0 0 0 72;
+}
+
+PlayCtrlToolBar QPushButton#btnNextFrame
+{
+	border-image: url(./Skin/theme1/playback/ToolbarNextFrame.png) 0 72 0 0;
+}
+PlayCtrlToolBar QPushButton#btnNextFrame:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarNextFrame.png) 0 48 0 24;
+}
+PlayCtrlToolBar QPushButton#btnNextFrame:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarNextFrame.png) 0 24 0 48;
+}
+PlayCtrlToolBar QPushButton#btnNextFrame:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarNextFrame.png) 0 0 0 72;
+}
+
+PlayCtrlToolBar QPushButton#btnVoice[checked="true"]
+{
+	border-image: url(./Skin/theme1/playback/ToolbarVoicechange.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="true"]:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarVoicechange.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="true"]:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarVoicechange.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="true"]:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarVoicechange.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnVoice[checked="false"]
+{
+	border-image: url(./Skin/theme1/playback/ToolbarSilence.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="false"]:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarSilence.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="false"]:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarSilence.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="false"]:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarSilence.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnFullScreen
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFullScreen.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnFullScreen:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFullScreen.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnFullScreen:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFullScreen.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnFullScreen:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarFullScreen.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnFastPlay
+{
+	border: 0px none;
+	color: rgb(221, 221, 221);
+	background-color : rgb(58, 62, 67);
+}
+
+PlayCtrlToolBar QPushButton#btnFastPlay:disabled
+{
+	border: 0px none;
+	color: rgb(120, 120, 120);
+	background-color : rgb(58, 62, 67);
+}

@@ -1,0 +1,364 @@
+
+QWidget#QAlarmSchemeEditor
+{
+	background-color: #1D1F22;
+}
+
+QWidget#wndDevTree,
+QWidget#wndOption,
+QWidget#wndSettings,
+QWidget#wndTree,
+QAlarmVideoEditor QWidget#wndDev 
+{
+	border: 1px solid #3A3E43;
+	background-color: #2A2E33;
+}
+QAlarmVideoEditor QTableView
+{
+	border: 1px solid #3A3E43;
+}
+
+QWidget#wndSubSetting
+{
+	background-color: #2F3337;
+}
+QWidget#wndSetingsHeader
+{
+	background-color: #3A3E43;
+}
+QWidget#scrollAreaWidgetContents
+{
+	background-color: #2A2E33;
+}
+QWidget#wndSub,
+QWidget#wndSubSpace
+{
+	background-color: #292D32;
+}
+QTreeWidget#treeAlarmIn
+{
+	border: 0 none;
+	background: transparent;
+}
+
+ QWidget#scrollAreaWidgetContents,
+ QTreeWidget#treeAlarmIn,
+ QWidget#wndTabContainer,
+ QWidget#wndSub
+{
+	border-top: 7px solid qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                stop:0 rgba(39,42,47,255), stop:1 rgba(42,46,51,0));
+}
+
+ QWidget#wndOption QPushButton,
+ QWidget#wndTabContainer QPushButton,
+ QTreeWidget#treeAlarmIn::item
+{
+	color: #b1b1b1;
+}
+ QWidget#wndOption QPushButton:checked,
+ QWidget#wndTabContainer QPushButton:checked,
+ QTreeWidget#treeAlarmIn::item:selected
+{
+	color: #eeeeee;
+}
+ QWidget#wndOption QPushButton:hover,
+ QWidget#wndTabContainer QPushButton:hover,
+ QTreeWidget#treeAlarmIn::item:hover
+{
+	color: #ffffff;
+}
+ QWidget#wndOption QPushButton:disabled,
+ QWidget#wndTabContainer QPushButton:disabled,
+ QTreeWidget#treeAlarmIn:disabled
+{
+	color: #787878;
+}
+
+QAlarmListItemView QWidget#wndMain QAlarmListItem:hover,
+QAlarmListItemView QWidget#wndSub QAlarmListItem:hover,
+QAlarmListItemView QWidget#wndMain QAlarmListItem:checked,
+QAlarmListItemView QWidget#wndSub QAlarmListItem:checked,
+ QWidget#wndOption QPushButton#btnSubControll:hover,
+ QTreeWidget#treeAlarmIn::item:hover,
+ QTreeWidget#treeAlarmIn::item:selected
+{
+	background-color: #1e2021;
+}
+ QTreeWidget#treeAlarmIn::item
+{
+	height: 24px;
+}
+/**
+	QTreeView branch
+*/
+ QTreeView#treeAlarmIn::branch:closed:has-children
+{
+        image: url(./Skin/DustyBlue/AlarmConfigUI/arrow_rightClick_normal.png);
+}
+
+ QTreeView#treeAlarmIn::branch:open:has-children 
+{
+        image: url(./Skin/DustyBlue/AlarmConfigUI/arrow_bottomClick_normal.png);
+}
+ QTreeView#treeAlarmIn
+{
+	padding-left: 10px;
+}
+
+ QWidget#wndTabContainer QPushButton
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/tab_pending.png) 0 22 0 4;
+}
+ QWidget#wndTabContainer QPushButton:checked
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/tab_current.png) 0 22 0 4;
+}
+
+
+ QWidget#wndOption QPushButton#btnChnnel,
+ QWidget#wndOption QPushButton#btnAlarmIn,
+ QWidget#wndOption QPushButton#btnDevError,
+ QWidget#wndOption QPushButton#btnAlarm,
+ QWidget#wndOption QPushButton#btnAbnormal,
+ QWidget#wndOption QPushButton#btnNormal,
+ QWidget#wndOption QPushButton#btnAlarmHost,
+ QWidget#wndOption QPushButton#btnDefence
+{	
+	background-color: #3A3E43; 
+	border: 0px none;
+	border-right: 10px solid transparent;
+	text-align: left;
+	padding: 0 18px 0 10px;
+	
+    background-position: center right;
+    background-origin: padding;
+    background-repeat: no-repeat;
+}
+ QWidget#wndOption QPushButton#btnChnnel:!checked,
+ QWidget#wndOption QPushButton#btnAlarmIn:!checked,
+ QWidget#wndOption QPushButton#btnDevError:!checked,
+ QWidget#wndOption QPushButton#btnAlarm:!checked,
+ QWidget#wndOption QPushButton#btnAbnormal:!checked,
+ QWidget#wndOption QPushButton#btnNormal:!checked,
+ QWidget#wndOption QPushButton#btnAlarmHost:!checked,
+ QWidget#wndOption QPushButton#btnDefence:!checked,
+ QWidget#wndOption QPushButton#btnSubControll:!checked
+{
+    background-image: url(./Skin/DustyBlue/AlarmConfigUI/arrow_rightClick_normal.png);
+}
+ QWidget#wndOption QPushButton#btnChnnel:!checked:hover,
+ QWidget#wndOption QPushButton#btnAlarmIn:!checked:hover,
+ QWidget#wndOption QPushButton#btnDevError:!checked:hover,
+ QWidget#wndOption QPushButton#btnAlarm:!checked:hover,
+ QWidget#wndOption QPushButton#btnAbnormal:!checked:hover,
+ QWidget#wndOption QPushButton#btnNormal:!checked:hover,
+ QWidget#wndOption QPushButton#btnAlarmHost:!checked:hover,
+ QWidget#wndOption QPushButton#btnDefence:!checked:hover,
+ QWidget#wndOption QPushButton#btnSubControll:!checked:hover
+{
+    background-image: url(./Skin/DustyBlue/AlarmConfigUI/arrow_rightClick_hover.png);
+}
+ QWidget#wndOption QPushButton#btnChnnel:!checked:pressed,
+ QWidget#wndOption QPushButton#btnAlarmIn:!checked:pressed,
+ QWidget#wndOption QPushButton#btnDevError:!checked:pressed,
+ QWidget#wndOption QPushButton#btnAlarm:!checked:pressed,
+ QWidget#wndOption QPushButton#btnAbnormal:!checked:pressed,
+ QWidget#wndOption QPushButton#btnNormal:!checked:pressed,
+ QWidget#wndOption QPushButton#btnAlarmHost:!checked:pressed,
+ QWidget#wndOption QPushButton#btnDefence:!checked:pressed,
+ QWidget#wndOption QPushButton#btnSubControll:!checked:pressed
+{
+    background-image: url(./Skin/DustyBlue/AlarmConfigUI/arrow_rightClick_pressed.png);
+}
+ QWidget#wndOption QPushButton#btnChnnel:!checked:disabled,
+ QWidget#wndOption QPushButton#btnAlarmIn:!checked:disabled,
+ QWidget#wndOption QPushButton#btnDevError:!checked:disabled,
+ QWidget#wndOption QPushButton#btnAlarm:!checked:disabled,
+ QWidget#wndOption QPushButton#btnAbnormal:!checked:disabled,
+ QWidget#wndOption QPushButton#btnNormal:!checked:disabled,
+ QWidget#wndOption QPushButton#btnAlarmHost:!checked:disabled,
+ QWidget#wndOption QPushButton#btnDefence:!checked:disabled,
+ QWidget#wndOption QPushButton#btnSubControll:!checked:disabled
+{
+    background-image: url(./Skin/DustyBlue/AlarmConfigUI/arrow_rightClick_disable.png);
+}
+ QWidget#wndOption QPushButton#btnChnnel:checked,
+ QWidget#wndOption QPushButton#btnAlarmIn:checked,
+ QWidget#wndOption QPushButton#btnDevError:checked,
+ QWidget#wndOption QPushButton#btnAlarm:checked,
+ QWidget#wndOption QPushButton#btnAbnormal:checked,
+ QWidget#wndOption QPushButton#btnNormal:checked,
+ QWidget#wndOption QPushButton#btnAlarmHost:checked,
+ QWidget#wndOption QPushButton#btnDefence:checked,
+ QWidget#wndOption QPushButton#btnSubControll:checked
+{
+    background-image: url(./Skin/DustyBlue/AlarmConfigUI/arrow_bottomClick_normal.png);
+}
+ QWidget#wndOption QPushButton#btnChnnel:checked:hover,
+ QWidget#wndOption QPushButton#btnAlarmIn:checked:hover,
+ QWidget#wndOption QPushButton#btnDevError:checked:hover,
+ QWidget#wndOption QPushButton#btnAlarm:checked:hover,
+ QWidget#wndOption QPushButton#btnAbnormal:checked:hover,
+ QWidget#wndOption QPushButton#btnNormal:checked:hover,
+ QWidget#wndOption QPushButton#btnAlarmHost:checked:hover,
+ QWidget#wndOption QPushButton#btnDefence:checked:hover,
+ QWidget#wndOption QPushButton#btnSubControll:checked:hover
+{
+    background-image: url(./Skin/DustyBlue/AlarmConfigUI/arrow_bottomClick_hover.png);
+}
+ QWidget#wndOption QPushButton#btnChnnel:checked:pressed,
+ QWidget#wndOption QPushButton#btnAlarmIn:checked:pressed,
+ QWidget#wndOption QPushButton#btnDevError:checked:pressed,
+ QWidget#wndOption QPushButton#btnAlarm:checked:pressed,
+ QWidget#wndOption QPushButton#btnAbnormal:checked:pressed,
+ QWidget#wndOption QPushButton#btnNormal:checked:pressed,
+ QWidget#wndOption QPushButton#btnAlarmHost:checked:pressed,
+ QWidget#wndOption QPushButton#btnDefence:checked:pressed,
+ QWidget#wndOption QPushButton#btnSubControll:checked:pressed
+{
+    background-image: url(./Skin/DustyBlue/AlarmConfigUI/arrow_bottomClick_pressed.png);
+}
+ QWidget#wndOption QPushButton#btnChnnel:checked:disabled,
+ QWidget#wndOption QPushButton#btnAlarmIn:checked:disabled,
+ QWidget#wndOption QPushButton#btnDevError:checked:disabled,
+ QWidget#wndOption QPushButton#btnAlarm:checked:disabled,
+ QWidget#wndOption QPushButton#btnAbnormal:checked:disabled,
+ QWidget#wndOption QPushButton#btnNormal:checked:disabled,
+ QWidget#wndOption QPushButton#btnAlarmHost:checked:disabled,
+ QWidget#wndOption QPushButton#btnDefence:checked:disabled,
+ QWidget#wndOption QPushButton#btnSubControll:checked:disabled
+{
+    background-image: url(./Skin/DustyBlue/AlarmConfigUI/arrow_bottomClick_disable.png);
+}
+
+ QAlarmListItem
+{
+	text-align: left;
+	padding: 0 28px 0 20px;
+	border: 0px none;
+}
+ QAlarmListItem#btnSubControll
+{	
+	border-right: 10px solid transparent;
+	
+    background-position: center right;
+    background-origin: padding;
+    background-repeat: no-repeat;
+}
+
+ QAlarmListItemView QLabel#lblPix,
+ QTreeWidget#treeAlarmIn QLabel
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/Choose.png) 0 0 0 0;
+}
+
+ QWidget#wndOption QWidget#separator
+{
+	border-top: 1px solid #1A1D20;
+	border-bottom: 1px solid #4C5157;
+}
+
+ QAlarmDefenceTimeEditor QPushButton[ImgLock=true]
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/Lock.png) 0 54 0 0;
+}
+ QAlarmDefenceTimeEditor QPushButton[ImgLock=true]:hover
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/Lock.png) 0 36 0 18;
+}
+ QAlarmDefenceTimeEditor QPushButton[ImgLock=true]:pressed,
+ QAlarmDefenceTimeEditor QPushButton[ImgLock=true]:checked
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/Lock.png) 0 18 0 36;
+}
+ QAlarmDefenceTimeEditor QPushButton[ImgLock=true]:disabled
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/Lock.png) 0 0 0 54;
+}
+
+ QAlarmVideoView QPushButton#btnDel
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/PTZ-Delete.png) 0 54 0 0;
+}
+ QAlarmVideoView QPushButton#btnDel:hover
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/PTZ-Delete.png) 0 36 0 18;
+}
+ QAlarmVideoView QPushButton#btnDel:pressed
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/PTZ-Delete.png) 0 18 0 36;
+}
+ QAlarmVideoView QPushButton#btnDel:disabled
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/PTZ-Delete.png) 0 0 0 54;
+}
+
+ QAlarmDayEditor QPushButton#btnDetail
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/Setting.png) 0 54 0 0;
+}
+ QAlarmDayEditor QPushButton#btnDetail:hover
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/Setting.png) 0 36 0 18;
+}
+ QAlarmDayEditor QPushButton#btnDetail:pressed
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/Setting.png) 0 18 0 36;
+}
+ QAlarmDayEditor QPushButton#btnDetail:disabled
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/Setting.png) 0 0 0 54;
+}
+
+ QAlarmCopyToPopup
+{
+	background: #2F3337;
+}
+ QAlarmCopyToPopup QWidget#wndDevTree
+{
+	border:1px solid #3A3E43;
+}
+
+
+
+QAlarmVideoEditor  QPushButton#btnDoor:disabled
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/btn_door.png) 0 0 0 273;
+}
+QAlarmVideoEditor  QPushButton#btnDoor:checked
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/btn_door.png) 0 182 0 91;
+}
+QAlarmVideoEditor  QPushButton#btnDoor:pressed
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/btn_door.png) 0 91 0 182;
+}
+
+QAlarmVideoEditor  QPushButton#btnDoor
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/btn_door.png) 0 0 0 273;
+}
+
+
+QAlarmVideoEditor  QPushButton#btnVideo:disabled
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/btn_video.png) 0 0 0 273;
+}
+QAlarmVideoEditor  QPushButton#btnVideo:checked
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/btn_video.png) 0 182 0 91;
+}
+QAlarmVideoEditor  QPushButton#btnVideo:pressed
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/btn_video.png) 0 91 0 182;
+}
+
+QAlarmVideoEditor  QPushButton#btnVideo
+{
+	border-image: url(./Skin/DustyBlue/AlarmConfigUI/btn_video.png) 0 0 0 273;
+}

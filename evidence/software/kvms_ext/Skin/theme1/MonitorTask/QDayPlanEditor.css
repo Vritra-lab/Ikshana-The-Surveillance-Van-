@@ -1,0 +1,96 @@
+/************* Tabs按钮 **************/
+QDayPlanEditor QWidget#wndTabs QPushButton
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_pending.png) 0 22 0 4;
+}
+QDayPlanEditor QWidget#wndTabs QPushButton:checked
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_current.png) 0 22 0 4;
+}
+/***************表格布局*****************/
+
+QDayPlanEditor QTableWidget#tableWidget QHeaderView::section
+{
+	font: 12px;
+	color:#ABB2BD;
+	background: #3F4348;
+	height: 30px;
+	padding: 0px 4px 0px 4px;
+	border-top:1px solid #2B2F33;
+	border-right: 1px solid #2B2F33;
+	border-bottom: 1px solid #2B2F33;
+}
+
+QDayPlanEditor QTableWidget#tableWidget
+{ 
+    color: #ABB2BD;
+	background-color: #35393E;
+	border:none;
+	font: 12px;
+    qproperty-alternatingRowColors:true;
+	alternate-background-color: #3A3E43;
+	gridline-color: #2B2F33;
+}
+
+QDayPlanEditor QTableWidget#tableWidget:focus
+{  
+	outline:none;
+}
+
+QDayPlanEditor QTableWidget#tableWidget::branch
+{ 
+	image:none;
+	background-color: transparent; 
+}
+
+QDayPlanEditor QTableWidget#tableWidget::item:selected, 
+QDayPlanEditor QTableWidget#tableWidget::branch:selected,
+QDayPlanEditor QTableWidget#tableWidget::item:alternate:selected,
+QDayPlanEditor QTableWidget#tableWidget::item:!alternate:selected
+{
+    background-color:#23262A;	
+    color:#FFFFFF;
+}
+
+QDayPlanEditor QTableWidget#tableWidget::item:hover, 
+QDayPlanEditor QTableWidget#tableWidget::branch:hover,
+QDayPlanEditor QTableWidget#tableWidget::item:alternate:hover,
+QDayPlanEditor QTableWidget#tableWidget::item:!alternate:hover
+{
+	/*不写hover事件无法触发*/
+	background-color:#2F3337;	
+    color:#FFFFFF;
+}
+
+QDayPlanEditor QTableWidget#tableWidget::item:alternate
+{
+	background-color: #3A3E43;
+	color:#ABB2BD;
+}
+ 
+QDayPlanEditor QTableWidget#tableWidget::item:!alternate
+{
+	background-color: #35393E;
+	color:#ABB2BD;
+}
+
+
+/***************删除按钮*****************/
+QDayPlanEditor QTableWidget#tableWidget QPushButton#btnDel
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/AlarmCtrl/PTZ-Delete.png) 0 54 0 0;
+}
+QDayPlanEditor QTableWidget#tableWidget QPushButton#btnDel:hover
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/PTZ-Delete.png) 0 36 0 18;
+}
+QDayPlanEditor QTableWidget#tableWidget QPushButton#btnDel:pressed
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/PTZ-Delete.png) 0 18 0 36;
+}
+QDayPlanEditor QTableWidget#tableWidget QPushButton#btnDel:disabled
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/PTZ-Delete.png) 0 0 0 54;
+}

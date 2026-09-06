@@ -1,0 +1,51 @@
+QPushButton#btnEnable
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/switchoff.png);
+}
+
+QPushButton#btnEnable:checked
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/switchon.png);
+}
+
+QPushButton#btnAdd
+{
+	background:#35393e;
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/Add-n.png);
+	border:none;
+}
+QPushButton#btnAdd:hover
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/Add-h.png);
+}
+QPushButton#btnAdd:pressed
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/Add-p.png);
+}
+QPushButton#btnAdd:disabled
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/Add-d.png);
+}
+
+QPushButton#m_pBtnListDelete,
+QPushButton#btnDelete
+{
+	background:#35393e;
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/Delete-n.png);
+	border:none;
+}
+QPushButton#m_pBtnListDelete:hover,
+QPushButton#btnDelete:hover
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/Delete-h.png);
+}
+QPushButton#m_pBtnListDelete:pressed,
+QPushButton#btnDelete:pressed
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/Delete-p.png);
+}
+QPushButton#m_pBtnListDelete:disabled,
+QPushButton#btnDelete:disabled
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/Delete-d.png);
+}

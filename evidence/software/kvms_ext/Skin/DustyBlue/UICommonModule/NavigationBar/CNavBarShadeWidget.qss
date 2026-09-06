@@ -1,0 +1,90 @@
+CNavBarShadeWidget#CNavBarShadeWidget{
+	background:transparent;
+	border: none;
+}
+
+QWidget#wgtHideBtn
+{
+	background-color:#292C31;
+	min-width:80;
+	max-width:205px;
+	border-top: 1px solid #1F2224;
+	border-right: 1px solid #1F2224;
+}
+
+QWidget#m_centerWgt{
+ 	background-color:#292C31;
+	min-width:80;
+	max-width:205px;
+	border-right: 1px solid #1F2224;
+	border-bottom: 1px solid #1F2224;
+}
+
+QPushButton#btn
+{
+	height: 60px;
+	border-image: none;
+	border-left:15px solid #292C31;
+	padding: 0;
+	border-radius: 0;
+    	outline: none;
+	color:#ABB2BD;
+	font-size:14px;
+	image-position: left center;
+	text-align: left center;
+	background:transparent;
+}
+
+QPushButton#btn:hover
+{
+	color: #ffffff;
+	background-color:#C40123;
+	border-left:15px solid #2E3136;
+}
+
+QPushButton#btn:pressed
+{
+	color: #c2cad7;
+}
+
+QPushButton#btn:disabled
+{
+	color: #5a6068;
+}
+
+QPushButton#btn:checked
+{
+	color: #c2cad7;
+	border-left:15px solid #C40123;
+	background-color:#C40123;
+}
+
+QPushButton#btn:checked:hover
+{
+	color: #ffffff;
+	border-left:15px solid #C40123;
+	background-color:#C40123;
+}
+
+QPushButton#btn:!checked:hover
+{
+	color:#ffffff;
+	border-left:15px solid #2E3136;
+	background-color:#2E3136;
+}
+
+QPushButton#btn:!checked
+{
+	color:#ABB2BD;
+}
+
+/* 打开按钮默认状态也显示为红色按钮 */
+QPushButton#btnHide
+{
+	border-image:url(./Skin/DustyBlue/HomePage/menu_retract_h.png);
+}
+
+QPushButton#btnHide:hover
+{
+	border-image:url(./Skin/DustyBlue/HomePage/menu_retract_h.png);
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InstaonServer version="1.0">
+	<Server ip="instaonserver.com" />
+	<Server ip="instaonserverctc.com" />
+</InstaonServer>

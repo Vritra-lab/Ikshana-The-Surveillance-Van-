@@ -1,0 +1,31 @@
+QWidget#stateWidget
+{
+	background-color: rgb(100, 221, 23);
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	width: 10px;
+	height: 10px;
+	border: solid 1px #1b5e20;
+}
+
+QLabel#stateLable
+{
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #f6f6f6;
+	background-color: transparent;
+}
+
+QLabel#labelTimeElapsed
+{
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #f6f6f6;
+	background-color: transparent;
+}

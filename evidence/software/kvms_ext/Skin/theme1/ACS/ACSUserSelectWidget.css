@@ -1,0 +1,50 @@
+QFrame#SelectUserTop,
+QWidget#wdtChooseBg
+{
+	background-color: rgb(63,68,74); 
+	border-bottom:1px solid rgb(63,68,74);
+}
+
+QWidget#HideShowBg
+{
+	background-color: rgb(53,57,62);
+	border:none;
+}
+
+QPushButton#btnHideUser:disabled
+{
+	border-image: url(./Skin/theme1/ACS/DetailHide.png) 0 0 45 0;
+} 
+QPushButton#btnHideUser:pressed
+{
+	border-image: url(./Skin/theme1/ACS/DetailHide.png) 29 0 16 0;
+}
+
+QPushButton#btnHideUser:hover
+{
+	border-image: url(./Skin/theme1/ACS/DetailHide.png) 15 0 30 0;
+}
+
+QPushButton#btnHideUser
+{
+	border-image: url(./Skin/theme1/ACS/DetailHide.png) 43 0 2 0;
+}
+
+QPushButton#btnShowUser:disabled
+{
+	border-image: url(./Skin/theme1/ACS/DetailShow.png) 0 0 45 0;
+} 
+QPushButton#btnShowUser:pressed
+{
+	border-image: url(./Skin/theme1/ACS/DetailShow.png) 29 0 16 0;
+}
+
+QPushButton#btnShowUser:hover
+{
+	border-image: url(./Skin/theme1/ACS/DetailShow.png) 15 0 30 0;
+}
+
+QPushButton#btnShowUser
+{
+	border-image: url(./Skin/theme1/ACS/DetailShow.png) 43 0 2 0;
+}

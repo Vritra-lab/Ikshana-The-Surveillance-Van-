@@ -1,0 +1,29 @@
+QRecoverProgress QSlider::groove:horizontal {
+	height: 6px; 
+	background-color: #464a50;
+	border-radius: 3px;
+}
+
+QRecoverProgress QSlider::sub-page:horizontal {
+	background: #C40123;
+	border-radius: 3px;
+}
+ 
+QRecoverProgress QSlider::handle:horizontal {
+	 width: 86px;
+	 height: 12px;
+	 margin:-3px -38px -3px -25px;
+	 background-image:url(./Skin/DustyBlue/DSGui/MessageNotify/trunk.png);
+	 background-position:left;
+	 background-repeat:no-repeat;
+}
+
+QRecoverProgress QLabel{
+	color:#eeeeee;
+	background:transparent;
+	font-size:12px;
+}
+
+QRecoverProgress QWidget#widget{
+	background:url(./Skin/DustyBlue/DSGui/MessageNotify/bg.png);
+}

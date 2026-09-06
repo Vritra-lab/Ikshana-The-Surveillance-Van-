@@ -1,0 +1,44 @@
+
+UICommonMdl--DSTVWallDisplayTitleItem > QToolButton#pWindowVolumeOffBtn
+{
+	qproperty-minimumSize:16px 16px;
+	qproperty-maximumSize:16px 16px;
+	border-image:url(./Skin/DustyBlue/UICommonModule/TVWallOperateWnd/VolumeOff.png); 
+	qproperty-autoRaise:false;
+}
+
+
+UICommonMdl--DSTVWallDisplayTitleItem > QToolButton#pWindowVolumeOnBtn
+{
+	qproperty-minimumSize:16px 16px;
+	qproperty-maximumSize:16px 16px;
+	border-image:url(./Skin/DustyBlue/UICommonModule/TVWallOperateWnd/VolumeOn.png); 
+	qproperty-autoRaise:false;
+}
+
+
+UICommonMdl--DSTVWallDisplayTitleItem > QToolButton#pWindowSelfAdaptionBtn
+{
+	qproperty-minimumSize:16px 16px;
+	qproperty-maximumSize:16px 16px;
+	border-image:url(./Skin/DustyBlue/UICommonModule/TVWallOperateWnd/SelfAdaption.png); 
+	qproperty-autoRaise:false;
+}
+
+
+UICommonMdl--DSTVWallDisplayTitleItem > QToolButton#pWindowMaxBtn
+{
+	qproperty-minimumSize:16px 16px;
+	qproperty-maximumSize:16px 16px;
+	border-image:url(./Skin/DustyBlue/UICommonModule/TVWallOperateWnd/Max.png); 
+	qproperty-autoRaise:false;
+}
+
+
+UICommonMdl--DSTVWallDisplayTitleItem > QToolButton#pWindowCloseBtn
+{
+	qproperty-minimumSize:16px 16px;
+	qproperty-maximumSize:16px 16px;
+	border-image:url(./Skin/DustyBlue/UICommonModule/TVWallOperateWnd/Close.png); 
+	qproperty-autoRaise:false;
+}

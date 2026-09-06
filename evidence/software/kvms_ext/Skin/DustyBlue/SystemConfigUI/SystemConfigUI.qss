@@ -1,0 +1,533 @@
+
+QSystemConfigDlg *
+{
+	font-family: "Microsoft Yahei";
+	font-size: 12px;
+}
+
+/*  
+QSystemConfigDlg QWidget#wndTitle QLabel
+{
+	font-size: 14px;
+}
+QSystemConfigDlg QLabel, 
+QSystemConfigDlg QCheckBox,
+QSystemConfigDlg QRadioButton,
+QSystemConfigDlg QComboBox
+{
+	color: #eeeeee;
+}
+QSystemConfigDlg QWidget#wndTitle QLabel
+{
+	color: #ffffff;
+}
+QSystemConfigDlg QWidget#QSystemConfigPiece  QLabel#lblTip
+{
+	color: #b1b1b1;
+}
+*/
+
+QWidget#wndBody
+{
+	background-color: #2e3236;
+}
+
+QWidget#leftWnd
+{
+	background-color: #3a3e43;
+	border: 1px solid #232629;
+}
+
+QPushButton#btnBasicSettings
+{
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	padding-left:50px;
+	padding-right:10px;
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Basic-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color: #abb2bd;
+}
+QPushButton#btnBasicSettings:checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Basic-h.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #2e3236;
+	color:#C40123;
+	background-color: #2e3236;
+}
+QPushButton#btnBasicSettings:hover:!checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Basic-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #4A4F56;
+	color:#ffffff;
+	background-color: #4A4F56;
+}
+QPushButton#btnBasicSettings:disabled
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Basic-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+}
+
+QPushButton#btnPreviewAndRecord
+{
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	padding-left:50px;
+	padding-right:10px;
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/monitoring_d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color: #abb2bd;
+}
+QPushButton#btnPreviewAndRecord:checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/monitoring_h.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #2e3236;
+	color:#C40123;
+	background-color: #2e3236;
+}
+QPushButton#btnPreviewAndRecord:hover:!checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/monitoring_n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #4A4F56;
+	color:#ffffff;
+	background-color: #4A4F56;
+}
+
+QPushButton#btnPreviewAndRecord:disabled
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/monitoring_d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+}
+
+QPushButton#btnEvent
+{
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	padding-left:50px;
+	padding-right:10px;
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Event-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color: #abb2bd;
+}
+QPushButton#btnEvent:checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Event-h.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #2e3236;
+	color:#C40123;
+	background-color: #2e3236;
+}
+QPushButton#btnEvent:hover:!checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Event-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #4A4F56;
+	color:#ffffff;
+	background-color: #4A4F56;
+}
+
+QPushButton#btnEvent:disabled
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Event-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+}
+
+QPushButton#btnFilePath
+{
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	padding-left:50px;
+	padding-right:10px;
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Attendance-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color: #abb2bd;
+}
+QPushButton#btnFilePath:checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Attendance-h.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #2e3236;
+	color:#C40123;
+	background-color: #2e3236;
+}
+QPushButton#btnFilePath:hover:!checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Attendance-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #4A4F56;
+	color:#ffffff;
+	background-color: #4A4F56;
+}
+QPushButton#btnFilePath:disabled
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Attendance-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+}
+
+QPushButton#btnRestoreBackup
+{
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	padding-left:50px;
+	padding-right:10px;
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Restore-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color: #abb2bd;
+}
+QPushButton#btnRestoreBackup:checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Restore-h.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #2e3236;
+	color:#C40123;
+	background-color: #2e3236;
+}
+QPushButton#btnRestoreBackup:hover:!checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Restore-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #4A4F56;
+	color:#ffffff;
+	background-color: #4A4F56;
+}
+QPushButton#btnRestoreBackup:disabled
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/Restore-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+}
+
+QPushButton#btnSoftAuthorization
+{
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	padding-left:50px;
+	padding-right:10px;
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/soft-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color: #abb2bd;
+}
+QPushButton#btnSoftAuthorization:checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/soft-h.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #2e3236;
+	color:#C40123;
+	background-color: #2e3236;
+}
+QPushButton#btnSoftAuthorization:hover:!checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/soft-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #4A4F56;
+	color:#ffffff;
+	background-color: #4A4F56;
+}
+QPushButton#btnSoftAuthorization:disabled
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/soft-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+}
+
+
+
+QPushButton#btnDataManagement
+{
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	padding-left:50px;
+	padding-right:10px;
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/datamanagement-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color: #abb2bd;
+}
+QPushButton#btnDataManagement:checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/datamanagement-h.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #2e3236;
+	color:#C40123;
+	background-color: #2e3236;
+}
+QPushButton#btnDataManagement:hover:!checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/datamanagement-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #4A4F56;
+	color:#ffffff;
+	background-color: #4A4F56;
+}
+QPushButton#btnDataManagement:disabled
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/datamanagement-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+}
+
+
+QPushButton#btnAttendenceConfig
+{
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	padding-left:50px;
+	padding-right:10px;
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/AttendenceCfg-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color: #abb2bd;
+}
+QPushButton#btnAttendenceConfig:checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/AttendenceCfg-h.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #2e3236;
+	color:#C40123;
+	background-color: #2e3236;
+}
+QPushButton#btnAttendenceConfig:hover:!checked
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/AttendenceCfg-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	border-left:40px solid #4A4F56;
+	color:#ffffff;
+	background-color: #4A4F56;
+}
+QPushButton#btnAttendenceConfig:disabled
+{
+	background-image: url(./Skin/DustyBlue/SystemConfigUI/AttendenceCfg-d.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	background-color: #3a3e43;
+	border-left:40px solid #3a3e43;
+}
+
+QWidget#wgtContner
+{
+	background-color: #2e3236;
+}
+
+QWidget#rightWnd
+{
+	background-color: #2e3236;
+	border: 1px solid #232629;
+}
+
+QWidget#btnContainer
+{
+	background : #35393e;
+	border: 1px solid #232629;
+}
+
+QSystemConfigDlg QScrollArea#scrollArea
+{
+	border: 0px none;
+}
+QSystemConfigDlg QWidget#QSystemConfigPiece  QFrame#frame
+{
+	color: #454D55;
+}
+
+QSystemConfigDlg QPushButton#btnClose
+{
+	border-image: url(./Skin/theme1/common/Close.png) 0 60 0 0;
+}
+QSystemConfigDlg QPushButton#btnClose:hover
+{
+	border-image: url(./Skin/theme1/common/Close.png) 0 45 0 15;
+}
+QSystemConfigDlg QPushButton#btnClose:pressed
+{
+	border-image: url(./Skin/theme1/common/Close.png) 0 30 0 30;
+}
+QSystemConfigDlg QPushButton#btnClose:disabled
+{
+	border-image: url(./Skin/theme1/common/Close.png) 0 15 0 45;
+}
+QSystemConfigDlg QScrollArea#scrollArea
+{
+	background: #3D4249;
+}
+
+QSystemConfigDlg QKeySequenceEditor#label
+{
+	background: #1e2021;
+	color : #ffffff;
+	padding: 1px 3px;
+}
+
+
+QWidget#QSystemFileEditorFrame
+{
+	background: #2e3236;
+	border-radius: 3px;
+	border: 1px none;
+}
+QWidget#QSystemFileEditorFrame QLineEdit
+{
+	background: transparent;
+	border: 0px none;
+	padding: 4px 8px;
+}
+
+
+QPushButton#btnWav
+{
+	border-width: 0;
+	background: transparent;
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/alerton_n.png);
+}
+QPushButton#btnWav:hover
+{
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/alerton_h.png);
+}
+QPushButton#btnWav:pressed
+{
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/alerton_p.png);
+}
+QPushButton#btnWav:disabled
+{
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/alerton_d.png);
+}
+
+QSystemConfigDlg QPushButton#btnAdd,
+QSystemConfigDlg QPushButton#btnAddTime
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/Add.png) 0 54 0 0;
+}
+QSystemConfigDlg QPushButton#btnAdd:hover,
+QSystemConfigDlg QPushButton#btnAddTime:hover
+{
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/Add.png) 0 36 0 18;
+}
+QSystemConfigDlg QPushButton#btnAdd:pressed,
+QSystemConfigDlg QPushButton#btnAddTime:pressed
+{
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/Add.png) 0 18 0 36;
+}
+QSystemConfigDlg QPushButton#btnAdd:disabled,
+QSystemConfigDlg QPushButton#btnAddTime:disabled
+{
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/Add.png) 0 0 0 54;
+}
+
+QSystemConfigDlg QPushButton[bDelete = true]
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/Delete.png) 0 54 0 0;
+}
+QSystemConfigDlg QPushButton[bDelete = true]:hover
+{
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/Delete.png) 0 36 0 18;
+}
+QSystemConfigDlg QPushButton[bDelete = true]:pressed
+{
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/Delete.png) 0 18 0 36;
+}
+QSystemConfigDlg QPushButton[bDelete = true]:disabled
+{
+	border-image: url(./Skin/DustyBlue/SystemConfigUI/Delete.png) 0 0 0 54;
+}
+
+
+QSystemConfigDlg QWidget#rightWnd QLabel,
+QSystemConfigDlg QWidget#rightWnd QCheckBox,
+QSystemConfigDlg QWidget#rightWnd QWidget#wndWavs,
+QSystemConfigDlg QWidget#rightWnd QWidget#autoBackupContainer,
+QSystemConfigDlg QWidget#rightWnd QWidget#autoBackupContainer QLabel
+{
+	background: transparent;
+}
+
+QPushButton#btnClearExplain,
+QPushButton#btnCirculateClearExplain,
+QPushButton#btnAutoExPlain,
+QPushButton#btnExperiencePlanExplain
+{
+	border-image:url(./Skin/DustyBlue/SystemConfigUI/Explain-n.png);
+}
+QPushButton#btnClearExplain,
+QPushButton#btnCirculateClearExplain,
+QPushButton#btnAutoExPlain,
+QPushButton#btnExperiencePlanExplain:hover
+{
+	border-image:url(./Skin/DustyBlue/SystemConfigUI/Explain-h.png);
+}

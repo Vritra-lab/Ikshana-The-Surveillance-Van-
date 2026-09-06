@@ -1,0 +1,14 @@
+QPushButton#chkStopRefresh:checked
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/switchon.png);
+}
+
+QPushButton#chkStopRefresh
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/switchoff.png);
+}
+
+QLabel#labelSetting
+{
+	font-family: Microsoft YaHei;
+}

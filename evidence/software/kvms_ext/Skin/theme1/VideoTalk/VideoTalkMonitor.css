@@ -1,0 +1,120 @@
+VideoTalkMonitorWidget QWidget#wgtGroupTreeCtrl
+{
+	background: #2A2E33;
+}
+
+
+VideoTalkMonitorWidget QToolButton#btnStartShout
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_StartShout.png) 0 54 0 0;
+	border-width: 0px 54px 0px 0px;
+	margin: 0px -54px 0px 0px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnStartShout:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_StartShout.png) 0 36 0 18; 
+	border-width: 0px 36px 0px 18px;
+	margin: 0px -36px 0px -18px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnStartShout:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_StartShout.png) 0 18 0 36; 
+	border-width: 0px 18px 0px 36px;
+	margin: 0px -18px 0px -36px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnStartShout:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_StartShout.png) 0 0 0 54;
+	border-width: 0px 0px 0px 54px;
+	margin: 0px -0px 0px -54px;
+}
+
+
+VideoTalkMonitorWidget QToolButton#btnStopShout
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_StopShout.png) 0 54 0 0;
+	border-width: 0px 54px 0px 0px;
+	margin: 0px -54px 0px 0px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnStopShout:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_StopShout.png) 0 36 0 18; 
+	border-width: 0px 36px 0px 18px;
+	margin: 0px -36px 0px -18px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnStopShout:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_StopShout.png) 0 18 0 36; 
+	border-width: 0px 18px 0px 36px;
+	margin: 0px -18px 0px -36px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnStopShout:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_StopShout.png) 0 0 0 54;
+	border-width: 0px 0px 0px 54px;
+	margin: 0px -0px 0px -54px;
+}
+
+
+VideoTalkMonitorWidget QToolButton#btnUnlock
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_Unlock.png)0 54 0 0;
+	border-width: 0px 54px 0px 0px;
+	margin: 0px -54px 0px 0px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnUnlock:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_Unlock.png) 0 36 0 18; 
+	border-width: 0px 36px 0px 18px;
+	margin: 0px -36px 0px -18px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnUnlock:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_Unlock.png) 0 18 0 36; 
+	border-width: 0px 18px 0px 36px;
+	margin: 0px -18px 0px -36px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnUnlock:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/Bottom_Unlock.png) 0 0 0 54;
+	border-width: 0px 0px 0px 54px;
+	margin: 0px -0px 0px -54px;
+}
+
+
+VideoTalkMonitorWidget QToolButton#btnFullScreen
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/FullScreen.png) 0 54 0 0;
+	border-width: 0px 54px 0px 0px;
+	margin: 0px -54px 0px 0px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnFullScreen:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/FullScreen.png) 0 36 0 18; 
+	border-width: 0px 36px 0px 18px;
+	margin: 0px -36px 0px -18px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnFullScreen:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/FullScreen.png) 0 18 0 36; 
+	border-width: 0px 18px 0px 36px;
+	margin: 0px -18px 0px -36px;
+}
+
+VideoTalkMonitorWidget QToolButton#btnFullScreen:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Monitor/FullScreen.png) 0 0 0 54;
+	border-width: 0px 18px 0px 54px;
+	margin: 0px -18px 0px -54px;
+}

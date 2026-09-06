@@ -1,0 +1,77 @@
+QViewListCtrl
+{   
+	background-color: #2b2f33 ;
+	color: #EEEEEE;
+	border:none;
+	
+   	show-decoration-selected: 1 ;
+	font-size: 14px;
+}
+
+QViewListCtrl::branch
+{ 
+	image:none;
+	background-color: transparent; 
+}
+QViewListCtrl::indicator
+{
+    width:20px;
+    height:20px;
+}
+
+QViewListCtrl::item {
+	background-color: transparent;
+	height:30px;
+	color: #abb2bd;
+}
+
+QViewListCtrl::item:hover ,QViewListCtrl::branch:hover{
+	background-color:#c40123;
+}
+
+QViewListCtrl::item:selected ,QViewListCtrl::branch:selected{
+    color: #FFFFFF;
+	background-color:#c40123;
+}
+
+QViewListCtrl::branch:closed:has-children:!has-siblings,
+QViewListCtrl::branch:closed:has-children:has-siblings
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_n.png);
+}
+
+QViewListCtrl::branch:closed:has-children:!has-siblings:hover,
+QViewListCtrl::branch:closed:has-children:has-siblings:hover
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+QViewListCtrl::branch:closed:has-children:!has-siblings:pressed,
+QViewListCtrl::branch:closed:has-children:has-siblings:pressed
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+QViewListCtrl::branch:closed:has-children:!has-siblings:disabled,
+QViewListCtrl::branch:closed:has-children:has-siblings:disabled
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_n.png);
+}
+QViewListCtrl::branch:open:has-children:!has-siblings,
+QViewListCtrl::branch:open:has-children:has-siblings
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_n.png);
+}
+QViewListCtrl::branch:open:has-children:!has-siblings:hover,
+QViewListCtrl::branch:open:has-children:has-siblings:hover
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_h.png);
+}
+QViewListCtrl::branch:open:has-children:!has-siblings:pressed,
+QViewListCtrl::branch:open:has-children:has-siblings:pressed
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+QViewListCtrl::branch:open:has-children:!has-siblings:disabled,
+QViewListCtrl::branch:open:has-children:has-siblings:disabled
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_n.png);
+}

@@ -1,0 +1,33 @@
+DSGUI--DSTreeView,
+QWidget#wgtSearch {
+	background-color: transparent;
+}
+
+QWidget#wgtTop {
+	font-size: 12px;
+	background-color: #35393e;
+	border: 1px solid #74818e;
+	color:#abb2bd;
+	menu-scrollable:1;
+	margin:0;
+}
+
+PerimeterRecUI--CPerimeterSearchTree QWidget
+{
+	background-color: #35393e;
+}
+
+PerimeterRecUI--CPerimeterSearchTree QWidget#wgtMain
+{
+	background-color: #2a2e33;
+	border: 1px solid #232629;
+}
+
+QWidget#wgtBtn {
+	/*border-top: 1px solid #212326;*/
+}
+
+QWidget#BgWidget
+{
+	background-color: #2a2e33;
+}

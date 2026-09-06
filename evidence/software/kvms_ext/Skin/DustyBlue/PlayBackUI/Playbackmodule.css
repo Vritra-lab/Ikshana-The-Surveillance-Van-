@@ -1,0 +1,776 @@
+﻿
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="true"]
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 54 0 0;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="true"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 36 0 18;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="true"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 18 0 36;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="true"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 0 0 54;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="false"]
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 54 0 0;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="false"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 36 0 18;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="false"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 18 0 36;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="false"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 0 0 54;
+}
+
+
+
+ ThumbnailWidget
+ {
+	border: 0px none;
+	background-color: rgb(58, 62, 67);
+ }
+ 
+ThumbnailWidget QueryResultsShowView
+{
+	border: 0px none;
+}
+
+
+ThumbnailWidget QToolButton#btnSelectAllSwitch[checked="true"]
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 54 0 0;
+}
+
+ThumbnailWidget QToolButton#btnSelectAllSwitch[checked="true"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 36 0 18;
+}
+
+ThumbnailWidget QToolButton#btnSelectAllSwitch[checked="true"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 18 0 36;
+}
+
+ThumbnailWidget QToolButton#btnSelectAllSwitch[checked="true"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 0 0 54;
+}
+
+ThumbnailWidget QToolButton#btnSelectAllSwitch[checked="false"]
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 54 0 0;
+}
+
+ThumbnailWidget QToolButton#btnSelectAllSwitch[checked="false"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 36 0 18;
+}
+
+ThumbnailWidget QToolButton#btnSelectAllSwitch[checked="false"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 18 0 36;
+}
+
+ThumbnailWidget QToolButton#btnSelectAllSwitch[checked="false"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 0 0 54;
+}
+
+
+ThumbnailWidget QToolButton#btnSaveRecord
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 54 0 0;
+}
+
+ThumbnailWidget QToolButton#btnSaveRecord:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 36 0 18;
+}
+
+ThumbnailWidget QToolButton#btnSaveRecord:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 18 0 36;
+}
+
+ThumbnailWidget QToolButton#btnSaveRecord:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 0 0 54;
+}
+
+ThumbnailWidget QPushButton#pBtnPicture
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/thumbnail.png) 0 54 0 0;
+}
+
+ThumbnailWidget QPushButton#pBtnPicture:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/thumbnail.png) 0 36 0 18;
+}
+
+ThumbnailWidget QPushButton#pBtnPicture:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/thumbnail.png) 0 18 0 36;
+}
+
+ThumbnailWidget QPushButton#pBtnPicture:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/thumbnail.png) 0 0 0 54;
+}
+
+
+ThumbnailWidget QPushButton#pBtnList
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/list.png) 0 54 0 0;
+}
+
+ThumbnailWidget QPushButton#pBtnList:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/list.png) 0 36 0 18;
+}
+
+ThumbnailWidget QPushButton#pBtnList:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/list.png) 0 18 0 36;
+}
+
+ThumbnailWidget QPushButton#pBtnList:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/list.png) 0 0 0 54;
+}
+
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="true"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 42 0 0;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="true"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 28 0 14;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="true"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 14 0 28;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="true"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 0 0 42;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="false"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 42 0 0;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="false"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 28 0 14;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="false"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 14 0 28;
+}
+
+DeviceRecordMainWgt QPushButton#showThumbnailWidgetBtn[checked="false"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 0 0 42;
+}
+
+
+PlayCtrlToolBar QPushButton#btnDownloadDlg
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnDownloadDlg:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnDownloadDlg:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnDownloadDlg:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnCutDownload
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarCut.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnCutDownload:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarCut.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnCutDownload:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarCut.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnCutDownload:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarCut.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnSmartSearch
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarCapacity.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnSmartSearch:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarCapacity.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnSmartSearch:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarCapacity.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnSmartSearch:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarCapacity.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnExitSearch
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/poweron.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnExitSearch:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/poweron.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnExitSearch:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/poweron.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnExitSearch:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/poweron.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnSave
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnSave:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnSave:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnSave:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnOpenLocalRecord
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnOpenLocalRecord:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnOpenLocalRecord:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnOpenLocalRecord:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 0 0 54;
+}
+
+
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="false"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFrequency.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="false"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFrequency.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="false"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFrequency.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="false"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFrequency.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="true"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFrequencyPause.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="true"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFrequencyPause.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="true"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFrequencyPause.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnSyncPlay[checked="true"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFrequencyPause.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnDaofang[checked="true"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarRecede.png) 0 72 0 0;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="true"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarRecede.png) 0 48 0 24;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="true"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarRecede.png) 0 24 0 48;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="true"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarRecede.png) 0 0 0 72;
+}
+
+PlayCtrlToolBar QPushButton#btnDaofang[checked="false"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPlayback.png) 0 72 0 0;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="false"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPlayback.png) 0 48 0 24;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="false"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPlayback.png) 0 24 0 48;
+}
+PlayCtrlToolBar QPushButton#btnDaofang[checked="false"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPlayback.png) 0 0 0 72;
+}
+
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="true"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPlay.png) 0 90 0 0;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="true"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPlay.png) 0 60 0 30;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="true"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPlay.png) 0 30 0 60;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="true"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPlay.png) 0 0 0 90;
+}
+
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="false"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPause.png) 0 90 0 0;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="false"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPause.png) 0 60 0 30;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="false"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPause.png) 0 30 0 60;
+}
+PlayCtrlToolBar QPushButton#btnPalyPause[checked="false"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarPause.png) 0 0 0 90;
+}
+
+PlayCtrlToolBar QPushButton#btnStop
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarStop.png) 0 72 0 0;
+}
+PlayCtrlToolBar QPushButton#btnStop:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarStop.png) 0 48 0 24;
+}
+PlayCtrlToolBar QPushButton#btnStop:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarStop.png) 0 24 0 48;
+}
+PlayCtrlToolBar QPushButton#btnStop:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarStop.png) 0 0 0 72;
+}
+
+PlayCtrlToolBar QPushButton#btnPreviousFrame
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarLastFram.png) 0 72 0 0;
+}
+PlayCtrlToolBar QPushButton#btnPreviousFrame:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarLastFram.png) 0 48 0 24;
+}
+PlayCtrlToolBar QPushButton#btnPreviousFrame:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarLastFram.png) 0 24 0 48;
+}
+PlayCtrlToolBar QPushButton#btnPreviousFrame:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarLastFram.png) 0 0 0 72;
+}
+
+PlayCtrlToolBar QPushButton#btnNextFrame
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarNextFrame.png) 0 72 0 0;
+}
+PlayCtrlToolBar QPushButton#btnNextFrame:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarNextFrame.png) 0 48 0 24;
+}
+PlayCtrlToolBar QPushButton#btnNextFrame:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarNextFrame.png) 0 24 0 48;
+}
+PlayCtrlToolBar QPushButton#btnNextFrame:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarNextFrame.png) 0 0 0 72;
+}
+
+PlayCtrlToolBar QPushButton#btnVoice[checked="true"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarVoicechange.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="true"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarVoicechange.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="true"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarVoicechange.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="true"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarVoicechange.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnVoice[checked="false"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSilence.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="false"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSilence.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="false"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSilence.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnVoice[checked="false"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSilence.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnFullScreen
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 54 0 0;
+}
+PlayCtrlToolBar QPushButton#btnFullScreen:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 36 0 18;
+}
+PlayCtrlToolBar QPushButton#btnFullScreen:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 18 0 36;
+}
+PlayCtrlToolBar QPushButton#btnFullScreen:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 0 0 54;
+}
+
+PlayCtrlToolBar QPushButton#btnFastPlay
+{
+	border: 0px none;
+	color: rgb(221, 221, 221);
+	background-color : rgb(58, 62, 67);
+}
+
+PlayCtrlToolBar QPushButton#btnFastPlay:disabled
+{
+	border: 0px none;
+	color: rgb(120, 120, 120);
+	background-color : rgb(58, 62, 67);
+}
+
+SliderPopupWidget
+{
+	border: 0px none;
+	background-color: #1C1D20;
+}
+
+PictureToolBar QToolButton#btnOpenDownLoadDlg
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 54 0 0;
+}
+
+PictureToolBar QToolButton#btnOpenDownLoadDlg:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 36 0 18;
+}
+
+PictureToolBar QToolButton#btnOpenDownLoadDlg:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 18 0 36;
+}
+
+PictureToolBar QToolButton#btnOpenDownLoadDlg:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 0 0 54;
+}
+
+
+PictureToolBar QToolButton#btnFullScreen
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 54 0 0;
+}
+
+PictureToolBar QToolButton#btnFullScreen:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 36 0 18;
+}
+
+PictureToolBar QToolButton#btnFullScreen:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 18 0 36;
+}
+
+PictureToolBar QToolButton#btnFullScreen:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 0 0 54;
+}
+
+
+DevicePictureMainWgt QPushButton#showPictureFileList[checked="false"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 42 0 0;
+}
+
+DevicePictureMainWgt QPushButton#showPictureFileList[checked="false"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 28 0 14;
+}
+
+DevicePictureMainWgt QPushButton#showPictureFileList[checked="false"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 14 0 28;
+}
+
+DevicePictureMainWgt QPushButton#showPictureFileList[checked="false"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideOpen_Rectangle.png) 0 0 0 42;
+}
+
+DevicePictureMainWgt QPushButton#showPictureFileList[checked="true"]
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 42 0 0;
+}
+
+DevicePictureMainWgt QPushButton#showPictureFileList[checked="true"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 28 0 14;
+}
+
+DevicePictureMainWgt QPushButton#showPictureFileList[checked="true"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 14 0 28;
+}
+
+DevicePictureMainWgt QPushButton#showPictureFileList[checked="true"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SideClose_Rectangle.png) 0 0 0 42;
+}
+
+
+PictureQueryResultWgt
+{
+	border: 0px none;
+	background-color: rgb(58, 62, 67);
+}
+
+PictureQueryResultWgt QueryResultsShowView
+{
+	border: 0px none;
+}
+
+
+PictureQueryResultWgt QToolButton#btnSave
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 54 0 0;
+}
+
+PictureQueryResultWgt QToolButton#btnSave:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 36 0 18;
+}
+
+PictureQueryResultWgt QToolButton#btnSave:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 18 0 36;
+}
+
+PictureQueryResultWgt QToolButton#btnSave:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 0 0 54;
+}
+
+DevicePictureToolBar
+{
+	background-color: rgb(58, 62, 67);
+}
+
+DevicePictureMainWgt QWidget#scrollAreaWidgetContents
+{
+	background-color: rgb(48, 49, 52);
+}
+
+
+ DownloadOperatorWidget QPushButton#btnFirst
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListMoverDown.png) 0 54 0 0;
+}
+DownloadOperatorWidget QPushButton#btnFirst:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListMoverDown.png) 0 36 0 18;
+}
+DownloadOperatorWidget QPushButton#btnFirst:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListMoverDown.png) 0 18 0 36;
+}
+DownloadOperatorWidget QPushButton#btnFirst:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListMoverDown.png) 0 0 0 54;
+}
+
+ DownloadOperatorWidget QPushButton#btnPause
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownloadPause.png) 0 54 0 0;
+}
+DownloadOperatorWidget QPushButton#btnPause:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownloadPause.png) 0 36 0 18;
+}
+DownloadOperatorWidget QPushButton#btnPause:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownloadPause.png) 0 18 0 36;
+}
+DownloadOperatorWidget QPushButton#btnPause:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownloadPause.png) 0 0 0 54;
+}
+
+ DownloadOperatorWidget QPushButton#btnDownload
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 54 0 0;
+}
+DownloadOperatorWidget QPushButton#btnDownload:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 36 0 18;
+}
+DownloadOperatorWidget QPushButton#btnDownload:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 18 0 36;
+}
+DownloadOperatorWidget QPushButton#btnDownload:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 0 0 54;
+}
+ 
+DownloadOperatorWidget QPushButton#btnDelete
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListDelete.png) 0 54 0 0;
+}
+DownloadOperatorWidget QPushButton#btnDelete:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListDelete.png) 0 36 0 18;
+}
+DownloadOperatorWidget QPushButton#btnDelete:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListDelete.png) 0 18 0 36;
+}
+DownloadOperatorWidget QPushButton#btnDelete:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListDelete.png) 0 0 0 54;
+}
+
+DownloadOperatorWidget QPushButton#btnOpenFolder
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 54 0 0;
+}
+DownloadOperatorWidget QPushButton#btnOpenFolder:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 36 0 18;
+}
+DownloadOperatorWidget QPushButton#btnOpenFolder:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 18 0 36;
+}
+DownloadOperatorWidget QPushButton#btnOpenFolder:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 0 0 54;
+}
+
+LocalExportProcessDlg QPushButton#btnDownloadingDelete,
+LocalExportProcessDlg QPushButton#btnDownLoadedDelete,
+CPlayBackDownLoadlistDlg QPushButton#btnDelete, QPushButton#btnStart, QPushButton#btnPause
+{
+	border: 0px none;
+}
+
+CPlayBackDownLoadlistDlg QPushButton#m_btnDownloading,
+CPlayBackDownLoadlistDlg QPushButton#m_btnDownloaded,
+LocalExportProcessDlg QPushButton#btnDownloading,
+LocalExportProcessDlg QPushButton#btnDownloaded
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/tab_pending.png) 0 22 0 4;
+}
+
+CPlayBackDownLoadlistDlg QPushButton#m_btnDownloading:checked,
+CPlayBackDownLoadlistDlg QPushButton#m_btnDownloaded:checked,
+LocalExportProcessDlg QPushButton#btnDownloading:checked,
+LocalExportProcessDlg QPushButton#btnDownloaded:checked
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/tab_current.png) 0 22 0 4;
+}
+
+QDownloadingProgressBar QProgressBar::chunk
+{
+	background-color: #C40123;
+	border-radius: 6px;
+	width: 1px;
+}
+
+

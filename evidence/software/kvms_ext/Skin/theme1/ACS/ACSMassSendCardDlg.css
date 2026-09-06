@@ -1,0 +1,22 @@
+QTreeWidget#treeWidgetController 
+{
+    background-color:rgb(42,46,51); 
+}
+QWidget#wgtFrame
+{
+	border:1px solid rgb(58,62,67);
+}
+QWidget#wdtDetail
+{
+	border:1px solid rgb(58,62,67); 
+}
+
+QLabel#label_3
+{
+	background-color:#202429;
+	border-bottom: 1px solid #00B0FF;
+} 
+QLabel#lblPrompt
+{
+	color: rgb(255, 0, 0);
+}

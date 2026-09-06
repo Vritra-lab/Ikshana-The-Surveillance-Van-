@@ -1,0 +1,151 @@
+VideoTalkSupervisorWidget
+{
+	background: #1D1F23;
+}
+
+VideoTalkSupervisorCard
+{
+	background: #2A2E33;
+}
+
+
+VideoTalkSupervisorCard QToolButton#btnAddress
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/IPEdit.png) 0 54 0 0;
+	border-width: 0px 54px 0px 0px;
+	margin: 0px -54px 0px 0px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnAddress:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/IPEdit.png) 0 36 0 18; 
+	border-width: 0px 36px 0px 18px;
+	margin: 0px -36px 0px -18px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnAddress:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/IPEdit.png) 0 18 0 36; 
+	border-width: 0px 18px 0px 36px;
+	margin: 0px -18px 0px -36px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnAddress:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/IPEdit.png) 0 0 0 54;
+	border-width: 0px 0px 0px 54px;
+	margin: 0px 0px 0px -54px;
+}
+
+
+VideoTalkSupervisorCard QToolButton#btnLeft
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Left.png) 0 30 0 0;
+	border-width: 0px 15px 0px 0px;
+	margin: 0px -15px 0px 0px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnLeft:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Left.png) 0 20 0 10; 
+	border-width: 0px 10px 0px 5px;
+	margin: 0px -10px 0px -5px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnLeft:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Left.png) 0 10 0 20; 
+	border-width: 0px 5px 0px 10px;
+	margin: 0px -5px 0px -10px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnLeft:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Left.png) 0 0 0 30;
+	border-width: 0px 0px 0px 15px;
+	margin: 0px 0px 0px -15px;
+}
+
+
+VideoTalkSupervisorCard QToolButton#btnRight
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Right.png) 0 30 0 0;
+	border-width: 0px 15px 0px 0px;
+	margin: 0px -15px 0px 0px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnRight:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Right.png) 0 20 0 10; 
+	border-width: 0px 10px 0px 5px;
+	margin: 0px -10px 0px -5px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnRight:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Right.png) 0 10 0 20; 
+	border-width: 0px 5px 0px 10px;
+	margin: 0px -5px 0px -10px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnRight:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Right.png) 0 0 0 30;
+	border-width: 0px 0px 0px 15px;
+	margin: 0px 0px 0px -15px;
+}
+
+
+VideoTalkSupervisorCard QToolButton#btnCall
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Call.png) 0 120 0 0;
+	border-width: 0px 120px 0px 0px;
+	margin: 0px -120px 0px 0px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnCall:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Call.png) 0 80 0 40; 
+	border-width: 0px 80px 0px 40px;
+	margin: 0px -80px 0px -40px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnCall:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Call.png) 0 40 0 80; 
+	border-width: 0px 40px 0px 80px;
+	margin: 0px -40px 0px -80px;
+}
+
+VideoTalkSupervisorCard QToolButton#btnCall:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Call.png) 0 0 0 120;
+	border-width: 0px 0px 0px 120px;
+	margin: 0px 0px 0px -120px;
+}
+
+
+VideoTalkSupervisorCard QLabel#lblIconOn
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/VTS_Online.png);
+}
+
+VideoTalkSupervisorCard QLabel#lblIconOff
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/VTS_Offline.png);
+}
+
+VideoTalkSupervisorCard QToolButton#btnStatusOn
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Online.png);
+}
+
+VideoTalkSupervisorCard QToolButton#btnStatusOff
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Offline.png);
+}
+
+VideoTalkSupervisorCard QToolButton#btnStatusBusy
+{
+	border-image: url(./Skin/theme1/VideoTalk/SuperVisor/Busy.png);
+}

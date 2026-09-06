@@ -1,0 +1,32 @@
+QTabWidget#tabWidget::tab-bar 
+{
+    left: 15px;
+}
+
+QTabWidget#tabWidget::pane
+{
+	border: none;
+}
+
+QTabWidget#tabWidget QTabBar::tab
+{
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #9fa6af;
+	min-width:50px; 
+	min-height:26px;
+}
+
+QTabWidget#tabWidget QTabBar::tab:selected
+{
+	color: #C40123;
+	border-bottom: 2px solid #C40123;
+}
+
+QTabWidget#tabWidget QTabBar::tab:disabled
+{
+	color: #4a515a;
+}

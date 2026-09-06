@@ -1,0 +1,106 @@
+
+AlarmLinkVideo
+{
+	border: 1px solid #2C2C2C;
+	background-color: #3A3E43;
+}
+AlarmLinkVideo QTableWidget 
+{
+	background-color: #3A3E43;
+}
+
+
+AlarmLinkVideo QTableWidget
+{
+	background: #2f3337;
+    qproperty-alternatingRowColors:true;
+	alternate-background-color: #292d32;
+	border:none;
+	qproperty-showGrid:false;
+}
+AlarmLinkVideo QTableWidget QHeaderView::section
+{
+	font: 12px;
+	color:#ABB2BD;
+	background: #3F4348;
+	height: 30px;
+	padding: 0px 4px 0px 4px;
+	border-top:1px solid #2B2F33;
+	border-right: 1px solid #2B2F33;
+	border-bottom: 1px solid #2B2F33;
+}
+AlarmLinkVideo QTableWidget::item:selected,
+AlarmLinkVideo QTableWidget::branch:selected
+{
+    background:#23262A;	
+    color:#eeeeee;
+}
+AlarmLinkVideo QWidget#wndSep
+{
+	border-top: 1px solid #1A1D20;
+	border-bottom: 1px solid #4D5258;
+}
+AlarmLinkVideo QFrame#frame
+{
+	color: #212427;
+}
+
+AlarmLinkVideo QPushButton#btnClose
+{
+	qproperty-minimumSize:20px 20px;
+	qproperty-maximumSize:20px 20px;
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/CloseNormal.png); 
+	qproperty-autoRaise:false;
+}
+AlarmLinkVideo QPushButton#btnClose:hover
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/CloseHover.png);
+}
+AlarmLinkVideo QPushButton#btnClose:pressed
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/ClosePressed.png);
+}
+AlarmLinkVideo QPushButton#btnClose:disabled
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/CloseDisabled.png);
+}
+
+AlarmLinkVideo QPushButton#btnFullScreen
+{	
+	qproperty-minimumSize:20px 20px;
+	qproperty-maximumSize:20px 20px;
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/MaxNormal.png); 
+	qproperty-autoRaise:false;
+}
+AlarmLinkVideo QPushButton#btnFullScreen:hover
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/MaxHover.png);
+}
+AlarmLinkVideo QPushButton#btnFullScreen:pressed
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/MaxPressed.png);
+}
+AlarmLinkVideo QPushButton#btnFullScreen:disabled
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/MaxDisabled.png);
+}
+
+AlarmLinkVideo QPushButton#btnFullScreen:checked
+{		
+	qproperty-minimumSize:20px 20px;
+	qproperty-maximumSize:20px 20px;
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/ReductionNormal.png); 
+	qproperty-autoRaise:false;
+}
+AlarmLinkVideo QPushButton#btnFullScreen:checked:hover
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/ReductionHover.png);
+}
+AlarmLinkVideo QPushButton#btnFullScreen:checked:pressed
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/ReductionPressed.png);
+}
+AlarmLinkVideo QPushButton#btnFullScreen:checked:disabled
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/ReductionDisabled.png);
+}

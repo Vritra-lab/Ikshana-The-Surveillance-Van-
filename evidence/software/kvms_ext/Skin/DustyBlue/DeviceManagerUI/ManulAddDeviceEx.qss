@@ -1,0 +1,5 @@
+QWidget#wgtBtnsBcg
+{
+	background-color: #35393E;
+	border-top: 1px solid #232629;
+}

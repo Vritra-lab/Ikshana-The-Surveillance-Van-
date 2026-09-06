@@ -1,0 +1,53 @@
+QTableWidget#tableHotkeys > QHeaderView::section
+{
+	font: 12px;
+	color:#ABB2BD;
+	background: #3F4348;
+	height: 30px;
+	padding: 0px 4px 0px 4px;
+	border-top:1px solid #2B2F33;
+	border-right: 1px solid #2B2F33;
+	border-bottom: 1px solid #2B2F33;
+}
+QTableWidget#tableHotkeys > QHeaderView::section:last
+{
+	border-right:0px;
+}
+
+QTableWidget#tableHotkeys > QHeaderView::item
+{
+	color:#ABB2BD;
+	height: 30px;
+	padding: 0px 4px 0px 10px;
+}
+
+QTableWidget#tableHotkeys  > QHeaderView::indicator
+{
+	left: -4px;
+}
+QTableWidget#tableHotkeys 
+{
+	background: #2f3337;
+    qproperty-alternatingRowColors:true;
+	alternate-background-color: #292d32;
+	border:none;
+	qproperty-showGrid:false;
+}
+QTableWidget#tableHotkeys::indicator{
+	width:16 px;
+	height:	16 px;
+}
+QTableWidget#tableHotkeys::item:selected,
+QTableWidget#tableHotkeys::branch:selected
+{
+    background:#000000;	
+    color:#eeeeee;
+}
+
+QTableWidget#tableHotkeys::item:hover,
+QTableWidget#tableHotkeys::branch:hover
+{
+	
+	background:#000000;	
+    color:#fefefe;
+}

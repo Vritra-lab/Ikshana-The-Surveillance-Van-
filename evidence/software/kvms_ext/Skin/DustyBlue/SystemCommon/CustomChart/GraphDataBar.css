@@ -1,0 +1,61 @@
+﻿/* 字体设置 */
+SystemCommon--GraphDataBar  QWidget#scrollAreaBarContents
+{
+	background-color: #2e3236;
+	border:none;
+}
+
+SystemCommon--GraphDataBar QScrollArea#scrollAreaBar
+{
+    background-color: #2e3236;
+}
+
+SystemCommon--GraphDataBar QScrollBar:vertical
+{
+    width:4px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+}
+
+SystemCommon--GraphDataBar QScrollBar::handle:vertical
+{
+    width:4px;
+    background:rgba(0,0,0,10%);
+    border-radius:4px;    
+    min-height:20;
+}
+SystemCommon--GraphDataBar QScrollBar::handle:vertical:hover
+{
+    width:4px;
+    background:rgba(0,0,0,50%);   
+    border-radius:4px;
+    min-height:20;
+}
+
+SystemCommon--GraphDataBar QScrollBar:horizontal
+{
+    height:4px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+}
+SystemCommon--GraphDataBar QScrollBar::handle:horizontal
+{
+    height:4px;
+    background:rgba(0,0,0,10%);
+    border-radius:4px;    
+    min-width:20;
+}
+SystemCommon--GraphDataBar QScrollBar::handle:horizontal:hover
+{
+    height:4px;
+    background:rgba(0,0,0,50%);   
+    border-radius:4px;
+    min-width:20;
+}
+
+/* 字体设置 */
+SystemCommon--GraphDataBar  QLabel#labNoData
+{
+	font-size: 20px;
+	color:#C40123;
+}

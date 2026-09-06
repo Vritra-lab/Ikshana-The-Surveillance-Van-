@@ -1,0 +1,20 @@
+
+
+QLabel#QIpAddrEdit--labeldot1_,
+		#QIpAddrEdit--labeldot2_,
+		#QIpAddrEdit--labeldot3_
+{
+	background-image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/point.png);
+	background-repeat:no-repeat;
+	background-position: middle;
+} 
+
+QLabel#QIpAddrEdit--m_pSymbolRequired
+{
+	color:red;
+	font-size:12px;
+	font-weight:bold;
+	background:transparent;
+	padding-left:0;
+} 
+

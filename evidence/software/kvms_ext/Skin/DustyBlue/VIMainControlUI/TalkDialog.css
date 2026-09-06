@@ -1,0 +1,47 @@
+QPushButton#btnOpenDoor
+{
+	outline: none;
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/opendoor_n.png);
+	background-color: transparent;
+}
+
+QPushButton#btnOpenDoor:disabled
+{
+	outline: none;
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/opendoor_d.png);
+	background-color: transparent;
+}
+
+QPushButton#btnOpenDoor:pressed
+{
+	outline: none;
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/opendoor_p.png);
+	background-color: transparent;
+}
+
+QPushButton#btnOpenDoor:hover
+{
+	outline: none;
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/opendoor_h.png);
+	background-color: transparent;
+}
+
+QPushButton#btnCapture:checked,
+QPushButton#btnRecord:checked,
+QPushButton#btnMicrophoneMute:checked,
+QPushButton#btnMute:checked
+{
+	outline: none;
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/switchon.png);
+	background-color: transparent;
+}
+
+QPushButton#btnCapture,
+QPushButton#btnRecord,
+QPushButton#btnMicrophoneMute,
+QPushButton#btnMute
+{
+	outline: none;
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/switchoff.png);
+	background-color: transparent;
+}

@@ -1,0 +1,18 @@
+﻿
+
+DevAddTableview QWidget#wgtFrame
+{
+	background-color: #2f3337;
+	border: none;
+}
+
+DevAddTableview QWidget#wgtSpacerUp
+{
+	min-height:30px;
+	max-height:30px;
+	border-image:url(./Skin/theme1/devmanage/SpacerUp.png);
+}
+DevAddTableview QWidget#wgtSpacerDown
+{
+	border-image:url(./Skin/theme1/devmanage/SpacerDown.png);
+}

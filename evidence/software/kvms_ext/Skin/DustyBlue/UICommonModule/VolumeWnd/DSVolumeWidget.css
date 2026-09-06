@@ -1,0 +1,78 @@
+UICommonMdl--DSVolumeWidget
+{
+	background:#27282c;
+}
+
+UICommonMdl--DSVolumeWidget QSlider::groove:vertical
+{
+    width:2px;
+    background: #C40123;
+}
+
+UICommonMdl--DSVolumeWidget QSlider::handle:vertical
+{ 
+    background: url(./Skin/DustyBlue/UICommonModule/VolumeWnd/SliderHandle.png) no-repeat;
+	margin: 0 -4px;
+    width:11px;
+    height:11px;
+}
+
+UICommonMdl--DSVolumeWidget QToolButton#btnVolumeOff
+{
+	min-height:16px;
+	max-height:16px;
+	min-width:16px;
+	max-width:16px;
+	border-image:url(./Skin/DustyBlue/UICommonModule/VolumeWnd/VolumeOff.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+UICommonMdl--DSVolumeWidget QToolButton#btnVolumeOff:hover
+{
+    border-image:url(./Skin/DustyBlue/UICommonModule/VolumeWnd/VolumeOff.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+UICommonMdl--DSVolumeWidget QToolButton#btnVolumeOff:pressed
+{
+    border-image:url(./Skin/DustyBlue/UICommonModule/VolumeWnd/VolumeOff.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+UICommonMdl--DSVolumeWidget QToolButton#btnVolumeOff:disabled
+{
+    border-image:url(./Skin/DustyBlue/UICommonModule/VolumeWnd/VolumeOff.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+UICommonMdl--DSVolumeWidget QToolButton#btnVolumeOn
+{
+	min-height:16px;
+	max-height:16px;
+	min-width:16px;
+	max-width:16px;
+	border-image:url(./Skin/DustyBlue/UICommonModule/VolumeWnd/VolumeOn.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+UICommonMdl--DSVolumeWidget QToolButton#btnVolumeOn:hover
+{
+    border-image:url(./Skin/DustyBlue/UICommonModule/VolumeWnd/VolumeOn.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+UICommonMdl--DSVolumeWidget QToolButton#btnVolumeOn:pressed
+{
+    border-image:url(./Skin/DustyBlue/UICommonModule/VolumeWnd/VolumeOn.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+UICommonMdl--DSVolumeWidget QToolButton#btnVolumeOn:disabled
+{
+    border-image:url(./Skin/DustyBlue/UICommonModule/VolumeWnd/VolumeOn.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}

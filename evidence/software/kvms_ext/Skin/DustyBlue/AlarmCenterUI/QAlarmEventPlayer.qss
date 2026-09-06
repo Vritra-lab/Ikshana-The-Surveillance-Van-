@@ -1,0 +1,10 @@
+/************* Tabs按钮 **************/
+QAlarmEventPlayer QWidget#wndTabs QPushButton
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/tab_pending.png) 0 22 0 4;
+}
+QAlarmEventPlayer QWidget#wndTabs QPushButton:checked
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/tab_current.png) 0 22 0 4;
+}

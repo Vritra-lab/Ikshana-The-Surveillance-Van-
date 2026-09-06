@@ -1,0 +1,9 @@
+QWidget#gbBasicInfo
+{
+	border:1px solid rgb(88,93,100);
+}
+
+QWidget#UserInfoTop
+{
+	background-color: rgb(32,36,41);  
+}

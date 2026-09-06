@@ -1,0 +1,15 @@
+QWidget#wgtFrame 
+{
+	border:1px solid rgb(88,93,100);
+}
+
+QWidget#wgtFrame
+{
+	background-color: rgb(47,51,55); 
+}
+
+QWidget#widget
+{
+	background-color: rgb(63,68,74); 
+	border-bottom:1px solid rgb(63,68,74);
+}

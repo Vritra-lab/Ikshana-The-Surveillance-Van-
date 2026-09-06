@@ -1,0 +1,169 @@
+QWidget#QLogSearchMainDlg
+{
+	background-color: #2e3236;
+}
+QWidget#wgtTop
+{
+	background-color: #35393e;
+	border-right: 1px solid #232629;
+	border-top: 1px solid #232629;
+}
+QWidget#wgtLeftContain
+{
+	background-color: #35393e;
+	border-right: 1px solid #232629;
+	border-top: 1px solid #232629;
+	border-left: 1px solid #232629;
+}
+QWidget#wgtLeft
+{
+	background-color: #2e3236;
+}
+QWidget#wgtView
+{
+	background-color: #2e3236;
+	border-bottom: 1px solid #232629;
+	border-right: 1px solid #232629;
+}
+QWidget#wndView
+{
+	background-color: #2e3236;
+}
+QWidget#TabList
+{
+	background-color: #232629;
+}
+
+QLogSearchMainDlg QPushButton#btnPic
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/LogSearchUI/ListPicview.png) 0 54 0 0;
+}
+QLogSearchMainDlg QPushButton#btnPic:hover
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/ListPicview.png) 0 36 0 18;
+}
+QLogSearchMainDlg QPushButton#btnPic:pressed
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/ListPicview.png) 0 18 0 36;
+}
+QLogSearchMainDlg QPushButton#btnPic:disabled
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/ListPicview.png) 0 0 0 54;
+}
+QLogSearchMainDlg QPushButton#btnRecord
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/LogSearchUI/ListVideoview.png) 0 54 0 0;
+}
+QLogSearchMainDlg QPushButton#btnRecord:hover
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/ListVideoview.png) 0 36 0 18;
+}
+QLogSearchMainDlg QPushButton#btnRecord:pressed
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/ListVideoview.png) 0 18 0 36;
+}
+QLogSearchMainDlg QPushButton#btnRecord:disabled
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/ListVideoview.png) 0 0 0 54;
+}
+
+QPushButton#m_pushBtnExport
+{
+	padding-left: 28px;
+	background-image: url(./Skin/DustyBlue/LogSearchUI/export-n.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-color: transparent;
+}
+QPushButton#m_pushBtnExport:hover
+{
+	background-image: url(./Skin/DustyBlue/LogSearchUI/export-h.png);
+}
+QPushButton#m_pushBtnExport:pressed
+{
+	background-image: url(./Skin/DustyBlue/LogSearchUI/export-p.png);
+}
+QPushButton#m_pushBtnExport:disabled
+{
+	background-image: url(./Skin/DustyBlue/LogSearchUI/export-d.png);
+}
+
+/************* Tabs°´Å¥ **************/
+QLogSearchMainDlg QWidget#wndTabs QPushButton
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/DustyBlue/LogSearchUI/tab_pending.png) 0 22 0 4;
+}
+QLogSearchMainDlg QWidget#wndTabs QPushButton:checked
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/tab_current.png) 0 22 0 4;
+}
+
+DSGUI--DSToolListView#TabList
+{
+	background-color:#2b2f33;
+	icon-size:40px 40px;
+}
+
+DSGUI--DSToolListView#TabList::tab
+{
+	background-color:#2b2f33;
+	color:#abb2bd;
+	padding-left: -4px;
+	font-size: 12px;
+}
+
+DSGUI--DSToolListView#TabList::tab:selected
+{
+	background-color:#595f69;
+	color:#FFFFFF;
+}
+
+DSGUI--DSToolListView#TabList::tab:hover:!selected
+{
+	background-color:#35393e;
+	color:#FFFFFF;
+}
+
+DSGUI--DSToolListView#TabList QAbstractButton
+{
+	width:40px;
+	height:40px;
+}
+
+
+QListWidget
+{ 
+	background:#2b2f33;
+	color: #abb2bd;
+	border: 1px solid #4F575F;
+	border-radius: 2px;
+	font-size: 12px;
+} 
+
+QListWidget:focus
+{  
+	outline:none;
+}
+
+QListWidget::item
+{
+	height:24px;
+	border:none;
+	color: #abb2bd;
+}
+
+QListWidget::item:selected
+{
+	background:#595f69;
+    color:#ffffff;
+}
+
+QListWidget::item:hover
+{
+	color: #ffffff;
+	background:#595f69;
+	border: 1px solid #C40123;	
+}

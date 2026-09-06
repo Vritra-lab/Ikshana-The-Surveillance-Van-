@@ -1,0 +1,43 @@
+<TOOLS>
+	<ACSCONFIG enable="1">
+		<DEVICECLASS id= "0" Name="ASM"/>
+		<DEVICECLASS id= "1" Name="ASI"/>
+		<DEVICECLASS id= "2" Name="ASC"/>
+		<DEVICECLASS id= "3" Name="BSC"/>
+		<DEVICECLASS id= "4" Name="ASA"/>
+		<DEVICECLASS id= "5" Name="ASG"/>
+	</ACSCONFIG>
+	<ARCCONFIG enable="1">
+		<DEVICECLASS id= "0" Name="ARC"/>
+		<DEVICECLASS id= "1" Name="FSU"/>
+	</ARCCONFIG>
+	<VDPCONFIG enable="1">
+		<DEVICECLASS id= "0" Name="VTO"/>
+		<DEVICECLASS id= "1" Name="VTH"/>
+		<DEVICECLASS id= "2" Name="VTS"/>
+		<DEVICECLASS id= "3" Name="VTT"/>
+		<DEVICECLASS id= "4" Name="VTA"/>
+		<DEVICECLASS id= "5" Name="VTNC"/>
+		<DEVICECLASS id= "6" Name="DB"/>
+		<DEVICECLASS id= "7" Name="SHG"/>
+		<DEVICECLASS id= "8" Name="VTV"/>
+	</VDPCONFIG>
+	<ANDROID enable="1">
+		<DEVICECLASS id= "0" Name="ANDROID"/>
+		<DEVICECLASS id= "1" Name="LDX"/>
+		<DEVICECLASS id= "2" Name="LAI200"/>
+		<DEVICECLASS id= "3" Name="SAI200"/>
+		<DEVICECLASS id= "4" Name="LDM"/>
+	</ANDROID>
+	<CONFIG enable="1">
+		<DEVICECLASS id= "0" Name="IPC"/>
+		<DEVICECLASS id= "1" Name="IP CAMERA"/>
+		<DEVICECLASS id= "2" Name="SD"/>
+		<DEVICECLASS id= "3" Name="PTZ"/>
+		<DEVICECLASS id= "4" Name="DVR"/>
+		<DEVICECLASS id= "5" Name="HCVR"/>
+		<DEVICECLASS id= "6" Name="XVR"/>
+		<DEVICECLASS id= "7" Name="NVR"/>
+		<DEVICECLASS id= "8" Name="NVS"/>
+	</CONFIG>
+</TOOLS>

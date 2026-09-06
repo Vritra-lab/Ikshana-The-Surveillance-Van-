@@ -1,0 +1,47 @@
+﻿
+PictureToolBar
+{
+	background-color: rgb(58, 62, 67);
+}
+
+PictureToolBar QToolButton#btnOpenDownLoadDlg
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 54 0 0;
+}
+
+PictureToolBar QToolButton#btnOpenDownLoadDlg:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 36 0 18;
+}
+
+PictureToolBar QToolButton#btnOpenDownLoadDlg:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 18 0 36;
+}
+
+PictureToolBar QToolButton#btnOpenDownLoadDlg:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 0 0 54;
+}
+
+PictureToolBar QToolButton#btnFullScreen
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 54 0 0;
+}
+
+PictureToolBar QToolButton#btnFullScreen:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 36 0 18;
+}
+
+PictureToolBar QToolButton#btnFullScreen:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 18 0 36;
+}
+
+PictureToolBar QToolButton#btnFullScreen:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarFullScreen.png) 0 0 0 54;
+}
+
+

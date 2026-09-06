@@ -1,0 +1,57 @@
+
+CNavigationBarCtrl#CNavigationBarCtrl{
+	background-color:#292C31;	
+}
+
+DSGUI--DSToolListView#m_pNavToolList
+{
+	background-color:#292C31;
+	icon-size:60px 60px;
+	padding-top: -5px;
+}
+
+DSGUI--DSToolListView#m_pNavToolList::tab
+{
+	background-color:#292C31;
+	border-left:15px solid #292C31;
+	color:#abb2bd;
+	padding-left: -4px;
+	font-size: 12px;
+}
+
+DSGUI--DSToolListView#m_pNavToolList::tab:selected
+{
+	background-color:#35393e;
+	border-left:15px solid #35393e;
+	color:#FFFFFF;
+}
+
+DSGUI--DSToolListView#m_pNavToolList::tab:hover:!selected
+{
+	background-color:#2E3136;
+	border-left:15px solid #2E3136;
+	color:#FFFFFF;
+}
+
+DSGUI--DSToolListView#m_pNavToolList QAbstractButton
+{
+	width:60px;
+	height:60px;
+}
+
+QWidget#wgtShowBtn
+{
+	background-color:#292C31;
+	border-top: 1px solid #1F2224;
+}
+
+/* 收缩按钮默认状态也显示为红色按钮 */
+QPushButton#btnShow
+{
+	border-image:url(./Skin/DustyBlue/HomePage/menu_open_h.png);
+}
+
+QPushButton#btnShow:hover
+{
+	border-image:url(./Skin/DustyBlue/HomePage/menu_open_h.png);
+}

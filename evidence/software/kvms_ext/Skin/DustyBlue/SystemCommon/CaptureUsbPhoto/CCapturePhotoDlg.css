@@ -1,0 +1,62 @@
+QWidget#wgtOper,
+QWidget#wgtBtn {
+	background-color: #35393E;
+	border-top: 1px solid #212326;
+}
+
+QPushButton#m_btnCaptureFace,
+QPushButton#m_btnCapture {
+	background-color: #35393E;
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	padding-left:0px;
+	padding-right:0px;
+	background-image: url(./Skin/DustyBlue/SystemCommon/CaptureUsbPhoto/CaptureDevice-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color: #4A4A4A;
+}
+
+QPushButton#m_btnCaptureFace:hover {
+	background-image: url(./Skin/DustyBlue/SystemCommon/CaptureUsbPhoto/CaptureDevice-h.png);
+}
+
+QPushButton#m_btnCaptureFace:pressed{
+	background-image: url(./Skin/DustyBlue/SystemCommon/CaptureUsbPhoto/CaptureDevice-p.png);
+}
+
+QPushButton#m_btnCaptureFace:disabled  {
+	background-image: url(./Skin/DustyBlue/SystemCommon/CaptureUsbPhoto/CaptureDevice-d.png);
+}
+
+
+QPushButton#m_btnCapture {
+	background-color: #35393E;
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	padding-left:0px;
+	padding-right:0px;
+	background-image: url(./Skin/DustyBlue/SystemCommon/CaptureUsbPhoto/Capture-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color: #4A4A4A;
+}
+
+QPushButton#m_btnCapture:hover {
+	background-image: url(./Skin/DustyBlue/SystemCommon/CaptureUsbPhoto/Capture-h.png);
+}
+
+
+QPushButton#m_btnCapture:pressed {
+	background-image: url(./Skin/DustyBlue/SystemCommon/CaptureUsbPhoto/Capture-p.png);
+}
+
+QPushButton#m_btnCapture:disabled {
+	background-image: url(./Skin/DustyBlue/SystemCommon/CaptureUsbPhoto/Capture-d.png);
+}

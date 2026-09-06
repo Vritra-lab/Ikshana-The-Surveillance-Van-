@@ -1,0 +1,95 @@
+QWidget#ManulAddDeviceEx
+{
+	background-color:#404449;
+}
+
+QPushButton#pushButtonTreeAdd
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/add_n.png) ;
+}
+
+QPushButton#pushButtonTreeAdd:hover
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/add_h.png) ;
+}
+
+QPushButton#pushButtonTreeAdd:pressed
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/add_p.png) ;
+}
+
+QPushButton#pushButtonTreeAdd:disabled
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/add_d.png) ;
+}
+
+
+
+
+QPushButton#pushButtonTreeModify
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/edit_n.png) ;
+}
+
+QPushButton#pushButtonTreeModify:hover
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/edit_h.png) ;
+}
+
+QPushButton#pushButtonTreeModify:pressed
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/edit_p.png) ;
+}
+
+QPushButton#pushButtonTreeModify:disabled
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/edit_d.png) ;
+}
+
+
+
+
+QPushButton#pushButtonTreeDel
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/delete_n.png) ;
+}
+
+QPushButton#pushButtonTreeDel:hover
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/delete_h.png) ;
+}
+
+QPushButton#pushButtonTreeDel:pressed
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/delete_p.png) ;
+}
+
+QPushButton#pushButtonTreeDel:disabled
+{
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIntercomConfigUI/delete_d.png) ;
+}
+
+QPushButton#pushButtonNewPark
+{
+	color:#c2cad7;
+	border:1px solid #cccccc;
+	border-radius: 2px;
+}
+
+QLabel#labelNumber
+{
+	font-size: 12px;
+	color: #C40123;
+} 

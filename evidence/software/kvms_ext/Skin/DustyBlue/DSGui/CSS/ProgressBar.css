@@ -1,0 +1,13 @@
+DSGUI--DSProgressBar
+{
+	border:none;
+	border-radius:3px;
+	background:#222429;
+	color:#ffffff;
+}
+
+DSGUI--DSProgressBar::chunk
+{
+	background-color: #C40123;
+	border-radius:3px;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<RoleInfo version="1.0">
+	<CurMaxId value="1" />
+	<Roles>
+		<Role id="1" name="admin" type="0" desc="admin role" right="9223372036854775807">
+		</Role>
+	</Roles>
+</RoleInfo>

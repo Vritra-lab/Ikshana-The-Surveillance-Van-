@@ -1,0 +1,17 @@
+VIntercomConfigUI--VIConfigSearchTree QWidget#treeWidget
+{
+	background:#404449;
+	border:none;
+	border-right:1px solid #232629;
+}
+
+VIntercomConfigUI--VIConfigSearchTree QWidget
+{
+	background-color: #404449;
+}
+
+VIntercomConfigUI--VIConfigSearchTree QWidget#wgtMain
+{
+	background-color: #404449;
+	border: 1px solid #232629;
+}

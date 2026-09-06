@@ -1,0 +1,145 @@
+﻿QueryTypeButton
+{
+	height:36px;
+	background: #222429;
+	color:#eeeeee;
+}
+
+QueryTypeButton ::checked
+{
+	height:36px;
+	background: #222429;
+	color:#eeeeee;
+}
+
+QueryTypeButton::hover
+{
+	height:36px;
+	background: #1e2021;
+	color:#eeeeee;
+}
+ 
+QueryCondition QToolButton#cardToolButton
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/playback/ToolbarCard.png) 0 54 0 0;
+}
+
+QueryCondition QToolButton#cardToolButton:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarCard.png) 0 36 0 18;
+}
+
+QueryCondition QToolButton#cardToolButton:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarCard.png) 0 18 0 36;
+}
+
+QueryCondition QToolButton#cardToolButton:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarCard.png) 0 0 0 54;
+}
+
+QueryRecordCtrl QPushButton#showDeviceRecordAndPicture[checked="true"],
+QueryRecordCtrl QPushButton#showLocalRecordAndPicture[checked="true"]
+{
+	border: 0px none;
+	height: 30px;
+	background-color : rgb(58, 62, 67);
+}
+
+QueryRecordCtrl QPushButton#showDeviceRecordAndPicture[checked="false"],
+QueryRecordCtrl QPushButton#showLocalRecordAndPicture[checked="false"]
+{
+	border: 0px none;
+	height: 30px;
+	background-color : rgb(29, 31, 35);
+}
+
+
+QueryLocalRecord QPushButton#localRecord,
+QueryLocalRecord QPushButton#localPicture
+{
+	border: 0px none;
+	height: 30px;
+	background-color : rgb(58, 62, 67);
+}
+
+LocalPictureThumbnail QueryResultsShowView,
+LocalRecordView QueryResultsShowView
+{
+	border: 0px none;
+}
+
+LocalPictureThumbnail,
+LocalRecordView
+{
+	background-color : rgb(42, 43, 46);
+}
+
+LocalPictureThumbnail QPushButton#btnThumbnail,
+LocalRecordView QPushButton#btnThumbnail
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/playback/thumbnail.png) 0 54 0 0;
+}
+
+LocalPictureThumbnail QPushButton#btnThumbnail:hover,
+LocalRecordView QPushButton#btnThumbnail:hover
+{
+	border-image: url(./Skin/theme1/playback/thumbnail.png) 0 36 0 18;
+}
+
+LocalPictureThumbnail QPushButton#btnThumbnail:pressed,
+LocalRecordView QPushButton#btnThumbnail:pressed
+{
+	border-image: url(./Skin/theme1/playback/thumbnail.png) 0 18 0 36;
+}
+
+LocalPictureThumbnail QPushButton#btnThumbnail:disabled,
+LocalRecordView QPushButton#btnThumbnail:disabled
+{
+	border-image: url(./Skin/theme1/playback/thumbnail.png) 0 0 0 54;
+}
+
+LocalPictureThumbnail QPushButton#btnFileList,
+LocalRecordView QPushButton#btnFileList
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/playback/list.png) 0 54 0 0;
+}
+
+LocalPictureThumbnail QPushButton#btnFileList:hover,
+LocalRecordView QPushButton#btnFileList:hover
+{
+	border-image: url(./Skin/theme1/playback/list.png) 0 36 0 18;
+}
+
+LocalPictureThumbnail QPushButton#btnFileList:pressed,
+LocalRecordView QPushButton#btnFileList:pressed
+{
+	border-image: url(./Skin/theme1/playback/list.png) 0 18 0 36;
+}
+
+LocalPictureThumbnail QPushButton#btnFileList:disabled,
+LocalRecordView QPushButton#btnFileList:disabled
+{
+	border-image: url(./Skin/theme1/playback/list.png) 0 0 0 54;
+}
+
+
+QueryRecordCtrl QPushButton#showDeviceRecordAndPicture:!checked,
+QueryRecordCtrl QPushButton#showLocalRecordAndPicture:!checked
+{
+	color: #B1B1B1
+}
+
+QueryRecordCtrl QPushButton#showDeviceRecordAndPicture:hover,
+QueryRecordCtrl QPushButton#showDeviceRecordAndPicture:checked,
+QueryRecordCtrl QPushButton#showLocalRecordAndPicture:hover,
+QueryRecordCtrl QPushButton#showLocalRecordAndPicture:checked
+{
+	color: #ffffff;
+} 
+
+

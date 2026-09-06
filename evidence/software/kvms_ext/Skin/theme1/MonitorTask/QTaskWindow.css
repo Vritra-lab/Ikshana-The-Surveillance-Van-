@@ -1,0 +1,183 @@
+/**
+	背景
+*/
+QTaskWindow QWidget#wndBody
+{
+	border-top: 1px solid #4D5258;
+}
+QTaskWindow QWidget#wndLeftBar
+{
+	background: #2A2E33;
+}
+
+/**
+	播放按钮
+*/
+QTaskWindow QPushButton#btnPlay
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/MonitorTask/ListPreview.png) 0 54 0 0;
+}
+QTaskWindow QPushButton#btnPlay:hover
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListPreview.png) 0 36 0 18;
+}
+QTaskWindow QPushButton#btnPlay:pressed
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListPreview.png) 0 18 0 36;
+}
+QTaskWindow QPushButton#btnPlay:disabled
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListPreview.png) 0 0 0 54;
+}
+/**
+	上移按钮
+*/
+QTaskWindow QPushButton#btnUp
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverUp.png) 0 54 0 0;
+}
+QTaskWindow QPushButton#btnUp:hover
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverUp.png) 0 36 0 18;
+}
+QTaskWindow QPushButton#btnUp:pressed
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverUp.png) 0 18 0 36;
+}
+QTaskWindow QPushButton#btnUp:disabled
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverUp.png) 0 0 0 54;
+}
+/**
+	下移按钮
+*/
+QTaskWindow QPushButton#btnDown
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverDown.png) 0 54 0 0;
+}
+QTaskWindow QPushButton#btnDown:hover
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverDown.png) 0 36 0 18;
+}
+QTaskWindow QPushButton#btnDown:pressed
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverDown.png) 0 18 0 36;
+}
+QTaskWindow QPushButton#btnDown:disabled
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverDown.png) 0 0 0 54;
+}
+/**
+	删除按钮
+*/
+QTaskWindow QPushButton#btnDel
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 54 0 0;
+}
+QTaskWindow QPushButton#btnDel:hover
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 36 0 18;
+}
+QTaskWindow QPushButton#btnDel:pressed
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 18 0 36;
+}
+QTaskWindow QPushButton#btnDel:disabled
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 0 0 54;
+}
+/**
+	编辑按钮
+*/
+QTaskWindow QChnlView#tableView QHorizontalHeaderButton
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 54 0 0;
+}
+QTaskWindow QChnlView#tableView QHorizontalHeaderButton:hover
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 36 0 18;
+}
+QTaskWindow QChnlView#tableView QHorizontalHeaderButton:pressed
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 18 0 36;
+}
+QTaskWindow QChnlView#tableView QHorizontalHeaderButton:disabled
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 0 0 54;
+}
+
+/************* 分割线 **************/
+QTaskWindow QWidget#wndLeftBar QWidget#separator
+{
+	border-top: 1px solid #1A1D20;
+	border-bottom: 1px solid #4C5157;
+}
+
+/************* 树类型切换按钮 **************/
+QTaskWindow QWidget#wndLeftBar QPushButton#btnDev,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnView,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnPreview
+{	
+	background-color: #3A3E43; 
+	border: 0px none;
+	border-right: 10px solid transparent;
+	text-align: left;
+	padding: 0 18px 0 10px;
+	
+    background-position: center right;
+    background-origin: padding;
+    background-repeat: no-repeat;
+}
+QTaskWindow QWidget#wndLeftBar QPushButton#btnDev:!checked,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnView:!checked,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnPreview:!checked
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_normal.png);
+}
+QTaskWindow QWidget#wndLeftBar QPushButton#btnDev:!checked:hover,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnView:!checked:hover,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnPreview:!checked:hover
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_hover.png);
+}
+QTaskWindow QWidget#wndLeftBar QPushButton#btnDev:!checked:pressed,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnView:!checked:pressed,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnPreview:!checked:pressed
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_pressed.png);
+}
+QTaskWindow QWidget#wndLeftBar QPushButton#btnDev:!checked:disabled,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnView:!checked:disabled,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnPreview:!checked:disabled
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_disable.png);
+}
+QTaskWindow QWidget#wndLeftBar QPushButton#btnDev:checked,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnView:checked,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnPreview:checked
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_normal.png);
+}
+QTaskWindow QWidget#wndLeftBar QPushButton#btnDev:checked:hover,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnView:checked:hover,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnPreview:checked:hover
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_hover.png);
+}
+QTaskWindow QWidget#wndLeftBar QPushButton#btnDev:checked:pressed,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnView:checked:pressed,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnPreview:checked:pressed
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_pressed.png);
+}
+QTaskWindow QWidget#wndLeftBar QPushButton#btnDev:checked:disabled,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnView:checked:disabled,
+QTaskWindow QWidget#wndLeftBar QPushButton#btnPreview:checked:disabled
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_disable.png);
+}

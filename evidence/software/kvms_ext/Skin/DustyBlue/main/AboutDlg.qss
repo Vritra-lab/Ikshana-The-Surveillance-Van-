@@ -1,0 +1,22 @@
+QWidget#wgtBk
+{
+	background-color: #3A3E43;
+}
+QPushButton#btnLicense
+{
+	background-color: #3A3E43;
+	color:#ffffff;
+	border:none;
+}
+QPushButton#btnOpensouse
+{
+	background-color: #3A3E43;
+	color:#ffffff;
+	border:none;
+}
+QPushButton#btnPrivatePolicy
+{
+	background-color: #3A3E43;
+	color:#ffffff;
+	border:none;
+}

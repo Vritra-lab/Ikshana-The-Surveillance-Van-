@@ -1,0 +1,82 @@
+﻿
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="true"]
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 54 0 0;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="true"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 36 0 18;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="true"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 18 0 36;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="true"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectAll.png) 0 0 0 54;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="false"]
+{
+	border-width: 0;
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 54 0 0;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="false"]:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 36 0 18;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="false"]:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 18 0 36;
+}
+
+PictureQueryResultWgt QToolButton#btnSelectAllSwitch[checked="false"]:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/SelectNone.png) 0 0 0 54;
+}
+
+
+
+
+PictureQueryResultWgt
+{
+	border: 0px none;
+	background-color: rgb(58, 62, 67);
+}
+
+PictureQueryResultWgt QueryResultsShowView
+{
+	border: 0px none;
+}
+
+
+
+PictureQueryResultWgt QToolButton#btnSave
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 54 0 0;
+}
+
+PictureQueryResultWgt QToolButton#btnSave:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 36 0 18;
+}
+
+PictureQueryResultWgt QToolButton#btnSave:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 18 0 36;
+}
+
+PictureQueryResultWgt QToolButton#btnSave:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarSave.png) 0 0 0 54;
+}
+
+
+
+

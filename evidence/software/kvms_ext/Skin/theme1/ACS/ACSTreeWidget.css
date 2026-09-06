@@ -1,0 +1,76 @@
+ACSTreeWidget
+{   
+	background-color: #2b2f33 ;
+	color: #EEEEEE;
+	border:none;
+   	show-decoration-selected: 1 ;
+	font-size: 14px;
+}
+
+ACSTreeWidget::branch
+{ 
+	image:none;
+	background-color: transparent; 
+}
+ACSTreeWidget::indicator
+{
+    width:20px;
+    height:20px;
+}
+
+ACSTreeWidget::item {
+	background-color: transparent;
+	height:30px;
+	color: #abb2bd;
+}
+
+ACSTreeWidget::item:hover ,ACSTreeWidget::branch:hover{
+	background-color:#35393e;
+}
+
+ACSTreeWidget::item:selected ,ACSTreeWidget::branch:selected{
+    color: #FFFFFF;
+	background-color:#595f69;
+}
+
+ACSTreeWidget::branch:closed:has-children:!has-siblings,
+ACSTreeWidget::branch:closed:has-children:has-siblings
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_n.png);
+}
+
+ACSTreeWidget::branch:closed:has-children:!has-siblings:hover,
+ACSTreeWidget::branch:closed:has-children:has-siblings:hover
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+ACSTreeWidget::branch:closed:has-children:!has-siblings:pressed,
+ACSTreeWidget::branch:closed:has-children:has-siblings:pressed
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+ACSTreeWidget::branch:closed:has-children:!has-siblings:disabled,
+ACSTreeWidget::branch:closed:has-children:has-siblings:disabled
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_n.png);
+}
+ACSTreeWidget::branch:open:has-children:!has-siblings,
+ACSTreeWidget::branch:open:has-children:has-siblings
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_n.png);
+}
+ACSTreeWidget::branch:open:has-children:!has-siblings:hover,
+ACSTreeWidget::branch:open:has-children:has-siblings:hover
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_h.png);
+}
+ACSTreeWidget::branch:open:has-children:!has-siblings:pressed,
+ACSTreeWidget::branch:open:has-children:has-siblings:pressed
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+ACSTreeWidget::branch:open:has-children:!has-siblings:disabled,
+ACSTreeWidget::branch:open:has-children:has-siblings:disabled
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_n.png);
+}

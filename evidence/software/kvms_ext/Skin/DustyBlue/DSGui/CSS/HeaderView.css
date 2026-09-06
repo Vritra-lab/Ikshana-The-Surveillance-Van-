@@ -1,0 +1,43 @@
+DSGUI--DSHeaderView::section
+{
+	font: 12px;
+	color:#ABB2BD;
+	background: #3F4348;
+	height: 30px;
+	padding: 0px 4px 0px 4px;
+	border-top:1px solid #2B2F33;
+	border-right: 1px solid #2B2F33;
+	border-bottom: 1px solid #2B2F33;
+}
+DSGUI--DSHeaderView::section:last
+{
+	border-right:0px;
+}
+
+DSGUI--DSHeaderView::item
+{
+	color:#ABB2BD;
+	height: 30px;
+	padding: 0px 4px 0px 10px;
+}
+
+DSGUI--DSHeaderView::indicator
+{
+	left: -4px;
+}
+
+DSGUI--DSHeaderView::up-arrow
+{
+	width: 20px;
+	height: 20px;
+	padding-right: 10px;
+	image: url(skin/DustyBlue/DSGui/HeaderView/sort-up.png);
+}
+
+DSGUI--DSHeaderView::down-arrow
+{
+	width: 20px;
+	height: 20px;
+	padding-right: 10px;
+	image: url(skin/DustyBlue/DSGui/HeaderView/sort-down.png);
+}

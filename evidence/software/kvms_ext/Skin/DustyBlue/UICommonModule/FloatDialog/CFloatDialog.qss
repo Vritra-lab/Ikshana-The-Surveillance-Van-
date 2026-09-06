@@ -1,0 +1,47 @@
+QWidget#wgtBackground
+{
+	background-color: #35393E;
+	border: 1px solid #232629;
+}
+
+QWidget#wgtBtnTitle
+{
+	border-bottom: 1px solid #232629;
+}
+
+QWidget#wgtSpace
+{
+	background-color: #35393E;
+	border-top: 1px solid #232629;
+}
+
+QLabel#titleText
+{
+	color: #ADB5C0;
+	font-size: 12px;
+}
+
+QPushButton#closeBtn
+{
+	image: url(skin/DustyBlue/UICommonModule/FloatDialog/CloseNormal.svg);
+	border: none;
+}
+QPushButton#closeBtn:hover
+{
+	image: url(skin/DustyBlue/UICommonModule/FloatDialog/CloseHover.svg);
+}
+QPushButton#closeBtn:pressed
+{
+	image: url(skin/DustyBlue/UICommonModule/FloatDialog/ClosePressed.svg);
+}
+QPushButton#closeBtn:disabled
+{
+	image: url(skin/DustyBlue/UICommonModule/FloatDialog/CloseDisabled.svg);
+}
+
+QLabel#label_info
+{
+	image: url(skin/DustyBlue/UICommonModule/FloatDialog/popinfo.svg);
+}
+
+

@@ -1,0 +1,95 @@
+VideoTalkPersonManager QWidget#wgtFrame
+{
+    background-color:rgb(42,46,51);  
+	border: none; 
+}
+ 
+VideoTalkDepTreeWidget ACSTreeWidget#treeDepartment
+{
+    background-color:rgb(42,46,51); 
+}
+
+VideoTalkDepTreeWidget ACSTreeWidget#treeDepartment::item
+{
+     height: 24 px; 
+	min-width:120px;
+}
+
+VideoTalkDepTreeWidget ACSTreeWidget#treeDepartment::item:selected
+{
+	background: #C40123;
+}
+
+
+ACSTreeWidget#treeDepartment::branch:closed:has-children:!has-siblings,
+ACSTreeWidget#treeDepartment::branch:closed:has-children:has-siblings
+{
+	image: url("./SPSSComponentRes/Images/TreeCtrl/BranchClosed.png");
+}
+
+ACSTreeWidget#treeDepartment::branch:open:has-children:!has-siblings,
+ACSTreeWidget#treeDepartment::branch:open:has-children:has-siblings
+{
+	image: url("./SPSSComponentRes/Images/TreeCtrl/BranchOpen.png");
+}
+ 
+VideoTalkRelateDeviceDlg QFrame#frmDeviceTree
+{
+	border: 1px solid rgb(88,93,100);
+}
+
+VideoTalkRelateDeviceDlg QFrame#frmSelectDevice
+{
+	border: 1px solid rgb(88,93,100);border-left: 0px;
+}
+
+VideoTalkRelateDeviceDlg QWidget#widget_2
+{	
+	background-color: rgb(63,68,74); 
+	border-bottom:1px solid rgb(63,68,74);
+}
+
+VideoTalkRelateDeviceDlg QWidget#widget{
+	
+	background-color: rgb(63,68,74); 
+	border-bottom:1px solid rgb(63,68,74);
+}
+
+VideoTalkAddCardDlg QFrame#frmUserTop{
+	
+	background-color: rgb(63,68,74); 
+	border-bottom:1px solid rgb(63,68,74);
+}
+
+VideoTalkAddCardDlg QWidget#gbUsersInfo
+{
+	border: 1px solid rgb(88,93,100);
+}
+
+
+VideoTalkPersonManager QPushButton#m_btnSendCard,
+VideoTalkPersonManager QPushButton#m_btnExport,
+VideoTalkPersonManager QPushButton#m_btnImport,
+VideoTalkPersonManager QPushButton#m_btnDelete 
+{
+	background:transparent;
+	border:none;
+	text-align:center;
+	color:#fefefe;
+}
+
+VideoTalkPersonManager QPushButton#m_btnSendCard:hover,
+VideoTalkPersonManager QPushButton#m_btnExport:hover,
+VideoTalkPersonManager QPushButton#m_btnImport:hover,
+VideoTalkPersonManager QPushButton#m_btnDelete:hover ,
+VideoTalkPersonManager QPushButton#m_btnSendCard:checked,
+VideoTalkPersonManager QPushButton#m_btnExport:checked,
+VideoTalkPersonManager QPushButton#m_btnImport:checked,
+VideoTalkPersonManager QPushButton#m_btnDelete:checked  
+{
+   border-image:url(./Skin/theme1/common/button_imp.png) 0 280 0 0; 
+   border-width:0 0 0 0;
+   margin: 0 0 0 0;
+   border:none; 
+   color:#ffffff;
+}

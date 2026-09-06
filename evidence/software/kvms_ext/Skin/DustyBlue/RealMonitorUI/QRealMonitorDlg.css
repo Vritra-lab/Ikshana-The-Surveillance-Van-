@@ -1,0 +1,153 @@
+﻿
+QMenu {
+	font-size: 12px;
+	background:#1E2021;
+	border: 1px solid #111213;
+	color:#dddddd;
+}
+QMenu::item{
+	height: 24px;
+	width: 110px;
+	padding: 0px 20px 0px 34px;
+	margin-left: 6px;
+	background: #1E2021 url(./Skin/DustyBlue/RealMonitorUI/menu/menu-background.png) no-repeat;
+	color: #dddddd;
+}
+QMenu::item:disabled{
+	color: #787878;
+}
+}
+QMenu::item:enabled:selected {
+	background: #C40123 url(./Skin/DustyBlue/RealMonitorUI/menu/menu_select.png) no-repeat;
+}
+QMenu::separator {
+    height: 1px;
+    background-color: #383c3d;
+	margin-left: 38px;
+    margin-top: 2px;
+	margin-right: 10px;
+    margin-bottom: 2px;
+}
+QMenu{menu-scrollable:1;}
+QMenu::right-arrow
+{
+	image: url(./Skin/DustyBlue/RealMonitorUI/menu/arrow__normal.png);
+    width: 5px;
+    height: 5px;
+	padding-right:10px;
+}
+QMenu::right-arrow:enabled:selected
+{
+	image: url(./Skin/DustyBlue/RealMonitorUI/menu/arrow_pressed.png);
+}
+QMenu::right-arrow:disabled
+{
+	image: url(./Skin/DustyBlue/RealMonitorUI/menu/arrow_disable.png);
+}
+
+QMenu#mainMenu {
+	font-size: 12px;
+	background:#1E2021;
+	border: 1px solid #111213;
+	color:#dddddd;
+}
+QMenu#mainMenu::item{
+	height: 24px;
+	width: 110px;
+	padding: 0px 10px 0px 15px;
+	margin-left: 0px;
+	background: #1E2021 url(./Skin/DustyBlue/RealMonitorUI/menu/menu-background.png) no-repeat;
+	color: #dddddd;
+}
+QMenu#mainMenu::item:disabled{
+	color: #787878;
+}
+QMenu#mainMenu::item:enabled:selected {
+	background: #C40123 url(./Skin/DustyBlue/RealMonitorUI/menu/menu_select.png) no-repeat;
+}
+QMenu#mainMenu::separator {
+    height: 1px;
+    background-color: #383c3d;
+	margin-left: 38px;
+    margin-top: 2px;
+	margin-right: 10px;
+    margin-bottom: 2px;
+}
+QMenu#mainMenu{menu-scrollable:1;}
+QMenu#mainMenu::right-arrow
+{
+	image: url(./Skin/DustyBlue/RealMonitorUI/menu/arrow__normal.png);
+    width: 5px;
+    height: 5px;
+	padding-right:10px;
+}
+QMenu#mainMenu::right-arrow:enabled:selected
+{
+	image: url(./Skin/DustyBlue/RealMonitorUI/menu/arrow_pressed.png);
+}
+QMenu#mainMenu::right-arrow:disabled
+{
+	image: url(./Skin/DustyBlue/RealMonitorUI/menu/arrow_disable.png);
+}
+DSGUI--DSTableView
+{ 
+    color: #ABB2BD;
+	background-color: #35393E;
+	border:1px solid #2B2F33;
+	font: 12px;
+    qproperty-alternatingRowColors:true;
+	alternate-background-color: #3A3E43;
+	gridline-color: #2B2F33;
+}
+
+DSGUI--DSTableView:focus
+{  
+	outline:none;
+}
+
+DSGUI--DSTableView::item
+{
+	height: 30px;
+	padding: 0px 4px 0px 6px;
+	background-color: transparent;
+	border-right:1px solid #2B2F33;
+}
+
+DSGUI--DSTableView::branch
+{ 
+	image:none;
+	background-color: transparent; 
+}
+
+DSGUI--DSTableView::item:selected, 
+DSGUI--DSTableView::branch:selected,
+DSGUI--DSTableView::item:alternate:selected,
+DSGUI--DSTableView::item:!alternate:selected
+{
+    background-color:#23262A;	
+    color:#FFFFFF;
+}
+
+DSGUI--DSTableView::item:hover, 
+DSGUI--DSTableView::branch:hover,
+DSGUI--DSTableView::item:alternate:hover,
+DSGUI--DSTableView::item:!alternate:hover
+{
+
+	background-color:#2F3337;	
+    color:#FFFFFF;
+}
+
+DSGUI--DSTableView::item:alternate
+{
+	background-color: #3A3E43;
+	color:#ABB2BD;
+}
+ 
+DSGUI--DSTableView::item:!alternate
+{
+	background-color: #35393E;
+	color:#ABB2BD;
+}
+
+

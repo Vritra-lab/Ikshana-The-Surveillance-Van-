@@ -1,0 +1,166 @@
+
+ACSMainControl DSGUI--DSTableView#tableEventInfoList::item:selected,
+ACSMainControl DSGUI--DSTableView#tableEventInfoList::branch:selected,
+ACSMainControl DSGUI--DSTableView#tableEventInfoList::item:alternate:!selected,
+ACSMainControl DSGUI--DSTableView#tableEventInfoList::item:!alternate:!selected
+{	
+	color: none;
+}
+
+ACSMainControl QWidget#widgetTreeChange,
+ACSMainControl QWidget#widgetText
+{
+	background-color: rgb(58, 62, 67);
+}
+ACSMainControl QWidget#wgtDevTreeCtrl
+{
+	background-color: rgb(42, 46, 51);
+}
+ACSMainControl QWidget#widgetText
+{
+	background-color: rgb(58, 62, 67);
+}
+ACSMainControl QWidget#widgetBtn
+{
+	background-color: rgb(41, 45, 49);
+}
+ACSMainControl QWidget#widgetEventInfo
+{
+	background-color: rgb(32, 36, 41);
+}
+
+ACSMainControl QWidget#InfoWidget
+{
+	background-color: rgb(47, 51, 55);
+	border: 1px rgb(58,62,67);
+	border-style:solid solid solid solid;
+}
+
+ACSMainControl QWidget#pEntranceGuardWidget
+{
+	background-color: rgb(29, 31, 35);
+}
+
+ACSMainControl  QPushButton#btnList:disabled
+{
+	border-image: url(./Skin/theme1/ACS/btn_list.png) 0 213 0 0;
+}
+ACSMainControl  QPushButton#btnList:checked
+{
+	border-image: url(./Skin/theme1/ACS/btn_list.png) 0 142 0 71;
+}
+ACSMainControl  QPushButton#btnList:pressed
+{
+	border-image: url(./Skin/theme1/ACS/btn_list.png) 0 71 0 142;
+}
+
+ACSMainControl  QPushButton#btnList
+{
+	border-image: url(./Skin/theme1/ACS/btn_list.png) 0 0 0 213;
+}
+
+
+ACSMainControl  QPushButton#btnWindow:disabled
+{
+	border-image: url(./Skin/theme1/ACS/btn_window.png) 0 213 0 0;
+}
+ACSMainControl  QPushButton#btnWindow:checked
+{
+	border-image: url(./Skin/theme1/ACS/btn_window.png) 0 142 0 71;
+}
+ACSMainControl  QPushButton#btnWindow:pressed
+{
+	border-image: url(./Skin/theme1/ACS/btn_window.png) 0 71 0 142;
+}
+
+ACSMainControl  QPushButton#btnWindow
+{
+	border-image: url(./Skin/theme1/ACS/btn_window.png) 0 0 0 213;
+}
+
+ACSMainControl  QCheckBox#checkBoxAlarm::indicator:unchecked:hover,
+ACSMainControl  QCheckBox#checkBoxAlarm::indicator:unchecked:focus
+{
+    image: url(./Skin/theme1/ACS/CheckBox/alarm_unchecked_hover.png);
+}
+ACSMainControl  QCheckBox#checkBoxAlarm::indicator:unchecked
+{
+    image: url(./Skin/theme1/ACS/CheckBox/alarm_unchecked_pressed.png);
+}
+
+ACSMainControl  QCheckBox#checkBoxAlarm::indicator:checked:hover,
+ACSMainControl  QCheckBox#checkBoxAlarm::indicator:checked:focus
+{
+    image: url(./Skin/theme1/ACS/CheckBox/alarm_checked_hover.png);
+}
+ACSMainControl  QCheckBox#checkBoxAlarm::indicator:checked
+{
+    image: url(./Skin/theme1/ACS/CheckBox/alarm_checked_pressed.png);
+}
+
+ACSMainControl  QCheckBox#checkBoxAbnormal::indicator:unchecked:hover,
+ACSMainControl  QCheckBox#checkBoxAbnormal::indicator:unchecked:focus
+{
+    image: url(./Skin/theme1/ACS/CheckBox/abnormal_unchecked_hover.png);
+}
+ACSMainControl  QCheckBox#checkBoxAbnormal::indicator:unchecked
+{
+    image: url(./Skin/theme1/ACS/CheckBox/abnormal_unchecked_pressed.png);
+}
+
+ACSMainControl  QCheckBox#checkBoxAbnormal::indicator:checked:hover,
+ACSMainControl  QCheckBox#checkBoxAbnormal::indicator:checked:focus
+{
+    image: url(./Skin/theme1/ACS/CheckBox/abnormal_checked_hover.png);
+}
+ACSMainControl  QCheckBox#checkBoxAbnormal::indicator:checked
+{
+    image: url(./Skin/theme1/ACS/CheckBox/abnormal_checked_pressed.png);
+}
+
+ACSMainControl  QCheckBox#checkBoxNormal::indicator:unchecked:hover,
+ACSMainControl  QCheckBox#checkBoxNormal::indicator:unchecked:focus
+{
+    image: url(./Skin/theme1/ACS/CheckBox/normal_unchecked_hover.png);
+}
+ACSMainControl  QCheckBox#checkBoxNormal::indicator:unchecked
+{
+    image: url(./Skin/theme1/ACS/CheckBox/normal_unchecked_pressed.png);
+}
+
+ACSMainControl  QCheckBox#checkBoxNormal::indicator:checked:hover,
+ACSMainControl  QCheckBox#checkBoxNormal::indicator:checked:focus
+{
+    image: url(./Skin/theme1/ACS/CheckBox/normal_checked_hover.png);
+}
+ACSMainControl  QCheckBox#checkBoxNormal::indicator:checked
+{
+    image: url(./Skin/theme1/ACS/CheckBox/normal_checked_pressed.png);
+}
+
+
+
+ACSMainControl  QPushButton#btnDelete:disabled
+{
+	border-image: url(./Skin/theme1/ACS/delete.png) 0 0 0 54;
+}
+ACSMainControl  QPushButton#btnDelete:hover
+{
+	border-image: url(./Skin/theme1/ACS/delete.png) 0 36 0 18;
+}
+ACSMainControl  QPushButton#btnDelete:pressed
+{
+	border-image: url(./Skin/theme1/ACS/delete.png) 0 18 0 36;
+}
+
+ACSMainControl  QPushButton#btnDelete
+{
+	border-image: url(./Skin/theme1/ACS/delete.png) 0 54 0 0;
+}
+	
+ACSMainControl QWidget#picDeviceEventIcon
+{
+	border: 1px solid #1F2126;
+}
+
+

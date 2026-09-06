@@ -1,0 +1,64 @@
+
+QWidget#wgtLeft
+{
+	background: #2b2f33;
+}
+QWidget#treeBarWidget
+{
+	background: #2b2f33;
+}
+
+
+QWidget#wgtRight
+{
+	background: #2e3236;
+	font-family: Lato-Regular;
+	color:  #dfe3e9;
+	font-size: 12px;
+}
+
+QWidget#wgtTop
+{
+	background: #3f4348;
+	border: 1px solid #232629;
+}
+QWidget#wgtTop QWidget,
+QWidget#wgtTop QLabel
+{
+	background: transparent;
+}
+QLabel#m_pDevName
+{
+	font-family: Lato-Bold;
+	font: Bold;
+	font-size: 16px;
+}
+QLabel#m_pLabIcon
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/Device.png);
+}
+
+QWidget#wgtModifyPwd:hover,
+QWidget#wgtFireWall:hover,
+QWidget#wgtDNSConfig:hover,
+QWidget#wgtConfigFile:hover,
+QWidget#wgtRestart:hover,
+QWidget#wgtTimeSetup:hover,
+QWidget#wgtExtractAttendance:hover,
+QWidget#wgtExtractPersonnel:hover,
+QWidget#wgtUpgrade:hover,
+QWidget#wgtAlarmLink:hover,
+QWidget#wgtSoftReset:hover,
+QWidget#wgtHardReset:hover
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/HoverBg.png);
+}
+
+QLabel#labelAttendance,
+QLabel#labelSystem
+{
+	font-family: Lato-Bold;
+	font: Bold;
+	font-size: 16px;
+}
+

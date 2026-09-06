@@ -1,0 +1,16 @@
+QWidget#DoorGroupDetailTop
+{
+     background-color: rgb(58,62,67);
+}
+
+QWidget#frmDoor,
+QWidget#frmUser
+{
+	border:1px solid rgb(88,93,100);
+}
+
+QWidget#DoorInfoTitle ,
+QWidget#UserInfoTitle 
+{
+     background-color: rgb(32,36,41);
+}

@@ -1,0 +1,18 @@
+QWidget#wgtOper,
+QWidget#wgtBtn {
+	background-color: #35393E;
+	border-top: 1px solid #212326;
+}
+
+QPushButton#m_btnCapture {
+	border-image: url(./Skin/DustyBlue/UICommonModule/CaptureUsbPhoto/Capture-n.png);
+}
+QPushButton#m_btnCapture:hover {
+	border-image: url(./Skin/DustyBlue/UICommonModule/CaptureUsbPhoto/Capture-h.png);
+}
+QPushButton#m_btnCapture:pressed {
+	border-image: url(./Skin/DustyBlue/UICommonModule/CaptureUsbPhoto/Capture-p.png);
+}
+QPushButton#m_btnCapture:disabled {
+	border-image: url(./Skin/DustyBlue/UICommonModule/CaptureUsbPhoto/Capture-d.png);
+}

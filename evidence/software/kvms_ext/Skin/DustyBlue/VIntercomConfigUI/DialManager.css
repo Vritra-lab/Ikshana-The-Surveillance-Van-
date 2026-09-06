@@ -1,0 +1,56 @@
+QWidget#wgtDevOpt
+{
+	background: #404449;
+	border-top: 1px solid  #232629;
+	border-bottom: 1px solid  #232629;
+}
+
+QPushButton#btnAdd,
+QPushButton#btnDelete,
+QPushButton#btnImport,
+QPushButton#btnExport
+{
+    background:transparent;
+	border:none;
+	color:#c2cad7;
+}
+
+QPushButton#btnAdd:hover,
+QPushButton#btnDelete:hover,
+QPushButton#btnImport:hover,
+QPushButton#btnExport:hover
+{
+   background:transparent;
+   border:none;
+   color:#C40123;
+}
+
+QPushButton#btnAdd:disabled,
+QPushButton#btnDelete:disabled,
+QPushButton#btnImport:disabled,
+QPushButton#btnExport:disabled
+{
+   background:transparent;
+   border:none;
+   color:#abb2bd;
+}
+
+QPushButton#btnAdd:pressed,
+QPushButton#btnDelete:pressed,
+QPushButton#btnImport:pressed,
+QPushButton#btnExport:pressed
+{
+   background:transparent;
+   border:none;
+   color:#C40123;
+}
+
+QPushButton#btnAdd:checked,
+QPushButton#btnDelete:checked,
+QPushButton#btnImport:checked,
+QPushButton#btnExport:checked
+{
+   background:transparent;
+   border:none;
+   color:#C40123;
+}

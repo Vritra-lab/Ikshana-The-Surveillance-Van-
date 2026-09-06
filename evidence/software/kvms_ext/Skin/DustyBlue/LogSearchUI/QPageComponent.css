@@ -1,0 +1,83 @@
+/**
+	±³¾°
+*/
+QPageComponent QWidget#wndBg
+{
+	background: #2e3236;
+}
+/**
+	ÅäÉ«
+*/
+QPageComponent QLabel,
+QPageComponent QComboBox
+{
+	color: #b1b1b1;
+}
+/**
+	°´Å¥
+*/
+QPageComponent QPushButton#btnPre
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumLeft.png) 0 36 0 0;
+}
+QPageComponent QPushButton#btnPre:hover
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumLeft.png) 0 24 0 12;
+}
+QPageComponent QPushButton#btnPre:pressed
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumLeft.png) 0 12 0 24;
+}
+QPageComponent QPushButton#btnPre:disabled
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumLeft.png) 0 0 0 36;
+}
+QPageComponent QPushButton#btnNext
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumRight.png) 0 36 0 0;
+}
+QPageComponent QPushButton#btnNext:hover
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumRight.png) 0 24 0 12;
+}
+QPageComponent QPushButton#btnNext:pressed
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumRight.png) 0 12 0 24;
+}
+QPageComponent QPushButton#btnNext:disabled
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumRight.png) 0 0 0 36;
+}
+QPageComponent QPushButton#btnFirst
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumLast.png) 0 36 0 0;
+}
+QPageComponent QPushButton#btnFirst:hover
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumLast.png) 0 24 0 12;
+}
+QPageComponent QPushButton#btnFirst:pressed
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumLast.png) 0 12 0 24;
+}
+QPageComponent QPushButton#btnFirst:disabled
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumLast.png) 0 0 0 36;
+}
+QPageComponent QPushButton#btnLast
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumNext.png) 0 36 0 0;
+}
+QPageComponent QPushButton#btnLast:hover
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumNext.png) 0 24 0 12;
+}
+QPageComponent QPushButton#btnLast:pressed
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumNext.png) 0 12 0 24;
+}
+QPageComponent QPushButton#btnLast:disabled
+{
+	border-image: url(./Skin/DustyBlue/LogSearchUI/PageNumNext.png) 0 0 0 36;
+}
+

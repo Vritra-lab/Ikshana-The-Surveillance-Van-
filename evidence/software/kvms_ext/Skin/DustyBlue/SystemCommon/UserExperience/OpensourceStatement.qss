@@ -1,0 +1,18 @@
+QWidget#mainWgt
+{
+	background-color: #3A3E43;
+	border-bottom: 1px solid #232629;
+	border-left: 1px solid #232629;
+	border-right: 1px solid #232629;
+}
+QLabel#labPlanDescr
+{
+	background-color:#ffffff;
+	color:#000000;
+}
+
+QScrollArea#scrollArea
+{
+	background-color:#3A3E43;
+	border:none;
+}

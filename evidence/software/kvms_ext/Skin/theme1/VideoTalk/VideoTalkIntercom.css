@@ -1,0 +1,286 @@
+VideoTalkIntercomWidget QWidget#wgtGroupTreeCtrl,
+VideoTalkIntercomWidget QWidget#wgtRightPanel
+{
+	background: #2A2E33;
+}
+
+VideoTalkIntercomWidget QWidget#wgtStatus
+{
+	background: #202429;
+}
+
+VideoTalkAddressListView
+{
+	background: #1D1F23;
+}
+
+VideoTalkIntercomWidget QLabel#lblContact
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ContactList.png);
+}
+
+
+VideoTalkIntercomWidget QToolButton#btnTreeHide
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/TreeHide.png) 0 0 0 43;
+	border-width: 0px 0px 0px 43px;
+	margin: 0px 0px 0px -43px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnTreeHide:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/TreeHide.png) 0 28 0 15; 
+	border-width: 0px 28px 0px 15px;
+	margin: 0px -28px 0px -15px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnTreeHide:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/TreeHide.png) 0 14 0 29; 
+	border-width: 0px 14px 0px 29px;
+	margin: 0px -14px 0px -29px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnTreeHide:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/TreeHide.png) 0 42 0 1;
+	border-width: 0px 42px 0px 1px;
+	margin: 0px -42px 0px -1px;
+}
+
+
+VideoTalkIntercomWidget QToolButton#btnTreeShow
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/TreeShow.png) 0 0 0 43;
+	border-width: 0px 0px 0px 43px;
+	margin: 0px 0px 0px -43px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnTreeShow:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/TreeShow.png) 0 28 0 15; 
+	border-width: 0px 28px 0px 15px;
+	margin: 0px -28px 0px -15px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnTreeShow:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/TreeShow.png) 0 14 0 29; 
+	border-width: 0px 14px 0px 29px;
+	margin: 0px -14px 0px -29px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnTreeShow:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/TreeShow.png) 0 42 0 1;
+	border-width: 0px 42px 0px 1px;
+	margin: 0px -42px 0px -1px;
+}
+
+
+VideoTalkIntercomWidget QLabel#lblRegister
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/VTO_Register.png);
+}
+
+VideoTalkIntercomWidget QLabel#lblUnRegister
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/VTO_UnRegister.png);
+}
+
+
+VideoTalkIntercomWidget QToolButton#btnView
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ModeView.png) 0 54 0 0;
+	border-width: 0px 54px 0px 0px;
+	margin: 0px -54px 0px 0px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnView:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ModeView.png) 0 36 0 18; 
+	border-width: 0px 36px 0px 24px;
+	margin: 0px -36px 0px -24px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnView:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ModeView.png) 0 18 0 36; 
+	border-width: 0px 18px 0px 36px;
+	margin: 0px -18px 0px -36px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnView:checked
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ModeView.png) 0 18 0 36; 
+	border-width: 0px 18px 0px 36px;
+	margin: 0px -18px 0px -36px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnView:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ModeView.png) 0 0 0 54;
+	border-width: 0px 0px 0px 54px;
+	margin: 0px 0px 0px -54px;
+}
+
+
+VideoTalkIntercomWidget QToolButton#btnList
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ModeList.png) 0 54 0 0;
+	border-width: 0px 54px 0px 0px;
+	margin: 0px -54px 0px 0px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnList:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ModeList.png) 0 36 0 18; 
+	border-width: 0px 36px 0px 24px;
+	margin: 0px -36px 0px -24px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnList:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ModeList.png) 0 18 0 36; 
+	border-width: 0px 18px 0px 36px;
+	margin: 0px -18px 0px -36px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnList:checked
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ModeList.png) 0 18 0 36; 
+	border-width: 0px 18px 0px 36px;
+	margin: 0px -18px 0px -36px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnList:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/ModeList.png) 0 0 0 54;
+	border-width: 0px 0px 0px 54px;
+	margin: 0px 0px 0px -54px;
+}
+
+
+VideoTalkIntercomWidget QLineEdit#edtSearch
+{
+	background: transparent;
+	border: none;
+	color: #B1B1B1;
+	font: 10pt;
+}
+
+VideoTalkIntercomWidget QLineEdit#edtSearch:focus
+{
+	color: #EEEEEE;
+}
+
+
+VideoTalkIntercomWidget QToolButton#btn0,
+VideoTalkIntercomWidget QToolButton#btn1,
+VideoTalkIntercomWidget QToolButton#btn2,
+VideoTalkIntercomWidget QToolButton#btn3,
+VideoTalkIntercomWidget QToolButton#btn4,
+VideoTalkIntercomWidget QToolButton#btn5,
+VideoTalkIntercomWidget QToolButton#btn6,
+VideoTalkIntercomWidget QToolButton#btn7,
+VideoTalkIntercomWidget QToolButton#btn8,
+VideoTalkIntercomWidget QToolButton#btn9,
+VideoTalkIntercomWidget QToolButton#btnPound
+{
+	background: #BFC3CE;
+	color: #2B2B2B;
+	border: none;
+	font: 22pt bold;
+	font-family: "Consolas"
+}
+
+VideoTalkIntercomWidget QToolButton#btnAsterisk
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/DialPlate_Asterisk.png);
+}
+
+
+VideoTalkIntercomWidget QToolButton#btnClearFilter
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/DialPlate_Clear.png) 0 99 0 0;
+	border-width: 0px 99px 0px 0px;
+	margin: 0px -99px 0px 0px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnClearFilter:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/DialPlate_Clear.png) 0 66 0 33; 
+	border-width: 0px 66px 0px 33px;
+	margin: 0px -66px 0px -33px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnClearFilter:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/DialPlate_Clear.png) 0 33 0 66; 
+	border-width: 0px 33px 0px 98px;
+	margin: 0px -33px 0px -98px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnClearFilter:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/DialPlate_Clear.png) 0 0 0 99;
+	border-width: 0px 0px 0px 99px;
+	margin: 0px 0px 0px -99px;
+}
+
+
+VideoTalkIntercomWidget QToolButton#btnCall
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/DialPlate_Call.png) 0 897 0 0;
+	border-width: 0px 897px 0px 0px;
+	margin: 0px -897px 0px 0px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnCall:hover
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/DialPlate_Call.png) 0 598 0 299; 
+	border-width: 0px 598px 0px 299px;
+	margin: 0px -598px 0px -299px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnCall:pressed
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/DialPlate_Call.png) 0 299 0 598; 
+	border-width: 0px 299px 0px 598px;
+	margin: 0px -299px 0px -598px;
+}
+
+VideoTalkIntercomWidget QToolButton#btnCall:disabled
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/DialPlate_Call.png) 0 0 0 897;
+	border-width: 0px 0px 0px 897px;
+	margin: 0px 0px 0px -897px;
+}
+
+
+VideoTalkIntercomWidget QLabel#lblRecord
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/RecordList.png);
+}
+
+VideoTalkIntercomWidget QToolButton#btnRedDot
+{
+	border-image: url(./Skin/theme1/VideoTalk/Intercom/RedDot.png);
+}
+
+VideoTalkIntercomWidget QPushButton#btnAllRecords,
+VideoTalkIntercomWidget QPushButton#btnMissedRecords
+{
+    background: transparent;
+	border: none;
+	color: #AAAAAA;
+}
+
+VideoTalkIntercomWidget QPushButton#btnAllRecords:checked,
+VideoTalkIntercomWidget QPushButton#btnMissedRecords:checked
+{
+   background: transparent;
+   border: none;
+   color: #FFFFFF;
+   border-bottom: 4px solid #C40123;
+}

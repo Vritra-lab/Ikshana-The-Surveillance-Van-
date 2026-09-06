@@ -1,0 +1,48 @@
+
+
+ACSUserBasicInfoVistorSnap
+{
+	border: 1px solid #2C2C2C;
+	background-color: #3A3E43;
+}
+
+ACSUserBasicInfoVistorSnap QWidget#wndSep
+{
+	border-top: 1px solid #1A1D20;
+	border-bottom: 1px solid #4D5258;
+}
+QSystemConfigDlg QWidget#wndHeader
+{
+	border-bottom: 1px solid #1a1d20;
+}
+
+QSystemConfigDlg QWidget#wndHeader QLabel
+{
+	color: #ffffff;
+}
+
+QSystemConfigDlg QWidget#widget QLabel
+{
+	color: #ffffff;
+}
+
+ACSUserBasicInfoVistorSnap QPushButton#btnClose
+{
+	qproperty-minimumSize:20px 20px;
+	qproperty-maximumSize:20px 20px;
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/CloseNormal.png); 
+	qproperty-autoRaise:false;
+}
+ACSUserBasicInfoVistorSnap QPushButton#btnClose:hover
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/CloseHover.png);
+}
+ACSUserBasicInfoVistorSnap QPushButton#btnClose:pressed
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/ClosePressed.png);
+}
+ACSUserBasicInfoVistorSnap QPushButton#btnClose:disabled
+{
+	border-image:url(./Skin/DustyBlue/DSGui/Dialog/CloseDisabled.png);
+}
+

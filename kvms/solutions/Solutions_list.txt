@@ -1,0 +1,14 @@
+AlarmCenterUI.dll
+AlarmConfigUI.dll
+DeviceConfigUI.dll
+DeviceFunctionLogical.dll
+DeviceManagerUI.dll
+LogSearchUI.dll
+MainFormPlugin.dll
+PlayBackUI.dll
+RealMonitorUI.dll
+SystemConfigUI.dll
+UserManagerUI.dll
+VIMainControlUI.dll
+VIntercomConfigUI.dll
+VIRecUI.dll

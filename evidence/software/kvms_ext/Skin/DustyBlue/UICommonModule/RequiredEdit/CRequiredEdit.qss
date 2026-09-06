@@ -1,0 +1,8 @@
+QLabel#CRequiredEdit--m_pSymbolRequired
+{
+	color:red;
+	font-size:12px;
+	font-weight:bold;
+	background:transparent;
+	padding-left:0;
+} 

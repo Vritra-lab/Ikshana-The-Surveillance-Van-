@@ -1,0 +1,40 @@
+QPushButton#btnView:disabled
+{
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/eyeson_d.png);
+} 
+QPushButton#btnView:pressed
+{
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/eyeson_p.png);
+}
+
+QPushButton#btnView:hover
+{
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/eyeson_h.png);
+}
+
+QPushButton#btnView
+{
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/eyeson_n.png);
+	background-color: transparent;
+}
+
+QPushButton#btnVideoIntercom:disabled
+{
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/intercom_cell_d.png);
+}
+
+QPushButton#btnVideoIntercom:pressed
+{
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/intercom_cell_p.png);
+}
+
+QPushButton#btnVideoIntercom:hover
+{
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/intercom_cell_h.png);
+}
+
+QPushButton#btnVideoIntercom
+{
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/intercom_cell_n.png);
+	background-color: transparent;
+}

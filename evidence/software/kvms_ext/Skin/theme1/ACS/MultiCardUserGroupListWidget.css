@@ -1,0 +1,26 @@
+QWidget#gbDoorGroupTopInfo
+{
+	background-color: rgb(32,36,41);  
+}
+ 
+QPushButton#m_btnAdd,
+QPushButton#m_btnDel
+{
+   background:transparent;
+   border:none;
+   text-align:center;
+   color:#fefefe;
+}
+ 
+QPushButton#m_btnAdd:hover,
+QPushButton#m_btnDel:hover , 
+QPushButton#m_btnAdd:checked,
+QPushButton#m_btnDel:checked
+{
+   border-image:url(./Skin/theme1/common/button_imp.png) 0 280 0 0;
+   border-width:0 0 0 0;
+   margin: 0 0 0 0;
+   border:none;
+   text-align:center;
+   color:#ffffff;
+}

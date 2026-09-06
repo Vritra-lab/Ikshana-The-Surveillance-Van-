@@ -1,0 +1,56 @@
+Project Name	KVMS Pro Lite
+Version 	V1.003.00AT007.0
+Base Platform	V1.003.00AT006.0
+Operation Platform	Windows 7/Windows 8/Windows 10(64 bit)/Windows 11(64 bit)
+New Features:
+	1. Fix some issues.
+
+***************************************************************************************
+
+Project Name	KVMS Pro Lite
+Version 	V1.003.00AT006.0
+Base Platform	V1.003.00AT005.0
+Operation Platform	Windows 7/Windows 8/Windows 10(64 bit)/Windows 11(64 bit)
+New Features:
+	1. Customized compatible with CPAV stream and .cpv video format.
+
+***************************************************************************************
+Project Name	KVMS Pro Lite
+Version 	V1.003.00AT005.0
+Base Platform	V1.003.00AT004.0
+Operation Platform	Windows 7/Windows 8/Windows 10(64 bit)/Windows 11(64 bit)
+New Features:
+	1. InstaOn device information import.
+
+
+	2. The adjustment of resolution (1366 * 768) is adaptable.
+
+
+	3. Increase the preview function of the visual intercom product line.
+***************************************************************************************
+Project Name	KVMS Pro Lite
+Version 	V1.003.00AT004.0
+Base Platform	V1.003.00AT003.0
+Operation Platform	Windows 7/Windows 8/Windows 10(64 bit)/Windows 11(64 bit)
+New Features:
+	1.Open Czech.
+	2.Adjust module name display
+	3.Domain name registration device.
+	4.Modify the options for the view and user manager modules to red background and white text.
+	5.Adjust the icon of the software in the uninstallation interface.
+***************************************************************************************
+Project Name	KVMS Pro Lite
+Version 	V1.003.00AT003.0
+Base Platform	V1.003.00AT002.0
+Operation Platform	Windows 7/Windows 8/Windows 10(64 bit)/Windows 11(64 bit)
+
+
+***************************************************************************************
+***************************************************************************************
+Project Name	KVMS Pro Lite
+Version 	V1.003.00AT002.0
+Base Platform	
+Operation Platform	Windows 7/Windows 8/Windows 10(64 bit)/Windows 11(64 bit)
+
+
+***************************************************************************************

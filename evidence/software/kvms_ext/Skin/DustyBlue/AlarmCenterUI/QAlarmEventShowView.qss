@@ -1,0 +1,46 @@
+AlarmCenterUI--QAlarmEventShowView QWidget#wgtShowView,
+AlarmCenterUI--QAlarmEventShowView QWidget#wgtNextPage,
+AlarmCenterUI--QAlarmEventShowView QWidget#wgtPrePage
+{
+	background:#2E3236;
+	border: 0px none;
+}
+
+AlarmCenterUI--QAlarmEventShowView QPushButton#btnNext
+{
+	background-color: #2E3236;
+	border: 0px none;
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/next_n.png);
+	background-repeat:no-repeat;
+}
+AlarmCenterUI--QAlarmEventShowView  QPushButton#btnNext:disabled
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/next_d.png);
+} 
+AlarmCenterUI--QAlarmEventShowView  QPushButton#btnNext:pressed
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/next_p.png);
+}
+AlarmCenterUI--QAlarmEventShowView  QPushButton#btnNext:hover
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/next_h.png);
+}
+
+AlarmCenterUI--QAlarmEventShowView QPushButton#btnPre
+{
+	background-color: #2E3236;
+	border: 0px none;
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/previous_n.png);
+}
+AlarmCenterUI--QAlarmEventShowView  QPushButton#btnPre:disabled
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/previous_d.png);
+} 
+AlarmCenterUI--QAlarmEventShowView  QPushButton#btnPre:pressed
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/previous_p.png);
+}
+AlarmCenterUI--QAlarmEventShowView  QPushButton#btnPre:hover
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/previous_h.png);
+}

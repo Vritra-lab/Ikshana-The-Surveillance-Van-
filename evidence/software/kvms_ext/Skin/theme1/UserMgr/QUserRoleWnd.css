@@ -1,0 +1,242 @@
+/**
+	主界面外观、边界、关闭按钮
+*/
+QUserRoleWnd QWidget#wndBackground
+{
+	background: #1D1F22;
+}
+QUserRoleWnd QWidget#wndTitle,
+QUserRoleWnd QWidget#wndTitle_2
+{
+	background: #3A3E43;
+}
+QUserRoleWnd QWidget#wndLeft,
+QUserRoleWnd QWidget#wndRight
+{
+	background: #2A2E33;
+}
+QUserRoleWnd QWidget#wndLeftContainer,
+QUserRoleWnd QWidget#wndRightContainer
+{
+	border:1px solid #3A3E43;
+}
+
+QUserRoleWnd QTreeWidget
+{
+	border:0px none;
+}
+QUserRoleWnd QTreeView#treeUserRole
+{
+	background-color: #2b2f33;
+	color: #EEEEEE;
+	border:none;
+   	show-decoration-selected: 1;
+	font-size: 14px;
+}
+QUserRoleWnd QTreeView#treeUserRole::branch
+{ 
+	image:none;
+	background-color: transparent; 
+}
+QUserRoleWnd QTreeView#treeUserRole::indicator
+{
+    width:20px;
+    height:20px;
+}
+QUserRoleWnd QTreeView#treeUserRole::item
+{
+	padding-left: 24px;
+	padding-right: 30px;
+	background-color: transparent;
+	height:30px;
+	color: #abb2bd;
+}
+QUserRoleWnd QTreeView#treeUserRole::item:selected,
+QUserRoleWnd QTreeView#treeUserRole::branch:selected
+{
+	color: #FFFFFF;
+	background-color:#595f69;
+}
+QUserRoleWnd QTreeView#treeUserRole::item:hover,
+QUserRoleWnd QTreeView#treeUserRole::branch:hover
+{
+	background-color:#35393e;
+}
+QUserRoleWnd QTreeView#treeUserRole::branch:closed:has-children:!has-siblings,
+QUserRoleWnd QTreeView#treeUserRole::branch:closed:has-children:has-siblings
+{
+	image: url(./Skin/theme1/UserMgr/normal_n.png);
+}
+QUserRoleWnd QTreeView#treeUserRole::branch:closed:has-children:!has-siblings:hover,
+QUserRoleWnd QTreeView#treeUserRole::branch:closed:has-children:has-siblings:hover
+{
+	image: url(./Skin/theme1/UserMgr/normal_h.png);
+}
+QUserRoleWnd QTreeView#treeUserRole::branch:closed:has-children:!has-siblings:pressed,
+QUserRoleWnd QTreeView#treeUserRole::branch:closed:has-children:has-siblings:pressed
+{
+	image: url(./Skin/theme1/UserMgr/normal_h.png);
+}
+QUserRoleWnd QTreeView#treeUserRole::branch:closed:has-children:!has-siblings:disabled,
+QUserRoleWnd QTreeView#treeUserRole::branch:closed:has-children:has-siblings:disabled
+{
+	image: url(./Skin/theme1/UserMgr/normal_n.png);
+}
+QUserRoleWnd QTreeView#treeUserRole::branch:open:has-children:!has-siblings,
+QUserRoleWnd QTreeView#treeUserRole::branch:open:has-children:has-siblings
+{
+	image: url(./Skin/theme1/UserMgr/advanced_n.png);
+}
+QUserRoleWnd QTreeView#treeUserRole::branch:open:has-children:!has-siblings:hover,
+QUserRoleWnd QTreeView#treeUserRole::branch:open:has-children:has-siblings:hover
+{
+	image: url(./Skin/theme1/UserMgr/advanced_h.png);
+}
+QUserRoleWnd QTreeView#treeUserRole::branch:open:has-children:!has-siblings:pressed,
+QUserRoleWnd QTreeView#treeUserRole::branch:open:has-children:has-siblings:pressed
+{
+	image: url(./Skin/theme1/UserMgr/normal_h.png);
+}
+QUserRoleWnd QTreeView#treeUserRole::branch:open:has-children:!has-siblings:disabled,
+QUserRoleWnd QTreeView#treeUserRole::branch:open:has-children:has-siblings:disabled
+{
+	image: url(./Skin/theme1/UserMgr/advanced_n.png);
+}
+
+/**
+	Edit高度
+*/
+QUserRoleWnd  QLineEdit
+{
+	height: 24px;
+	padding: 0px 8px 0px 8px;
+}
+QUserRoleWnd QTextEdit
+{
+	padding: 0px 8px 0px 8px;
+}
+/**
+	通道权限部分
+*/
+QUserRoleChannelRightWnd	QWidget#wndTree
+{
+	background: #2A2E33;
+}
+QUserRoleChannelRightWnd	QWidget#wndBtns
+{
+	background: #3A3E43;
+}
+QUserRoleChannelRightWnd QPushButton
+{
+	border: 0px none;
+	background-color: transparent;
+}
+QUserRoleChannelRightWnd QPushButton:hover,
+QUserRoleChannelRightWnd QPushButton:checked
+{
+	background-color: #2A2E33;
+}
+QUserRoleChannelRightWnd QWidget#frame
+{
+	border: 1px solid #3A3E43;
+}
+/**
+	添加角色按钮
+*/
+QUserRoleWnd QPushButton#btnAddRole
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/UserMgr/List-AddRole.png) 0 54 0 0;
+}
+QUserRoleWnd QPushButton#btnAddRole:hover
+{
+	border-image: url(./Skin/theme1/UserMgr/List-AddRole.png) 0 36 0 18;
+}
+QUserRoleWnd QPushButton#btnAddRole:pressed
+{
+	border-image: url(./Skin/theme1/UserMgr/List-AddRole.png) 0 18 0 36;
+}
+QUserRoleWnd QPushButton#btnAddRole:disabled
+{
+	border-image: url(./Skin/theme1/UserMgr/List-AddRole.png) 0 0 0 54;
+}
+/**
+	添加用户按钮
+*/
+QUserRoleWnd QPushButton#btnAddUser
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/UserMgr/ListAddUser.png) 0 54 0 0;
+}
+QUserRoleWnd QPushButton#btnAddUser:hover
+{
+	border-image: url(./Skin/theme1/UserMgr/ListAddUser.png) 0 36 0 18;
+}
+QUserRoleWnd QPushButton#btnAddUser:pressed
+{
+	border-image: url(./Skin/theme1/UserMgr/ListAddUser.png) 0 18 0 36;
+}
+QUserRoleWnd QPushButton#btnAddUser:disabled
+{
+	border-image: url(./Skin/theme1/UserMgr/ListAddUser.png) 0 0 0 54;
+}
+/**
+	删除用户/角色按钮
+*/
+QUserRoleWnd QPushButton#btnDel
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/UserMgr/ListDelete.png) 0 54 0 0;
+}
+QUserRoleWnd QPushButton#btnDel:hover
+{
+	border-image: url(./Skin/theme1/UserMgr/ListDelete.png) 0 36 0 18;
+}
+QUserRoleWnd QPushButton#btnDel:pressed
+{
+	border-image: url(./Skin/theme1/UserMgr/ListDelete.png) 0 18 0 36;
+}
+QUserRoleWnd QPushButton#btnDel:disabled
+{
+	border-image: url(./Skin/theme1/UserMgr/ListDelete.png) 0 0 0 54;
+}
+/**
+	搜索按钮
+*/
+QUserRoleWnd QPushButton#btnSearch
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/UserMgr/Search.png) 0 54 0 0;
+}
+QUserRoleWnd QPushButton#btnSearch:hover
+{
+	border-image: url(./Skin/theme1/UserMgr/Search.png) 0 36 0 18;
+}
+QUserRoleWnd QPushButton#btnSearch:pressed
+{
+	border-image: url(./Skin/theme1/UserMgr/Search.png) 0 18 0 36;
+}
+QUserRoleWnd QPushButton#btnSearch:disabled
+{
+	border-image: url(./Skin/theme1/UserMgr/Search.png) 0 0 0 54;
+}
+/**
+	编辑按钮
+*/
+QUserRoleWnd QPushButton#btnEdit
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 54 0 0;
+}
+QUserRoleWnd QPushButton#btnEdit:hover
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 36 0 18;
+}
+QUserRoleWnd QPushButton#btnEdit:pressed
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 18 0 36;
+}
+QUserRoleWnd QPushButton#btnEdit:disabled
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 0 0 54;
+}

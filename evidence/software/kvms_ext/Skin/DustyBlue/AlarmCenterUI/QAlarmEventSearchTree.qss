@@ -1,0 +1,6 @@
+AlarmCenterUI--QAlarmEventSearchTree QWidget#treeWidget
+{
+	background:#35393E;
+	border:none;
+	border-right:1px solid #232629;
+}

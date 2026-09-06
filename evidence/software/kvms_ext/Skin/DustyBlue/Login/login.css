@@ -1,0 +1,172 @@
+QClientInitCtrl  QFrame#framUsername,QFrame#framPwd
+{
+	background:#1f2124;
+	border:1px solid #181a14;
+	border-radius:2px;
+}
+QClientInitCtrl  QFrame#framUsername::hover,QFrame#framPwd::hover
+{
+	background:#1f2124;
+	border:1px solid #C40123;
+	border-radius:2px;
+}
+
+QClientInitCtrl QWidget#wgtTip
+{
+	border-image:url(./skin/DustyBlue/Login/tip.png) 22 6 4 20;
+	border-width:22px 6px 4px 20px;
+}
+
+QClientInitCtrl QLabel#lblTipsFailed
+{
+	font-size:12px;
+	color:#f25050;
+	padding-left:30px;
+}
+
+QClientInitCtrl QLineEdit#leUserName,#leUserPwd
+{
+	background:transparent;
+	border:none;
+	padding-left:5px;
+	color:#abb2bd;
+	font-size:14px;
+}
+QClientInitCtrl QLineEdit#leUserName:hover,#leUserPwd:hover
+{
+	background:transparent;
+	border:none;
+	padding-left:5px;
+	color:#ffffff;
+}
+
+QClientInitCtrl QLineEdit#leUserName:focus,#leUserPwd:focus
+{
+	background:transparent;
+	border:none;
+	padding-left:5px;
+	color:#ebf0f6;
+}
+
+QClientInitCtrl QLabel#lblUserName
+{
+	border-image:url(./skin/DustyBlue/Login/user.png) 0 60 0 0;
+    border-width:0 60px 0 0;
+    margin: 0 -60px 0 0;
+}
+
+QClientInitCtrl QLabel#lblUserNameHover
+{
+	border-image:url(./skin/DustyBlue/Login/user.png) 0 40 0 20;
+    border-width:0 40px 0 20px;
+    margin: 0 -40px 0 -20px;
+}
+
+QClientInitCtrl QLabel#labelPwd
+{
+	border-image:url(./skin/DustyBlue/Login/password.png) 0 60 0 0;
+    border-width:0 60px 0 0;
+    margin: 0 -60px 0 0;
+}
+
+QClientInitCtrl QLabel#labelPwdHover
+{
+	border-image:url(./skin/DustyBlue/Login/password.png) 0 40 0 20;
+    border-width:0 40px 0 20px;
+    margin: 0 -40px 0 -20px;
+}
+
+QClientInitCtrl DSGUI--DSPushButton#btnLogin
+{
+	font-size:16px;
+	font-weight:bold;
+}
+
+QClientInitCtrl QLabel#labelRememberPwd,#labelAutoLogin,#labelForgotPwd
+{
+	font-size: 12px;
+}
+
+QClientInitCtrl QLabel#labelForgotPwd
+{
+	font-size:12px;
+	color:#f9d904;
+}
+
+QClientInitCtrl QLabel#labelForgotPwd::hover
+{
+	color:#f9d904;
+}
+
+QClientInitCtrl QLabel#labelForgotPwd::focus
+{
+	color:#f9d904;
+}
+
+QClientInitCtrl QPushButton#btnClearName,#btnClearPSW
+{
+	border-image:url(./skin/DustyBlue/Login/cleanall.png) 0 60 0 0;
+	border-width:0 60px 0 0;
+	margin: 0 -60px 0 0;
+}
+QClientInitCtrl QPushButton#btnClearName:hover,#btnClearPSW:hover
+{
+	border-image:url(./skin/DustyBlue/Login/cleanall.png) 0 40 0 20;
+	border-width:0 40px 0 20px;
+	margin: 0 -40px 0 -20px;
+}
+
+InitClientPasswordDlg QPushButton#btnPwdSetting:checked
+{
+	border-image: url(./Skin/DustyBlue/Login/step1_check.png) 0 10 0 0;
+	border-width:0 10px 0 0;
+}
+
+InitClientPasswordDlg QPushButton#btnPwdSetting
+{
+	border-image: url(./Skin/DustyBlue/Login/step1_normal.png) 0 10 0 0;
+	border-width:0 10px 0 0;
+}
+
+InitClientPasswordDlg QPushButton#btnPwdProtection:checked
+{
+	border-image: url(./Skin/DustyBlue/Login/step2_check.png) 0 0 0 10;
+	border-width:0 0 0 10px;
+}
+
+InitClientPasswordDlg QPushButton#btnPwdProtection
+{
+	border-image: url(./Skin/DustyBlue/Login/step2_normal.png) 0 0 0 10;
+	border-width:0 0 0 10px;
+}
+
+UserPasswordSettingWidget QWidget#wgtIcon,
+UserPasswordResettingDlg QWidget#wgtIcon,
+UserPasswordProtectionWidget QWidget#wgtIcon
+{
+	image:url(./Skin/theme1/devmanage/MentionIconWarn.png);
+}
+
+UserPasswordSettingWidget QLabel#tip1,#tip2,
+UserPasswordProtectionWidget QLabel#labelTip,QLabel#labelTipOne,QLabel#labelTipTwo,QLabel#labelTipThree,
+UserPasswordResettingDlg QLabel#labelTip
+{
+	color: rgb(255, 0, 0);
+}
+
+QPushButton#btnclose{
+    outline: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: none;
+	border-image: url(skin/DustyBlue/Login/winClose-n.png);
+}
+QPushButton#btnclose:hover{
+	border-image: url(skin/DustyBlue/Login/winClose-h.png);
+}
+QPushButton#btnclose:pressed{
+	border-image: url(skin/DustyBlue/Login/winClose-p.png);
+}
+QPushButton#btnclose:disabled{
+	border-image: url(skin/DustyBlue/Login/winClose-d.png);
+}

@@ -1,0 +1,14 @@
+QWidget#wgtBatBack
+{
+	border-image:url(./Skin/DustyBlue/BottomGuide/guideBar.png);
+}
+
+QFrame#wgtBtnList
+{
+	border:none;
+}
+
+QPushButton#btnHide
+{
+	border-image:url(./Skin/DustyBlue/BottomGuide/retract_n.png);
+}

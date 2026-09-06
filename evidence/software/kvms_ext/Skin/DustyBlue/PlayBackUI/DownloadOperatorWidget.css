@@ -1,0 +1,88 @@
+﻿
+
+ DownloadOperatorWidget QPushButton#btnFirst
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListMoverDown.png) 0 54 0 0;
+}
+DownloadOperatorWidget QPushButton#btnFirst:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListMoverDown.png) 0 36 0 18;
+}
+DownloadOperatorWidget QPushButton#btnFirst:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListMoverDown.png) 0 18 0 36;
+}
+DownloadOperatorWidget QPushButton#btnFirst:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListMoverDown.png) 0 0 0 54;
+}
+
+ DownloadOperatorWidget QPushButton#btnPause
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownloadPause.png) 0 54 0 0;
+}
+DownloadOperatorWidget QPushButton#btnPause:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownloadPause.png) 0 36 0 18;
+}
+DownloadOperatorWidget QPushButton#btnPause:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownloadPause.png) 0 18 0 36;
+}
+DownloadOperatorWidget QPushButton#btnPause:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownloadPause.png) 0 0 0 54;
+}
+
+ DownloadOperatorWidget QPushButton#btnDownload
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 54 0 0;
+}
+DownloadOperatorWidget QPushButton#btnDownload:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 36 0 18;
+}
+DownloadOperatorWidget QPushButton#btnDownload:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 18 0 36;
+}
+DownloadOperatorWidget QPushButton#btnDownload:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ToolbarDownLoad.png) 0 0 0 54;
+}
+ 
+DownloadOperatorWidget QPushButton#btnDelete
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListDelete.png) 0 54 0 0;
+}
+DownloadOperatorWidget QPushButton#btnDelete:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListDelete.png) 0 36 0 18;
+}
+DownloadOperatorWidget QPushButton#btnDelete:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListDelete.png) 0 18 0 36;
+}
+DownloadOperatorWidget QPushButton#btnDelete:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListDelete.png) 0 0 0 54;
+}
+
+DownloadOperatorWidget QPushButton#btnOpenFolder
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 54 0 0;
+}
+DownloadOperatorWidget QPushButton#btnOpenFolder:hover
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 36 0 18;
+}
+DownloadOperatorWidget QPushButton#btnOpenFolder:pressed
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 18 0 36;
+}
+DownloadOperatorWidget QPushButton#btnOpenFolder:disabled
+{
+	border-image: url(./Skin/DustyBlue/PlayBackUI/ListFileview.png) 0 0 0 54;
+}
+
+

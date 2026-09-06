@@ -1,0 +1,9 @@
+QListWidget
+{
+	outline:0px;
+}
+
+QListView::item
+{
+	border: 0px;
+}

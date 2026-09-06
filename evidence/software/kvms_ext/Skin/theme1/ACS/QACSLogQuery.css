@@ -1,0 +1,76 @@
+AttendanceSchedule  QPushButton#btnSchedule
+{
+	border-width: 0 0 0 0;
+	border-image: url(./Skin/theme1/ACS/Attendance/temporary.png) 0 54 0 0;
+}
+
+AttendanceSchedule QPushButton#btnSchedule:hover
+{
+	border-image: url(./Skin/theme1/ACS/Attendance/temporary.png) 0 18 0 36; 
+}
+
+AttendanceSchedule QPushButton#btnTmpSchedule
+{
+	border-width: 0 0 0 0;
+	border-image: url(./Skin/theme1/ACS/Attendance/schedule_temporary.png) 0 54 0 0;
+}
+
+AttendanceSchedule QPushButton#btnTmpSchedule:hover
+{
+	border-image: url(./Skin/theme1/ACS/Attendance/schedule_temporary.png) 0 18 0 36;
+}
+
+AttendanceSchedule QPushButton#btnCancelSchedule
+{
+	border-image: url(./Skin/theme1/ACS/Attendance/schedule_cancel_temporary.png) 0 54 0 0;
+}
+
+AttendanceSchedule QPushButton#btnCancelSchedule:hover
+{
+	border-image: url(./Skin/theme1/ACS/Attendance/schedule_cancel_temporary.png) 0 18 0 36;
+}
+
+AttendanceSchedule QPushButton#btnLeft
+{
+	border-width: 0 0 0 0;
+	border-image: url(./Skin/theme1/ACS/Attendance/Page-lastone.png) 0 54 0 0;
+}
+
+AttendanceSchedule QPushButton#btnLeft:hover
+{
+	border-image: url(./Skin/theme1/ACS/Attendance/Page-lastone.png) 0 18 0 36;
+}
+
+AttendanceSchedule QPushButton#btnRight
+{
+	border-width: 0 0 0 0;
+	border-image: url(./Skin/theme1/ACS/Attendance/Page-nextone.png) 0 54 0 0;
+}
+
+AttendanceSchedule QPushButton#btnRight:hover
+{
+	border-image: url(./Skin/theme1/ACS/Attendance/Page-nextone.png) 0 18 0 36;
+}
+
+ScheduleDlg QPushButton#btnAdd
+{
+	border-width: 0,0,0,0;
+	border-image: url(./Skin/theme1/devmanage/ADD.png) 0 54 0 0;
+}
+
+ScheduleDlg QPushButton#btnAdd:hover
+{
+	border-image:url(./Skin/theme1/devmanage/ADD.png) 0 36 0 18;
+}
+
+ScheduleDlg QPushButton#btnReduce
+{
+	border-width: 0,0,0,0;
+	border-image: url(./Skin/theme1/devmanage/delete.png) 0 54 0 0;
+}
+
+ScheduleDlg QPushButton#btnReduce:hover
+{
+	border-image: url(./Skin/theme1/devmanage/delete.png) 0 36 0 18;
+}
+

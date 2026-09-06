@@ -1,0 +1,33 @@
+﻿
+QRealRightBar
+{
+	background: rgb(42,46,51);
+	border: none;
+	border-right: 1px solid rgb(36,37,40);
+}
+
+QRealRightBar > QPushButton#TabCondition[checked="true"]
+{
+	background:#3a3e43;
+	border:1px solid #3a3e43;
+	padding: 0 18px 0 18px;
+	background-image:url(./Skin/DustyBlue/RealMonitorUI/RightButton.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+	text-align:left;
+	color:#fefefe;
+}
+
+QRealRightBar > QPushButton#TabCondition[checked="false"]
+{
+	background:#3a3e43;
+	border:1px solid #3a3e43;
+	padding: 0 18px 0 18px;
+	background-image:url(./Skin/DustyBlue/RealMonitorUI/DownButton.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+	text-align:left;
+	color:#fefefe;
+}

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<UpgradeServer>
+<Upgrade key="f070350fc330ba76cd0ea89b1cf9609c" path="df0369cd01c8f0c5abce4a143ff3304375d09e858d8e1913b2d77160e3528814" prefix="4a0e0bb654816bcd7a2661b10f33744a" />
+<CurrServer>foreign</CurrServer>
+<Servers>
+<Server name="inter" svrurl="e01b2deffe1f507c863d04d18477af2d" />
+<Server name="cn" svrurl="cdeea2bae936bd7d053dd13b5d9dd7f97b41a79fef6e6de393f049b48c45f3f0" />
+<Server name="foreign" svrurl="1936d4b9838fae08c4841fc1cee1e8d456c9388aa1f132d95762e237b1ce781f" />
+</Servers>
+</UpgradeServer>

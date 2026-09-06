@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<title>Google Maps</title>
+<style type="text/css">
+  html { height: 100% }
+  body { height: 100%; margin: 0px; padding: 0px }
+  #map_canvas { height: 100% }
+</style>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiR0mtxb1AXCJrLRhzl3GRbI7ZS3GFnug&callback=initMap" type="text/javascript"></script>
+<script type="text/javascript">
+function fnObjNotDefine(){
+    domethod();
+}
+
+function fnOnError(msg,url,lineno){
+    //alert("window.onerror\n\n" +
+    //"Error: " + msg + "\n" +
+    //"URL:  " + url + "\n" +
+    //"Line:  " + lineno);
+    return true; 
+}
+window.onerror = fnOnError;
+
+</script>
+<script type="text/javascript">
+	var map;
+	var aitmarker,image;
+	var poly,path;
+	var polyDrived, pathDrived;
+
+    function initialize() {
+    	var carLatLng = new google.maps.LatLng(0, 0);
+        //var carLatLng = new google.maps.LatLng(35.7101, 139.8107); // Tokyo
+        //var carLatLng = new google.maps.LatLng(22.563501, 113.955613); // moscow
+		var mapOptions = {
+		  center: carLatLng,
+		  zoom: 15,
+		  mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+		//var image = 'http://maps.google.com/mapfiles/kml/shapes/horsebackriding.png';
+	    image = '190';
+		//---------------------------------------------------------
+
+		aitmarker = new google.maps.Marker({
+			position: carLatLng,
+			map: map,
+			//icon: image,
+			draggable: true,
+			title:""
+		});
+		
+        //---------------------------------------------------------
+		var polyOptions = {
+		    strokeColor: '#8833FF',
+		    strokeOpacity: 0.5,
+		    strokeWeight: 6
+		};
+
+		poly = new google.maps.Polyline(polyOptions);
+		poly.setMap(map);
+		path = poly.getPath();
+		//---------------------------------
+		var polyDrivedOptions = {
+		    strokeColor: '#55EE55',
+		    strokeOpacity: 0.5,
+		    strokeWeight: 6
+		};
+
+		polyDrived = new google.maps.Polyline(polyDrivedOptions);
+		polyDrived.setMap(map);
+		pathDrived = polyDrived.getPath();
+
+    }
+    
+	function movpos(x,y,h){
+	    var pos = new google.maps.LatLng(x, y);
+	    map.setCenter(pos);
+	    aitmarker.setPosition(pos);
+	    pathDrived.push(pos);
+	  //aitmarker.setTitle("x");
+    }
+
+	function set_center(x,y){
+	  var pos = new google.maps.LatLng(x, y);
+	  map.setCenter(pos);
+    }
+
+    function path_plot(x, y) {
+        var pos = new google.maps.LatLng(x, y);
+        var path = poly.getPath();
+        //plot_count = plot_count + 1;
+        path.push(pos);
+    }
+
+    function path_delete() {
+        var path = poly.getPath();
+        while (path.removeAt(0));
+    }
+
+    function pathdrived_plot(x, y) {
+        var pos = new google.maps.LatLng(x, y);
+        var pathDrived = polyDrived.getPath();
+        pathDrived.push(pos);
+    }
+
+    function pathdrived_delete() {
+        var pathDrived = polyDrived.getPath();
+        while (pathDrived.removeAt(0));
+    }
+
+    function pathdrived_plot_to_n(n) {
+        var path = poly.getPath();
+        var pathDrived = polyDrived.getPath();        
+        pathdrived_delete();
+
+        for (var i = 0; i < n; i++) 
+        {
+            var pos = path.getAt(i);
+            pathDrived.push(pos);
+        }
+    }
+
+
+</script>
+</head>
+<body onload="initialize()">
+  <div id="map_canvas" style="width:100%; height:100%"></div>
+</body>
+</html>

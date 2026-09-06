@@ -1,0 +1,30 @@
+FlowStatisticsMainForm QWidget#wndTabContainer QPushButton
+{
+	color: #b1b1b1;
+}
+
+FlowStatisticsMainForm QWidget#wndTabContainer QPushButton:checked
+{
+	color: #eeeeee;
+}
+
+FlowStatisticsMainForm QWidget#wndTabContainer QPushButton:hover
+{
+	color: #ffffff;
+}
+
+FlowStatisticsMainForm QWidget#wndTabContainer QPushButton:disabled
+{
+	color: #787878;
+}
+
+FlowStatisticsMainForm QWidget#wndTabContainer QPushButton
+{
+	border-width: 0 22px 0 9px;
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_pending.png) 0 22 0 9;
+}
+FlowStatisticsMainForm QWidget#wndTabContainer QPushButton:checked
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_current.png) 0 22 0 9;
+}
+

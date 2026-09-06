@@ -1,0 +1,12 @@
+AlarmCenterUI--AlarmListDetailDlg QWidget#AlarmListDetailDlg
+{
+	border-top: 1px solid #232629;
+	border-right: 1px solid #232629;
+	border-bottom: 1px solid #232629;
+}
+
+AlarmCenterUI--AlarmListDetailDlg QWidget#wgtBottom
+{
+	background-color: #35393E;
+	border-top: 1px solid #232629;
+}

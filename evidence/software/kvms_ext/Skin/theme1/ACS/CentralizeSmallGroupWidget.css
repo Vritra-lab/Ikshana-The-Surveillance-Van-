@@ -1,0 +1,54 @@
+AccessControlUI--CentralizeSmallGroupWidget  QWidget#wdtLeft[IsSelect = "false"] 
+{  
+	border:1px solid rgb(88,93,100);
+	border-bottom:none;
+	background-color: rgb(58,62,67);
+}
+
+AccessControlUI--CentralizeSmallGroupWidget  QWidget#wdtRight[IsSelect = "false"]
+{  
+	border-bottom:1px solid rgb(88,93,100); 
+}
+
+AccessControlUI--CentralizeSmallGroupWidget  QWidget#wdtTable[IsSelect = "false"] 
+{  
+	border:1px solid rgb(88,93,100); 
+	border-top:0px;
+} 
+
+AccessControlUI--CentralizeSmallGroupWidget  QWidget#wdtLeft[IsSelect = "true"] 
+{  
+	border:2px solid rgb(51,153,255);
+	border-bottom:none;
+	background-color: rgb(58,62,67);
+}
+
+AccessControlUI--CentralizeSmallGroupWidget  QWidget#wdtRight[IsSelect = "true"]
+{  
+	border-bottom:2px solid rgb(51,153,255); 
+}
+
+AccessControlUI--CentralizeSmallGroupWidget  QWidget#wdtTable[IsSelect = "true"] 
+{  
+	border:2px solid rgb(51,153,255); 
+	border-top:0px;
+} 
+
+AccessControlUI--CentralizeSmallGroupWidget  QPushButton#btnClose:disabled
+{
+	border-image: url(./Skin/theme1/ACS/CloseDisabled.png) 0 0 0 0;
+} 
+AccessControlUI--CentralizeSmallGroupWidget  QPushButton#btnClose:pressed
+{
+	border-image: url(./Skin/theme1/ACS/ClosePressed.png) 0 0 0 0;
+}
+
+AccessControlUI--CentralizeSmallGroupWidget  QPushButton#btnClose:hover
+{
+	border-image: url(./Skin/theme1/ACS/CloseHover.png) 0 0 0 0;
+}
+
+AccessControlUI--CentralizeSmallGroupWidget  QPushButton#btnClose
+{
+	border-image: url(./Skin/theme1/ACS/CloseNormal.png) 0 0 0 0;
+}

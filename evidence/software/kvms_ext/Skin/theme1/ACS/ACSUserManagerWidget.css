@@ -1,0 +1,304 @@
+QWidget#wgtTitle
+{ 
+	background-color:rgb(58,62,67);  
+}
+
+QPushButton#btnCardType
+{
+   background:transparent;
+   border:none;
+   text-align:center;
+   color:#fefefe;
+}
+
+QPushButton#btnCardType:hover,
+QPushButton#btnCardType:checked
+{
+   border-image:url(./Skin/theme1/common/button_imp.png) 0 280 0 0;
+   border-width:0 0 0 0;
+   margin: 0 0 0 0;
+   border:none;
+   text-align:center;
+   color:#ffffff;
+}
+
+QTreeWidget
+{   
+	background-color: #2b2f33 ;
+	color: #EEEEEE;
+	border:none;
+   	show-decoration-selected: 1 ; 
+}
+
+QTreeWidget:focus
+{  
+	outline:none;
+}
+QTreeWidget::branch
+{ 
+	image:none;
+	background-color: transparent; 
+}
+QTreeWidget::indicator
+{
+    width:20px;
+    height:20px;
+}
+
+QTreeWidget::item {
+	background-color: transparent;
+	height:30px;
+	color: #abb2bd;
+}
+
+QTreeWidget::item:hover ,QTreeWidget::branch:hover{
+	background-color:#35393e;
+}
+
+QTreeWidget::item:selected ,QTreeWidget::branch:selected{
+    color: #FFFFFF;
+	background-color:#595f69;
+}
+
+QTreeWidget::branch:closed:has-children:!has-siblings,
+QTreeWidget::branch:closed:has-children:has-siblings
+{
+	image: url(./Skin/DustyBlue/DSGui/View/normal_n.png);
+}
+
+QTreeWidget::branch:closed:has-children:!has-siblings:hover,
+QTreeWidget::branch:closed:has-children:has-siblings:hover
+{
+	image: url(./Skin/DustyBlue/DSGui/View/normal_h.png);
+}
+QTreeWidget::branch:closed:has-children:!has-siblings:pressed,
+QTreeWidget::branch:closed:has-children:has-siblings:pressed
+{
+	image: url(./Skin/DustyBlue/DSGui/View/normal_h.png);
+}
+QTreeWidget::branch:closed:has-children:!has-siblings:disabled,
+QTreeWidget::branch:closed:has-children:has-siblings:disabled
+{
+	image: url(./Skin/DustyBlue/DSGui/View/normal_n.png);
+}
+QTreeWidget::branch:open:has-children:!has-siblings,
+QTreeWidget::branch:open:has-children:has-siblings
+{
+	image: url(./Skin/DustyBlue/DSGui/View/advanced_n.png);
+}
+QTreeWidget::branch:open:has-children:!has-siblings:hover,
+QTreeWidget::branch:open:has-children:has-siblings:hover
+{
+	image: url(./Skin/DustyBlue/DSGui/View/advanced_h.png);
+}
+QTreeWidget::branch:open:has-children:!has-siblings:pressed,
+QTreeWidget::branch:open:has-children:has-siblings:pressed
+{
+	image: url(./Skin/DustyBlue/DSGui/View/normal_h.png);
+}
+QTreeWidget::branch:open:has-children:!has-siblings:disabled,
+QTreeWidget::branch:open:has-children:has-siblings:disabled
+{
+	image: url(./Skin/DustyBlue/DSGui/View/advanced_n.png);
+}
+
+
+QPushButton#m_btnAutoSendCard:disabled
+{
+	border-image: url(./Skin/theme1/ACS/AutoSendCard.png) 0 0 0 54;
+} 
+
+QPushButton#m_btnAutoSendCard:disabled
+{
+	border-image: url(./Skin/theme1/ACS/AutoSendCard.png) 0 0 0 54;
+} 
+QPushButton#m_btnAutoSendCard:pressed
+{
+	border-image: url(./Skin/theme1/ACS/AutoSendCard.png) 0 18 0 36;
+}
+
+QPushButton#m_btnAutoSendCard:hover
+{
+	border-image: url(./Skin/theme1/ACS/AutoSendCard.png) 0 36 0 18;
+}
+
+QPushButton#m_btnAutoSendCard
+{
+	border-image: url(./Skin/theme1/ACS/AutoSendCard.png) 0 54 0 0;
+}
+
+QPushButton#m_btnManaualSendCard:disabled
+{
+	border-image: url(./Skin/theme1/ACS/ManaualSendCard.png) 0 0 0 54;
+} 
+QPushButton#m_btnManaualSendCard:pressed
+{
+	border-image: url(./Skin/theme1/ACS/ManaualSendCard.png) 0 18 0 36;
+}
+
+QPushButton#m_btnManaualSendCard:hover
+{
+	border-image: url(./Skin/theme1/ACS/ManaualSendCard.png) 0 36 0 18;
+}
+
+QPushButton#m_btnManaualSendCard
+{
+	border-image: url(./Skin/theme1/ACS/ManaualSendCard.png) 0 54 0 0;
+}
+
+QPushButton#m_btnEdit:disabled
+{
+	border-image: url(./Skin/theme1/devmanage/modify.png) 0 0 0 54;
+} 
+QPushButton#m_btnEdit:pressed
+{
+	border-image: url(./Skin/theme1/devmanage/modify.png) 0 18 0 36;
+}
+
+QPushButton#m_btnEdit:hover
+{
+	border-image: url(./Skin/theme1/devmanage/modify.png) 0 36 0 18;
+}
+
+QPushButton#m_btnEdit
+{
+	border-image: url(./Skin/theme1/devmanage/modify.png) 0 54 0 0;
+}
+
+
+QPushButton#m_btnDelete:disabled
+{
+	border-image: url(./Skin/theme1/devmanage/delete.png) 0 0 0 54;
+} 
+QPushButton#m_btnDelete:pressed
+{
+	border-image: url(./Skin/theme1/devmanage/delete.png) 0 18 0 36;
+}
+
+QPushButton#m_btnDelete:hover
+{
+	border-image: url(./Skin/theme1/devmanage/delete.png) 0 36 0 18;
+}
+
+QPushButton#m_btnDelete
+{
+	border-image: url(./Skin/theme1/devmanage/delete.png) 0 54 0 0;
+}
+
+
+QPushButton#m_btnExport:disabled
+{
+	border-image: url(./Skin/theme1/devmanage/export.png) 0 0 0 54;
+} 
+QPushButton#m_btnExport:pressed
+{
+	border-image: url(./Skin/theme1/devmanage/export.png) 0 18 0 36;
+}
+
+QPushButton#m_btnExport:hover
+{
+	border-image: url(./Skin/theme1/devmanage/export.png) 0 36 0 18;
+}
+
+QPushButton#m_btnExport
+{
+	border-image: url(./Skin/theme1/devmanage/export.png) 0 54 0 0;
+}
+
+QPushButton#m_btnImport:disabled
+{
+	border-image: url(./Skin/theme1/devmanage/import.png) 0 0 0 54;
+} 
+QPushButton#m_btnImport:pressed
+{
+	border-image: url(./Skin/theme1/devmanage/import.png) 0 18 0 36;
+}
+
+QPushButton#m_btnImport:hover
+{
+	border-image: url(./Skin/theme1/devmanage/import.png) 0 36 0 18;
+}
+
+QPushButton#m_btnImport
+{
+	border-image: url(./Skin/theme1/devmanage/import.png) 0 54 0 0;
+}
+
+QPushButton#btnCardType[ButtonType = "0"]:disabled
+{
+	border-image: url(./Skin/theme1/ACS/btn_IDcard.png) 0 0 0 54;
+} 
+QPushButton#btnCardType[ButtonType = "0"]:pressed
+{
+	border-image: url(./Skin/theme1/ACS/btn_IDcard.png) 0 18 0 36;
+}
+
+QPushButton#btnCardType[ButtonType = "0"]:hover
+{
+	border-image: url(./Skin/theme1/ACS/btn_IDcard.png) 0 36 0 18;
+}
+
+QPushButton#btnCardType[ButtonType = "0"]
+{
+	border-image: url(./Skin/theme1/ACS/btn_IDcard.png) 0 54 0 0;
+}
+
+QPushButton#btnCardType[ButtonType = "1"]:disabled
+{
+	border-image: url(./Skin/theme1/ACS/btn_ICcard.png) 0 0 0 54;
+} 
+QPushButton#btnCardType[ButtonType = "1"]:pressed
+{
+	border-image: url(./Skin/theme1/ACS/btn_ICcard.png) 0 18 0 36;
+}
+
+QPushButton#btnCardType[ButtonType = "1"]:hover
+{
+	border-image: url(./Skin/theme1/ACS/btn_ICcard.png) 0 36 0 18;
+}
+
+QPushButton#btnCardType[ButtonType = "1"]
+{
+	border-image: url(./Skin/theme1/ACS/btn_ICcard.png) 0 54 0 0;
+}
+
+
+QPushButton#btnCardType[ButtonType = "2"]:disabled
+{
+	border-image: url(./Skin/theme1/ACS/btn_CPUcard.png) 0 0 0 54;
+} 
+QPushButton#btnCardType[ButtonType = "2"]:pressed
+{
+	border-image: url(./Skin/theme1/ACS/btn_CPUcard.png) 0 18 0 36;
+}
+
+QPushButton#btnCardType[ButtonType = "2"]:hover
+{
+	border-image: url(./Skin/theme1/ACS/btn_CPUcard.png) 0 36 0 18;
+}
+
+QPushButton#btnCardType[ButtonType = "2"]
+{
+	border-image: url(./Skin/theme1/ACS/btn_CPUcard.png) 0 54 0 0;
+}
+
+
+QPushButton#btnCardType[ButtonType = "3"]:disabled
+{
+	border-image: url(./Skin/theme1/ACS/btn_ID.png) 0 0 0 54;
+} 
+QPushButton#btnCardType[ButtonType = "3"]:pressed
+{
+	border-image: url(./Skin/theme1/ACS/btn_ID.png) 0 18 0 36;
+}
+
+QPushButton#btnCardType[ButtonType = "3"]:hover
+{
+	border-image: url(./Skin/theme1/ACS/btn_ID.png) 0 36 0 18;
+}
+
+QPushButton#btnCardType[ButtonType = "3"]
+{
+	border-image: url(./Skin/theme1/ACS/btn_ID.png) 0 54 0 0;
+}
+

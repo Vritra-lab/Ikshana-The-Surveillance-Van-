@@ -1,0 +1,96 @@
+AlarmCenterUI--QAlarmEventListsView QWidget#wgtAlarmEventInfo
+{
+	border-top: 1px solid #232629;
+	border-right: 1px solid #232629;
+	border-bottom: 1px solid #232629;
+}
+
+AlarmCenterUI--QAlarmEventListsView QWidget#wgtTop
+{
+	background-color: #35393E;
+	border-bottom: 1px solid #232629;
+}
+
+AlarmCenterUI--QAlarmEventListsView QWidget#wgtBatchHandle
+{
+	background-color: #35393E;
+	border-top: 1px solid #232629;
+}
+
+AlarmCenterUI--QAlarmEventListsView QPushButton#btnSetting
+{
+	background-color: #35393E;
+	border:none;
+	padding-left:26px;
+	padding-right:6px;
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/setting-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:right;
+}
+AlarmCenterUI--QAlarmEventListsView  QPushButton#btnSetting:disabled
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/setting-d.png);
+} 
+AlarmCenterUI--QAlarmEventListsView  QPushButton#btnSetting:pressed
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/setting-p.png);
+}
+AlarmCenterUI--QAlarmEventListsView  QPushButton#btnSetting:hover
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/setting-h.png);
+}
+
+AlarmCenterUI--QAlarmEventListsView QPushButton#btnBatchHandle
+{
+	background-color: #35393E;
+	border-left:1px solid #232629;
+	border:none;
+	padding-left:26px;
+	padding-right:6px;
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/BatchIssue-n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:right;
+}
+AlarmCenterUI--QAlarmEventListsView  QPushButton#btnBatchHandle:disabled
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/BatchIssue-d.png);
+} 
+AlarmCenterUI--QAlarmEventListsView  QPushButton#btnBatchHandle:pressed
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/BatchIssue-p.png);
+}
+AlarmCenterUI--QAlarmEventListsView  QPushButton#btnBatchHandle:hover
+{
+	background-image: url(./Skin/DustyBlue/AlarmCenterUI/BatchIssue-h.png);
+}
+
+AlarmCenterUI--QAlarmEventListsView DSPushButton#btnCancel,
+AlarmCenterUI--QAlarmEventListsView DSPushButton#btnCancel:focus
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/btn01-n.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #ffffff;
+    outline: none;
+	font-size:12px;
+}
+AlarmCenterUI--QAlarmEventListsView DSPushButton#btnCancel:hover
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/btn01-h.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+    outline: none;   
+}
+AlarmCenterUI--QAlarmEventListsView DSPushButton#btnCancel:pressed
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/btn01-p.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+    outline: none;
+}
+AlarmCenterUI--QAlarmEventListsView DSPushButton#btnCancel:disabled
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/btn01-d.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #ecf0f4;
+    outline: none;
+}

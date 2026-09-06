@@ -1,0 +1,58 @@
+DSGUI--DSLineEdit
+{
+	border-image:url(./Skin/DustyBlue/DSGui/LineEdit/bg-n.png) 2 6 2 6;
+	border-width: 2px 6px 2px 6px;
+	color:#abb2bd;
+} 
+
+DSGUI--DSLineEdit:hover
+{ 
+	border-image:url(./Skin/DustyBlue/DSGui/LineEdit/bg-p1.png) 2 6 2 6;
+} 
+
+DSGUI--DSLineEdit:pressed,
+DSGUI--DSLineEdit:focus
+{ 
+	border-image:url(./Skin/DustyBlue/DSGui/LineEdit/bg-n.png) 2 6 2 6;
+	outline:none;
+}
+
+DSGUI--DSLineEdit:hover:focus
+{ 
+	border-image:url(./Skin/DustyBlue/DSGui/LineEdit/bg-p1.png) 2 6 2 6;
+}
+
+DSGUI--DSLineEdit:disabled
+{ 
+	border-image:url(./Skin/DustyBlue/DSGui/LineEdit/bg-d.png)  2 6 2 6;
+}
+
+DSGUI--DSLineEdit[error=true]
+{ 
+	border-image:url(./Skin/DustyBlue/DSGui/LineEdit/bg-e.png)  2 6 2 6;
+}
+
+QLabel#DSLineEdit--m_pHintLab
+{
+	color:red;
+	font-size:12px;
+	font-weight:bold;
+	background:transparent;
+	padding-left:0;
+} 
+
+QToolButton#DSLineEdit--btnClear{
+	max-width:12px;
+	min-width:12px;
+	min-height:12px;
+	max-height:12px;
+    border: none;
+    outline: none;
+    background: url(./Skin/DustyBlue/DSGui/SearchEdit/clear_n.png) no-repeat center center;
+}
+QToolButton#DSLineEdit--btnClear:hover{
+    background: url(./Skin/DustyBlue/DSGui/SearchEdit/clear_h.png) no-repeat center center;
+}
+QToolButton#DSLineEdit--btnClear:pressed{
+    background: url(./Skin/DustyBlue/DSGui/SearchEdit/clear_p.png) no-repeat center center;
+}

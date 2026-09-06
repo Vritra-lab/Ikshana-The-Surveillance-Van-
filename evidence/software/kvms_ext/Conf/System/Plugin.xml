@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plugins>
+	<LogicalPlugin>
+		<Plugin id="DeviceFunctionLogical" name="DeviceFunctionLogical.dll"> </Plugin>
+	</LogicalPlugin>
+	<UIPlugin>
+		<Plugin id="AttendanceUI" type="1" name="AttendanceUI.dll" index="13" resolutionName="Attendance"> </Plugin>
+		<Plugin id="ConditionMonitorUI" type="1" name="ConditionMonitorUI.dll" index="20" resolutionName="Attendance"> </Plugin>
+		<Plugin id="PersonManagerUI" type="1" name="PersonManagerUI.dll" index="19" resolutionName="Attendance"> </Plugin>
+		<Plugin id="QuickWizardUI" type="2" name="QuickWizardUI.dll" index="23" resolutionName="Attendance"> </Plugin>
+		<Plugin id="PersonManagerUI" type="1" name="PersonManagerUI.dll" index="19" resolutionName="AccessControl"> </Plugin>
+		<Plugin id="AcsMainControlUI" type="1" name="AcsMainControlUI.dll" index="24" resolutionName="AccessControl"> </Plugin>
+		<Plugin id="ACSManagerUI" type="1" name="ACSManagerUI.dll" index="12" resolutionName="AccessControl"> </Plugin>
+		<Plugin id="ACSWizardUI" type="2" name="ACSWizardUI.dll" index="25" resolutionName="AccessControl"> </Plugin>
+		<Plugin id="DeviceConfigUI" type="0" name="DeviceConfigUI.dll" index="17" resolutionName="MainFrame"> </Plugin>
+		<Plugin id="SystemConfigUI" type="0" name="SystemConfigUI.dll" index="22" resolutionName="MainFrame"> </Plugin>
+		<Plugin id="UserManagerUI" type="0" name="UserManagerUI.dll"  index="21" resolutionName="MainFrame"> </Plugin>	
+		<Plugin id="LogSearchUI" type="3" name="LogSearchUI.dll" index="15" resolutionName="MainFrame"> </Plugin>
+		<Plugin id="DeviceManagerUI" type="3" name="DeviceManagerUI.dll" index="16" resolutionName="MainFrame"> </Plugin>	
+		<Plugin id="RealMonitorUI" type="1" name="RealMonitorUI.dll" index="0" resolutionName="Monitor"> </Plugin>	
+		<Plugin id="PlayBackUI" type="1" name="PlayBackUI.dll" index="6" resolutionName="Monitor"> </Plugin>
+		<Plugin id="AlarmConfigUI" type="3" name="AlarmConfigUI.dll" index="18" resolutionName="MainFrame"> </Plugin>
+		<Plugin id="AlarmCenterUI" type="0" name="AlarmCenterUI.dll" index="14" resolutionName="MainFrame"> </Plugin>
+		<Plugin id="VIMainControlUI" type="1" name="VIMainControlUI.dll" index="49" resolutionName="VideoIntercom"> </Plugin>
+		<Plugin id="VIRecUI" type="1" name="VIRecUI.dll" index="50" resolutionName="VideoIntercom"> </Plugin>
+		<Plugin id="VIntercomConfigUI" type="1" name="VIntercomConfigUI.dll" index="65" resolutionName="VideoIntercom"> </Plugin>
+		<Plugin id="PersonManagerUI" type="1" name="PersonManagerUI.dll" index="19" resolutionName="VideoIntercom"> </Plugin>
+	</UIPlugin> 
+</Plugins>

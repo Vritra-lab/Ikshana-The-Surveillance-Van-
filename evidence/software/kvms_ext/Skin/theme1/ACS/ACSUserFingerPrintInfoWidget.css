@@ -1,0 +1,71 @@
+QWidget#wdtFingerPic
+{
+	background-color:rgb(32,36,41); 
+	border: none;
+}
+
+QWidget#graphicsView
+{
+	background: rgb(219,221,225);
+}
+
+QTreeWidget#treeWidgetController 
+{
+     background-color:rgb(42,46,51); 
+}
+
+QWidget#tableViewFinger
+{
+	border:1px solid rgb(88,93,100); 
+}
+
+QTreeWidget::item:hover ,QTreeWidget::branch:hover{
+	background-color:#35393e;
+}
+
+QTreeWidget::item:selected ,QTreeWidget::branch:selected{
+    color: #FFFFFF;
+	background-color:#595f69;
+}
+
+QTreeWidget::branch:closed:has-children:!has-siblings,
+QTreeWidget::branch:closed:has-children:has-siblings
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_n.png);
+}
+
+QTreeWidget::branch:closed:has-children:!has-siblings:hover,
+QTreeWidget::branch:closed:has-children:has-siblings:hover
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+QTreeWidget::branch:closed:has-children:!has-siblings:pressed,
+QTreeWidget::branch:closed:has-children:has-siblings:pressed
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+QTreeWidget::branch:closed:has-children:!has-siblings:disabled,
+QTreeWidget::branch:closed:has-children:has-siblings:disabled
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_n.png);
+}
+QTreeWidget::branch:open:has-children:!has-siblings,
+QTreeWidget::branch:open:has-children:has-siblings
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_n.png);
+}
+QTreeWidget::branch:open:has-children:!has-siblings:hover,
+QTreeWidget::branch:open:has-children:has-siblings:hover
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_h.png);
+}
+QTreeWidget::branch:open:has-children:!has-siblings:pressed,
+QTreeWidget::branch:open:has-children:has-siblings:pressed
+{
+	image: url(./Skin/theme1/ViewListCtrl/normal_h.png);
+}
+QTreeWidget::branch:open:has-children:!has-siblings:disabled,
+QTreeWidget::branch:open:has-children:has-siblings:disabled
+{
+	image: url(./Skin/theme1/ViewListCtrl/advanced_n.png);
+}

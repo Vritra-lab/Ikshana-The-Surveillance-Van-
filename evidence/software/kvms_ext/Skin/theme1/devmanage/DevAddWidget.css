@@ -1,0 +1,49 @@
+﻿
+QWidget#wgtBtns
+{
+	background:#0c111a;
+}
+
+QPushButton#btnAllDevice,
+QPushButton#btnEncodeDevice,
+QPushButton#btnDecodeDevice,
+QPushButton#btnMatrixDevice,
+QPushButton#btnControllerDevice,
+QPushButton#btnACSDevice,
+QPushButton#btnVDPDevice,
+QPushButton#btnAlarmHostDevice,
+QPushButton#btnAttendanceDevice
+{
+    background:transparent;
+	border:none;
+	color:#aaaaaa;
+}
+QPushButton#btnAllDevice:pressed,
+QPushButton#btnEncodeDevice:pressed,
+QPushButton#btnDecodeDevice:pressed,
+QPushButton#btnMatrixDevice:pressed,
+QPushButton#btnControllerDevice:pressed,
+QPushButton#btnACSDevice:pressed,
+QPushButton#btnVDPDevice:pressed,
+QPushButton#btnAlarmHostDevice:pressed,
+QPushButton#btnAttendanceDevice:pressed,
+QPushButton#btnAllDevice:checked,
+QPushButton#btnEncodeDevice:checked,
+QPushButton#btnDecodeDevice:checked,
+QPushButton#btnMatrixDevice:checked,
+QPushButton#btnControllerDevice:checked,
+QPushButton#btnACSDevice:checked,
+QPushButton#btnVDPDevice:checked,
+QPushButton#btnAlarmHostDevice:checked,
+QPushButton#btnAttendanceDevice:checked
+{
+   background:transparent;
+   border:none;
+   border-bottom:4px solid #00b0ff;
+   color:#ffffff;
+}
+
+DevAddWidget
+{
+	background:#3a3e43;
+}

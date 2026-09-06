@@ -1,0 +1,43 @@
+
+UICommonMdl--PSNoImpPushButton
+{
+	width:70px;
+	height:24px;
+	border-image: none;
+    padding: 0;
+	/*border: 1px solid #1f2126;*/
+	border-radius: 2px;
+	background-color: #4d535b;
+	color: #ffffff;
+    outline: none;
+	font-size:12px;
+}
+UICommonMdl--PSNoImpPushButton:hover
+{
+	border-image: none;
+    padding: 0;
+	/*border: 1px solid #1f2126;*/
+	border-radius: 2px;
+	background-color: #53585e;
+	color: #ffffff;
+    outline: none; 
+}
+UICommonMdl--PSNoImpPushButton:pressed
+{
+	border-image: none;
+    padding: 0;
+	/*border: 1px solid #1f2126;*/
+	border-radius: 2px;
+	background-color: #53585e;
+	color: #ffffff;
+    outline: none;
+}
+UICommonMdl--PSNoImpPushButton:disabled
+{
+	border-image: none;
+    padding: 0;
+	border-radius: 2px;
+	background-color: #41464b;
+	color: #5a6068;
+    outline: none;
+}

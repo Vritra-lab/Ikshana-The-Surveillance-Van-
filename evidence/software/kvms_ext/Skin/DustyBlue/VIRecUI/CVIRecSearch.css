@@ -1,0 +1,24 @@
+QWidget#bgVIRecSearch
+{
+	border: 1px solid #222528;
+}
+
+QWidget#wgtSearchTittle
+{
+	background-color:#35393e;
+	border-bottom: 1px solid #222528;
+}
+
+QWidget#wgtSearchKey
+{
+	background-color:#35393e;
+	border-top: 1px solid #222528;
+}
+
+QLabel#labTittle
+{
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 36px;
+	color: #c2cad7;
+}

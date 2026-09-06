@@ -1,0 +1,17 @@
+QLabel#pixUpgradeTip
+{
+	border-image:url(./Skin/DustyBlue/DeviceConfigUI/RedTip.png);
+}
+
+QProgressBar
+{
+	height:16px; 
+	background-color:#232629;
+	border:1px solid #232629;
+}
+
+QProgressBar::chunk
+{
+	border:none;
+	background-color:#3598db;
+}

@@ -1,0 +1,5925 @@
+Mobile Network Video Recorder
+User Manual
+
+V1.0.0
+
+Regulatory Information
+The regulatory information herein might vary according to the model you purchased. Some information is
+only applicable for the country or region where the product is sold.
+
+FCC Information
+
+Changes or modifications not expressly approved by the party responsible for
+compliance could void the user's authority to operate the equipment.
+
+FCC conditions:
+This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions:
+
+
+This device may not cause harmful interference.
+
+
+
+This device must accept any interference received, including interference that may cause undesired
+operation.
+
+FCC compliance:
+This equipment has been tested and found to comply with the limits for a digital device, pursuant
+to part 15 of the FCC Rules. This equipment generates, uses and can radiate radio frequency
+energy and, if not installed and used in accordance with the guide, may cause harmful interference
+to radio communication.
+
+
+For class A devices, these limits are designed to provide reasonable protection against harmful
+interference in a commercial environment. Operation of this equipment in a residential area is likely
+to cause harmful interference in which case the user will be required to correct the interference at
+his own expense.
+
+
+
+For class B devices, these limits are designed to provide reasonable protection against harmful
+interference in a residential installation. However, there is no guarantee that interference will not
+occur in a particular installation. If this equipment does cause harmful interference to radio or
+television reception, which can be determined by turning the equipment off and on, the user is
+encouraged to try to correct the interference by one or more of the following measures:
+
+
+
+Reorient or relocate the receiving antenna.
+
+
+
+Increase the separation between the equipment and receiver.
+
+
+
+Connect the equipment into an outlet on a circuit different from that to which the receiver is
+connected.
+
+
+
+Consult the dealer or an experienced radio/TV technician for help.
+
+Cybersecurity Recommendations
+
+Mandatory actions to be taken towards cybersecurity.
+1. Change Passwords and Use Strong Passwords:
+The number one reason systems get “hacked” is due to having weak or default passwords. It is
+recommended to change default passwords immediately and choose a strong password whenever
+possible. A strong password should be made up of at least 8 characters and a combination of special
+characters, numbers, and upper- and lower-case letters.
+2.Update Firmware
+As is standard procedure in the tech industry, we recommend keeping NVR, DVR, and IP camera
+firmware up to date to ensure the system is current with the latest security patches and fixes. “Nice
+to have” recommendations to improve your network security.
+1.Change Passwords Regularly
+Regularly change the credentials to your devices to help ensure that only authorized users can access the
+system.
+2.Change Default HTTP and TCP Ports:
+● Change default HTTP and TCP ports for systems. These are the two ports used to communicate and to
+view video feeds remotely.
+● These ports can be changed to any set of numbers between 1025-65535. Avoiding the default ports
+reduces the risk of outsiders being able to guess which ports you are using.
+3.Enable HTTPS/SSL:
+Set up an SSL Certificate to enable HTTPS. This will encrypt all communication between your devices and
+recorder.
+4.Enable IP Filter:
+Enabling your IP filter will prevent everyone, except those with specified IP addresses, from accessing
+the system.
+5.Change ONVIF Password:
+On older IP Camera firmware, the ONVIF password does not change when you change the system’s
+credentials. You will need to either update the camera’s firmware to the latest revision or manually
+change the ONVIF password.
+6.Forward Only Ports You Need:
+● Only forward the HTTP and TCP ports that you need to use. Do not forward a huge range of numbers to the
+device. Do not DMZ the device's IP address.
+● You do not need to forward any ports for individual cameras if they are all connected to a recorder on
+site; just the NVR is needed.
+7.Disable Auto-Login on KVMS PRO:
+Those using KVMS PRO to view their system and on a computer that is used by multiple people should
+disable auto-login. This adds a layer of security to prevent users without the appropriate credentials from
+accessing the system.
+8.Use a Different Username and Password for KVMS PRO:
+If your social media, bank, email, etc. account is compromised, you would not want someone collecting those passwords
+and trying them out on your video surveillance system. Using a different username and password for your security
+system will make it more difficult for someone to guess their way into your system.
+
+9. Limit Features of Guest Accounts:
+If your system is set up for multiple users, ensure that each user only has rights to features and functions
+they need to use to perform their job.
+10. UPnP:
+
+
+UPnP will automatically try to forward ports in your router or modem. Normally this would be a good
+thing. However, if your system automatically forwards the ports and you leave the credentials defaulted,
+you may end up with unwanted visitors.
+
+
+
+If you manually forwarded the HTTP and TCP ports in your router/modem, this feature should be
+turned off regardless. Disabling UPnP is recommended when the function is not used in real
+applications.
+
+11. SNMP:
+Disable SNMP if you are not using it. If you are using SNMP, you should do so only temporarily, for
+tracing and testing purposes only.
+12. Multicast:
+Multicast is used to share video streams between two recorders. Currently there are no known issues
+involving Multicast, but if you are not using this feature, deactivation can enhance your network security.
+13. Check the Log:
+If you suspect that someone has gained unauthorized access to your system, you can check the system log.
+The system log will show you which IP addresses were used to login to your system and what was accessed.
+14. Physically Lock Down the Device:
+Ideally, you want to prevent any unauthorized physical access to your system. The best way to achieve this
+is to install the recorder in a lockbox, locking server rack, or in a room that is behind a lock and key.
+15. Connect IP Cameras to the PoE Ports on the Back of an NVR:
+Cameras connected to the PoE ports on the back of an NVR are isolated from the outside world and
+cannot be accessed directly.
+16. Isolate NVR and IP Camera Network
+The network your NVR and IP camera resides on should not be the same network as your public
+computer network. This will prevent any visitors or unwanted guests from getting access to the same
+network the security system needs to function properly.
+
+Foreword
+Models
+
+CP-UNR-404T1-AI Series
+CP-UNR-408T2-AI Series
+
+Safety Instructions
+The following categorized signal words with defined meaning might appear in the manual.
+
+Signal Words
+
+Meaning
+Indicates a high potential hazard which, if not avoided, will result in death or
+
+DANGER
+
+serious injury.
+Indicates a medium or low potential hazard which, if not avoided, could result in
+
+WARNING
+
+CAUTION
+
+slight or moderate injury.
+Indicates a potential risk which, if not avoided, could result in property damage,
+data loss, reductions in performance, or unpredictable results.
+
+TIPS
+
+Provides methods to help you solve a problem or save time.
+
+NOTE
+
+Provides additional information as a supplement to the text.
+
+Revision History
+Version
+V1.0.1
+V1.0.0
+
+Revision Content
+Add AI setting and modify the screenshot of the WEB
+
+interface.
+First release.
+
+Release date
+June 2022
+November 2021
+
+Privacy Protection Notice
+As the device user or data controller, you might collect the personal data of others such as their face, fingerprints,
+and license plate number. You need to be in compliance with your local privacy protection laws and
+regulations to protect the legitimate rights and interests of other people by implementing measures which
+include but are not limited: Providing clear and visible identification to inform people of the existence of the
+surveillance area and provide required contact information.
+
+About the Manual
+ೠ
+
+The manual is for reference only. Slight differences might be found between the manual and the product.
+
+ೠ
+
+We are not liable for losses incurred due to operating the product in ways that are not in
+compliance with the manual.
+
+ೠ
+
+The manual will be updated according to the latest laws and regulations of related jurisdictions.
+
+For detailed information, see the paper user’s manual, use our CD-ROM, scan the QR code or visit our
+official website. The manual is for reference only. Slight differences might be found between the
+electronic version and the paper version.
+ೠ
+
+All designs and software are subject to change without prior written notice. Product updates might
+result in some differences appearing between the actual product and the manual. Please contact
+customer service for the latest program and supplementary documentation.
+
+ೠ
+
+There might be errors in the print or deviations in the description of the functions, operations, and
+technical data. If there is any doubt or dispute, we reserve the right of final explanation.
+
+ೠ
+
+Upgrade the reader software or try other mainstream reader software if the manual (in PDF format)
+cannot be opened.
+
+ೠ
+
+All trademarks, registered trademarks and company names in the manual are properties of their
+respective owners.
+
+ೠ
+
+Please visit our website, contact the supplier or customer service if any problems occur while using the
+device.
+
+ೠ
+
+If there is any uncertainty or controversy, we reserve the right of final explanation.
+
+Important Safeguards and Warnings
+This chapter describes the contents covering proper handling of the Recorder, hazard prevention, and
+prevention of property damage. Read these contents carefully before using the Recorder, comply with
+them when using, and keep it well for future reference.
+
+Requirements
+ೠ
+
+Do not place or install the Recorder near a heat source or where there is direct sunshine.
+
+ೠ
+
+Do not install the Recorder in a humid, dusty, or smoggy place.
+
+ೠ
+
+Install the Recorder horizontally or in a stable place. Take measures to prevent it from falling.
+
+ೠ
+
+Do not drip or splash liquid onto the Recorder. Make sure that the Recorder does not bear any objects
+filled with liquid to prevent liquid from flowing into the Recorder.
+
+ೠ
+
+Prevent foreign objects from entering the Recorder, which might result in damage.
+
+ೠ
+
+Install the Recorder in a place with good ventilation. Do not clog the air vents of the Recorder.
+
+ೠ
+
+Use the Recorder only within the rated input and output range.
+
+ೠ
+
+Do not dismantle the Recorder without permission.
+
+ೠ
+
+Do not transport the Recorder with the front panel on the bottom.
+
+ೠ
+
+Transport, use and store the Recorder under the allowed humidity and temperature conditions.
+
+ೠ
+
+Do not expose the Recorder to water or excessive moisture when washing the car. A failure to follow this
+instruction might result in short circuit, fire, or other malfunctions.
+
+ೠ
+
+The dust on the circuit board will cause short circuits, which affect the normal operation of the Recorder
+and even damage the Recorder. To make the Recorder work stably for a long time, please regularly use
+the brush to remove the dust from components, including circuit board, connectors, and chassis.
+
+ೠ
+
+Keep the Recorder installed horizontally and make sure the internal anti-vibration components work
+properly.
+
+ೠ
+
+Unlock the HDD box before pulling it out; otherwise, there might cause damage to the Recorder.
+
+ೠ
+
+After all the cables are connected, tie up the cables to avoid the dangers such as short circuit, heat and
+
+electric shock resulting from loose cables.
+ೠ
+
+When a Recorder relates to a car mount display, mount the camera at least 2m away from the display.
+If the camera and display are too close, tune down the volume of the car mount display to avoid
+squealing.
+
+Power Requirements
+ೠ
+
+Use the battery exactly as prescribed; otherwise, the battery might catch fire or explode!
+
+ೠ
+
+Always replace them with the same type of batteries!
+
+ೠ
+
+Use the wires (power cords) recommended for the region where the Recorder is used within the specified
+range of specifications!
+
+ೠ
+
+The appliance coupler is a disconnection Recorder. Keep a convenient angle when using it.
+
+ೠ
+
+Take care to complete the circuit connection. A failure to follow this instruction might result in Recorder
+damage.
+
+ೠ
+
+Prevent short circuits from occurring on all external wiring parts.
+
+ೠ
+
+After all the lines connections are completed, you can start connecting the power cable.
+
+ೠ
+
+Ensure the project is well grounded to avoid interference to video and audio signals and avoid
+electrostatic or induced voltage to damage the Recorder.
+
+ೠ
+
+Unplug the power cable before you remove the audio/video signal cable, RS-232 or RS-485 cable;
+otherwise, these ports might be damaged.
+
+Table of Contents
+Foreword ......................................................................................................................................................................... 5
+Important Safeguards and Warnings........................................................................................................................................... 6
+1 Product Introduction ....................................................................................................................................................... 11
+Overview ........................................................................................................................................................................ 11
+Functions........................................................................................................................................................................ 11
+2 Dimensions and Installation ............................................................................................................................................... 13
+Out-of-box Check ............................................................................................................................................................... 13
+Recorder Structure ............................................................................................................................................................. 13
+2.2.1 Front Panel............................................................................................................................................................ 13
+2.2.2 Rear Panel ............................................................................................................................................................. 14
+2.2.3 Port Description .................................................................................................................................................... 16
+2.2.4 Dimensional drawing............................................................................................................................................... 19
+Installation ...................................................................................................................................................................... 21
+2.3.1 Installing HDD ........................................................................................................................................................ 21
+2.3.2 Installing SIM Card and SD Card ..................................................................................................................................... 25
+2.3.3 Installing Antenna ................................................................................................................................................... 26
+2.3.4 Fixing the Recorder ................................................................................................................................................... 28
+2.3.5 Connecting to Power Cables ........................................................................................................................................ 29
+Audio and Video Input and Output Connection ............................................................................................................................ 31
+2.4.1 About audio and video input ...................................................................................................................................... 31
+2.4.2 About audio and video output .................................................................................................................................... 33
+Alarm Input and Output Connection ......................................................................................................................................... 33
+2.5.1 Alarm Input Type ...................................................................................................................................................... 34
+2.5.2 Alarm Input Port ...................................................................................................................................................... 34
+3 Basic Settings ................................................................................................................................................................ 35
+Booting up Recorder ........................................................................................................................................................... 35
+Initializing Recorder ............................................................................................................................................................ 35
+Logging in to Recorder ......................................................................................................................................................... 37
+Configuring IP Address .......................................................................................................................................................... 38
+Configuring General Settings ................................................................................................................................................. 39
+3.5.1 Setting General Information ........................................................................................................................................ 39
+3.5.2 Date andTime Settings............................................................................................................................................... 40
+Configuring Remote Recorders ............................................................................................................................................... 41
+3.6.1 Initializing the Remote Recorder ................................................................................................................................... 41
+3.6.2 Adding a Remote Recorder ......................................................................................................................................... 44
+3.6.3 Modifying IP Address of Remote Recorder ...................................................................................................................... 46
+Configuring Record ............................................................................................................................................................ 47
+Storage Plan ..................................................................................................................................................................... 48
+3.8.1 Configuring Recording Schedule .................................................................................................................................. 48
+3.8.2 Configuring Snapshot Schedule ................................................................................................................................... 49
+4 Function Modules Operations ............................................................................................................................................. 51
+Live ................................................................................................................................................................................ 51
+
+4.1.2 Live Channels ........................................................................................................................................................ 52
+4.1.3 Voice Talk .............................................................................................................................................................. 53
+4.1.4 PTZ Control............................................................................................................................................................ 54
+Record Playback ................................................................................................................................................................ 58
+4.2.1 Playback Control Bar ................................................................................................................................................. 59
+4.2.2 Playing Back Video Recordings ..................................................................................................................................... 59
+4.2.3 Clipping Recording File .............................................................................................................................................. 61
+Viewing Alarm Info .............................................................................................................................................................. 61
+5 System Settings ............................................................................................................................................................. 62
+Configuring Alarm Event Settings............................................................................................................................................. 62
+5.1.1 Configuring Video Detect Settings ................................................................................................................................ 62
+5.1.2 Configuring Alarm Input Settings.................................................................................................................................. 66
+5.1.3 Configuring Exception ............................................................................................................................................. 67
+5.1.4 Configuring Alarm Out Settings ................................................................................................................................... 69
+Configuring AI Settings ......................................................................................................................................................... 70
+5.2.2 Face Detection and Recognition.................................................................................................................................... 72
+Backing up File ................................................................................................................................................................... 87
+Configuring Display Output Settings ........................................................................................................................................ 89
+5.4.1 Configuring Live Audio............................................................................................................................................... 89
+5.4.2 Configuring Tour Settings ........................................................................................................................................... 89
+5.4.3 Configuring TV Adjustment......................................................................................................................................... 90
+5.4.4 Configuring Video Mirror Settings ................................................................................................................................ 91
+Configuring Camera Parameters ............................................................................................................................................. 91
+5.5.1 Configuring Camera Properties .................................................................................................................................... 92
+5.5.2 Configuring Encode Parameters................................................................................................................................... 93
+5.5.3 Configuring PTZ Settings ............................................................................................................................................ 96
+5.5.4 Viewing PoE........................................................................................................................................................... 97
+Configuring Network Parameters ............................................................................................................................................ 98
+5.6.1 Configuring Connection Settings.................................................................................................................................. 98
+5.6.2 Configuring Wireless Network Settings........................................................................................................................... 99
+5.6.3 Configuring Cellular Settings ..................................................................................................................................... 102
+5.6.4 Configuring Email Settings ........................................................................................................................................ 103
+5.6.5 Configuring Auto Register Settings .............................................................................................................................. 105
+5.6.6 Configuring Instaon Settings ..................................................................................................................................... 106
+5.6.7 Configuring Operation Platform ................................................................................................................................ 107
+Managing Storage Device ................................................................................................................................................... 108
+5.7.1 Configuring Basic Information.................................................................................................................................... 108
+5.7.2 Managing Disk ..................................................................................................................................................... 109
+5.7.3 Configuring FTP Settings .......................................................................................................................................... 109
+Configuring System .......................................................................................................................................................... 111
+5.8.1 Security ............................................................................................................................................................. 111
+5.8.2 Configuring Vehicle Settings ...................................................................................................................................... 114
+5.8.3 Configuring Serial Port Parameters .............................................................................................................................. 116
+Managing User Account ..................................................................................................................................................... 117
+5.9.1 User Management ............................................................................................................................................... 118
+
+5.9.2 Group Management............................................................................................................................................. 120
+5.9.3 Resetting Password .............................................................................................................................................. 121
+6 System Upgrade .......................................................................................................................................................... 122
+Viewing System Version ...................................................................................................................................................... 122
+Upgrading System Firmware ................................................................................................................................................ 122
+7 System Maintenance ..................................................................................................................................................... 123
+Maintenance Requirement ................................................................................................................................................ 123
+Viewing System Information ................................................................................................................................................. 123
+7.2.1 Viewing Log ......................................................................................................................................................... 123
+7.2.2 Viewing Network Information .................................................................................................................................... 124
+7.2.3 Viewing Disk Information .......................................................................................................................................... 124
+7.2.4 Viewing Satellite Information..................................................................................................................................... 125
+Auto Maintenance ........................................................................................................................................................... 126
+7.3.1 Restarting System ................................................................................................................................................ 126
+7.3.2 Configuring Auto Start ............................................................................................................................................ 127
+7.3.3 Configuring Auto Shutdown ..................................................................................................................................... 127
+7.3.4 Delay for Auto Shutdown ......................................................................................................................................... 128
+Backing Up and Restoring .................................................................................................................................................... 128
+7.4.1 Backing Up Configuration ......................................................................................................................................... 128
+7.4.2 Importing and Exporting Files ................................................................................................................................... 129
+7.4.3 Restoring to Default ................................................................................................................................................ 130
+Network Sniffer .............................................................................................................................................................. 131
+8 Operating by EMSS PRO .................................................................................................................................................. 132
+9 FAQ 132
+MouseOperations .......................................................................................................................... 137
+Disk Capacity Calculation .................................................................................................................. 138
+Cybersecurity Recommendations ........................................................................................................ 138
+
+1 Product Introduction
+Overview
+CP-UNR-404T1/408T2-AI series mobile video monitoring products are developed on the new generation of
+platform, integrating video, locating, and driving recording.
+Features:
+ೠ
+
+Supporting up to four/eight routes of remote video input, and 4MP resolution.
+
+ೠ
+
+The use of H.265 encoding ensures high encoding efficiency and saves storage space.
+
+ೠ
+
+Netcom wireless network modules are built in after full consideration of network application needs of
+car mount products.
+
+ೠ
+
+The use of professional car-mount design in standard size features low power consumption and novel
+shape.
+
+ೠ
+
+Wide power voltage range adapts to various car mount power supply.
+
+ೠ
+
+The unique HDD and SD car storage design makes recording backup and management easier.
+
+ೠ
+
+This product can be widely used for car mount monitoring in public transportation, long-range passenger
+transport, police patrol, urban management patrol, cash carriers, hazardous goods transport, and
+logistics transport, or video monitoring in harsh environments.
+
+Functions
+Function
+Storage
+
+Description
+Stores the data in the dedicated format which cannot be falsified and
+ensure the data security.
+Supports multi-channel audio and video signals, and each channel signal supports
+
+Compression
+
+real-time compression by independent hardware to realize the
+sync between sound and image.
+
+
+Backup
+
+Plug in a USB storage device (such as USB flash disk and mobile HDD) to
+back up.
+
+
+
+You can back up the data by downloading the files from the device
+
+
+
+HDD and SD card through Internet
+Every channel supports real-time and independent recording, and you can
+play backward, monitor on Internet, query, and download recordings.
+
+Video playback
+
+
+
+Supports several playback modes:
+
+Slow playback, fast playback,
+
+backward playback, and frame-by-frame playback.
+
+
+Displays the accurate time when the event occurred during playback.
+
+Operation through
+
+Supports remote operations through network, such as real-time remote
+
+Network
+
+monitoring, recorded video search and playback, and PTZ control
+
+Function
+
+Description
+
+
+Provides eight routes of electric level alarm inputs that can connect to signals
+such as car door signal, cornering lamp signal, reversing and braking
+signal, to give an indication and take a record.
+
+Alarm linkage
+
+
+
+Supports one route of electric level alarm output to realize easy alarm
+linkage.
+
+Communication
+interfaces
+Smart operations
+Satellite positioning
+Cellular, Wi-Fi
+networks
+Removable HDD
+
+
+
+
+
+Supports protective circuit for alarm input port and alarm output port,
+
+
+
+
+which protect the Device from damage.
+Offers RS-485 interfaces to connect with external devices.
+Offers RS-232 interfaces to connect with external car mount display
+Offers standard Ethernet ports that support remote network accessing
+
+Mouse operations
+
+The same settings in the menu can be quickly copied and pasted.
+Supports positioning function and recording linkage. Recording search can
+be linked with vehicle moving track
+Adopts the latest wireless communication technology, which has improved.
+the manageability of the Device.
+The extractable and seismic design makes you lock and move the HDD easily to realize
+data backup. Just connect the removable HDD to the USB port of PC, you can perform
+data-related operations conveniently.
+To cope with the low-bandwidth and instability of wireless network, the Device
+adopts the dual stream technology (respectively encode the
+
+Dual stream
+
+Rollover and collision
+detection
+
+real-time video and encode video in network transmission) to optimize the
+coding of network transmission, which improves the control capability of wireless
+network transmission
+The integrated gyroscope supports detections of rollover, collision, rapid turn, rapid
+speedup, sharp brake, ACC power off and timely releases alarms through the
+platform.
+
+2 Dimensions and Installation
+Describes the installation of hardware. Prior to installation, you need to know about the front panel, rear panel,
+structural sizes, and interface definition of the device. Then you can install corresponding HDD, SIM card, SD card,
+antenna, and devices.
+
+Out-of-box Check
+When you receive the Device, unpack the box for checks.
+Firstly, check if there is any damage to the Device appearance (although the packing materials are specially
+selected for protecting the Device from most of accidental hit during transportation). Secondly, open the
+accessory box to check if the accessories are complete against the packing list.
+Instructions about front panel, rear panel, and labels:
+ೠ
+
+The functions of indicator lights and ports are described in the later chapter of the Manual.
+
+ೠ
+
+The labels on the Device are very important for our after-sales service. To ensure the after-sales service, keep
+thelabelswell, anddonottearorthrow them away.You need to provide the serial number of the product when
+calling the after-sales service.
+
+Recorder Structure
+2.2.1 Front Panel
+Describes the functions of the indicators and interfaces of the front panel.
+Figure 2-1 Front Panel
+
+Table 2-1 Descriptions of interfaces and indicators
+
+No.
+
+Name
+RJ-45 network port
+
+Descriptions of interfaces and indicators
+One network port.
+
+1
+USB interface
+
+Two USB ports that connect to peripheral devices such as USB.
+storage device and mouse.
+
+
+2
+
+Lock switch (Device
+switch)
+
+3
+
+PWR
+
+When pulling out HDD, the Device must be unlocked, and if the
+Device is turned on, it will shut down automatically.
+
+ To protect the HDD, this Device cannot be turned on if it is
+ unlocked. Turning on the device only after locking it
+The red light is always on when the Device is powered on, and off.
+when the Device is powered off
+
+4
+
+REC
+
+5
+
+HDD
+
+6
+
+ALM
+
+7
+
+IR
+
+Recording status indicator. The blue light is always on when
+recording, and off when not
+HDD status indicator. The blue light is always on when there is an
+HDD installed, and off when there is no HDD
+Alarm status indicator. The blue light is always on when alarms
+occur, and off when not
+Receives infrared signal from remote control.
+GPS status indicator. Glows blue when positioning is successful, and the
+indicator is off when positioning fails.
+
+8
+
+GPS
+
+This function is supported on the Device with GPS positioning
+module.
+3G status indicator. Glows blue when 3G dial-up is working
+properly, and the indicator is off when 3G function is not enabled.
+
+9
+
+3G
+This function is supported on the Device with 3G module.
+Wi-Fi status indicator. Glows blue when Wi-Fi connection is correct,
+
+10
+
+Wi-Fi
+
+and the indicator is off when Wi-Fi is disconnected.
+This function is supported on the Device with Wi-Fi module.
+
+2.2.2 Rear Panel
+Describes the interface functions of the rear panel.
+The illustration of the rear panels of the Device. See Figure 2-2 and Figure 2-3. Figure 2-2 describes interface
+functions. For interface definitions, see “2.2.3Port Description”.
+
+Figure 2-2 CP -UNR-404T1-AI rear panel
+
+Figure 2-3 CP-UNR-408T2-AI rear panel
+
+Table 2-2 Descriptions of rear panel interfaces
+
+No.
+
+Name
+
+Function
+Connects with positioning antenna for receiving satellite positioning signals
+
+1
+
+Positioning antenna
+port
+
+This function is supported on the Device with positioning module
+Connects to Wi-Fi antenna and receives Wi-Fi signals.
+
+2
+
+3
+
+4
+
+Wi-Fi antenna port
+
+3G/4G antenna port
+
+VGA interface
+
+This function is supported on the Device with Wi-Fi
+Connects to 3G/4G antenna for receiving cellular signals.
+
+module.
+
+This function is supported on the Device with cellular modules.
+Outputs analog video data to the connected display with VGA port.
+For details, see “VGA Port”introduction.
+
+Connects to the display with audio function on the vehicle for
+
+5
+
+simultaneously video and audio data output. For details, see the "A/V
+
+AV OUT port
+
+OUT port”introduction
+
+No.
+
+Name
+
+Function
+
+6
+
+RS-485
+
+7
+
+RS-232 interface
+
+8
+
+RS-485 communication port.
+Connects to external RS-232 devices. For details, see the “RS-232
+
+CH1-4
+
+interface”introduction
+Connects to IP camera.
+
+CH5-8
+
+Different devices corresponds to different number of channels
+
+
+Connects to DC 6V-DC 36V power supply for getting power from the
+car accumulator.
+
+9
+
+
+
+Power cable
+
+The red end with fuse is the anode of the power supply
+(always-live wire)
+
+
+
+The black wire is the ground wire.
+
+
+
+
+The orange one is the ACC signal (key starting wire)
+Alarm input/output port: Includes alarm input/output port, grounding,
+and 12V output port. For details, see “2.5Alarm Input and Output
+
+10
+
+ALARM/CAN/485
+
+Connection.”
+
+
+CAN port: Used for data transfer between the Device and vehicle CAN
+network or other devices with CAN port.
+
+ A, B: Controls PTZ operations.
+Connects to voice talk device. For details, see “Voice Talk Port”
+
+11
+
+Voice talk port
+
+12
+
+EXTEND port
+
+introduction.
+See “EXTEND Port”introduction.
+
+13
+
+HDMI interface
+
+Used to connect with HDMI display
+
+2.2.3 Port Description
+This Manual only describes functions of all jacks of each interface. You can follow these descriptions to prepare
+cables or contact our sales staff for purchasing cables.
+
+2.2.3.1 Power Input
+Figure 2-4 Power input interface
+
+Table 2-3 Power input interfaces (left to right)
+
+Cable color
+Red
+
+Pins
+Anode input
+
+Black
+
+Ground
+
+Cable color
+Orange
+
+Pins
+ACC signal input
+
+2.2.3.2 VGA interface
+Figure 2-5 VGA interface
+
+No.
+
+Function
+
+No.
+
+Function
+
+No.
+
+Function
+
+1
+
++12V/1A output
+
+5
+
+Audio output
+
+9
+
+VGA line sync
+
+2
+
+Ground line
+
+6
+
+VGA_B
+
+10
+
+VGA line sync
+
+3
+
+VGA_G
+
+7
+
+VGA_R
+
+-
+
+-
+
+4
+
+RXD_232
+
+8
+
+TXD_232
+
+-
+
+-
+
+2.2.3.3 EXTEND PORT
+Figure 2-6 EXTEND PORT
+
+Name
+
+Function
+
++5
+
+USB +5V (bottom line)
+
++5
+
+USB +5V (upper line)
+
++
+
+USB data- and USB data+ that connect to USB port.
+
+IO
+
+Reserved, used for expanding customization.
+
++12
+
++12V/1A output.
+Ground
+
+VO
+RX
+TX
+
+AV video output
+RS-232 serial port sender and receiver that connects to RS-232 port.
+
+2.2.3.4 Voice talk port
+Figure 2-7 Voice talk port
+
+Name
+
++12
+
+Function
++12V output
+Ground
+Mic In that can connect to microphone.
+Mic Out that can connect to earphone.
+
+SPK+
+
+Speak positive pole
+
+SPK-
+
+Speak negative pole
+
+2.2.3.5 AV OUT p
+Figure 2-8 AV OUT port
+
+Name
+
+Function
+
+1
+
++12V/1A output
+
+2
+
+Ground line
+
+3
+
+Audio output
+
+4
+
+Video Output
+
+2.2.3.6 RS-232 interface
+Figure 2-9 RS-232 interface
+
+Name
+
+Function
+
+1
+
++12V/1A output
+
+2
+
+Ground line
+
+Name
+
+Function
+
+3
+
+RXD_232
+
+4
+
+TXD_232
+
+2.2.4 Dimensional drawing
+Figure 2-10 CP-UNR-404T1-AI structural and dimensional drawing (Unit: mm [inch])
+
+Figure 2-11 CP-UNR-404T1-AI structural and dimensional drawing (Unit: mm [inch])
+
+[2.5]
+
+[2.4]
+
+Figure 2-12 CP-UNR-404T1/408T2-AI lug installation dimensional drawing (Unit: mm [inch])
+[7.5]
+
+[1.9]
+
+[5.0]
+
+[4.0]
+
+[7.0]
+
+[8.3]
+[7.8]
+[7.1]
+
+[∅0.3×0.5]
+
+Installation
+When you receive the Device, unpack the box to check the Device appearance and structures, and then install
+the SIM card, SD card, and HDD.
+ೠ
+
+Before the installation is complete, make sure the Device is disconnected from power, and do not plug or
+unplug components when the power is connected.
+
+ೠ
+
+When installing and taking out HDD, the Device electronic lock must be in "unlocked" status. After the
+installation is complete, the Device electronic lock must be in "locked" status before powering on the
+Device.
+
+2.3.1 Installing HDD
+2.3.1.1 CP-UNR-404T1/408T2-AI series
+CP-UNR-404T1/408T2-AI series devices only support single HDD.
+Gently press the left front cover.
+The left front cover automatically opens. Use a
+particular key to unlock the door.
+Figure 2-13 Open door lock switch (single HDD).
+
+Loosen the two screws at the front panel and take out the HDD carrier along the guide rail.
+Figure 2-14 Take out the HDD carrier (single HDD).
+
+Loosen two screws on the back panel of the HDD carrier, take out the rear carrier panel, and remove
+the HDD carrier enclosure.
+
+Figure 2-15 Remove the HDD carrier cover (single HDD)
+
+Loosen two screws of the HDD holder and remove the holder.
+Figure 2-16 Remove HDD holder (single HDD)
+
+Use four screws to fix the HDD and HDD holder and install the HDD holder back to the Device.
+
+Figure 2-17 Installing HDD (single HDD)
+
+Install the HDD carrier enclosure in place along the rails, and then fix the HDD enclosure rear panel with
+two screws.
+Place the HDD carrier back to the Device, tighten two screws and close the door lock.
+
+2.3.1.2 CP-UNR-408T2-AI series
+CP-UNR-408T2-AI series devices support dual HDDs.
+Gently press the left front cover.
+The left front cover automatically opens. Use a
+particular key to unlock the door.
+Figure 2-18 Open door lock switch (dual HDDs).
+
+Loosen the two screws at the front panel and take out the HDD carrier along the guide rail.
+Figure 2-19 Take out the HDD carrier (dual HDDs).
+
+Loosen two screws on the back panel of the HDD carrier, take out the rear carrier panel, and remove
+the HDD carrier enclosure.
+
+Figure 2-20 Remove the HDD carrier (dual HDDs)
+
+Loosen two screws of the HDD holder and remove the holder.
+Figure 2-21 Remove the HDD holder (dual HDDs)
+
+Use four screws to fix each HDD and the HDD holder, and install the HDD holder back to the Device.
+Fix the upper HDD to the top of the HDD holder, and the lower HDD to the side of the HDD holder.
+
+Figure 2-22 Installing HDD (dual HDDs)
+
+Install the HDD carrier enclosure in place along the rails, and then fix the HDD enclosure rear panel with
+two screws.
+Place the HDD carrier back to the Device, tighten two screws and close the door lock.
+
+2.3.2 Installing SIM Card and SD Card
+By default, the Device is delivered without the SIM card and SD card. Install them as you need.
+ೠ
+
+To connect the Device to Internet through dial-up connection, you need to purchase and install a SIM
+card.
+
+ೠ
+
+To store recording data, you need to purchase and install an SD card.
+
+Only supports standard SIM card.
+
+Preconditions
+Make sure the power supply is disconnected. If it is not, the Device automatically shuts down when the door lock
+switch is opened.
+
+Steps
+The SIM card slot and SD card slot are inside the Device.
+Gently press the left front cover.
+The left front cover automatically opens.
+Use a particular key to unlock the door.
+Loosen the two screws at the front panel and take out the HDD carrier along the guide rail. Positions of
+the SIM card slot and SD card slot are shown in Figure 2-23.
+Insert the SD card and SIM card into the card slot with corresponding marks.
+Figure 2-23 Installing SIM Card and SD Card
+
+In Figure 2-23, ① is the SIM card slot and ② is the SD card slot.
+Place the HDD carrier back to the Device, tighten two screws and close the door lock.
+
+2.3.3 Installing Antenna
+The device antenna is installed to connect the device to the network and to locate the position of the vehicle.
+
+2.3.3.1 Installation of Mobile Network Antenna
+
+When installing sticking antenna, make sure there is no metal material below the sticking spot.
+For installation of mobile network antenna, see Figure 2-24. The flat antenna is recommended to be vertically
+attached to near the wind shield (such as on the instrument panel, or under the wind shield), or concealed
+inside the instrument panel.
+Figure 2-24 Inside installation of Mobile Network Antenna
+
+2.3.3.2 Installation of GPS Antenna
+Positioning methods include the currently mainstream GPS positioning, Beidou positioning, with
+corresponding GPS antenna and Beidou antenna.
+In this document, GPS antenna is used as an example to illustrate the installation steps of locating antennas.
+The installation process of other locating antenna is identical.
+
+2.3.3.2.1 Outside Installation
+Place the GPS antenna on the left front of the roof. See Figure 2-25.
+The antenna is magnetically attached to the roof of the vehicle. Glue can be applied to four sides of the
+antenna to fix more reliably.
+
+To make the sensitivity and accuracy of positioning free of interference, ensure that there is no highpower electrical or electronic interference source (such as a fan or AC compressor) or obstacles
+within 1 meter around the GPS antenna.
+Insert the GPS antenna lead wire into the antenna lead hole on the roof of the vehicle and connect to
+the GPS antenna port inside the vehicle.
+The requirements of the GPS antenna lead hole are as follows.
+ೠ The inner radius is at least 10mm.
+ೠ
+
+It must be waterproof.
+
+ೠ
+
+Easy to replace and maintain the antenna.
+Figure 2-25 Outside Installation
+
+2.3.3.2.2 Inside Installation
+When limited by waterproof and wiring requirements, the antenna can be installed inside the vehicle.
+To select the installation place, it is recommended to place the antenna horizontally on the dashboard
+close to the windshield and make the GPS cable facing upward to enhance the signal, as shown in Figure 2-26.
+
+Figure 2-26 Inside Installation
+
+2.3.4 Fixing the Recorder
+
+ೠ
+
+Install the Device on the vehicle where it cannot be seen from outside. Avoid places with high
+temperature or near the air conditioning system. High temperature shortens the life of the Device. If going
+into the Device, the condensing water from the air conditioner can short circuit or burn the Device.
+
+ೠ
+
+Power on the Device only after all external devices are connected correctly to the Device.
+Install lugs onto the Device.
+
+1)
+
+Place washers onto the fixing screw.
+
+2)
+
+Use fixing screws with washers, mount lugs to the bottom of the Device respectively, and
+tighten the lugs.
+Figure 2-17 Install the lugs onto the Device.
+
+Fix the device onto the vehicle.
+
+1)
+
+Punch holes on the vehicle according to the installation dimensional drawing.
+
+2)
+
+Use screws to fix the Device onto the vehicle.
+
+Figure 2-18 Fix the Device onto the vehicle.
+
+Connect cables to the Device.
+ೠ
+
+Check the voltage of the accumulator. The working voltage of this Device ranges from 6V to 36V.
+To make sure the Device works stably, directly get power supply from the accumulator.
+
+ೠ
+
+When installing the basic wires, do not use excessive force to pull the control wires.
+
+2.3.5 Connecting to Power Cables
+
+ೠ
+
+Before connecting the power cable, confirm whether the input voltage is between 6V DC and 36V DC. If it
+is out of the range, it will damage the device.
+
+ೠ
+
+Please make sure that the positive and negative poles of the power are connected correctly. If not, the
+device may be damaged.
+
+ೠ
+
+The diameter of the power cable should be more than 1.0 mm2. Use power cables
+recommended by our company.
+
+ೠ
+
+When connecting the cables to the device, make sure that the main power switch of the vehicle is turned off
+and the key of the vehicle is placed in the off state.
+
+2.3.5.1 Introduction of Power Cable
+For the power cable of the device, see Figure 2-29.
+Connect one end of the power cable to the power port of the device (the left port in the figure) or directly use
+the power cable from the device. Connect the other end to the vehicle battery (the right port in the figure). The
+red one with fuse is a positive pole of power (normal live). The black one is the grounding cable. The orange one
+is the ACC signal (Key live).
+Only some devices with the power cable connected can be directly used, subject to the actual situation.
+
+Figure 2-29 Power cable
+
+2.3.5.2 Obtain Connection Modes of the Main Power Switch
+In order to ensure correct cable connection, it is necessary to obtain the connection mode of the main
+power switch through three methods (is the main power switch connected to the positive or negative pole of
+the battery?).
+ೠ
+
+Ask the vehicle to manufacture the connection modes of the main power switch of the vehicle.
+
+ೠ
+
+Measure with a multimeter: disconnect the main switch, then measure the voltage between the vehicle
+body and the positive pole of the vehicle battery. If the voltage is 12V or 24V, it means that the main switch
+disconnects the positive pole. If the voltage is 0V, then the main switch disconnects the negative pole.
+
+ೠ
+
+Visual inspection: whether the switch cable near the vehicle battery is connected to the positive pole or the
+negative pole.
+
+2.3.5.3 Connecting Operation
+The driving recorder must be connected to the ground wire. ACC signal, and constant electricity.
+Enable the main power switch on the vehicle, place the key in the OFF state, and then measure
+the normal live electricity of the vehicle.
+Use a multimeter to measure the voltage on the fuse by switching to the DC voltage range. When the
+multimeter detects voltage, it measures the normal live electricity on the vehicle. Generally, the voltage
+is 24V DC for large vehicles and 12V DC for small vehicles. However, this is subject to actual data.
+When the vehicle key is placed at the ACC state or the ON state, the ACC signal of the vehicle is
+measured.
+Use a multimeter to measure the voltage on the fuse by switching to the DC voltage range. When the
+multimeter detects voltage, remove the car key. If the voltage changes to 0V, it means that the
+measured signal is ACC on the car.
+Turn off the main power switch on the vehicle and place the key in the OFF state.
+Connect the power cable according to the main power switch installation mode. See Figure 2-30 and
+Figure 2-31.
+
+ೠ
+
+Before connecting with the power cord, select the proper fuse. 7.5A fuse is recommended.
+
+ೠ
+
+The positive and negative poles of the battery must be equipped with protective devices
+such as fuses.
+
+ೠ
+
+For vehicles where the master power switch is installed at the cathode of the
+accumulator, isolation installation is needed.
+
+Figure 2-30 Vehicle main power switch installed on the positive pole of the vehicle battery.
+
+Figure 2-31 Vehicle main switch installed on the negative pole of the vehicle battery.
+
+Audio and Video Input and Output Connection
+This section helps you understand the connection of audio and video input and output when you need to
+use this function.
+
+2.4.1 About audio and video input
+The video and audio data are input through RJ45 network port. When connecting cable, the
+waterproof connector needs to be installed.
+Take out the waterproof connector from the accessory box and connect the gasket toward the arrow
+direction onto the waterproof connector. See Figure 2-32.
+
+Figure 2-32 Gasket installation
+
+Put the network cable (without Ethernet port) through the main part of waterproof
+connector, gasket and encap, and then make the Ethernet plug. See Figure 2-33.
+Figure 2-33 Cabling and Ethernet plug making
+
+Connect the rubber gasket to the Ethernet port. See Figure 2-34.
+Figure 2-34 Rubber gasket installation
+
+Inset the Ethernet plug into the Ethernet port, and then tighten the waterproof connector. See
+Figure 2-35.
+Figure 2-35 Waterproof connector fastening
+
+See Figure 2-36 for the connected waterproof connector.
+Figure 2-36 Connection completed.
+
+2.4.2 About audio and video output
+Video Output
+The Device is provided with one CVBS (PAL/NTSC 1.0VP-P, 75Ω) port and VGA port, HDMI port and supports
+the simultaneous output from these two ports.
+Read the following contents carefully before using the computer instead of monitor.
+ೠ
+
+For VGA output, you need to prepare a VGA adapter cable to connect to the computer.
+
+ೠ
+
+To extend the Device life, do not keep the Device running for a long time.
+
+ೠ
+
+Regular demagnetizing helps keep the monitor working properly.
+
+ೠ
+
+Stay away from devices with strong electromagnetic interference.
+
+Audio output
+The audio output signal parameter is larger than 200mv 1KΩ. The audio output port can directly connect to
+the display with audio function on the vehicle or active speaker, and the port can also drive other sound
+output devices through amplifier.
+
+Alarm Input and Output Connection
+Before using the alarm function, learn about the connection’s method of alarm input and output port.
+
+Alarm Input
+ೠ
+
+The alarm input port supports alarm signal from ground and device of 12V-24V voltage.
+
+ೠ
+
+If the alarm device is connected to the Device and other devices, use relay for isolation.
+
+Alarm Output
+The alarm output port cannot be connected to high-power load (less than 1A). When constructing the output
+circuit, the excessive current should be prevented from causing damage to the relay. Use the contactor for
+isolation when applying high-power loads.
+
+PTZ Decoder Connection
+ೠ
+
+The common-ground must be prepared for PTZ decoder and the Device; otherwise, the
+common-mode voltage might not be able to control the PTZ. It is recommended to use shielded
+twisted pair, and the shielding layer can be used for common ground.
+
+ೠ
+
+Prevent interference from high-voltage power, make reasonable wiring, and take measures for lighting
+protection.
+
+ೠ
+
+Parallel connect 120Ω resistance to reduce reflection and ensure high signal quality.
+
+ೠ
+
+The Device RS-485 A line and B line cannot connect to other RS-485 output device in parallel.
+
+ೠ
+
+The voltage between the A line and B line must be less than 5V.
+
+Front-end Device Grounding
+The bad grounding might result in chip damage.
+
+No restriction for types of alarm input
+The alarm input can be Always on or Always Closed.
+
+2.5.1 Alarm Input Type
+Describes alarm input and output ports.
+Figure 2-37 Alarm input/output port
+
+Name
+
+Function
+
+1–9
+
+Alarm input 1~9, where 1~8 is local alarm input, 9 supports impulse.
+
+C, NO
+
+ೠ
+
+L, H
+
+CAN port
+
+Outputs alarm signal to alarm device.
+NO: represents normally open type.
+ೠ C: Common alarm output port.
+Ground line
+
+CTRL 12V
+
+12V/0.75A output with switch control
+
+A, B
+
+RS-485 port that connects to speed dome with PTZ function.
+
+2.5.2 Alarm Input Port
+ೠ
+
+Both NO and NC are supported.
+
+ೠ
+
+The GND of alarm detector is in parallel connection with COM (the power supply of alarm detector
+should be from external power source). See Figure 2-38.
+
+ೠ
+
+The GND of alarm detector is in parallel connection with GND of Device.
+
+ೠ
+
+Connect the NC port of alarm detector to the alarm input port (ALARM).
+
+ೠ
+
+When supplying power from external power source to the alarm device, the alarm device should be
+commonly grounded with the Device.
+
+Figure 2-38 Normal Closed alarm input illustration
+
+3 Basic Settings
+This Recorder can be operated following instructions on the local interface or web interface. This section
+introduces the web interface instructions. The Local interface is similar and would not be elaborated here.
+Browsers including Safari, Firefox, and IE are supported.
+
+Booting up Recorder
+
+ೠ
+
+Before booting up the Recorder, check if input voltage matches rated voltage of the Recorder.
+
+ೠ
+
+Refer to international standard to offer the power input (power input that is with stable power value and
+less interference) to ensure the Recorder works stably and prolong its service life.
+
+ೠ
+
+In the first power-on, the Recorder needs connection to the ACC to work as intended.
+
+Rotate the Recorder key to
+
+and rotate the vehicle key to ACC position. The power indicator is on, and the
+
+Recorder is ready for work.
+For the first boot up or after restoring to the default factory settings, the initialization interface is displayed on the
+screen. Follow on-screen instructions to initialize your Recorder prior to use.
+
+Initializing Recorder
+When you are opening the Recorder for the first time or you have allowed your system to be restored the
+factory settings, you need to initialize the Recorder. Only after that can you operate and configure your
+Recorder.
+
+Preparation
+
+Please make sure the correct network connection between PC and the Recorder.
+
+Procedure
+Step 1 Open the browser, enter the Recorder IP address (the default IP address is 192.168.1.108), and then
+press Enter.
+
+The Device Initialization interface is displayed.
+Figure 3-1 Device Initialization
+
+Step 2 Select Region, Language and Video Standard. Then click Next.
+Figure 3-2 Device Initialization
+
+Step 3 Select Time Zone and System Time. Then click Next.
+
+Figure 3-3 Device Initialization
+
+Step 4 Enter your password and enter it again to confirm it. Then click Next.
+Then an interface is displayed to let you fill in the password protection settings. See Figure 3-3.
+You are recommended to use a strong password. The password must consist of 8 to 32 nonblank characters and contain at least two types of characters among upper case, lower case, number,
+
+and special character (excluding ' “; : &).
+Figure 3-4 Device Initialization
+
+Step 4 You are recommended to fill in the email address and answer the password protection question.
+Step 5 Click OK.
+
+Logging in to Recorder
+You can log in to and then configure the Recorder.
+Open the browser, enter the Recorder IP address, and then press Enter.
+The Login interface appears. See Figure 3-5.
+
+Figure 3-5 Login Page
+
+Enter username and password and click Login. The web
+interface is displayed.
+Click Exit to log out.
+
+ೠ
+ೠ
+
+Install the plugin as prompted by the system for initial login.
+For admin account, if you forget password, click Forgot password to find back the password.
+For details, see "5.9.3 Resetting Password."
+
+Configuring IP Address
+Connect the Recorder to the network and make sure the Recorder can communicate with other Recorders
+in the network diagram.
+
+Preparation
+Make sure the Recorder is connected to the network properly.
+
+Procedure
+Click MANAGEMENT > NETWORK > TCP/IP.
+The TCP/IP interface is displayed. See Figure 3-6.
+
+Figure 3-6 TCP/IP
+
+Configure serial port parameters. See Table 3-1.
+Table 3-1 Network settings
+
+Parameter
+
+Description
+Click IPv4 or IPv6. Both versions are supported.
+
+IP Version
+
+MAC address
+DHCP
+IP address
+
+For IPv6 version, in the IP address box, Gateway box, Preferred DNS box, and
+Alternate DNS box, enter 128 bits and cannot be blank.
+Host's MAC address, cannot be modified.
+Obtains IP address automatically. With DHCP enabled, IP Address, Subnet Mask
+and DefaultGateway cannot be configured.You can check the current IP address whether the
+DHCP takes effect or not.
+According to your network plan, enter the modified IP address, gateway and subnet mask.
+
+Subnet Mask
+Default
+gateway
+
+IP address and gateway must be in the same network segment.
+
+Preferred DNS
+
+IP address of the preferred DNS
+
+Alternate DNS
+
+IP address of the alternate DNS
+
+Click OK.
+
+Configuring General Settings
+You can configure the basic settings, including time and date settings.
+
+3.5.1 Setting General Information
+Set the general information of the Recorder, including video recording strategy when the Disk is full, recording
+length, menu standby duration, license plate, and more.
+Click MANAGEMENT > SYSTEM > BASIC.
+The Basic interface is displayed. See Figure 3-7.
+
+Figure 3-7 TCP/IP
+
+Parameter
+
+Table 3-2 General settings parameters description
+Description
+
+Language
+
+Select a language for the Recorder system.
+
+Video Standard
+
+Displays the video encode standard.
+
+Logout Time
+
+Configure time from 0 min to 60 min.
+
+Plate No.
+
+Enter the license plate number of vehicle where the Recorder is located.
+You can click the CAMTime Sync check box and enter the interval for camera
+
+CAM Time Sync
+
+sync with the Recorder.
+
+Click OK.
+
+3.5.2 Date and Time Settings
+You can configure settings such as date format, time format, and timing mode.
+Click MANAGEMENT > SYSTEM > General > Date & Time.
+The Date&Time interface is displayed. See Figure 3-7.
+Figure 3-7 Date and time settings
+
+Configure Serial port parameters. See Table 3-3.
+
+Table 3-3 Date and time settings parameters description
+
+Parameter
+
+Description
+
+Date format
+
+Select a date format.
+
+Time format
+
+Select a time format.
+In the TimingMode list, if GPS or NTP is selected, configure this parameter.
+
+Time zone
+System Time
+Sync PC
+
+Configure the Time zone that the Recorder is at.
+Displays the current system date and time.
+Click Sync PC to sync the system time with the PC from where you login the web
+
+DST
+
+interface.
+The DST is applied in some countries or regions. Select the DST check box if it is
+
+DST Type
+
+applied where the Recorder is located
+
+Start Time
+End Time
+
+1.
+2.
+
+Click the DST check box.
+According to the local regulations, configure the type, begin time and end time
+for the DST.
+
+Select a timing mode, including EMSS, GPS, and NTP. The default selection is NTP.
+Timing
+
+
+
+EMSS: The system time syncs with EMSS platform.
+
+Mode
+
+
+
+GPS: The system time syncs with satellite.
+
+
+
+NTP: The system time syncs with NTP server that you configured.
+
+Server Address
+Manual
+Update
+Port
+
+Interval
+
+In the Timing Mode list, if NTP is selected, configure this parameter. After configuring
+NTP server, the Recorder syncs time with NTP server.
+
+1. In the Timing Mode list, select NTP to enable the NTP timing function.
+2. Configure parameters.
+Server Address: Enter IP address of NTP server.
+ Manual Update: Click Manual Update to sync the Recorder time with NTP
+server.
+ Port: The system supports TCP protocol only and the default setting is 123.
+
+
+Interval: Enter the interval that you want the Recorder to sync time with the NTP
+server. The maximum value is 65535 minutes.
+
+Click OK.
+
+Configuring Remote Recorders
+This section describes how to add cameras to channels. Connect the IPC to the Ethernet port on the rear panel
+of the Recorder. You can use a holder or tie strap to fix the port.
+
+3.6.1 Initializing the Remote Recorder
+Only the initialized remote Recorder can be added. If the remote Recorder that you want to add has been
+initialized, ignore this section.
+
+Preparation
+Make sure the remote Recorder supports initialization.
+
+Procedure
+Click MANAGEMENT > CAMERA > REMOTE DEVICE.
+The REMOTE DEVICE interface is displayed. See Figure 3-8.
+Figure 3-8 Remote Device
+
+Click Search.
+The searched recorders are displayed. Click
+the Uninitialized check box.
+The uninitialized recorders are displayed.
+Click the check box the uninitialized Recorder, and then click Initialize. The Enter
+Password interface is displayed. See Figure 3-9.
+Fi gu r e 3-9 Enter password interface.
+
+Configure the password by either of the following two ways.
+ೠ Using current Recorder password and email info. Select the Using current device password and
+Email check box, and the remote Recorder uses the password and email info of the Recorder.
+ೠ
+
+Manually configure password for remote Recorders.
+
+1)
+
+Clear the Using Current Recorder password and Email check box.
+The password setting interface is displayed. See Figure 3-10.
+Figure 3-10 Set a password.
+
+2)
+
+In the Password box, enter the new password and enter it again in the Confirm Passwordbox.
+Click Next.
+The password setting interface is displayed. See Figure 3-11.
+Figure 3-11 Password protection
+
+3)
+
+Set password protection.
+◇ Click the Email Address check box, and then enter the email address. Click Next.
+◇ Click Skip if you do not want to set up password protection. The
+Modify IP interface is displayed.
+Figure 3-12 Modify IP interface
+
+The Recorder starts initializing Recorder. After initialization is completed, see Figure 3-13.
+Figure 3-10 Initialization completed.
+
+Click Finished.
+
+3.6.2 Adding a Remote Recorder
+You can add a remote Recorder manually or by search.
+Click MANAGEMENT > CAMERA > REMOTE DEVICE.
+
+The CameraListinterface is displayed. Adding a
+remote Recorder.
+ೠ
+
+Search and Add
+
+1.
+
+Click Search, the searched Recorders are displayed.
+
+2.
+
+Double-click on an IP address or select the check box of a Recorder, and then click Add.
+The Recorder displays in the added Recorder area.
+
+ೠ
+
+Manual Add
+
+1.
+
+Click Manual Add.
+The Manual Addinterface is displayed. See Figure 3-14.
+Figure 3-14 Manual add.
+
+2.
+
+Configure more settings. See Table 3-4.
+The parameters might be different depending on the model you purchased.
+Table 3-4 Manual add parameters description.
+
+Parameter
+Manufacturer
+
+Description
+Select a manufacturer according to the actual situation. Parameters might vary by
+
+Main stream
+
+manufacture. Follow specific parameters on the interface.
+The main stream value of the remote Recorder.
+
+IP address
+
+Enter the IP address of remote Recorder.
+
+TCP Port
+
+TCP service port. The default setting is 25001. You can configure this parameter
+
+RTSP Port
+
+according to your actual situation.
+Enter RTSP Port number of remote Recorder. The default setting is 554.
+
+HTTP Port
+
+Enter HTTP Port number of remote Recorder. The default setting is 80.
+
+Username
+Password
+Remote
+Channel
+
+Enter the username and password to login to the remote Recorder
+Select the channel number that you want to connect.
+
+Alarm
+
+The channel number of the remotely connected Recorder. You can only select a
+
+Channel
+Decode
+
+channel that has not added remote Recorders.
+Enter the size of decode buffer. The unit is millisecond, and you can select from 80
+
+buffer
+
+through 480.
+This must be set up when you select Onvif or Custom as the Manufacturer
+When selecting different manufacturers, the service types are different. Select the service type
+based on your needs.
+
+Service type
+
+3.
+
+Click OK.
+The Recorder displays in the added Recorder area.
+ೠ If the remote Recorder that you want to add has the same IP address and TCP
+
+port with the existing added Recorder, then this Recorder cannot be added.
+ೠ
+
+indicates connection is successful;
+
+indicates connection failed.
+
+ೠ To delete an added Recorder, select it, and then click Delete; to modify the
+
+information of an added Recorder, click
+
+or double-click the Recorder.
+
+3.6.3 Modifying IP Address of Remote Recorder
+You can modify the IP address of remote Recorder according to your network plan.
+Click MANAGEMENT > CAMERA > REMOTE DEVICE.
+The CameraList Interfaceis displayed.
+In the AddedRecorder list, click
+
+corresponding to a Recorder. The Edit
+
+interface is displayed. See Figure 3-15.
+Edit
+
+Enter the username and password of remote Recorder.
+The system automatically obtains the username, which is admin by default.
+Enter the IP address of the remote Recorder according to your network plan.
+Click OK.
+After modification, the new IP address is displayed in the added Recorder area.
+
+Configuring Record
+The record mode is consisted of manual mode and auto mode. You can also enable or disable the snapshot
+function.
+ೠ
+
+Auto: The recording starts automatically according to the record type and recording time as
+configured in the recording schedule.
+
+ೠ
+
+Manual: Keep general recording for 24 hours for the selected channel.
+
+Manual recording operation requires the user to have the permission to access STORAGE settings. Check to ensure
+the HDD installed in the Recorder has been formatted properly.
+
+Click MANAGEMENT > STORAGE > RECORD MODE.
+The Record Mode interface is displayed. See Figure 3-16.
+Record Mode
+
+Configure Serial port parameters, for the detailed description, see Table 3-5.
+
+Table 3-5 Record Mode parameter description
+
+Parameter
+Channel
+
+Description
+Displays the channel number.
+You can select one or several channels or select All.
+
+Indicates the recording status of corresponding channels. The choices include Auto,
+
+Manual, Enable, and Stop.
+
+Status
+
+: Selected
+: Not selected
+Select the recording mode, including Manual, Auto, and Stop.
+Manual: Top priority. When the Manual check box is selected, the system
+keeps general recording for 24 hours for the corresponding channel.
+
+Auto/Manual/Off
+
+Auto: The system starts recording according to the record type (such as general
+alarm, motion detect, and system alarm) and recording time.
+Off: Do not record.
+
+Enable/Off
+Click OK.
+
+Enable or disable the scheduled snapshot for the corresponding channels.
+
+Storage Plan
+3.8.1 Configuring Recording Schedule
+All channels record 24 hours by default. You can configure the record type and recording time as needed.
+
+Preparation
+The auto recording function is enabled for the corresponding channel. For details, see "3.7 Configuring Record."
+
+Procedure
+Click MANAGEMENT> STORAGE > SCHEDULE > Record.
+The Record interface is displayed. See Figure 3-17.
+Record
+
+Configure pre-record parameters. See Table 3-6.
+Table 3-6 Pre-record parameters description.
+
+Parameter
+Channel
+Pre-record
+
+Description
+Select a channel to configure the corresponding recording schedule. If you
+configure the same setting for all channels, select All.
+Start recording from 0s to 30s before the alarm event occurs. If you enter 0 seconds,
+
+there will be no pre-recording.
+Configure the recording time period.
+1) Click Setting corresponding to the weekday.
+The Period interface is displayed. See Figure 3-18.
+Period
+
+2)
+
+3)
+OK.
+
+Select the record type and a weekday and configure the period.
+If the Motion check box and the Alarm check box are selected, the corresponding alarm
+linkage should be enabled. For example, if the alarm type is Motion, select Enable Channel,
+and select the recording channel.
+Click OK to return to the Record interface. Click
+
+Click Copy to copy the settings to other channels.
+
+3.8.2 Configuring Snapshot Schedule
+You can configure the storage schedule for taking the snapshot.
+
+Preparation
+The snapshot function is enabled for the corresponding channel. For details, see "3.7 Configuring Record."
+
+Procedure
+Click MANAGEMENT > STORAGE > SCHEDULE >
+Snapshot. The Snapshotinterface is displayed. See Figure 319.
+
+Figure 3-19. Snapshot
+
+Configuring time period for taking snapshots.
+1) Click Setting.
+The Period interface is displayed. See Figure 3-20.
+Period
+
+2) Select the snapshot type and weekday, and configure the period for taking snapshot.
+3) Click OK to return to the Snapshot interface. Click
+OK.
+
+4 Function Modules Operations
+Operate the Recorder on local interface or web interface. Two kinds of interface operation are similar. This section
+takes web interface operation for example.
+
+Live
+
+Table 4-1 Live interface parameters description
+
+No.
+
+Name
+
+Description
+
+1
+
+Live channels
+
+See "4.1.2 Live Channels."
+
+2
+
+Start Talk
+
+See "4.1.3 Voice Talk."
+Click Instant Record, the recording type switches to Manual, and the
+
+3
+
+Instant Record
+
+icon turns to
+
+; click Instant Record again to switch the
+
+record type back to Auto.
+This function is only supported by main stream.
+Plays back the video file (.dav) stored on the PC.
+
+4
+
+Local Playback
+
+Click Local Playback, select the video file in the pop-up dialog box, and then click Open
+to start playing back the video file
+
+Configure the image quality, playback fluency, full screen, vertical sync, and
+Window
+
+5
+
+function
+operations
+
+window split mode.
+For real-time monitoring, you can select the fluency or real-time to be the
+priority according to your actual requirement.
+Select
+
+6
+
+PTZ
+
+to split the live window as necessary.
+
+See "4.1.4 PTZ Control."
+
+4.1.2 Live Channels
+Display the list of monitoring channels.
+Monitoring channels
+
+Operations in Monitoring Channels
+Click any monitoring channel to display its live video. See Figure 4-3.
+Live video
+
+Table 4-2 Video monitoring window parameters description
+
+No.
+
+Parameter
+
+Description
+Displays the IP address, channel
+
+Recorder
+
+number, bit stream, and stream type (M
+
+information
+
+represents main stream; S
+represents sub stream)
+Click this icon to start recording; click it again
+to stop recording.
+
+Local Record
+
+The recorded files are stored in
+C:\Record Download by default. You can
+modify this path if needed.
+Click this icon to start taking snapshot.
+
+Snapshot
+
+The snapshots default storage path is
+C:\PictureDownload. You can modify
+this path if needed.
+
+Audio
+
+Mute/unmute audio.
+Click the icon, and then draw a box at any
+
+Area zoom in
+
+area to zoom in the selected part. Rightclick or click the icon again to
+restore to the original status.
+
+Close
+
+Close the live view in the window.
+
+Bit Rate
+The system supports switching between main stream and sub stream in real-time monitoring window.
+See Figure 4-4.
+Bit rate
+
+4.1.3 Voice Talk
+You can do the two-way voice talk between the Device and Client.
+Voice intercom
+
+ೠ
+
+Click StartTalk to enable the voice talk between the Device and Client.
+
+ೠ
+
+Click the drop-down list to select the voice talk mode. Available options include: DEFAULT, PCM, G711a, and
+G711u.
+
+After enabling voice talk, the Start Talk icon turns to End Talk. Click Stop Talk if you want to end the
+
+talk.
+
+4.1.4 PTZ Control
+You can perform the operations through PTZ control panel, such as PTZ directions, speed, zoom, focus, and
+iris. See Figure 4-6.
+ೠ
+
+PTZ support rotating Recorder toward eight directions, up, down. Left, right, left up, right up, left down,
+right down.
+
+ೠ
+
+Speed function controls the movement speed. The larger the value is, the faster the PTZ moves.
+
+ೠ
+
+Click
+
+/
+
+to display or hide the PTZ settings and PTZ menu functions.
+PTZ Console
+
+4.1.4.2 PTZ
+You can configure scan, preset, tour, pattern, and auxiliary functions. For details, see Figure 4-7 and Table 4-3.
+
+PTZ
+
+Table 4-3 PTZ functions settings parameters
+
+Parameter
+
+Description
+After setting up scan, the camera automatically scans the configured left border and right
+border.
+
+Scan
+
+1.
+
+In the PTZ Setup list, select Scan, and then click Setup.
+Two buttons of Set the left border and Set the right border are displayed.
+
+2.
+
+Through the PTZ control panel, move the camera to the left border that you want and
+click Set the left border; move the camera to the right border that you want and click Set
+the right border. Configuration finished.
+
+3. Click Start to start scanning; click Stop if you want to end scanning.
+You can quickly move the PTZ camera to the configured presets after configuration. In the PTZ
+setup list, select Preset, and then move the camera to the direction that you want to
+monitor.
+
+1.
+Preset point
+
+Click Preset, and control the PTZ console to turn the camera to the target
+monitoring direction.
+
+In the Preset box, enter the preset value.
+Click Add to complete adding preset.
+In the Preset box, enter the preset value, and then click Go to, the camera moves to
+the location of preset. Click Del to delete the preset.
+The PTZ camera repeats performing tours among the configured presets after
+
+2.
+3.
+4.
+
+configuration.
+
+Calling
+Tours
+
+1.
+2.
+3.
+
+Click Tour and set up the value of the tour
+Click Add, and then enter the preset value
+Click Add Preset or Del Preset to add or delete the presets
+
+4.
+
+You can do this repeatedly to add presets to delete presets from the tour
+Enter the tour value, and then click Start. The camera starts rotating according to the
+configured tour. Click Del to delete the tour.
+
+The PTZ camera repeats movement according to the configured patterns. The operation
+records include the information such as the manual operations and focus adjustment
+
+1.
+2.
+Touring
+
+3.
+
+pattern
+
+Click Pattern and enter the pattern value
+Click Add.
+Two buttons of Start Rec and Stop Recare displayed.
+Click Start Rec. Then operate the PTZ control panel to adjust the camera with regard to the
+parameters such as monitoring direction, zoom, and focus.
+
+4.
+5.
+
+Click Stop Rec to complete the touring pattern setting.
+Enter the pattern value, and then click Start. The camera moves according to the
+configured patterns. Click Stop to stop the pattern.
+
+In the PTZ Setup list, Click Pan, and then click Start. The camera keeps rotating
+with 360° horizontally. Click Stop to stop rotating.
+
+Pan
+
+Controls the light of external Recorder through RS-485 command. To use this
+function, make sure it is supported on the external Recorder
+
+Light
+
+In the PTZ Setup list, Click Light. Click On to turn on the light, and click Off to turn
+off the light.
+
+Using Flip
+function
+Reset
+
+Select and click Flip if you want to flip display the video image
+Click Reset to reset the PTZ
+If you select this, PTZ will automatically turn to certain fixed position after device on.
+
+POFE
+
+To make this function work, you need to configure preset 2 first, and then turn on the device
+and enable POFE, PTZ will turn to preset 2 position.
+If you select this, PTZ will automatically turn to certain fixed position after device off.
+
+PONE
+
+This function needs to configure preset 65 beforehand, after choosing this and turn off device,
+PTZ will turn to that preset position.
+
+4.1.4.3 PTZ Menu
+After the PTZ menu is turned on, it displays on the monitoring window. You can configure the settings
+for the options such as camera, PTZ, and system, and apply the settings through arrow buttons and OK
+button.
+This function is supported only on the camera with PTZ menu function.
+Turn on the camera monitoring screen.
+On the PTZ control interface, click the PTZMenu tab.
+The PTZ Menuis displayed. See Figure 4-8. For details, see Table 4-4.
+
+PTZ menu
+
+Table 4-4 PTZ menu parameters description
+
+Parameter
+
+Description
+Up and down buttons: Select the item that is pointed.
+
+/
+
+Left and right buttons: When the item is pointed, perform configurations to the
+
+/
+
+item.
+Click Open to turn on the PTZmenu that is displayed on the monitoring
+
+Open
+
+window.
+
+Off
+
+Click Off to turn off the PTZ menu.
+
+OK
+
+The OK button provides the following functions.
+If there is sub-menu for an item, click OK to enter the sub-menu.
+Move the pointer to Return, and then click OK to return to the higher level
+menu.
+Move the pointer to Exit, and then click OK to exit the menu.
+
+Click Open.
+The OSD menu is displayed on the monitoring screen.
+Table 4-5 OSD menu parameters description
+
+Parameter
+
+Description
+Move the pointer to Camera, and then click OK to enter the sub-menu of Camera. You can
+
+Camera
+
+configure the camera parameters such as image, exposure, backlight, white
+balance, day & night, zoom, and focus.
+Move the pointer to PTZ Setup, and then click OK to enter the sub-menu of PTZ Setup.
+You can configure the PTZ parameters such as preset, tour, scan, pattern, pan, and
+
+PTZ
+
+reboot.
+Move the pointer to System, and then click OKto enter the sub-menu of System. You can
+
+System
+Manager
+
+configure the settings such setting analog PTZ, restoring factory default,
+
+Back
+
+and viewing camera version and PTZ version.
+Move the pointer to Return, and then click OK to return to the higher level menu.
+
+Exit
+
+Move the pointer to Exit, and then click OK to exit the menu.
+Click Off to turn off the PTZ menu.
+
+Record Playback
+On the SEARCH interface, you can play back or download video recording files. On the main
+web interface, click SEARCH.
+
+Playback
+Table 4-6 Playback function bar
+
+No.
+1
+
+Function
+Playback control
+bar
+
+Description
+See "4.2.1 Playback Control Bar."
+
+Controls playback volume, including:
+2
+
+Volume adjustment
+
+,
+
+means mute.
+means not mute, and the volume can be adjusted.
+
+3
+4
+
+Full screen
+button
+Video editing
+
+To play the video recording in full screen.
+Captures and saves certain video sections.
+With Sync selected, when you click in the progress bar to play back the recordings,
+the playback time of other channels will sync with the selected channel in the
+following ways:
+If the playback time of other channels is before the time of the selected
+
+5
+
+Sync
+
+channel, other channels will speed up the playback till synced with the
+selected channel.
+If the playback time of other channels is after the time of the selected
+channel, other channels will pause to wait till synced
+
+6
+7
+
+Record type
+
+with the selected channel.
+The record types include Regular, MD, and Alarm. You can select the
+
+selection
+
+type as needed.
+
+Time bar
+
+Move the slider or click
+
+/
+
+to adjust the time bar.
+
+8
+
+Playback type
+
+9
+
+Date selection
+
+To select the playback type. Only record playback is supported at
+present.
+Click to select the date the recording on which you want to play back.
+You can set the cameras to focus on.
+
+10
+
+Camera name
+You can select up to 4 cameras.
+In the file list, you can play back the recordings by file name, download
+
+File list
+
+11
+
+video recordings by file name or time, and verify the completeness.
+
+4.2.1 Playback Control Bar
+Table 4-7 Playback control bar
+
+Icon
+
+Function
+Play
+Stop
+Backward
+playback
+Previous
+frame
+
+Description
+When this icon displays, it means the video is paused or not being
+played. You can click this icon to play the video.
+Click this icon to stop playback.
+Click this icon to play the video recording backward.
+Click this icon to jump to the previous frame.
+You need to pause the playback before using play by frame.
+Click this icon to play the next frame.
+
+Next frame
+You need to pause the playback before using play by frame.
+Slow
+playback
+
+Fast playback
+
+Click this icon to adjust the slow playback speed. Click
+
+to start slow
+
+playback.
+Click this icon to adjust the fast playback speed. Click
+
+to start fast
+
+playback.
+
+4.2.2 Playing Back Video Recordings
+You can play back video recordings by time or file name. During playback, you can conduct the following
+operations.
+ೠ
+
+In the channel window, click
+
+at the upper right corner and select the area you want to enlarge.
+
+The area is enlarged. Click this icon again or right-click in the window to exit.
+ೠ
+
+Click
+
+at the upper right corner to take a snapshot.
+
+ೠ
+
+Click
+
+at the upper right corner to close playback.
+
+Playing Video Recordings by Date
+Select the date for searching for the video recordings, and set the corresponding channel as needed.
+
+Select a date with video recordings and the channel window, and then select the record type.
+Record type
+
+Click
+
+to start playing back video recordings.
+
+Playing Video Recordings by File Name
+Select the date for searching for the video recordings, and set the corresponding channel as needed.
+Select a date with video recordings and the channel window.
+
+Click File list.
+The video recordings are displayed in the list.
+File list
+
+Set the start time of the file to be searched for, and then click
+Double-click the video recordings to start playback.
+
+. The recording files are displayed.
+
+4.2.3 Clipping Recording File
+You can clip sections of video recordings and save to the PC.
+Search for the video recordings that you want to clip by using the calendar and timeline.
+Select the channel number.
+Clip the video by either of the following ways.
+ೠ
+
+Method A: Click
+
+, and the
+
+and
+
+sliders appear at the two ends of the timeline.
+
+Move the sliders to the proper time points, and then click
+
+to clip and save the section
+
+between the time points.
+ೠ
+
+Method B: In the text box shown below, enter the start time and end time, and then
+click
+
+to clip and save the section during this period.
+Clip and save
+
+The system displays a downloading progress bar. After the download is completed, the clipped
+video files are saved in the "RecordDownload" folder by default. You can also change the path as
+needed.
+
+Click
+
+to stop downloading the recordings.
+
+Viewing Alarm Info
+You can view the alarm information during a fixed period.
+On the main web interface, click ALARM > Alarm Info.
+Select Type to set the alarm type to be searched for, including All, Motion Detect, Video Loss, Tampering,
+Abnormality, Local and Smart Alarm.
+Set the start time and end time.
+Click Search. Alarm information in the set type during the set period is displayed.
+
+Alarm info
+Click Backup to back up the obtained alarm information to a local directory. You need to
+install relevant controls before backup.
+
+5 System Settings
+You can set up system information following instructions on the Local interface or web interface. This section
+introduces the web interface instructions. The Local interface is similar and would not be elaborated here.
+ೠ
+
+Some functions can only be configured on the Local interface. The actual interface shall prevail.
+
+ೠ
+
+Some functions are not used in actual operations, so they are not described in detail in the
+document.
+
+ೠ
+
+In this section, when you have configured the settings for a channel, click Copy to apply the
+settings to other channels. Click Refresh to display the latest configuration. Click Default to restore to
+factory default settings.
+
+Configuring Alarm Event Settings
+Alarm information settings include the setting of video detection, alarm input, abnormality, and alarm
+output.
+
+5.1.1 Configuring Video Detect Settings
+Video detection includes motion detection, video loss, and tampering. This function detects the abnormal
+
+changes and triggers alarms.
+
+5.1.1.1 Configuring Motion Detect Settings
+When the moving object appears and moves fast enough to achieve the preset sensitivity value, the system
+triggers an alarm and alarm linkage.
+On the main web interface, select ALARM > Video Detection > Motion Detect.
+Select the channel number and select Enable to enable the motion detect function for the channel.
+Set MD region.
+1) Click Setting behind Region.
+The setting interface is displayed.
+Region setting
+
+2)
+
+Select a region and name it.
+The higher the sensitivity value is, the easier the motion detect is triggered; the lower the
+threshold is, the easier the motion detect is triggered. By default, the whole video image is for
+motion detect.
+Each color represents a separate region, and you can set different motion detect regions.
+
+3)
+
+Hold down the left button of the mouse, drag to select the region to be detected, and set up its
+sensitivity and threshold value.
+Channel alarm events: As long as any one of the four regions triggers alarm, the channel
+that houses the region will give alarm.
+
+4) Click OK.
+Configure alarm linkage parameters.
+Table 5-1 Alarm linkage parameters
+
+Parameter
+Delay
+
+Description
+When an alarm ends, the alarm recording will stop after a period of delay.
+
+Connect with an alarm device (such as an alarm light or siren) on the alarm output interface,
+Alarm output
+
+click Setting to set the alarm output device, and activate the alarm linkage output port. When
+an alarm event takes place, the system can trigger
+corresponding alarm output devices.
+Click Setting under Alarm Out to set the latch.
+Set a length of time during which the device continues alarm output after the alarm ends.
+
+Latch
+
+Select the corresponding check box and set a record channel. When an alarm event occurs,
+the corresponding channel starts recording automatically.
+Record
+channel
+
+Two more conditions must be satisfied before recording function works:
+ೠ
+
+Motion detect recording is enabled.
+
+Auto recording is enabled.
+Select the corresponding check box and set the channel. When an alarm event occurs,
+
+ೠ
+
+Snapshot
+
+Anti-dither
+Show
+message
+Buzzer
+
+the corresponding channel starts capturing automatically.
+You can also configure the frequency, size, and quality of the snapshots.
+Click More to set the anti-dither time.
+The system records only one event during this period.
+Click More, and select the corresponding check box to trigger a pop-up message
+in your local host PC when an alarm event occurs.
+Click More, and select the corresponding check box to trigger a buzzer noise on
+the device when an alarm event occurs.
+Click More, and select the corresponding check box to enable the device to create
+
+Log
+
+a local alarm log when an alarm event occurs.
+Click More and select the corresponding check box. When an alarm event occurs, the system
+sends email to the specified mailbox.
+
+Send email
+Set your e-mail first before enabling this function. See "5.6.4 Configuring Email Settings."
+
+Click OK.
+
+5.1.1.2 Configuring Loss Detect Settings
+When video loss occurs, the system triggers an alarm and configured actions.
+On the main web interface, select ALARM> Video Detection > Video Loss.
+
+The Video Lossinterface is displayed.
+Select Channel and select Enable to enable the video tampering detect function for the channel.
+Configure alarm linkage parameters.
+Click OK.
+
+5.1.1.3 Configuring Tampering Settings
+When the camera is covered intentionally, or the video is displayed in a single color due to sunlight or other
+reasons, that is the monitoring cannot be continued normally, the system triggers alarm and links to the
+configured actions.
+On the main web interface, select ALARM > Video Detection > Video Tampering.
+The VideoTamperinginterface is displayed.
+Video Tampering
+
+Select Channel and select Enable to enable the video tampering detect function for the channel.
+Set the sensitivity of detection.
+The higher the sensitivity, the easier it is to detect a moving object, but the false alarm rate might
+increase.
+Configure alarm linkage parameters.
+Click OK.
+
+5.1.2 Configuring Alarm Input Settings
+You can select different types of input according to different sources of alarm and set up alarm output
+methods.
+
+On the main web interface, select ALARM > ALARM > Local.
+Alarm input
+
+Click Local or Camera Offline tab as needed.
+ೠ
+
+Local: The alarm signal detected by the alarm input port on the device.
+
+Camera Offline: The alarm signal generated when the IP camera is offline. Select the
+Alarm In channel number and select Enable.
+ೠ
+
+For the emergency alarm button, you can only select Channel 10 from the Alarm In drop-down list. When
+you press the emergency alarm button, the Recorder will receive the emergency alarm from Channel
+10.
+Configure more settings.
+Table 5-2 Alarm input parameters
+
+Parameter
+Alarm name
+
+Type
+
+Description
+Enter a customized alarm name.
+If the Event Type is Local Alarm, configure this parameter.
+NO: The alarm signal is disconnected normally. The alarm is triggered when alarm
+signal is connected.
+NC: The alarm signal is connected normally. The alarm is canceled when
+
+Overlay
+Trigger
+
+alarm signal is disconnected.
+Select the Overlay check box to overlay alarm names onto channel images.
+
+If the Event Type is Local Alarm, configure this parameter.
+If the alarm signal is 12V/24V voltage, select High as the triggering mode; if the alarm
+signal is ground voltage, select Low as the triggering mode.
+
+Post record
+
+When an alarm ends, the alarm recording will stop after a period of delay.
+Connect the alarm device such as light and siren to the alarm output port. Select the
+
+Alarm out
+
+corresponding check box and set an alarm output device. With the alarm linkage output
+port enabled, when an alarm event occurs, the system links the
+alarm device to trigger an alarm.
+Click Setting under Alarm Out to set the latch.
+Set a length of time during which the device continues alarm output after the alarm
+ends.
+
+Latch
+
+Select the corresponding check box and set a record channel. When an alarm event
+occurs, the corresponding channel starts recording automatically.
+Record
+channel
+
+Two more conditions must be satisfied before recording function works:
+ೠ
+
+Alarm recording is enabled.
+
+Auto recording is enabled.
+Select the corresponding check box and set the channel. When an alarm event occurs,
+ೠ
+
+Snapshot
+
+the corresponding channel starts capturing automatically.
+You can also configure the frequency, size, and quality of the snapshots.
+Select the corresponding check box and the channel. When an alarm event occurs, a tour of
+the selected channels is displayed on the device local interface.
+
+Tour
+
+Anti-dither
+
+When the alarm linkage tour is finished, the Live interface returns to the window split
+mode as before the alarm occurs.
+Click More to set the anti-dither time.
+The system records only one alarm input event during this period.
+
+Show
+
+Click More, and select the corresponding check box to trigger a pop-up message
+
+message
+
+in your local host PC when an alarm event occurs.
+Click More, and select the corresponding check box to trigger a buzzer noise on
+
+Buzzer
+
+the device when an alarm event occurs.
+Click More, and select the corresponding check box to enable the device to create
+
+Log
+
+a local alarm log when an alarm event occurs.
+Click More and select the corresponding check box. When an alarm event occurs, the system
+
+Send email
+
+sends email to the specified mailbox.
+Set your e-mail first before enabling this function.
+
+Click OK.
+
+5.1.3 Configuring Exception
+You can configure the ways to handle the device when errors occur.
+On the main web interface, select ALARM > Exception > Disk.
+The Disk interface is displayed. See Figure 5-5
+Disk
+
+Select the event type, and select Enable to enable the handling of corresponding abnormal events.
+Configure more settings. See Table 5-3.
+Table 5-3 Abnormality setting parameters
+
+Parameter
+
+Description
+You can configure corresponding abnormal events on the following three tabs.
+HDD: To set the ways to handle abnormal HDD events, including No HDD, HDD
+Errors, HDD No Space.
+User: Set the ways to handle illegal login events.
+Device: Set the ways to handle abnormal device events, including
+
+Event type
+
+Temperature Too High, Low Battery Safety Exception, Network Security
+Exception, Over Speed, Low Speed, Collision, Turnover, Rapid Turn, Rapid
+Speedup, Sharp Brake and ACC Power Off.
+The event type might be different depending on the model you purchased, and the actual
+interface shall prevail.
+Select Disk tab, and if the EventType is Low Space, configure this parameter. You can set the
+
+Lower Than
+
+percentage of Disk remaining space. When Disk remaining space
+is lower than this percentage, an alarm will occur.
+Select User tab, and if the Event Type is Illegal Login, configure this parameter. The maximum
+
+Login
+
+number of allowed password input errors during user login. If the number of password
+
+Attempt
+
+input errors reaches this value, the user account will be locked.
+Select Usertab, and if the EventTypeis IllegalLogin, configure this parameter. Set the time for
+
+Lock time
+
+locking the user account when the number of passwords input
+errors reach the set value.
+Select Device tab, and if the Event Type is High Temperature, configure this parameter.
+
+High
+
+Enter the upper limit of device temperature. The alarm is triggered when the
+
+Temperature
+
+device temperature exceeds this value.
+
+Lower Than
+
+Select Device tab, and if Event Type is Battery Low Voltage, configure this
+
+Auto
+
+parameter.
+
+Accumulator
+voltage
+
+The supply voltage to the device from the vehicle and the percentage of available supply
+voltage capacity. When the vehicle is in ACC Off, and the voltage supplied to the device is less
+than the percentage of available capacity, the system triggers an alarm.
+Select Devicetab, and if the EventTypeis OverSpeed, configure this parameter. The upper limit of
+
+Max speed
+
+vehicle speed. When the vehicle speed exceeds this value, the
+system triggers an alarm.
+Select Devicetab, and if EventType is LowSpeed, configure this parameter. The lower limit of
+
+Min speed
+
+vehicle speed. When the vehicle speed is lower than this value,
+the system triggers an alarm.
+Connect the alarm device such as light and siren to the alarm output port. Select the
+
+Alarm output
+
+corresponding check box and set an alarm output device. With the alarm linkage output
+port enabled, when an alarm event occurs, the system links the
+alarm device to trigger an alarm.
+Click Setting under Alarm Out to set the latch.
+
+Latch
+
+Set a length of time during which the device continues alarm output after the alarm ends.
+
+Show
+
+Click More, and select the corresponding check box to trigger a pop-up message
+
+message
+
+in your local host PC when an alarm event occurs.
+Click More, and select the corresponding check box. When an alarm event occurs, the system
+
+Send email
+
+sends email to the specified mailbox.
+Set your e-mail first before enabling this function.
+Click More, and select the corresponding check box to trigger a buzzer noise on
+
+Buzzer
+System log
+Refresh
+
+the device when an alarm event occurs.
+Click More, and select the corresponding check box to enable the device to
+create a local alarm log when an alarm event occurs.
+Select the Refresh check box. If No Disk alarm occurs, the system restarts within
+three minutes.
+
+Click OK.
+
+5.1.4 Configuring Alarm Out Settings
+You can set the alarm output type.
+On the main web interface, select ALARM > Alarm Mode.
+The Alarm Modeinterface is displayed.
+
+Select alarm type.
+ೠ
+
+Auto: After the alarm linkage is configured, when an alarm event occurs, the
+corresponding alarm output port triggers an alarm.
+
+ೠ
+
+Manual: After the alarm linkage is configured, no matter whether there is an alarm event
+occurs, the corresponding alarm output port triggers an alarm.
+
+ೠ
+
+Stop: After the alarm linkage is configured, no matter whether there is an alarm event occurs, the
+corresponding alarm output port never triggers an alarm.
+
+Click OK.
+Status: Indicates the status of each alarm output port.
+indicates there is not.
+
+indicates there is an alarm output, and
+
+Configuring AI Settings
+AI features include DSM, face detection, face recognition, alarm upload, plate number detection and passenger
+flow measurement. Only when the AI feature is enabled, and set can the corresponding function take effect.
+
+5.2.1 DSM
+DSM alarms mainly include drowsy driving, distracted driving, calling when driving, driver not in position,
+wearing infrared-blocking sunglasses, smoking when driving, and camera being shielded. After being
+triggered, these alarms require voice broadcast by means of TTS and need to be uploaded to the
+platform.
+
+On the main web interface, click AI > Parameters > DSM. The DSM
+interface is displayed. See Figure 5-7.
+
+DSM
+
+Click Enable to enable the DSM alarm.
+Configure parameters. For details, see Table 5-4.
+Table 5-4 DSM parameter description
+
+Parameter
+
+Description
+
+Channel
+
+The DSM is fixed to channel 1.
+
+Working mode
+
+Vehicle working modes include normal mode and test mode.
+For alarm rules, you can select drowsy driving, distracted driving, calling when driving,
+no driver, wearing IR blocking sunglasses, smoking when driving, smoking, lens
+tempering, unbelted alarm, identity exception and substitution driving (not the
+correct driver).
+
+
+ID exception: When the vehicle is started but not running (driving speed
+remains lower than 5 km/h within 5 s), the Recorder will compare driver
+face against the DSM face database. If the last driver face is not in the
+DSM face database, there is an ID exception warning once the vehicle
+
+Rule type
+
+starts to run (driving speed hits 30 km/h).
+
+
+Substitution Driving: An alarm is triggered when the driver is changed on the
+road. The drivers must be in the DSM face database. Otherwise there might
+be an ID exception alarm.
+
+means the corresponding alarm is enabled.
+Alarm trigger
+speed
+Report alarm
+Alarm protection
+time
+Closed eyes
+duration
+
+The speed at which the alarm is triggered: The range is 0 km/h–200 km/h.
+The speed at which the alarm is uploaded to the platform: The range is 0
+
+km/h–200 km/h.
+Continuous alarm time: The range is 10s–6525s.
+Setting is necessary when the rule type is DrowsyDriving: The range is 1s– 60s.
+
+Yawn duration
+Duration of
+lowering head
+Duration of
+looking around
+Duration of
+calling
+Duration of
+driver not in position
+
+Setting is necessary when the rule type is Distracted Driving: The range is 1s– 60s.
+
+Setting is necessary when the rule type is Calling: The range is 1s–60s.
+
+Setting is necessary when the rule type is No Driver: The range is 1s–60s.
+
+Duration of wearing
+infrared-blocking
+
+Setting is necessary when the rule type is WearingIRBlockingSunglasses: The range is 1s–
+
+sunglasses
+
+60s.
+
+Duration of
+smoking
+Duration of
+acceleration when
+
+Setting is necessary when the rule type is Smoking: The range is 1s–60s.
+
+Setting is necessary when the rule type is LensTampering: The range is 1s– 60s.
+
+camera is shielded
+
+Click OK.
+
+5.2.2 Face Detection and Recognition
+5.2.2.1 Face Detection
+The system can analyze and process the video images collected by cameras and detect whether there are
+faces in the video images. You can find the videos with detected faces through AI search and play back these
+videos.
+
+5.2.2.1.1 Parameter Settings
+You can set up face detection parameters. When specific face information is detected, the system will trigger
+alarm linkage.
+
+On the main web interface, select AI > Parameters > Face Detection.
+The Face Detection interface is displayed. See Figure 5-8.
+
+Face detection
+
+Select the channel number and select Enable to enable face detection.
+You can select any channel except channel 1.
+Configure parameters. See Table 5-5 for details.
+Table 5-5 Face detection parameters
+
+Parameter
+
+Description
+1.
+
+Click Setting.
+
+2.
+
+Set the maximum size and minimum size of the face detection region. Press
+and hold the left mouse button and drag four corners of the blue box to
+adjust the size.
+
+Rule
+ೠ
+
+Faces smaller than the minimum size or bigger than the maximum size
+will not be detected.
+
+The maximum size cannot be smaller than the minimum size.
+Click Setting.
+
+ೠ
+
+Region
+
+Set up the face detection region.
+Click More and select Buzzer.
+
+Buzzer
+System log
+
+Activate a buzzing sound when an alarm is triggered.
+Click More and select Log.
+Record face detection log information in the system log.
+
+Click OK.
+
+5.2.2.1.2 AI Search
+You can set up search parameters and filter out specific face recordings for playback.
+
+Procedures
+On the main web interface, select AI > AI Search > Face Detection.
+Select the channel, start time and end time, and select face detection details (such as gender, age, glasses,
+beard, mask and face) as needed.
+
+Click Search.
+
+The search results are displayed. See Figure 5-9.
+AI search result (1)
+
+Select the face image you need to view, and click
+
+. The system starts playing back the video file
+
+that the image belongs to.
+Double-click the playback interface to switch between full screen and small screen.
+(Optional) Back up files.
+
+1)
+
+Select files and click Backup.
+The Export interface is displayed. See Figure 5-10.
+
+2)
+
+Select the backup address, path, backup type and file type, and click Export. File
+backup is completed.
+Export (1)
+
+5.2.2.2 Face Recognition
+
+The face recognition function can be used in two scenarios: AI Live and AI Search.
+ೠ
+
+In AI Live, the system can compare the detected faces with the faces in the configured face library, and
+display the results in AI Live interface.
+
+ೠ
+
+In AI Search, the system can search by face attributes or image comparison.
+
+Before enabling the face recognition function, enable the face detection function for the channel first.
+
+5.2.2.2.1 Face Library Management
+After successfully configuring the face library, the detected faces are compared with the information in the face
+library. Configuring a face library includes creating a face library, adding face images, and modeling faces.
+You can create up to 20 face libraries and register up to15MB face images.
+ೠ
+
+To protect privacy, the faces in the images have been blurred intentionally.
+
+ೠ
+
+The default face library DSM of the system is used to receive the driver's face information issued by the
+platform. The library does not support adding, deleting or modifying.
+
+ೠ
+
+DSM and General exist by default in the face library.
+◇ DSM: Driver library (By default, it is bound to all channels, but it is only armed in channel 1.)
+◇ General: Passenger library (By default, it is bound to all channels, but it is only armed except
+channel 1.)
+
+Creating Face Library
+On the main web interface, select AI > Database> FACE LIBRARY. The FACE
+LIBRARY interface is displayed. See Figure 5-11.
+
+There is a DSM face library by default. It is configured from the platform, and cannot be modified
+and removed on the Recorder.
+
+Click Add.
+The Add interface is displayed. See Figure 5-12.
+
+Enter Face Library Name and click Save.
+The face library is saved successfully, and the FACE LIBRARY (2) interface is displayed. See Figure 5-13.
+ೠ
+
+Click the corresponding
+
+ೠ
+
+Click the corresponding
+in the face library list to add face images to the face library.
+Select a face library and click Modeling. The system will extract the feature attributes of images in the
+
+ೠ
+
+in the face library list to modify the face library name.
+
+face library for subsequent face recognition.
+ೠ
+
+Select a face library and click Del to delete it.
+Face library (2)
+
+Adding Face Images
+You can add face images to the created face library, and single add and batch import are both supported.
+Both single add and batch import require to obtain face images from the USB flash drive. Images should be
+smaller than 256K with resolution from 200×200 through 6000×5000.
+
+Single Add
+You can add face images one by one. When registering a small number of face images, use this method.
+
+On the main web interface, select AI > Database> FACE LIBRARY. The FACE
+LIBRARY interface is displayed. See Figure 5-13.
+Click
+
+corresponding to the face library to be configured. The
+
+Details interface is displayed. See Figure 5-14.
+Details (1)
+Click Register ID.
+The Register ID interface is displayed. See Figure 5-15.
+
+Register ID (1)
+
+Click
+
+to add face photos.
+
+Select a picture and fill in registration information. For system display, see Figure 5-16.
+
+Register ID (2)
+
+Click Save.
+The system displays "Operation is done successfully" and returns to the Details interface. See Figure
+5-17.
+
+If face image shows "Modeling", it means that the system is extracting the feature attributes of the
+photo. Click Search to refresh the interface, and "Modeling succeeded" is displayed. If modeling fails, the
+photo cannot be used for face recognition.
+Details (2)
+
+Batch Add
+If there are many face images to be registered, you can use the batch add function to import face images in
+batch.
+
+Name
+
+the
+
+face
+
+images
+
+in
+
+the
+
+format
+
+of
+
+"Name#SGender#BBirthday#NCountry#PProvince#TIDType#MID No.#AAddress.jpg." For details,
+see Table 5-5.
+Name is required and the rest are optional.
+Table 5-6 Naming rules for batch import
+Item
+
+Description
+
+Name
+
+Enter the corresponding name.
+
+Gender
+
+Enter number 1 for male and 2 for female.
+
+Birthday
+
+Fill in the number in the format of yyyy-mm-dd, for example, 2017-11-23.
+
+Country
+
+Enter the corresponding country abbreviation.
+
+Province
+
+Fill in the English name of the province.
+
+ID Type
+
+Fill in the numbers, "1" for ID card, "2" for passport, and "3" for military officer passport.
+
+ID No.
+
+Fill in the ID number.
+
+Address
+
+Enter the corresponding residence address.
+
+On the face library details interface, click Batchregister. The Batch
+register interface is displayed. See Figure 5-18.
+
+Click Select file(up to 500 images at a time) or Select a folder to select a file path to import the images.
+
+Click Save.
+
+5.2.2.2.2 Configuring Face Recognition Settings
+The system compares the detected faces with the faces in the face library to see whether the detected
+faces are in the face library. The comparison results are directly displayed in the AI Live interface and AI Search
+interface, and the system triggers alarm linkage.
+
+Procedure
+On the main web interface, select AI > Parameters > Face Recognition.
+The Face Recognition interface is displayed. See Figure 5-19.
+Face recognition (1)
+
+Select the channel number. Select Enable to enable the face recognition function.
+Select the type.
+Only AI by Device is supported. Set
+face library.
+
+1)
+
+Click.
+The Face Library interface is displayed. See Figure 5-20.
+Face library
+
+2)
+3)
+
+Select one or more face libraries to be added.
+Click Save.
+
+The face library information is displayed.
+(Optional) Double-click the number under Similarity to modify the face recognition similarity.
+
+ೠ
+
+The lower the similarity, the higher the probability of triggering face recognition.
+
+ೠ
+
+Click
+
+to delete the added face library.
+
+Click Save.
+
+5.2.2.2.3 AI Search
+The system can search and compare the faces in the videos and the faces in the face library and play back the
+recordings.
+
+On the main web interface, select AI > AI Search > Face Recognition.
+The Face Recognition interface is displayed. See Figure 5-21.
+Face recognition (3)
+
+Select the channel, start time and end time, and select face recognition details (such as gender,
+age, glasses, beard, face mask, expression and similarity) as needed.
+
+Click Search.
+The search results are displayed. See Figure 5-22.
+
+Select the face image you need to view, and click
+
+. The system starts playing back the
+
+video file that the image belongs to.
+Double-click the playback interface to switch between full screen and small screen.
+(Optional) Back up files.
+
+1)
+2)
+
+Select files and click Backup.
+The Export interface is displayed. See Figure 5-23.
+Select the backup address, path, backup type and file type, and click Export. File backup
+is completed.
+Export (2)
+
+5.2.2.3 Alarm Upload
+Enable alarm upload to upload face detection and face recognition data to the platform.
+
+On the main web interface, select AI > AI Search >Alarm Upload. The Alarm Upload interface is displayed, see Figure
+5-24.
+Alarm Upload
+
+5.2.3 Number Plate
+Cameras connected to the Recorder can take snapshots of car plates. On the Recorder configure the area
+where number plate recognition works. Also, you can search for the car plate and play the corresponding
+video recording.
+
+5.2.3.1 Number Plate Detection
+Configure number plate detection region and its alarm settings.
+
+Procedure
+On the main interface, select AI > Parameters > Plate No.
+The PlateNo interface is displayed.
+
+Plate No (1)
+
+Select the channel in which you want to monitor the car plate and select Enable to enable the plate
+recognition function.
+Draw the plate recognition region. Click Setting next to Rule and drag the yellow box four corners to
+adjust the recognition function size or shape.
+Configure more plate recognition settings. Click Setting next to Parameters.
+3) Sensitivity: The larger the value, the easier plates will be to be detected.
+
+4)
+
+Interval: Within the interval, camera will not take snapshot of one plate twice.
+
+5)
+
+Frame Rate: Video image frames per second.
+
+6)
+
+Plate: When the plate state is blurry in the plate recognition region, use this state
+information automatically.
+
+Set buzzer alarm to give out reminding. Click Moreand select Buzzer.
+record plate recognition, click More and select Log.
+Click OK.
+
+To
+
+5.2.3.2 Number Plate Recording Search
+Search time (or search plate number plus time if you know the plate No.) for the corresponding video recording
+for you to play and check.
+
+Procedure
+On the main interface, select AI > AI Search > Plate No.
+The PlateNo interface is displayed. See Figure 5-26.
+
+Searching plate
+
+Enter a channel, start time, end time. (And enter plate number if you know the plate number.)
+
+Click Search.
+Results are displayed. See Figure 5-27.
+Smart search results
+
+Select the plate item you want to view. Click
+
+to play corresponding video recording. Double-
+
+click video recording image to switch playing between full screen and partial screen.
+Export files.
+1) Select files and click Copy.
+The Export interface is displayed. See Figure 5-28.
+
+2)
+
+Select Address, Path, Backup Type and File Type. Then click Export.
+
+5.2.4 Passenger Flow Measurement
+The system can count the number of passengers in and out at each stop.
+
+Preparation
+Go to MANAGEMENT > CAMERA > REMOTE DEVICE, and then click
+For details, see the camera user's manual.
+
+to config people counting rules on the camera.
+
+Procedure
+On the main interface, select AI > Parameters > Passenger Flow Measurement.
+Select the Enable check box to enable the function.
+Select the specific camera channel from the Binding CH column to bind to the corresponding
+alarm in channel in the Alarm In CH column.
+The alarm in channels are connected to the doors for detecting door open and close.
+For example, if the alarm in Channel 3 is connected to the front door and bound to Camera 3
+(overlooking the front door), when the door opens, Camera 3 will start counting the number of people,
+and when the door closes, the counting stops. The people counting data starts from 0 at each stop.
+
+Click OK.
+
+Config passenger flow measurement
+
+Backing up File
+You can back up video recordings and images.
+On the main web interface, click BACKUP.
+
+Configure parameters. For details, see Table 5-7.
+Table 5-7 Backup parameters
+
+Parameter
+
+Description
+
+Storage Path
+
+Only local address is supported.
+
+Path
+
+File backup path is C://RecordDownload by default.
+Click Browse to set the backup path as needed.
+
+Record
+Channel
+Download
+type
+Start time
+End time
+File format
+Record type
+
+Select the record channel you want to do the backup for.
+Select the backup type, including download by file and download by time.
+Set the file backup period.
+
+Select the backup file format, including DAV and MP4.
+Select the record type, including external alarm, motion detect, all alarms, normal
+
+record, picture, and all.
+Click Search.
+
+The obtained files are displayed.
+Select the file that you want to back up, and click Backup.
+
+Click View Download.
+The Download interface is displayed. See Figure 5-32.
+Download
+
+Click Stop all to stop downloading.
+(Optional) Select the file that you want to verify, and click Watermark.
+Watermark can be used to verify whether the record file is falsified. The
+verifying progress and result are displayed.
+
+Configuring Display Output Settings
+You can configure live audio, device tour and video mirror settings.
+
+5.4.1 Configuring Live Audio
+On the main web interface, click DISPLAY > Display. Click Enable to
+enable the live audio. See Figure 5-33.
+ೠ
+
+After enabling, AV, VGA and HDMI are switched to single screen, and the preview sound is
+output normally.
+
+ೠ
+
+If it is not enabled, AV, VGA and HDMI are switched to single screen, and preview sound
+will not be output. But it does not affect video playback and intelligent alarm voice broadcast
+sound.
+Live Audio
+
+5.4.2 Configuring Tour Settings
+On the main web interface, click DISPLAY >TourSetting.
+Click Enableto enable the tour settings.
+Configure parameters. For details, see Table 5-8.
+Table 5-8 Tour parameters
+
+Parameter
+Interval
+
+Description
+Set the tour interval.
+
+Live Layout
+The window split modes include single screen and 4-screen.
+Click Add.
+The Add Group interface is displayed. See Figure 5-34.
+Add group
+
+Select the channel and click OK.
+Repeat Step 4–Step 5 to add multiple channel groups in tour. Click OK.
+ೠ Select a channel group, and click Modify to modify the channel group and channel sequence.
+ೠ
+ೠ
+
+Select a channel group, and click Delete to delete it.
+Select a channel group, and click Move up or Move down to modify the channel group sequence.
+
+5.4.3 Configuring TV Adjustment
+You can adjust the margin between video screen and play window, and brightness according to actual
+needs.
+
+Steps
+
+Click Display > TV Adjustment on WEB main interface.
+TV Adjustment
+
+Select Enable and configure the margin and brightness value. Click OK to
+finish TV adjustment configuration.
+
+5.4.4 Configuring Video Mirror Settings
+On the main web interface, click DISPLAY>VideoMirror. The Video
+Mirror interface is displayed. See Figure 5-36.
+Video mirror
+
+Select a channel.
+Select a mirror mode.You can select Vertical or Horizontal.
+Click OK.
+
+Configuring Camera Parameters
+You can set camera properties, encoding parameters, PTZ properties information.
+
+5.5.1 Configuring Camera Properties
+You can set up the camera property parameters of the channel.
+Different cameras correspond to different property parameters. The actual parameters shall prevail.
+
+Select MANAGEMENT > CAMERA > IMAGE.
+The IMAGE interface is displayed.
+Image
+
+Select a channel.
+Configure parameters.
+Table 5-9 Image property parameters
+
+Parameter
+Saturation
+Brightness
+Contrast
+Sharpness
+
+Click OK.
+
+Description
+Adjust the color purity. Adjust the saturation according to the actual situation.
+The bigger the value, the more colorful the image will become.
+Adjust the image brightness in a linear manner. The bigger the value, the
+brighter the image will become.
+Adjust the contrast of the images. The bigger the value is, the more obvious the
+contrast between the light area and dark area will become.
+Adjust the sharpness of the edges of the images. The bigger the value, the more
+obvious the image edge will become.
+
+5.5.2 Configuring Encode Parameters
+You can set Encode, Snapshot, Overlay, and Path settings.
+
+5.5.2.1 Configuring Encode Settings
+You can configure the encode settings for main stream and sub stream.
+Select MANAGEMENT > CAMERA > Encode > Audio/Video.
+The Audio/Video interface is displayed.
+Encode parameters might be different depending on devices, and the actual product shall prevail.
+Audio/Video encode
+
+Select a channel.
+Configure parameters.
+Table 5-10 Encode parameters
+
+Parameter
+Smart Codec
+
+Description
+Enabling Instastream helps compress the images more and reduce the storage
+space.
+
+Video enable
+
+Enable the sub stream.
+The record type of main stream is permanently fixed as General and cannot be changed.
+
+Record type
+
+General, motion detect and alarm use the general stream configurations
+for recording.
+
+Code-stream
+type
+Compression
+
+Sub stream types.
+Compression mode.
+
+Resolution
+
+The higher the video resolution, the better the image quality.
+
+Frame rate
+
+Configure the frames per seconds for videos. The higher the value, the smoother
+
+(FPS)
+
+and more vivid the image.
+
+You can select the bit rate type.
+CBR: Constant Bit Rate, which changes around the configured value. VBR:
+Variable Bit Rate, which changes along with environment.
+Bit rate type
+
+ೠ
+
+It is recommended to select CBR when there might be only small changes in the
+monitoring environment, and select VBR when there might be big changes in
+the monitoring environment.
+
+The main stream is fixed to VBR.
+This parameter can be set only when BitRateTypeis set to VBR.
+ೠ
+
+The image quality level. There are six levels in total. The higher the value, the better the
+image will become.
+
+Quality
+
+Configure the bit rate for main stream and sub stream.
+When CBR is selected, select the bit rate according to the reference bit rate, and the
+bit rate changes around the configured value.
+
+Bit rate (kb/s)
+
+When VBR is selected, select the upper limit value of bit rate according to the
+reference bit rate, and the bit rate changes along with the monitoring
+environment. But the maximum bit rate value changes around the configured
+value.
+
+Reference bit
+
+Select Custom to configure bit rate value manually.
+The system recommends the optimal bit rate range according to the resolution
+
+rate
+
+and frame rate settings.
+Click Moreto enable the audio.
+
+Audio enable
+
+If the corresponding check box is selected, the video recordings are audio and video
+combined streams.
+Select an audio encode format.
+
+Audio encoding
+The parameters might be different depending on the model you purchased, and the
+actual product shall prevail.
+Audio source
+Watermark
+enable
+Watermark
+string
+
+Source of audio.
+Select the Watermark check box to verify whether the video recording is falsified.
+Enter the strings for verifying watermark. The default string is CPPlusIPCam. The
+watermark string can only consist of number, letter, underline (_), and hyphen (-), and the
+maximum length is 127 characters.
+
+Click OK.
+
+5.5.2.2 Configuring Snapshot Settings
+You can configure the snapshot settings such as mode, size, quality, and interval.
+Select MANAGEMENT > CAMERA > ENCODE > Snapshot.
+The Snapshot interface is displayed.
+
+Select a channel.
+Configure more parameters. See Table 5-11.
+Table 5-11 Snapshot parameters
+
+Parameter
+
+Description
+Includes scheduled and event.
+Scheduled: Take snapshots within the configured period.
+Event: Take snapshots when alarms such as local alarm, video detection and
+abnormality are triggered.
+
+Type
+Size
+
+Select a resolution for the captured images.
+
+Quality
+
+The image quality and there are six levels in total.
+
+Interval
+
+Interval of taking snapshots.
+The maximum value you can set is 3600 seconds as an interval between two snapshots.
+
+Click OK
+
+5.5.2.3 Configuring Overlay Settings
+You can configure the title of video image overlay.
+Select MANAGEMENT > CAMERA > ENCODE > Overly.
+The Overlay interface is displayed.
+Overlay
+
+Select a channel.
+See Table 5-12.
+Table 5-12 Overlay parameters
+
+Parameter
+
+Description
+Select ChannelTitle, and the Setting button is displayed. Then click Setting on the
+right of the ChannelTitle, enter the channel title, and drag it to a proper location.
+
+Channel
+
+title
+
+Select the TimeTitle check box, the Setting button is displayed. Then click Setting
+on the right of the TimeTitle, and then drag it to a proper location.
+
+Time title
+
+Tick PlateNo., Setting button shows up at the right side of PlateNo., click that and
+
+Plate No.
+
+drag plate title to proper position.
+Select the GPS Display check box, the Setting button is displayed. Then click
+Setting on the right of the GPS Display, and then drag it to a proper location.
+
+GPS
+display
+
+Click OK.
+
+5.5.2.4 Storage Path
+You can configure the storage path of captured snapshots and video recordings.
+Select MANAGEMENGT > CAMERA > ENCODE > Storage Path.
+The StoragePath interface is displayed.
+Storage Path
+
+Click Browse to select the save path for snapshots and recordings.
+Images and recordings by using functions of snapshots
+
+and recordings
+
+on the Live
+
+interface are saved in these two paths by default: C:\PictureDownload and C:\RecordDownload.
+
+Click OK.
+
+5.5.3 Configuring PTZ Settings
+You can configure the corresponding PTZ of the device channel.
+Select MANAGEMENT > CAMERA > PTZ.
+The PTZ interface is displayed. See Figure 5-42.
+
+PTZ
+
+Select a channel.
+Configure more parameters. See Table 5-13.
+Table 5-13 PTZ parameters
+
+Parameter
+
+Description
+
+PTZ type
+Set the PTZ type, including local and remote.
+Click OK.
+
+5.5.4 Viewing PoE
+View the connection status of the PoE port and reset the camera.
+Select MANAGEMENT> CAMERA > PoE in the main menu. The PoE interface is displayed.
+PoE
+
+Select PoE Reset, and click OK to reset the camera with power but offline so that the camera can be
+online. If the camera is still offline after reset for 3 times, the system will not reset again.
+When the total power of the cameras accessed through PoE exceeds the maximum power of the device,
+the device will force the camera connected to the maximum port number to go
+
+offline until the total power of the camera accessed through PoE does not exceed the maximum power of the
+device.
+
+Configuring Network Parameters
+You can set the network parameters of the device as needed, including connections, Wi-Fi parameters, Cellular
+parameters, email, auto register, and Instaon.
+
+5.6.1 Configuring Connection Settings
+You can configure the maximum number of ports and their respective values.
+Select MANAGEMENT > NETWORK > Port.
+The Port interface is displayed.
+Port
+
+Configure the ports of the device.
+The revised settings take effect after device restart. Proceed with caution.
+Table 5-14 Connection parameters
+
+Parameter
+TCP port
+UDP port
+
+HTTP port
+HTTPS port
+
+Description
+Transmission Control Protocol port. The value is 37777 by default.
+User Datagram Protocol port. The value is 37778 by default. You can enter the
+value as needed.
+Hyper Text Transfer Protocol port. The value is 80 by default. You can enter other values as
+needed, in which case, add the new value after the address when
+logging in to the device in the browser.
+Hyper Text Transfer Protocol over Secure Socket Layer port. Select Enable, and
+then enter the value as needed. The value is 443 by default.
+
+Real Time Streaming Protocol port. Keep the default value 554 if it is
+displayed. If you use Apple browser, QuickTime or VLC to play the real-time
+monitoring screen, the following formats can be used: This function is also
+available for Blackberry phones.
+When the URL format requiring RTSP, you need to specify channel number and
+code-stream type in the URL, and also user name and password if needed.
+When playing live view with Blackberry smart phone, you need to turn off the
+audio, and then set the compression to H.264B and resolution to CIF.
+URL format:
+rtsp://<UserName>:<Password>@<IP
+
+Address>:<Port>/cam/realmonitor?channel=1&subtype=0
+User name, such as admin.
+Password, such as admin_123. IP
+address, such as 192.168.1.16.
+
+RTSP port
+
+Port: The default setting is 554. If the default setting is displayed, you do not need to
+configure this parameter.
+Channel: channel number, starting from 1. For example, if it is channel 2, enter
+channel=2.
+Subtype: code-stream type. The main stream is 0 (subtype=0); the sub stream is
+1 (subtype=1).
+For example, if you request the sub stream of channel 2 from a certain device, the URL
+should be: rtsp://admin:admin_123@192.168.1.16:554/cam/realmonitor?channel=2&subty
+pe=1
+If certification is not required, there's no need to specify the user name and password. Use
+the following format:
+rtsp:// <IP Address>:<Port>/cam/realmonitor?channel=1&subtype=0
+
+NTP port
+
+The port that automatically syncs time with the NTP server is 123 by default.
+
+Click OK.
+
+5.6.2 Configuring Wireless Network Settings
+You can connect the device to a network through Wi-Fi. Make sure the device can communicate with other
+devices in the group network. The device itself can also act as a hot spot to share flows with other terminals.
+If both cellular and Wi-Fi are available, the device connects to Wi-Fi and disconnects from cellular.
+
+5.6.2.1 Configuring Wi-Fi Network Settings
+You can connect the device to a network through Wi-Fi. Then connect the PC to the same network. You can log
+in to the web interface by PC to operate the device.
+This function is only supported by the device with a Wi-Fi module. The actual situation shall prevail.
+
+Preparation
+Make sure that the device is connected to a Wi-Fi module.
+
+Procedure
+Select MANAGEMENT > NETWORK > Wi-Fi.
+The Wi-Fi interface is displayed. Select
+Wifi as the working mode. The Wi-Fi
+interface is displayed.
+Wi-Fi
+
+Connect to Wi-Fi.
+ೠ
+
+Auto search
+1. Click Search SSID.
+In the SSID list, all available wireless networks are listed, including the information such as
+network name, security type, encryption type, and signal intensity.
+
+2.
+ೠ
+
+Double-click the Wi-Fi you want to connect to, enter the password, and then click
+OK.
+
+Add Wi-Fi manually.
+
+1.
+
+Click Static Setting.
+The Wi-Fi interface is displayed.
+
+Wi-Fi settings
+
+2.
+
+Enter SSID and password, select priority and verification type, set IP address, subnet
+mask, and gateway.
+If you select DHCP check box, after successful connection, the system automatically obtains
+the IP address, subnet mask, and gateway.
+
+3. Click OK.
+Click OK.
+Click Refresh to refresh the connection status.
+After successful connection, you can view the current hot spot, IP address, subnet mask, and gateway in
+Wi-FiWorking Info.
+
+5.6.2.2 Configuring Wi-Fi Hot Spot
+The device can work as a hot spot to share the network connection to other terminals. The terminals connected
+to the hot spot can log in to the device through host IP address (192.168.0.108). After login, you can view
+videos on the device.
+Select MANAGEMENT > NETWORK > Wi-Fi.
+The Wi-Fi interface is displayed. Select
+Ap as the working mode. The Ap
+interface is displayed.
+
+Ap settings
+Enter SSID, select work band and verification type, and then enter the password.
+ೠ
+ೠ
+
+The work band can only be 2.4G.
+Select the check box behind Password, and the password will be visible. The default password is
+12345678.
+
+Click OK.
+
+5.6.3 Configuring Cellular Settings
+Preparation
+ೠ
+
+Make sure that the device is equipped with cellular module and inserted with SIM card from
+corresponding communication operators.
+
+ೠ
+
+The dial number, user name, and password have been obtained from corresponding
+communication operators.
+
+Procedure
+Select MANAGEMENT > NETWORK > Cellular.
+The Cellular interface is displayed.
+After cellular module is connected, the module information and wireless signal are displayed;
+if not, click Search to search for wireless signal.
+
+Cellular settings
+
+Select Ite0 and Enable to enable the network. This function is enabled by default.
+Configure parameters.
+Table 5-15 Cellular parameters
+
+Parameter
+
+NetAccess
+
+WLAN type
+
+Description
+When the device is connected to a private network, select the NetAccess check box, enter
+APN name and select authentication mode. If PAP or CHAP is selected for authentication
+mode, enter user name and password, and then
+the device is automatically connected to the private network.
+When enabled, the network type is displayed, which is used to distinguish
+between the cellular modules of different communication operators, such as TD-LTE.
+When enabled, the access point of the communication operator is displayed.
+
+APN
+
+To manually set up APN, select Customized.
+Includes PAP, CHAP, and NO_AUTH protocols. The system automatically
+
+AUTH
+Dial No.
+
+recognizes and displays the enabled protocol.
+Enter the dial number provided from the communication operator.
+
+User name
+
+This parameter needs to be set up when AUTH is set to PAP or CHAP.
+
+Password
+
+The system automatically recognizes the user name and password.
+After successful dial-up, all relevant information is displayed without any setup needed.
+
+WLAN status
+
+Such information includes module state, SIM state, PPP state, working
+
+Wireless Signal
+
+mode, IMSI, IMEI, IP address, subnet mask, gateway, and module type.
+Click Search to search for wireless signals.
+
+Click OK.
+After successful connection, the obtained IP address is displayed.
+
+5.6.4 Configuring Email Settings
+You can configure the email settings to enable the system to send an email as a notification when there is an
+alarm event occurs, such as video detection or abnormality.
+
+Select MANAGEMENT > NETWORK > Email.
+The Email interface is displayed.
+Email settings
+
+Select Enableto enable email function.
+Configure parameters.
+Table 5-16 Email setting parameters
+
+Parameter
+
+Description
+
+SMTP server
+
+Configure the address of SMTP (Simple Mail Transfer Protocol) server.
+
+Port
+
+Enter the port value of SMTP server.
+If Anonymous is selected, the sender information is not displayed when
+
+Anonymous
+User name
+Password
+
+sending an email.
+Enter the user name and password of SMTP server.
+
+Sender
+
+Sender's email address.
+
+Encryption Type
+
+For authentication, select NONE, SSL, or TLS.
+
+Title
+Attachment
+Mail receiver
+
+You can enter no more than 63 characters in Chinese, English, and Arabic
+numerals.
+If Attachmentis enabled, when an alarm takes place, the system can send
+alarm linked snapshots.
+Email address of the receiver. You can enter up to three email addresses
+separated by colons.
+
+This is the interval that the system sends another email for the same type of alarm
+event, which means, the system does not send an email upon any same alarm event
+within the set interval.
+The interval ranges from 0 through 3600 seconds. 0 means that there is no interval.
+
+Interval
+
+This setting helps avoid large amount of emails caused by frequent alarm events.
+
+Confirm whether the email link is valid through the test information sent
+automatically from the system.
+Health Mail
+
+Email test
+
+Select the Health Mail check box, and then enter the interval. The system can send a test
+email to check the connection after the specified interval.
+The value ranges from 30 minutes through 1440 minutes.
+Click Testto test if emails can be sent out and received as intended. If the
+configuration is correct, you would receive a test mail. Before testing, click OK.
+
+Click OK.
+
+5.6.5 Configuring Auto Register Settings
+After successfully auto registered, when the device is connected into the Internet, it will report the current
+location to the specified server to make it easier for the client software to access to the device, and to view
+and monitor it.
+Select MANAGEMENT > NETWORK > REGISTER.
+The Register interface is displayed.
+Register
+
+Select the Enable check box to enable the function. (Selected by default).
+Configure parameters.
+Table 5-17 Register parameters
+
+Parameter
+Server Address
+
+Description
+Enter the IP address or domain name of the server to register.
+
+Port
+
+Enter the port of the server to register.
+
+Sub device ID
+
+Unique ID for identifying the device. When different devices register to the
+same server, the sub device IDs should be different.
+
+Click OK.
+
+5.6.6 Configuring Instaon Settings
+Instaon is a private network penetration technology. With this technology, you do not need to apply for
+dynamic domain name, set port mapping, or deploy transit server. You can add devices for
+management by either of the following two ways.
+ೠ
+
+Scan the QR code on the interface to download the app and register an account. See "App Operation
+Examples" for details.
+
+Before using Instaon, make sure that the device is connected to the Internet.
+
+Preparation
+ೠ
+
+The device is connected to the Internet.
+
+ೠ
+
+GCMOB/CMOB app is downloaded and installed on your mobile phone.
+
+Procedure
+Select MANAGEMENT > NETWORK > INSTAON.
+The INSTAON interface is displayed.
+Instaon
+
+Select Enable to enable INSTAON.
+Use the app to scan the QR code of the device SN to add the device in the app.
+
+Scan the QR code on the actual interface of the device. The QR code in this document is for reference
+only.
+
+Click OK.
+After configuration is complete, the Status shows Online, meaning the Instaon registration is
+successful.
+
+App Operation Examples
+Here are the steps for operations in the app.
+On your mobile phone, download the app.
+After installation, run the app, select Remote Monitoring, and go to the main menu.
+Add the device in the app.
+
+1)
+
+Click
+and select Device Manager. The
+Device Manager interface is displayed.
+
+2)
+
+Click
+, initialize the device as needed and follow the instructions to connect the device. To
+do so, you can scan the device label or the serial number QR code of the device on the device
+page.
+
+After scanning, the device is added. The serial number of the device is displayed in
+Serial Number section.
+To review the monitoring screen of the device, click Live.
+
+5.6.7 Configuring Operation Platform
+By connecting to the operation platform, you can modify the configuration information of the recorder,
+collect the print information and GPS raw data, and upgrade remotely.
+Click MANAGEMENT > NETWOTRK > Operation Platform.
+The Operation Platform interface is displayed. See Figure 5-52.
+Operation Platform
+
+Select Enable.
+
+Configure parameters. For details, see Table 5-18.
+Table 5-18 Operation platform parameters
+
+Parameter
+
+Description
+
+Address
+
+Enter the IP address or domain name of the server to register.
+
+Port
+
+Enter the port of the server to register.
+
+Click OK.
+
+Managing Storage Device
+You can configure Disk storage, package basic information, manage Disk, and review Disk information.
+
+5.7.1 Configuring Basic Information
+On the Local interface, you can set up the strategy when the Disk is full and how to package recordings.
+
+In the main menu, select MANAGEMENT > STORAGE > BASIC. The
+BASIC interface is displayed.
+Basic configuration
+
+Configure basic information.
+ೠ
+
+Select the processing strategy of stopping recording and overwriting earlier recordings when
+Disk is full.
+
+ೠ
+
+◇
+
+Stop: When all readable and writable Disk s are full and there is no extra free disk, the
+recording stops.
+
+◇
+
+Overwrite: When all readable and writable Disk s are full and there is no extra free disk, the
+new video recordings overwrites the old ones.
+
+Set up the time length or file size for packaging recordings.
+
+Select the required packaging manner from the Create Video Files drop-down list, which includes
+File Size and Time Length.
+
+ೠ
+
+◇
+
+Set the length of time for each video file. The default value is 60 minutes, and the range is 1
+minute–120 minutes.
+
+◇
+
+Set the size of file for each video file. The default value is 1024M, and the range is 128M–
+2048M.
+
+Set the strategy of deleting old files automatically.
+
+After setting file auto deletion, deleted files cannot be recovered. Click OK.
+
+5.7.2 Managing Disk
+Set the read and write properties of the SD card and view the capacity information of the Disk.
+
+Select MANAGEMENT > STORAGE > Disk Manager.
+The DiskManagerinterface is displayed.
+You can set the SD card as the Read/Write disk, Read-Only disk or Redundancy disk under the Disk
+Operation column.
+ೠ
+
+Read/Write: You can read data from SD card and save data in SD card.
+
+ೠ
+
+Read-Only: You can only read data from SD card if set to read-only disk.
+
+ೠ
+
+Redundancy: If the device is connected to two or more SD cards, one of the SD cards can be set
+as the redundancy one for recording backup.
+
+Select SD card and click Format to clear all data in the SD card. Proceed with caution.
+Storage device
+
+Click OK.
+
+5.7.3 Configuring FTP Settings
+Back up video recordings and images to the preset FTP (File Transfer Protocol) server for storage.
+
+Preparation
+Make sure that you have purchased or download a FTP server and installed it on your PC.
+For the created FTP user, you need to set the write permission; otherwise the upload of video recordings and
+snapshots will fail.
+
+Procedure
+Select MANAGEMENT > STORAGE > FTP.
+The FTP interface is displayed.
+FTP settings
+
+Select Enable to enable FTP upload and select FTP type.
+ೠ
+
+FTP is for plain text transmission and SFTP is for cipher text transmission. It is
+recommended to select SFTP.
+
+When FTP is selected, the system gives a risk prompt. Select OK or Cancel as needed.
+Configure parameters.
+ೠ
+
+Table 5-19 FTP parameters
+
+Parameter
+
+Description
+
+Server Address
+
+The IP address of the host PC that is installed with the FTP/SFTP server.
+
+Port
+
+By default, SFTP port is 22 and FTP port is 21.
+
+Username
+Password
+Anonymous
+
+The username and password used to access the server.
+Select Anonymousif you want to log in to the server anonymously.
+Create a folder on FTP server.
+If you leave it empty, the system automatically creates folders based on IP, time, and
+
+Remote directory
+
+channel.
+If you enter a name for the remote directory, the system creates a folder with the
+entered name under the FTP/SFTP root directory first, and then
+automatically creates folders based on IP, time, and channel.
+Enter the size of the uploaded video recordings.
+If the entered length is less than the length of the video recording, only a section of
+
+File size
+
+the video recording can be uploaded.
+If the entered length is more than the length of the video recording, the whole
+video recording can be uploaded.
+If the entered length is 0, the whole video recording will be uploaded.
+
+When the Mode is Timing, the upload method should be determined based on
+the image upload interval and snapshot interval.
+◇
+
+If this interval is longer than snapshot interval, the system uploads the most
+recent snapshot. For example, if the interval is 5 seconds and snapshot
+interval is 2 seconds, the system sends an upload command to upload the
+next snapshot every 5 seconds.
+
+Picture upload
+
+◇
+
+If this interval is shorter than snapshot interval, the system uploads the
+snapshot as per the snapshot interval. For example, if the interval is 5 seconds
+
+interval
+
+and snapshot interval is 10 seconds, the system uploads the snapshot
+every 10 seconds.
+When the Mode is Event, the system uploads the snapshot as per the snapshot
+interval.
+You can change the Interval and Mode.
+Select the channel that you want to apply the FTP settings.
+
+Channel
+
+Select the week day and set the time period that you want to upload the recording files.
+
+Day
+
+You can set two periods for each week.
+
+Select the record type (Alarm, MD, and General) that you want to upload. After selecting
+Period
+
+the corresponding recording type next to the corresponding period,
+the selected recording type will be uploaded during the configured period.
+Click Test to test if the FTP/SFTP server is successfully configured.
+ೠ
+
+The system pops up a message to indicate success or failure.
+
+ೠ
+
+In case of failure, check the network connection or configuration.
+
+Click OK.
+
+Configuring System
+You can configure system information, security management, and vehicle information.
+
+5.8.1 Security
+5.8.1.1 Configuring System Service
+Select MANAGEMENT > SYSTEM > SECURITY > System Service.
+
+Select whether to enable Mobile Phone Push, CGI, SSH, Audio/Video Transmission Encryption,
+or Private Protocol Authentication Mode as needed.
+
+ೠ
+
+Mobile Phone Push: The instaon client can receive alarm push only when Mobile Push
+Notifications is enabled and the instaon client subscribes to alarms.
+CGI: After enabling CGI, a third-party platform can connect to this device via the CGI protocol.
+
+ೠ
+
+SSH: Secure Shell (SSH) is a cryptographic network protocol for operating network services
+
+ೠ
+
+securely over an unsecured network. You can enable it for enhancing data safety.
+
+Audio/Video Transmission Encryption: When enabled, audio/video transmission will
+be encrypted. Related devices or software shall support video decryption.
+ೠ Private Protocol Authentication Mode: You are recommended to select the Security Mode.
+Click OK.
+ೠ
+
+5.8.1.2 Configuring HTTPS Settings
+Through creating server certificate or downloading root certificate, and setting port number, the PC can log in to
+the device via HTTPS to ensure the security of communication data and guard the user information and device
+security with stable technology measures.
+
+Preparation
+You have to enable the HTTPS port before you can start creating server certificate or downloading root
+certificate.
+
+5.8.1.2.1 Creating Server Certificate
+For the first time to use this function or after changing the device IP address, you need to create a server
+certificate.
+Select MANAGEMENT > SYSTEM > SECURITY > HTTPS.
+The HTTPSinterface is displayed.
+
+HTTPS
+
+Click Create Certificate.
+The CreateCertificate interface is displayed.
+Enter the information for the parameters such as Country, State, and Location.
+In IPorDomainNamebox, enter the same IP or domain name of the device.
+Click Create.
+The system pops up a message after the creation is succeeded.
+
+5.8.1.2.2 Downloading Root Certificate
+For the first time to use HTTPS after changing the PC, you need to download root certificate.
+Click MANAGEMENT > SYSTEM > SECURITY > HTTPS.
+The HTTPS interface is displayed. Click
+Download Certificate.
+The Download Certificate interface is displayed. Click
+Open.
+The Certificate interface is displayed. Click
+
+Install Certificate.
+The Certificate Import Wizard interface is displayed. Click Next.
+The Certificate Store interface is displayed. Click Next.
+The Completing Certificate Import Wizard interface is displayed. Click Finish.
+The Security Warning interface is displayed. Click Yes.
+The Import Completed interface is displayed. The certificate is now downloaded.
+
+5.8.1.2.3 Configuring HTTPS Port
+
+After creating server certificate or downloading root certificate, you need to configure the HTTPS port.
+Click MANAGEMENT > NETWORK > Port.
+The Port interface is displayed.
+Enter the HTTPS port. The default setting is 443 and you can modify it as needed. Add the port
+number if it was modified to log in to the device via HTTPS.
+
+Click OK.
+
+5.8.1.2.4 Logging in by HTTPS
+You can use HTTPS to log in to the web interface of the device.
+Open the browser, enter https://xx.xx.xx.xx:port, and the login interface is displayed.
+ೠ
+
+xx.xx.xx.xx corresponds to your device IP address or domain name.
+
+ೠ
+
+Port corresponds to your HTTPS port. If the default value is 443, do not enter ":port". Just enter
+"https://xx.xx.xx.xx" to visit.
+
+5.8.2 Configuring Vehicle Settings
+You can set the vehicle speed and position report.
+
+5.8.2.1 Configuring Speed Settings
+Click > MANAGEMENT > VEHICLE > SPEED.
+The SPEEDinterface is displayed.
+Speed
+
+Configure more settings. See Table 5-20.
+Table 5-20 Speed parameters
+
+Parameter
+Speed ratio
+Mileage
+
+Description
+The parameter for converting speed.
+Select the vehicle mileage cumulation mode.
+
+cumulation
+Mileage
+
+Displays the total mileage.
+
+Start mileage
+
+Enter the initial mileage of the vehicle.
+
+Select where the speed is obtained, including Pulse, Position Info, and
+Pulse&Position Info.
+Pulse: Gets the speed information from vehicle pulse system. Position
+Info: Gets the speed information from positioning system.
+
+Speed source
+
+Pulse&Position Info: Gets the speed information from both the pulse
+system and positioning system. Information from the pulse system is used first.
+
+Click OK.
+
+5.8.2.2 Configuring Position Report
+You can configure the position report strategy to Device Auto or Platform Schedule.
+Click MANAGEMENT > SYSTEM > VEHICLE > Position Report.
+The Position Report interface is displayed. Configure
+the report strategy.
+ೠ
+
+Device auto.
+1. In Report Strategy, select Device Auto.
+ೠ
+
+1.
+
+The DeviceAuto interface is displayed.
+
+Configure parameters.
+Table 5-21 Device auto report parameters
+
+Parameter
+
+Description
+
+Report interval
+
+When the vehicle ACC status is on, the system reports the position to
+
+Report by distance
+
+platform according to the configured report interval, report distance, and
+inflexion angle.
+
+Inflexion angle
+
+The system reports vehicle position to platform as long as one of
+
+Report interval when
+
+conditions is satisfied.
+When the vehicle ACC status is off, the system reports the position to
+
+ACC off
+ೠ
+
+platform based on the configured report interval.
+Platform schedule.
+In Report Strategy, select Platform Schedule. The Platform Schedule interface is displayed.
+The platform obtains the device position by the configured schedule. The schedule is
+configured at the platform. See the user's manual for the platform.
+
+Position report (platform schedule)
+
+Click OK.
+
+5.8.3 Configuring Serial Port Parameters
+You can configure the serial port parameters such as baud rate, date bits, stop bits, and parity.
+Select MANAGEMENT > System > Serial port.
+The Serial Port interface is displayed. See Figure 5-61.
+Serial Port
+
+Configure parameters. For details, see
+Table 5-22 Serial port setting parameters description
+
+Parameters
+
+Description
+Select the corresponding protocol.
+Console: Upgrades programs and debug by suing the serial interface and mini terminal
+software.
+
+Serial Port
+
+GPS: Used for data communication with GPS module and firmware update, etc. Light Box:
+
+Function
+
+External vehicle light box, used to judge the device status (such as recording status) by
+the status of the light in the light box.
+
+MD02: Used to connect to MD02 broadcast screen, and display alarm sounds
+and icons.
+
+Parameters
+
+Description
+
+Data bit
+
+The times of signal changes on the transmission line within one time unit.
+The default baud rate is 115200 for a general serial port. The
+default baud rate is 9600 for the touch screen.
+Select a data bit. The options include 5, 6, 7, and 8.
+
+Stop bit
+
+Select a stop bit. The options include 1, 1.5, and 2.
+
+Parity
+
+Select a parity mode from None, Odd, Even, Mark, and Space.
+
+Baud rate
+
+Click OK.
+
+Managing User Account
+You can add, modify and delete user accounts and groups, and configure security questions for user accounts.
+
+Default User and Authority
+The default user account is admin.
+ೠ
+
+The admin account is defined as the highly privileged user by default.
+
+ೠ
+
+To manage user accounts easily, when defining the user account authority, it is recommended to give
+lower authority to common user accounts than advanced user account.
+
+User and User Group
+You can manage the accounts by user and user group, and the names cannot be repeated.
+ೠ
+
+You can set up to 64 users and 20 groups.
+The default groups User and Admincannot be deleted.
+
+ೠ
+
+You can modify the authority of a user in group authorities. However, the authorities of the admin
+
+ೠ
+
+account cannot be specified at your will.
+ೠ
+
+Every user must belong to only one group. When selecting a group for a user, the authority that the user
+can be granted should be no higher than the group authority.
+
+ೠ
+
+Both the user name and group name support 1–31 characters and can only consist of letter, number,
+underline (_), and hyphen (-).
+
+5.9.1 User Management
+You can add, delete, or modify a user, and set the authorities for the user in a group.
+
+Adding a user
+Select MANAGEMENT > ACCOUNT > ACCOUNT > User.
+The User interface is displayed.
+
+Click Add.
+The Add interface is displayed.
+Add
+
+Configure more settings. See Table 5-23.
+
+Table 5-23 User adding parameters
+
+Parameter
+
+Description
+
+User name
+Password
+Confirm
+
+Enter the user name and password, and conform the password.
+
+password
+Group
+
+Select a group for the user.
+
+User MAC
+
+Enter user MAC address that is allowed to log in to the device.
+
+Memo
+
+Enter a description of the user.
+Click Setting to set a valid period. The user is only allowed to log in to the device
+
+Period
+
+in the set period.
+
+Authority
+
+You can modify the authority of a user in group authorities.
+ೠ The authorities of the admin account cannot be changed.
+To manage user accounts easily, when defining the user account authority, it is
+recommended to give lower authority to common user accounts than advanced user
+accounts.
+
+Click OK.
+
+Click
+
+to modify user information; click
+
+to delete the user.
+
+Modifying Password
+On the User interface, click
+
+. The
+
+Modify interface is displayed.
+Modify User
+
+Select the Modify Password check box, and then enter old password, new password, and confirm
+password in corresponding boxes.
+Select the authority, including system, playback, and real-time monitoring authorities.
+
+Click OK.
+ೠ
+
+The new password can be set to 8 characters through 32 characters and contains at least two
+
+types from number, letter and special characters (excluding ', ", ;, :, and &). Enter a strong
+password according to the security level indication.
+ೠ
+
+A user authorized to manage user accounts can modify its own password and the
+passwords of other users.
+
+5.9.2 Group Management
+You can perform the operations to manage the user group, such as adding a group, deleting a group, and
+modifying a group.
+Select MANAGEMENT > ACCOUNT > ACCOUNT > Group.
+The Group interface is displayed.
+Group
+
+Click Add.
+The Add interface is displayed.
+Add group
+
+Set group name and memo.
+A group name consists of letters, numbers, and special characters (including "_", "@", "."). Select the
+authority, including system, playback, and real-time monitoring authorities.
+
+Select All to select all authorities in the category. Click
+OK.
+
+Click
+
+to modify the corresponding group information; click to delete the group.
+
+5.9.3 Resetting Password
+You can reset the password by the reserved email address when the password for the admin account is lost.
+Open a browser and log in to the web interface of the device.
+The login interface is displayed. Enter
+the user name admin.
+The password setting information is displayed.
+Login interface
+
+Click Forgot Password.
+
+The Reset interface is displayed. Click
+OK.
+The Reset Password interface is displayed.
+Follow the instructions to scan the QR code in the actual interface and get the security code.
+
+ೠ
+
+Scan the QR code on the actual interface of the device. The QR code in this document is for
+reference only.
+
+ೠ
+
+Scanning the same QR code leads to two security codes at most. To get another security
+code, refresh the QR code interface.
+
+ೠ
+
+Use the security code within 24 hours after you receive it. Otherwise, it will become invalid.
+
+ೠ
+
+Wrong security code entered for up to five times will cause the admin account locked for five
+minutes.
+
+In the security code box, enter the security code received in your reserved mailbox.
+Click Next.
+The ResetPassword interface is displayed. Reset the New
+Password and Confirm Password.
+The new password can be set to 8 through 32 non-null characters and contains at least two types
+
+from number, letter and special characters (excluding ', ", ;, :, and &). Enter a strong
+password according to the security level indication. Click
+
+OK.
+The system prompts successful operation. You can use the new password to log in to the device.
+
+6 System Upgrade
+Viewing System Version
+You can view the device version information. Select
+MANAGEMENT > System Info > Version.
+The Version interface is displayed. See Figure 6-1.
+Figure 6-1 Version
+
+Upgrading System Firmware
+You can import the upgrade files to upgrade the firmware. The upgrade file should be a .bin file.
+
+ೠ
+
+During upgrade, do not disconnect from power and network, and restart or shut down the device.
+
+ೠ
+
+Upgrading the wrong file might result in the device not working properly.
+Click MANAGEMENT > SYSTEM >
+Update. The Update interface is
+displayed.
+
+Update
+
+Select the chiplist that suits your actual needs.
+ೠ To upgrade system programs, select Main for the chiplist.
+ೠ To upgrade the MCU firmware programs, select MCU for the chiplist.
+Click Browse and select the update files you want to use.
+Click Update.
+The system starts upgrading. You should log in to the web interface again after upgrading.
+
+7 System Maintenance
+Maintenance Requirement
+For the system's good and safe running, it's recommended to manage and maintain the system, back up files in
+the following methods.
+ೠ
+
+Check monitoring images regularly.
+
+ೠ
+
+Clear the users and user groups not frequently used regularly.
+
+ೠ
+
+Modify your password every 3 months.
+
+ೠ
+
+Check your system log regularly. Handle problems in a timely manner.
+
+ೠ
+
+Back up your configuration of the system regularly.
+
+ೠ
+
+Restart the device regularly.
+
+ೠ
+
+Upgrade firmware in a timely manner.
+
+Viewing System Information
+You can view device version information, logs, network information, Disk information, channel information and
+satellite information.
+For version information, see 6.1Viewing System Version.
+
+7.2.1 Viewing Log
+You can search, view, and back up the logs to local PC.
+Click MANAGEMENT > System Info > Log.
+The Log interface is displayed.
+
+Log
+
+Set up Start Time, End Time, and Type.
+Click Search.
+The obtained logs are displayed.
+Select the log that you want to back up, and then click Backup. In the Save as dialog box, select the save
+path to save the log to local PC.
+
+7.2.2 Viewing Network Information
+You can view IP information of the logged in device.
+Click MANAGEMENT > System Info > Network. The Network interface is displayed. See Figure 7-2.
+Click Refresh and the latest network information is displayed.
+Network information
+
+7.2.3 Viewing Disk Information
+You can view the HDD information of the device, including Disk name, location, and health.
+Click MANAGEMENT>SystemInfo>Disk.The Diskinterface is displayed. See Figure 7-3.
+Click Refresh and the latest Disk information is displayed.
+
+Click RecordTime, and then the periods of all Disk recordings are displayed. See Figure 7-4.
+Disk recording period
+
+7.2.4 Viewing Satellite Information
+You can view the satellite positioning information such as module state, GPS status, latitude and longitude,
+and search results.
+
+Click MANAGEMENT > System Info > SATELLITE.
+The SATELLITEinterface is displayed. Click Refresh and the latest satellite information is displayed.
+ೠ
+
+If the GPS module state indicates Normal but does not position within five minutes, the GPS module
+automatically resets and repositions. When the positioning information is obtained again, the GPS
+module reset times is up to 20, or the device is restarted, you can view the GPS module reset records in
+the log.
+
+ೠ
+
+When the GPS module is short-circuited for more than 10 seconds, the module state is abnormal and the
+GPS module is automatically powered off and no longer powered on. After the device is restarted, the GPS
+module will be powered on again.
+
+Figure 7-5 Satellite information
+
+Auto Maintenance
+You can configure the automatic maintenance settings such as auto restart, auto deleting old files, auto start,
+auto shutdown, and delay for auto shutdown.
+
+7.3.1 Restarting System
+If the device runs for a long time, you can set it to automatically restart the device during idle time. After
+configuring auto restart, when the device is working, it restarts as per the schedule.
+Step 1 Select MANAGEMENGT> SYSTEM> Maintain.
+The Maintain interface is displayed.
+Figure 7-5 Maintain
+
+Select auto restart.
+ೠ Select Never, and the device will never restart automatically.
+ೠ Select Every Day, set the device restart time, and the device will restart automatically at that time
+point.
+Select Monday to Sunday, set the device restart time, and the device will restart automatically
+at that time point every week. If Sunday and 01:00 are selected, the device will restart
+automatically at 1:00 every Sunday.
+Click OK.
+ೠ
+
+7.3.2 Configuring Auto Start
+After configuring auto start, the device starts automatically at the scheduled time point. If you turn the vehicle
+key to ACC before the configured auto start time, the device starts immediately. When the ACC is powered off,
+the device will shut down as per the scheduled auto delay for shutdown.
+Click
+MANAGEMENT>SYSTEM>Maintain.
+The Maintain interface is displayed.
+Select auto start.
+ೠ
+ೠ
+
+Select Never, and the device will never start automatically.
+Select Every Day and set the time. When you turn the vehicle key to ACC before this time point,
+the device starts immediately.
+
+Click OK.
+
+7.3.3 Configuring Auto Shutdown
+After configuring auto shutdown, the device automatically shuts down as per the ACC power off time and
+auto start setting.
+ೠ
+
+If you have set the time for auto start, there are two situations when the ACC is powered off: If the system
+time is between the auto start time and auto shutdown time, the device is turned off at the configured time
+point. If the system time is before the auto start time or after the auto shutdown time, the device is
+turned off immediately.
+
+ೠ
+
+If the auto start time is not set, when the ACC is disconnected, the device shuts down at the scheduled
+time point.
+Click MANAGEMENT > SYSTEM >
+
+Maintain. The Maintain interface is
+displayed.
+Select auto shutdown.
+ೠ
+ೠ
+
+Select Never, and the device will never shut down automatically.
+Select Every Day and set the time. The system will shut down as per the ACC power off time and auto
+start setting. Select Every Day for Auto Shutdown System, and then enter the specific time.
+
+Click OK.
+
+7.3.4 Delay for Auto Shutdown
+After configuring delay for auto shutdown, when ACC is disconnected, the device shuts down as per the
+settings of delay for auto shutdown.
+ೠ
+
+If you enter a delay value that is not 0, the device automatically shuts down after the preset delay.
+
+ೠ
+
+If you enter 0, the device shuts down as per the auto shutdown settings without delay.
+Click MANAGEMENT > SYSTEM >
+
+Maintain. The Maintain interface is
+displayed. Configure the delay for auto
+shutdown.
+The value ranges from 0 through 65535 minutes. The default value is 5 minutes. Click OK.
+
+Backing Up and Restoring
+You can back up or restore the web configurations and restore them to default settings.
+
+7.4.1 Backing Up Configuration
+You can back up all web configurations.
+Click MANAGEMENT > SYSTEM >
+Import/Export. The Import/Export interface is
+displayed.
+
+Configuration import/export
+
+Click Import and select the backup path. The
+system starts backing up configurations.
+
+7.4.2 Importing and Exporting Files
+You can back up the configuration of the device by exporting the device profile. When the device is abnormal,
+you can quickly restore the configurations by importing the profile.
+
+7.4.2.1 Backing Up Files
+Export the configurations of the device locally.
+Select MANAGEMENT > SYSTEM > Import/Export.
+The Import/Export interface is displayed.
+
+Import/export (1)
+
+Click Export and select the path to save the profile.
+
+7.4.2.2 Importing Files
+You can use the backed-up configurations to quickly configure the device and restore the device
+
+configurations.
+Select MANAGEMENT > SYSTEM >
+Import/Export. The Import/Export interface is
+displayed.
+Configuration import/export (2)
+
+Click Browse, and then select the backup file you want to import.
+Click Import.
+The system pops up the restart message. Click OK, and the system starts importing the configurations and
+restarts the device after importing is completed.
+
+7.4.3 Restoring to Default
+You can restore the system to default configurations or the factory default. Only the user with the default &
+upgrade authorities can do this.
+
+The corresponding functions will be restored to the factory settings, and your current configurations will be lost.
+Proceed with caution.
+
+Step 1 Click MANAGEMENT > SYSTEM > Default. The Default interface is displayed.
+Figure 7-10 Factory default setting
+
+Step 1 Click MANAGEMENT > SYSTEM > Default. The Default interface is displayed.
+Figure 7-10 Factory default setting
+
+Select corresponding check box you want to use for restoring.
+ೠ Default: Click Default, and the Reboot dialog box pops up. See Figure 7-11. Then click OK. All
+configurations other than username, password, security questions and device IP are restored
+to the default configuration of the device.
+ೠ
+
+Factory Default: Click Factory Defaults, and the Reboot dialog box is displayed. See Figure 7-12. Then
+click OK, and the system restarts. After the device is restarted, the system will restore to factory
+defaults, and the device requires initialization again. Proceed with caution.
+When there is a user operating on the Local interface, restoring to factory defaults cannot be
+performed until the local user logs out.
+Reboot prompt (1)
+
+Reboot prompt (2)
+
+Network Sniffer
+The packet data can be provided to the developers or engineers to analyze the network usage.
+
+Preparation
+The device being captured is connected to an external backup device.
+
+Procedure
+Click MANAGEMENT > System Info > Packet Sniffer Backup.
+The PacketSnifferBackupinterfaceisdisplayed.
+
+Packet Sniffer Backup
+
+Select the Ethernet port and save path.
+Select the Target Filter check box, and then enter the IP address that you want to filter.
+Click Start.
+The system starts the sniffer, and the data will be stored to the external backup device. Click Stop.
+The Prompt dialog box is displayed. See Figure 7-14.
+Prompt
+
+Click OK or Cancel. Click OK to download the files locally. Viewed those files in the storage path; click
+Cancel to stop downloading.
+
+8 Operating by EMSS PRO
+Beside from web, you can also remotely log in to the Recorder from Digital Surveillance System (EMSS PRO). For
+details, see the manual of EMSS PRO.
+
+9 FAQ
+If your questions cannot be answered by the following contents, please contact your local service
+engineer or the service of our Headquarters for help. We can help you to solve this problem.
+
+1)
+
+Q: Disconnect the constant electricity but the Recorder is still working.
+A: Possible causes:
+ೠ
+
+The default 5-minute shutdown delay is effective.
+
+ೠ
+
+The UPS setting provides constant power supply to the Recorder when the lithium battery voltage is
+above 7V.
+
+ೠ
+
+2)
+
+ACC is connected.
+
+Q: The Recorder gives squeal after it is boot up.
+A: Possible causes:
+ೠ
+
+Connecting to the display and being too close to the camera.
+
+ೠ
+
+A single channel interface or a large-image multi-channel interface. The first channel of sound
+comes from a local source.
+
+3)
+
+Q: The interface shows that no SIM card is detected.
+A: Possible causes:
+ೠ
+
+SIM card not inserted.
+
+ೠ
+
+Micro SIM card reversely inserted with its notch facing outward. Follow instructions on the label to
+insert the SIM card.
+
+ೠ
+
+4)
+
+SIM card is damaged.
+
+Q: DVR cannot boot up properly.
+A: Possible causes:
+
+5)
+
+ೠ
+
+The input power is not correct; the input voltage is too low or too high.
+
+ೠ
+
+Poor contact in the input power cable or incorrect wiring.
+
+ೠ
+
+HDD is damaged or poor contact between the HDD carrier and HDD.
+
+ೠ
+
+Main board is damaged.
+
+Q: DVR automatically reboots or frequently crashes.
+A: Possible causes:
+ೠ
+
+Input voltage is not stable or too low.
+
+ೠ
+
+The Recorder is not properly installed, which result in poor contact between components.
+
+ೠ
+
+Poor heat dissipation and too many dusts result in poor working environment for the
+Recorder.
+
+ೠ
+
+6)
+
+Hardware malfunction.
+
+Q: HDD cannot be detected after rebooting.
+A: Possible causes:
+
+7)
+
+ೠ
+
+HDD not installed.
+
+ೠ
+
+Poor contact between the HDD carrier and HDD.
+
+ೠ
+
+HDD is damaged.
+
+Q: Blank screen in a channel of the display
+A: Possible causes:
+
+8)
+
+ೠ
+
+The camera is damaged. Replace the damaged camera.
+
+ೠ
+
+The connection wire is damaged. Replace the damaged connection wire.
+
+Q: No video output from single-channel, multiple-channel or all-channel.
+A: Possible causes:
+
+9)
+
+ೠ
+
+Program is not compatible. Please upgrade to the correct version.
+
+ೠ
+
+The brightness value of all channels is 0. Please restore to default setting.
+
+ೠ
+
+No video input signal or the signal is too weak.
+
+ೠ
+
+Channel protection or screen protection is configured.
+
+ೠ
+
+Hardware malfunction.
+
+Q: Real-time video images are abnormal, such as color and brightness are distorted.
+A: Possible causes:
+ೠ
+
+NTSC and PAL settings are not correct, and the image becomes black and white.
+
+ೠ
+
+Recorder and monitor resistance are not compatible.
+
+ೠ
+
+Video network transmission distance is too far, or transmission line signal attenuation is too much.
+
+ೠ
+
+NVR color or brightness settings are not correct.
+
+10) Q: No recorded video can be found in local playback.
+A: Possible causes:
+ೠ
+
+Poor contact between the HDD carrier and HDD.
+
+ೠ
+
+HDD is damaged.
+
+ೠ
+
+Upgraded program is not compatible.
+
+ೠ
+
+The recording file that you want to search has been overlapped.
+
+ೠ
+
+The recorded file is not opened.
+
+11) Q: Video is distorted in local search.
+A: Possible causes:
+ೠ
+
+The video quality setting is too low.
+
+ೠ
+
+Program read error, bit data is too small, and there is full of mosaic in the screen. Please firstly try to
+restart the DVR to solve this problem.
+
+ೠ
+
+Disk error
+
+ೠ
+
+Hardware malfunction.
+
+12) Q: The monitor has no sound.
+A: Possible causes:
+
+ೠ
+
+It is not an active speaker.
+
+ೠ
+
+Audio cable is damaged.
+
+ೠ
+
+Hardware malfunction.
+
+13) Q: There is audio under monitoring state but no audio under playback state.
+A: Possible causes:
+ೠ
+
+Audio function is not enabled.
+
+ೠ
+
+The corresponding channel does not connect to the camera. Playback is not continuous when
+the screen is blue.
+
+14) Q: System time is not correct.
+A: Possible causes:
+ೠ
+
+The setting is not correct.
+
+ೠ
+
+Poor battery contact or voltage is too low.
+
+ೠ
+
+Crystal oscillator is poor.
+
+15) Q: USB backup error.
+A: Possible causes:
+ೠ
+
+Too much data which occupies CPU resources. Please stop recording first and then begin backup.
+
+ೠ
+
+Backup Recorder is not compatible.
+
+ೠ
+
+Backup Recorder is damaged.
+
+ೠ
+
+The backup Recorder features high power and needs a separate power supply.
+
+16) Q: Alarm function does not work.
+A: Possible causes:
+ೠ
+
+The alarm setting is not correct.
+
+ೠ
+
+The alarm cable connection is not correct.
+
+ೠ
+
+Alarm input signal is not correct.
+
+ೠ
+
+There are two loops connected to one alarm Recorder.
+
+17) Q: Messy channel display.
+A: Possible causes:
+ೠ
+
+Incorrect selection of camera type. Auto switch is recommended.
+
+ೠ
+
+The camera is damaged.
+
+18) Q: Record storage time is not enough.
+A: Possible causes:
+ೠ
+
+Low camera quality, dirty lens, camera installed against the light, or iris not properly adjusted
+caused large, big rate.
+
+ೠ
+
+HDD capacity is not enough.
+
+ೠ
+
+The HDD is damaged.
+
+19) Q: No 3G/4G dial-up. No dial-up IP,
+
+A: Possible causes:
+ೠ
+
+Check if the SIM card is normal.
+
+ೠ
+
+Check if the SIM card is not in service.
+
+ೠ
+
+Check if the 3G/4G antenna is connected as intended.
+
+ೠ
+
+Check if the 3G/4G signals are strong enough.
+
+ೠ
+
+Try out with another SIM card.
+
+20) Q: 3G/4G platform is not online.
+A: Possible causes:
+ೠ
+
+Check if 3G/4G dial-up is normal.
+
+ೠ
+
+Check if local active registration is correctly set up.
+
+ೠ
+
+Check if the sever terminal is correctly set up.
+
+21) Q: No GPS data.
+A: Possible causes:
+ೠ
+
+Check if the GPS antenna is connected as intended.
+
+ೠ
+
+Make sure the GPS antenna is in a place where signals are not blocked.
+
+22) Q: GPS drifting and produces speed for no reason.
+A: Possible causes:
+Weak GPS signal.
+
+Mouse Operations
+The operations are based on the considerations for right-handed users.
+Beside the operations from the front panel and remote control, you can also use mouse to operate menus.
+Insert the mouse to the USB port of the Recorder.
+Operation
+
+Function
+
+If the user has not logged into the system, the password box is displayed first.
+During real-time monitoring, click the left mouse button to go to the main
+menu.
+When you have selected one menu item, click it to view menu content.
+Implement the operations indicated on the control.
+Change the status of the check box.
+Click the combo box, the drop-down list is displayed.
+In text box, click the corresponding button on the panel to enter a numeral,
+punctuation, English character (small/capitalized), or Chinese. Left click the
+symbol on the panel to complete value input; ← represents backspace, and＿
+represents space.
+In English input mode: Click ＿ to enter a space and click ← to delete the
+previous character.
+
+Click the left
+mouse button
+In numeral input mode: Click ＿ to delete all numbers and click ← to delete
+the previous number.
+
+In special characters input mode: For the numbers and characters on the soft
+panel, press the numbers on the front panel to enter the corresponding
+characters, for example, press 1 means entering /. You can also directly use the
+mouse to click to enter the characters.
+
+Double-click the
+left mouse
+button
+
+The special operation to perform a specific action. For example, double-click the
+recorded video file to start playback.
+In multi-image, double-click a channel image to display it in full screen.
+Double-click again to restore the previous multi-window screen.
+In the real-time monitoring screen, right-click on the screen, the shortcut menu is
+displayed. You can configure the settings including multi-image mode (related to the
+number of channels of the Recorder), PTZ control, color setting, recording search,
+
+Right-click
+
+recording control, alarm output, and main menu. To use PTZ control and color setting
+apply to the images corresponding to the pointer. If it was
+multi-image mode before settings, the system auto switches to the single
+images of corresponding channels first.
+Do not save the setting and exit the current menu.
+In numeral input box, rotate the wheel button to increase or decrease the
+
+Wheel button
+
+numeral value.
+Switch between items in the combo box.
+Page up or page down.
+
+Move
+
+Select and move a control of the current coordinates or one of its items.
+
+Drag
+
+Box select an area and set up area overlap.
+
+Disk Capacity Calculation
+In the first installation of the HDD, check whether the HDD is already installed. To install IDE HDD, pay attention to
+the jumper of the HDD.
+HDD capacity calculation formula:
+Total capacity (M) = Channel number × Demand time length (hour) × HDD capacity occupied per hour
+(M/hour)
+Recording time calculation formula:
+Recording time (hour) =
+
+HDD total capacity (M)
+HDD capacity occupied per hour (M/hour) × Channel number.
+
+The Recorder adopts MPEG4/H.264 compression technology, which features a large dynamic range. Therefore,
+when calculating HDD capacity, you should accord to the bit rate to evaluate the file size generated per hour
+from each channel.
+
+Cybersecurity Recommendations
+Mandatory actions to be taken for basic device network security:
+1.
+
+Use Strong Passwords
+Please refer to the following suggestions to set passwords:
+ೠ
+
+The length should not be less than 8 characters.
+
+ೠ
+
+Include at least two types of characters; character types include upper- and lower-case letters,
+numbers and symbols.
+
+ೠ
+
+Do not contain the account name or the account name in reverse order.
+
+ೠ
+
+Do not use continuous characters, such as 123, abc, etc.
+
+ೠ
+
+Do not use overlapped characters, such as 111, aaa, etc.
+
+2.
+
+Update Firmware and Client Software in Time
+ೠ
+
+According to the standard procedure in the Tech-industry, we recommend keeping your device (such
+as NVR, DVR, IP camera, etc.) firmware up-to-date to ensure the system is equipped with the latest
+security patches and fixes. When the device is connected to the public network, it is recommended
+to enable the “auto-check for updates”function to obtain timely information of firmware updates
+released by the manufacturer.
+
+ೠ
+
+We suggest that you download and use the latest version of client software.
+
+"Nice to have" recommendations to improve your device network security:
+1.
+
+Physical Protection
+We suggest that you perform physical protection to the device, especially storage devices. For
+example, place the device in a special computer room and cabinet, and implement well-done access
+control permission and key management to prevent unauthorized personnel from carrying out
+physical contacts such as damaging hardware, unauthorized connection of removable device (such
+as USB flash disk, serial port), etc.
+
+2.
+
+Change Passwords Regularly
+We suggest that you change passwords regularly to reduce the risk of being guessed or cracked.
+
+3.
+
+Set and Update Passwords Reset Information Timely
+The device supports password reset function. Please set up related information for password reset in
+time, including the end user’s mailbox and password protection questions. If the information
+changes, please modify it in time. When setting password protection questions, it is suggested not to use
+those that can be easily guessed.
+
+4.
+
+Enable Account Lock
+The account lock feature is enabled by default, and we recommend you keep it on to guarantee
+account security. If an attacker attempts to log in with the wrong password several times, the
+corresponding account and the source IP address will be locked.
+
+5.
+
+Change Default HTTP and Other Service Ports
+We suggest you change default HTTP and other service ports into any set of numbers between
+1024–65535, reducing the risk of outsiders being able to guess which ports you are using.
+
+6.
+
+Enable HTTPS
+We suggest you enable HTTPS, so that you visit Web service through a secure communication channel.
+
+7.
+
+MAC Address Binding
+We recommend you bind the IP and MAC address of the gateway to the device, thus reducing
+
+the risk of ARP spoofing.
+
+8.
+
+Assign Accounts and Privileges Reasonably
+According to business and management requirements, reasonably add users and assign a
+minimum set of permissions to them.
+
+9.
+
+Disable Unnecessary Services and Choose Secure Modes
+If not needed, it is recommended to turn off some services such as SNMP, SMTP, UPnP, etc., to reduce
+risks.
+If necessary, it is highly recommended that you use safe modes, including but not limited to the following
+services:
+ೠ
+
+SNMP: Choose SNMP v3 and set up strong encryption passwords and authentication
+passwords.
+
+ೠ
+
+SMTP: Choose TLS to access mailbox server.
+FTP: Choose SFTP and set up strong passwords.
+
+ೠ
+
+AP hotspot: Choose WPA2-PSK encryption mode and set up strong passwords.
+
+ೠ
+
+10. Audio and Video Encrypted Transmission
+If your audio and video data contents are very important or sensitive, we recommend that you use
+encrypted transmission function, to reduce the risk of audio and video data being stolen during
+transmission.
+Reminder: encrypted transmission will cause some loss in transmission efficiency.
+11. Secure Auditing
+ೠ
+
+Check online users: we suggest that you check online users regularly to see if the device is logged in
+without authorization.
+
+ೠ
+
+Check device log: By viewing the logs, you can know the IP addresses that were used to log in to your
+devices and their key operations.
+
+12. Network Log
+Due to the limited storage capacity of the device, the stored log is limited. If you need to save the log for a
+long time, it is recommended that you enable the network log function to ensure that the critical logs are
+synchronized to the network log server for tracing.
+
+13. Construct a Safe Network Environment
+In order to better ensure the safety of device and reduce potential cyber risks, we recommend:
+ೠ
+
+Disable the port mapping function of the router to avoid direct access to the intranet devices
+from external network.
+
+ೠ
+
+The network should be partitioned and isolated according to the actual network needs. If there are
+no communication requirements between two sub networks, it is suggested to use VLAN, network
+GAP and other technologies to partition the network, so as to achieve the network isolation effect.
+
+ೠ
+
+Establish the 802.1x access authentication system to reduce the risk of unauthorized access to private
+networks.
+
+Enable IP/MAC address filtering function to limit the range of hosts allowed to access the device.
+
+Thanks for Choosing CP Plus!
+
+Website: - www.cpplusworld.com
+Email id: - sales@cpplusworld.com; support@cpplusworld.com
+
+

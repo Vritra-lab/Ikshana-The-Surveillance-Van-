@@ -1,0 +1,10 @@
+
+QLabel#m_lbUnMatch
+{
+	border-image: url(Skin/DustyBlue/DeviceConfigUI/failed.png);
+}
+
+QLabel#m_lbMatch
+{
+	border-image: url(Skin/DustyBlue/DeviceConfigUI/success.png);
+}

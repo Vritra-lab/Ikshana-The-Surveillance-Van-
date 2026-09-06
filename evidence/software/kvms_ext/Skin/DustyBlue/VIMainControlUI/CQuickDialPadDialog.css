@@ -1,0 +1,142 @@
+QWidget
+{
+	background-color:#3f4348;
+}
+
+QWidget#CQuickDialPadDialog
+{
+	border: 1px solid #1b5e20;
+}
+
+QWidget#widgetTitle
+{
+	border-bottom:1px solid #1b5e20;
+}
+
+QPushButton#pushButtonDial,
+QPushButton#pushButtonMissCall
+{
+    padding-left:20px;
+	padding-right:20px;
+}
+
+QPushButton#pushButtonDial,
+QPushButton#pushButtonMissCall
+{
+    background:transparent;
+	border:none;
+	color:#c2cad7;
+}
+
+QPushButton#pushButtonDial:pressed,
+QPushButton#pushButtonMissCall:pressed,
+QPushButton#pushButtonDial:checked,
+QPushButton#pushButtonMissCall:checked
+{
+   background:transparent;
+   border:none;
+   border-bottom:3px solid #C40123;
+   color:#C40123;
+}
+
+QPushButton#pushButtonClose
+{
+    background:transparent;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/Close-n.png) ;
+}
+
+QPushButton#pushButtonClose:pressed,
+QPushButton#pushButtonClose:hover
+{
+    background:transparent;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/Close-p.png) ;
+}
+
+QPushButton#pushButtonDel
+{
+    background:transparent;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/keyboard_clear_n.png) ;
+}
+
+QPushButton#pushButtonDel:pressed,
+QPushButton#pushButtonDel:hover
+{
+    background:transparent;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/keyboard_clear_p.png) ;
+}
+
+QLineEdit#lineEdit
+{
+	border:none;
+	font-size: 25px;
+	color: #f6f6f6;
+}
+
+QPushButton#pushButtonOK
+{
+    background:transparent;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/keyboard_call_n.png) ;
+}
+
+QPushButton#pushButtonOK:pressed,
+QPushButton#pushButtonOK:hover
+{
+    background:transparent;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/keyboard_call_h.png) ;
+}
+
+QPushButton#pushButtonNum
+{
+    background:transparent;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/keyboard_1_n.png) ;
+}
+
+QPushButton#pushButtonNum:pressed,
+QPushButton#pushButtonNum:hover
+{
+    background:transparent;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/keyboard_1_n.png) ;
+}
+
+QListWidget
+{
+	background:transparent;
+	border:none;
+	outline:0px;
+}
+
+QListView::item{
+	height:38px;
+	border-bottom: 1px solid #1b5e20;
+}
+
+QLabel#labelNum,
+QLabel#labelTime
+{
+	background:transparent;
+	border:none;
+	font-size: 15px;
+}
+
+QPushButton#pushButtonCallBack
+{
+    background:transparent;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/call_back_n.png) ;
+}
+
+QPushButton#pushButtonCallBack:pressed,
+QPushButton#pushButtonCallBack:hover
+{
+    background:transparent;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/call_back_p.png) ;
+}

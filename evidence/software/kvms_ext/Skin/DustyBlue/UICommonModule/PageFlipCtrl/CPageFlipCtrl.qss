@@ -1,0 +1,117 @@
+QWidget#wgtRoot
+{
+	background-color:transparent;	
+}
+
+QPushButton#btnFrist {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/page-first-n.svg);
+    border:none;
+    width:24px;
+    height:24px;
+    min-width: 0;
+}
+QPushButton#btnFrist:hover {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/page-first-h.svg);
+}
+QPushButton#btnFrist:pressed {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/page-first-p.svg);
+}
+QPushButton#btnFrist:disabled {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/page-first-d.svg);
+}
+
+QPushButton#btnPrev {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/left-n.svg);
+    border:none;
+    width:24px;
+    height:24px;
+    min-width: 0;
+}
+QPushButton#btnPrev:hover {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/left-h.svg);
+}
+QPushButton#btnPrev:pressed {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/left-p.svg);
+}
+QPushButton#btnPrev:disabled {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/left-d.svg);
+}
+
+QPushButton#btnNext {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/right-n.svg);
+    width:24px;
+    height:24px;
+    min-width: 0;
+    border: none;
+}
+QPushButton#btnNext:hover {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/right-h.svg);
+}
+QPushButton#btnNext:pressed {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/right-p.svg);
+}
+QPushButton#btnNext:disabled {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/right-d.svg);
+}
+
+QPushButton#btnLast {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/page-finally-n.svg);
+    border:none;
+    width:24px;
+    height:24px;
+    min-width: 0;
+}
+QPushButton#btnLast:hover {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/page-finally-h.svg);
+}
+QPushButton#btnLast:pressed {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/page-finally-p.svg);
+}
+QPushButton#btnLast:disabled {
+    image: url(skin/DustyBlue/UICommonModule/PageFlipCtrl/page-finally-d.svg);
+}
+
+QPushButton#btnTotal
+{
+	width:70px;
+	height:24px;
+	border-image: none;
+    padding: 0;
+	/*border: 1px solid #1f2126;*/
+	border-radius: 2px;
+	background-color: #545d6a;
+	color: #ffffff;
+	font-size:12px;
+    outline: none;
+	
+}
+QPushButton#btnTotal:hover
+{
+	border-image: none;
+    padding: 0;
+	/*border: 1px solid #1f2126;*/
+	border-radius: 2px;
+	background-color: #5a6371;
+	color: #ffffff;
+    outline: none; 
+}
+QPushButton#btnTotal:pressed
+{
+	border-image: none;
+    padding: 0;
+	/*border: 1px solid #1f2126;*/
+	border-radius: 2px;
+	background-color: #545d6a;
+	color: #ffffff;
+    outline: none;
+}
+QPushButton#btnTotal:disabled
+{
+	border-width: 0px;
+	border-image: none;
+    padding: 0;
+	border-radius: 2px;
+	background-color: #41464b;
+	color: #5a6068;
+    outline: none;
+}

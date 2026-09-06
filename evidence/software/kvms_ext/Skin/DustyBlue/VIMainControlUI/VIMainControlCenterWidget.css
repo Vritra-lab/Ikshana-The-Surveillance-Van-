@@ -1,0 +1,224 @@
+QWidget#wgtContainer
+{
+	background-color:#3f4348;
+}
+
+QWidget#deviceDisplayWidget
+{
+	background-color: rgb(29, 31, 35);
+}
+
+
+DSGUI--DSTableView#realtimeVIRecView::item:selected,
+DSGUI--DSTableView#realtimeVIRecView::branch:selected,
+DSGUI--DSTableView#realtimeVIRecView::item:alternate:!selected,
+DSGUI--DSTableView#realtimeVIRecView::item:!alternate:!selected
+{	
+	color: none;
+}
+
+QWidget#widgetTreeChange
+{
+	background-color: rgb(58, 62, 67);
+}
+
+QWidget#wgtDevTreeCtrl
+{
+	background-color: rgb(42, 46, 51);
+}
+
+ QWidget#widgetEventInfo
+{
+	background-color: rgb(32, 36, 41);
+}
+
+QWidget#wgtEventList,
+QWidget#InfoWidget
+{
+	background-color: rgb(47, 51, 55);
+	border: 1px rgb(58,62,67);
+	border-style:solid solid solid solid;
+}
+
+QWidget#wgtShowBtn
+{
+	background-color: rgb(47, 51, 55);
+}
+
+QLabel#lblTree
+{
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 36px;
+	color:#c2cad7;
+}
+
+
+QPushButton#btnHisEvent
+{
+	color:#c2cad7;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/intercom_history_n.png) ;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 25;
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+	text-align: left center;
+}
+
+QPushButton#btnHisEvent:hover
+{
+	color:#ffffff;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/intercom_history_h.png) ;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 25;
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+	text-align: left center;
+}
+
+QPushButton#btnHisEvent:pressed
+{
+	color:#C40123;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/intercom_history_p.png) ;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 25;
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+	text-align: left center;
+}
+
+QPushButton#btnHisEvent:disabled
+{
+	color:#4a515a;
+	border:none;
+	background-image:  url(./Skin/DustyBlue/VIMainControlUI/intercom_history_d.png) ;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 25;
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+	text-align: left center;
+}
+
+
+QPushButton#pushButtonCallEvent,
+QPushButton#pushButtonACSEvent,
+QPushButton#pushButtonAlarmEvent
+{
+    padding-left:20px;
+	padding-right:20px;
+}
+
+QPushButton#pushButtonCallEvent,
+QPushButton#pushButtonACSEvent,
+QPushButton#pushButtonAlarmEvent
+{
+    background:transparent;
+	border:none;
+	color:#c2cad7;
+}
+
+QPushButton#pushButtonCallEvent:pressed,
+QPushButton#pushButtonACSEvent:pressed,
+QPushButton#pushButtonAlarmEvent:pressed,
+QPushButton#pushButtonCallEvent:checked,
+QPushButton#pushButtonACSEvent:checked,
+QPushButton#pushButtonAlarmEvent:checked
+{
+   background:transparent;
+   border:none;
+   border-bottom:3px solid #C40123;
+   color:#C40123;
+}
+
+/*QPushButton#btnNormallyOpen
+{
+	background-color: rgb(53,152,219);
+	border: none;
+	font: bold 10px;                      
+	color: rgb(255,255,255);  
+	border-radius: 3px;           
+}
+
+QPushButton#btnRestore
+{
+	background-color: rgb(0,194,32);
+	border: none;
+	font: bold 10px;                      
+	color: rgb(255,255,255); 
+	border-radius: 3px;   	
+}*/
+
+QPushButton#btnNormallyOpen
+{
+	background-color:transparent;
+	padding-left:20px;
+	border:none;
+	background-image:url(./Skin/DustyBlue/VIMainControlUI/door_open_n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color:#abb2bd;
+}
+
+QPushButton#btnNormallyOpen:disabled
+{
+	background-color: transparent;
+	background-image: url(./Skin/DustyBlue/VIMainControlUI/door_open_d.png);
+} 
+QPushButton#btnNormallyOpen:pressed
+{
+	background-color: transparent;
+	background-image: url(./Skin/DustyBlue/VIMainControlUI/door_open_p.png);
+	color:#C40123;
+}
+QPushButton#btnNormallyOpen:hover
+{
+	background-color: transparent;
+	background-image: url(./Skin/DustyBlue/VIMainControlUI/door_open_h.png);
+	color:#ffffff;
+}
+
+QPushButton#btnRestore
+{
+	background-color: transparent;
+	padding-left:20px;
+	border:none;
+	background-image:url(./Skin/DustyBlue/VIMainControlUI/door_recovery_n.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	text-align:left;
+	color:#abb2bd;
+}
+
+QPushButton#btnRestore:disabled
+{
+	background-color: transparent;
+	background-image: url(./Skin/DustyBlue/VIMainControlUI/door_recovery_d.png);
+} 
+QPushButton#btnRestore:pressed
+{
+	background-color: transparent;
+	background-image: url(./Skin/DustyBlue/VIMainControlUI/door_recovery_p.png);
+	color:#C40123;
+}
+QPushButton#btnRestore:hover
+{
+	background-color: transparent;
+	background-image: url(./Skin/DustyBlue/VIMainControlUI/door_recovery_h.png);
+	color:#ffffff;
+}

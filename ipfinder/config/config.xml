@@ -1,0 +1,42 @@
+<Setting>
+    <UIConfig>
+        <User value="admin" Default="" />
+        <LoginIp value="192.168.1.250" Default="" />
+        <Port value="80" Default="80" Min="0" Max="0" Scale="0" />
+        <SearchBoadcast value="1" Default="0" Min="0" Max="1" />
+        <SearchByIp value="1" Default="0" Min="0" Max="1" />
+        <SearchIpS value="192.168.1.250" Default="" />
+        <SearchIpE value="192.168.1.250" Default="" />
+        <IpTypeFilter value="1" Default="0" Min="0" Max="0" Scale="0" />
+        <DevTypeFilter value="0" Default="0" Min="0" Max="0" Scale="0" />
+        <SDKMethod value="0" Default="0" Min="0" Max="0" Scale="0" />
+        <Language value="0" Default="0" Min="0" Max="0" Scale="0" />
+        <nUpdateTimeout_Minute value="20" Default="20" Min="0" Max="0" Scale="0" />
+        <nUpdateOnlineTime_Miniute value="2" Default="2" Min="0" Max="0" Scale="0" />
+        <nUpdateParallel value="5" Default="5" Min="0" Max="0" Scale="0" />
+        <nUpdateWaittime_Sec value="30" Default="30" Min="0" Max="0" Scale="0" />
+        <BroadcastPort value="50510" Default="5050" Min="0" Max="0" Scale="0" />
+        <PasswordResetXmlFlag value="0" Default="0" Min="0" Max="1" />
+        <DownloadPath value="D:\" Default="" />
+        <CloudURL value="" Default="" />
+        <CloudEnable value="0" Default="0" Min="0" Max="1" />
+        <NoticePassword value="0" Default="1" Min="0" Max="1" />
+        <NoticeCloud value="0" Default="1" Min="0" Max="1" />
+        <NoticeXMLReset value="0" Default="1" Min="0" Max="1" />
+        <LicenseIp value="" Default="" />
+        <LicensePort value="19921052" Default="0" Min="0" Max="0" Scale="0" />
+        <SecurityLogin value="1" Default="1" Min="0" Max="1" />
+        <UpgradeSpeedLow value="1" Default="1" Min="0" Max="1" />
+        <P2PakcPwd value="/0raw3L1GL99ZjfhBnaCQsJm9hdIKuxQcp2UXbAHpAs=" Default="" />
+        <P2PakePwd value="/hvbzyP/TLguPTixVieFQsU38REfeepQdJqUCeNVpA4=" Default="" />
+        <P2PskcPwd value="+h6PyHD3HLknaTXgVSWFEscwpUFKJbsDcc/IX7MCr1s=" Default="" />
+        <P2PskePwd value="rRrdyyHwS7kmOmThAiSFFMdn8UYYe70CIZjGCL0D8g4=" Default="" />
+        <PrintLogEnable value="1" Default="0" Min="0" Max="1" />
+        <ShowUserExperience value="0" Default="1" Min="0" Max="1" />
+        <UploadSoftwareData value="0" Default="0" Min="0" Max="1" />
+        <CloudURLDefaultChn value="" Default="" />
+        <CloudURLDefaultEng value="" Default="" />
+        <SearchMode value="1" Default="1" Min="0" Max="1" />
+    </UIConfig>
+    <APPConfig />
+</Setting>

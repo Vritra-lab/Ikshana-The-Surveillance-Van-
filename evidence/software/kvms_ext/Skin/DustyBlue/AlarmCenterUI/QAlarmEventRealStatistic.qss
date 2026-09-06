@@ -1,0 +1,67 @@
+AlarmCenterUI--QAlarmEventRealStatistic QWidget#wgtShowView
+{
+	background-color:#2E3236;
+	border:none;
+}
+
+AlarmCenterUI--QAlarmEventRealStatistic QScrollArea#scrollArea
+{
+	border: 0px none;
+}
+
+AlarmCenterUI--QAlarmEventRealStatistic QWidget#scrollAreaWidgetContents
+AlarmCenterUI--QAlarmEventRealStatistic QVBoxLayout#LayoutAlarmInfo
+{
+	background-color: #2E3236;
+	border: 0px none;
+}
+
+
+AlarmCenterUI--QAlarmEventRealStatistic  QWidget#scrollAreaBarContents
+{
+	background-color: #2E3236;
+	border:none;
+}
+
+AlarmCenterUI--QAlarmEventRealStatistic QScrollBar:vertical
+{
+    width:4px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+}
+
+AlarmCenterUI--QAlarmEventRealStatistic QScrollBar::handle:vertical
+{
+    width:4px;
+    background:rgba(0,0,0,10%);
+    border-radius:4px;    
+    min-height:20;
+}
+AlarmCenterUI--QAlarmEventRealStatistic QScrollBar::handle:vertical:hover
+{
+    width:4px;
+    background:rgba(0,0,0,50%);   
+    border-radius:4px;
+    min-height:20;
+}
+
+AlarmCenterUI--QAlarmEventRealStatistic QScrollBar:horizontal
+{
+    height:4px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+}
+AlarmCenterUI--QAlarmEventRealStatistic QScrollBar::handle:horizontal
+{
+    height:4px;
+    background:rgba(0,0,0,10%);
+    border-radius:4px;    
+    min-width:20;
+}
+AlarmCenterUI--QAlarmEventRealStatistic QScrollBar::handle:horizontal:hover
+{
+    height:4px;
+    background:rgba(0,0,0,50%);   
+    border-radius:4px;
+    min-width:20;
+}

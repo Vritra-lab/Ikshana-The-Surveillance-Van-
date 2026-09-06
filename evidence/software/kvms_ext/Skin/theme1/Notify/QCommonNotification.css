@@ -1,0 +1,30 @@
+QWidget#wndContainer
+{
+	background: #2F3337;
+}
+
+QWidget#wndHeader,
+QWidget#wndBody
+{
+	border: 0px none;
+}
+
+QPushButton#btnClose
+{
+	background-color: transparent;
+	background-image: url(./Skin/theme1/common/window_close_normal.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+QPushButton#btnClose:hover
+{
+	background-image: url(./Skin/theme1/common/window_close_hover.png);
+}
+QPushButton#btnClose:pressed
+{
+	background-image: url(./Skin/theme1/common/window_close_pressed.png);
+}
+QPushButton#btnClose:disabled
+{
+	background-image: url(./Skin/theme1/common/window_close_disable.png);
+}

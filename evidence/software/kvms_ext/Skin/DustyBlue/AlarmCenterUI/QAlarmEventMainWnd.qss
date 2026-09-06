@@ -1,0 +1,50 @@
+AlarmCenterUI--QAlarmEventMainWnd QWidget#wgtAlarmStatistic
+{
+	background:#35393E;
+}
+
+AlarmCenterUI--QAlarmEventMainWnd QWidget#wgtRealPlay
+{
+	border: 1px solid #232629;
+	background-color: #3f4348;
+}
+
+AlarmCenterUI--QAlarmEventMainWnd QWidget#wgtAlarmList
+{
+	border: 1px solid #232629;
+	background-color: #3f4348;
+}
+
+AlarmCenterUI--QAlarmEventMainWnd QWidget#wgtBar
+{
+	border: 1px solid #232629;
+	background-color: #35393E;
+}
+
+AlarmCenterUI--QAlarmEventMainWnd QCheckBox#chkShrinkBar::indicator {
+    image: url(skin/DustyBlue/AlarmCenterUI/expand list_n.png);
+}
+AlarmCenterUI--QAlarmEventMainWnd QCheckBox#chkShrinkBar::indicator:checked{
+    image: url(skin/DustyBlue/AlarmCenterUI/collapse list_n.png);
+}
+AlarmCenterUI--QAlarmEventMainWnd QCheckBox#chkShrinkBar::indicator:checked:hover {
+    image: url(skin/DustyBlue/AlarmCenterUI/collapse list_p.png);
+}
+AlarmCenterUI--QAlarmEventMainWnd QCheckBox#chkShrinkBar::indicator:checked:pressed {
+    image: url(skin/DustyBlue/AlarmCenterUI/collapse list_p.png);
+}
+AlarmCenterUI--QAlarmEventMainWnd QCheckBox#chkShrinkBar::indicator:checked:disabled {
+   image: url(skin/DustyBlue/AlarmCenterUI/collapse list_h.png);
+}
+AlarmCenterUI--QAlarmEventMainWnd QCheckBox#chkShrinkBar::indicator:!checked {
+    image: url(skin/DustyBlue/AlarmCenterUI/expand list_n.png);
+}
+AlarmCenterUI--QAlarmEventMainWnd QCheckBox#chkShrinkBar::indicator:!checked:hover {
+    image: url(skin/DustyBlue/AlarmCenterUI/expand list_p.png);
+}
+AlarmCenterUI--QAlarmEventMainWnd QCheckBox#chkShrinkBar::indicator:!checked:pressed {
+    image: url(skin/DustyBlue/AlarmCenterUI/expand list_p.png);
+}
+AlarmCenterUI--QAlarmEventMainWnd QCheckBox#chkShrinkBar::indicator:!checked:disabled {
+   image: url(skin/DustyBlue/AlarmCenterUI/expand list_h.png);
+}

@@ -1,0 +1,31 @@
+DSGUI--DSToolListView#TabList
+{
+	background-color:#2b2f33;
+	icon-size:40px 40px;
+}
+
+DSGUI--DSToolListView#TabList::tab
+{
+	background-color:#2b2f33;
+	color:#abb2bd;
+	padding-left: -4px;
+	font-size: 12px;
+}
+
+DSGUI--DSToolListView#TabList::tab:selected
+{
+	background-color:#595f69;
+	color:#FFFFFF;
+}
+
+DSGUI--DSToolListView#TabList::tab:hover:!selected
+{
+	background-color:#35393e;
+	color:#FFFFFF;
+}
+
+DSGUI--DSToolListView#TabList QAbstractButton
+{
+	width:40px;
+	height:40px;
+}

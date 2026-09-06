@@ -1,0 +1,19 @@
+
+QPushButton#btnExtract:disabled
+{
+	border-image: url(./Skin/theme1/ACS/MoveDown.png) 0 0 0 72;
+}
+QPushButton#btnExtract:pressed
+{
+	border-image: url(./Skin/theme1/ACS/MoveDown.png) 0 22 0 48;
+}
+
+QPushButton#btnExtract:hover
+{
+	border-image: url(./Skin/theme1/ACS/MoveDown.png) 0 48 0 24;
+}
+
+QPushButton#btnExtract
+{
+	border-image: url(./Skin/theme1/ACS/MoveDown.png) 0 74 0 0;
+}

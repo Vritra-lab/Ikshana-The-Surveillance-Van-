@@ -1,0 +1,9 @@
+﻿/* 字体设置 */
+SystemCommon--TriangleDataBar  QWidget#wgtBase,
+SystemCommon--TriangleDataBar  QWidget#wgtChart,
+SystemCommon--TriangleDataBar  QWidget#wgtInfo
+{
+	background-color: #2e3236;
+	border:none;
+}
+		

@@ -1,0 +1,63 @@
+
+QueryLocalRecord QPushButton#pbtnRecord,#pbtnPicture
+{	
+    color:#B1B1B1;
+    background-color: #3A3E43; 
+    border: 0px none;
+    border-right: 10px solid transparent;
+    text-align: left;
+    padding: 0 18px 0 10px;
+	
+    background-position: center right;
+    background-origin: padding;
+    background-repeat: no-repeat;
+}
+QueryLocalRecord QPushButton#pbtnRecord:!checked,#pbtnPicture:!checked
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_normal.png);
+}
+
+QueryLocalRecord QPushButton#pbtnRecord:!checked:hover,#pbtnPicture:!checked:hover
+{
+    color: #ffffff;
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_hover.png);
+}
+
+QueryLocalRecord QPushButton#pbtnRecord:!checked:pressed,#pbtnPicture:!checked:pressed
+{
+    color: #ffffff;
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_pressed.png);
+}
+
+QueryLocalRecord QPushButton#pbtnRecord:!checked:disabled,#pbtnPicture:!checked:disabled
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_disable.png);
+}
+
+QueryLocalRecord QPushButton#pbtnRecord:checked,#pbtnPicture:checked
+{
+    color: #ffffff;
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_normal.png);
+}
+
+QueryLocalRecord QPushButton#pbtnRecord:checked:hover,#pbtnPicture:checked:hover
+{
+    color: #ffffff;
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_hover.png);
+}
+
+QueryLocalRecord QPushButton#pbtnRecord:checked:pressed,#pbtnPicture:checked:pressed
+{
+    color: #ffffff;
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_pressed.png);
+}
+
+QueryLocalRecord QPushButton#pbtnRecord:checked:disabled,#pbtnPicture:checked:disabled
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_disable.png);
+}
+
+QueryLocalRecord
+{
+    background-color: #2A2B2E;
+}

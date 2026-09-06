@@ -1,0 +1,24 @@
+DSGUI--DSTreeView,
+QWidget#wgtSearch {
+	background-color: #1f2124;
+}
+
+QWidget#wgtTop {
+	font-size: 12px;
+	background-color: #35393E;
+	border: 1px solid #232629;
+	color:#abb2bd;
+	menu-scrollable:1;
+	margin:0;
+}
+
+AlarmCenterUI--QAlarmEventSearchTree QWidget
+{
+	background-color: #35393E;
+}
+
+AlarmCenterUI--QAlarmEventSearchTree QWidget#wgtMain
+{
+	background-color: #35393E;
+	border: 1px solid #232629;
+}

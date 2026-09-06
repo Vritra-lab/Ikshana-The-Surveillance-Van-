@@ -1,0 +1,36 @@
+QWidget#wgtTop
+{
+	background-color: #2b2f33;
+	border: 1px solid #4F575F;
+	border-radius: 2px;
+}
+
+DSGUI--DSListView#m_pListView
+{ 
+	color: #abb2bd;
+	/*border: 1px solid #4F575F;
+	border-radius: 2px;*/
+	border:none;
+	background: #2b2f33;
+} 
+
+DSGUI--DSListView#m_pListView::item
+{
+	height: 24px;
+	border:none;
+}
+
+DSGUI--DSListView#m_pListView::item:selected
+{
+	background: #595f69;
+}
+
+DSGUI--DSListView#m_pListView::item:hover
+{
+	background: #35393e;
+}
+
+DSGUI--DSListView#m_pListView::indicator
+{
+	top: -4px;
+}

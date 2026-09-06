@@ -1,0 +1,89 @@
+
+
+QMasterSlaveCfgDlgComm  QWidget#wgtAll
+{
+	background: #2f3337;
+}
+
+QMasterSlaveCfgDlgComm QWidget#widget
+{
+	border:1px solid #2B2F33;
+}
+
+QMasterSlaveCfgDlgComm QWidget#wgtTrack
+{
+	border-top:1px solid #2B2F33;
+	border-bottom:1px solid #2B2F33;
+}
+
+QMasterSlaveCfgDlgComm QWidget#wgtAssociated
+{
+	border-bottom:1px solid #2B2F33;
+}
+
+QMasterSlaveCfgDlgComm QWidget#page_2
+{
+	border:1px solid #2B2F33;
+}
+
+
+
+
+
+
+
+
+
+QTableWidget#tableWidget > QHeaderView::section
+{
+	font: 12px;
+	color:#ABB2BD;
+	background: #3F4348;
+	height: 30px;
+	padding: 0px 4px 0px 4px;
+	border-top:1px solid #2B2F33;
+	border-right: 1px solid #2B2F33;
+	border-bottom: 1px solid #2B2F33;
+}
+QTableWidget#tableWidget > QHeaderView::section:last
+{
+	border-right:0px;
+}
+
+QTableWidget#tableWidget > QHeaderView::item
+{
+	color:#ABB2BD;
+	height: 30px;
+	padding: 0px 4px 0px 10px;
+}
+
+QTableWidget#tableWidget  > QHeaderView::indicator
+{
+	left: -4px;
+}
+QTableWidget#tableWidget 
+{
+	background: #2f3337;
+    qproperty-alternatingRowColors:true;
+	alternate-background-color: #292d32;
+	border:none;
+	qproperty-showGrid:false;
+}
+QTableWidget#tableWidget::indicator{
+	width:16 px;
+	height:	16 px;
+}
+QTableWidget#tableWidget::item:selected,
+QTableWidget#tableWidget::branch:selected
+{
+    background:#000000;	
+    color:#eeeeee;
+}
+
+QTableWidget#tableWidget::item:hover,
+QTableWidget#tableWidget::branch:hover
+{
+	
+	background:#000000;	
+    color:#fefefe;
+}

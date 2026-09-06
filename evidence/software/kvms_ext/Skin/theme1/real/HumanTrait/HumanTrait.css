@@ -1,0 +1,18 @@
+﻿/**
+ * Thumbnail背景色设罿
+ */
+ HumanTraitThumbnail,
+ HumanFaceThumbnail
+ {
+	border: 0px none;
+	background-color: rgb(25, 28, 32);
+ }
+ 
+/**
+ * ShowView设罿
+ */ 
+HumanTraitThumbnail HumanTraitShowView,
+HumanFaceThumbnail HumanFaceShowView
+{
+	border: 0px none;
+}

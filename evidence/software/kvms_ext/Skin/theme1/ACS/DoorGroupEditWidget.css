@@ -1,0 +1,10 @@
+QWidget#gbDeviceTree
+{
+	border:1px solid rgb(88,93,100);
+}
+
+QFrame#DeviceTreeTop
+{
+	background-color: rgb(63,68,74); 
+	border-bottom:1px solid rgb(63,68,74);
+}

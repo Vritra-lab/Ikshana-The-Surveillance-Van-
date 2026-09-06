@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+server: nginx/1.24.0 (Ubuntu)
+date: Fri, 04 Sep 2026 19:49:57 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache
+pragma: no-cache
+expires: -1
+set-cookie: .AspNetCore.Session=CfDJ8J3dDBnXhWRElWdD5%2BdS3lIOQfRmQMDwsmEwHF1dF3ZLhe8YfVMF5SPQ03neFPttIgs4lPzYpnkoFw%2FYK7VTVGxECsCwLkLmavvXy32U7dWNRHRD%2BMMQkEcE5ahWkqTK9gDDoap%2FVScq6awe%2F%2B6ucVJ32tOPZ%2FBSIUq3vGed%2Fq88; path=/; samesite=lax; httponly
+transfer-encoding: chunked
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+
+    
+     <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="CCTV Camera & Wireless Security Camera System Brand in India - CP PLUS" />
+    <meta property="og:description" content="CP PLUS offers the best CCTV camera systems for outdoor & indoor surveillance. We have a wide portfolio of products which covers CCTV Camera Sets, Wireless CCTV Cameras, HD IP Security Camera Systems, DVRs, Time & Attendance Systems, Video Door Phones, and much more." />
+    <meta property="og:url" content="https://www.cpplusworld.com/" />
+    <meta property="og:site_name" content="CP PLUS" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.cpplusworld.com/assets/img/logo.png" />
+    <meta property="og:image:alt" content="CP Plus World" />

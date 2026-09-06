@@ -1,0 +1,12 @@
+AlarmQuickOperator QPushButton#btnAlarmSound[checked="true"]
+{
+	border-image:url(./Skin/theme1/homepage/alarm_voice_off.png); 
+	border-width: 0;
+}
+
+AlarmQuickOperator QPushButton#btnAlarmSound[checked="false"]
+{
+	border-image:url(./Skin/theme1/homepage/alarm_voice_on.png);
+	border-width: 0;
+}
+ 

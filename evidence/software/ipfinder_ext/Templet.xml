@@ -1,0 +1,18 @@
+<IPC>
+    <VideoColor enable="1">
+        <Channel id="1" ColorMode="0" Brightness="50" Contrast="50" Hue="50" Saturation="50" />
+    </VideoColor>
+    <BLCMode enable="1">
+        <Channel id="1" Backlight="0" WideDynamicRange="0" GlareInhibition="0" />
+    </BLCMode>
+    <DayNightMode enable="1">
+        <Channel id="1" DayNight="1" />
+    </DayNightMode>
+    <FileManageMode enable="1">
+        <Channel id="1" FileManage="4" />
+    </FileManageMode>
+    <Encode enable="1">
+        <Channel id="1" MStreamNType="0" MStreamNFrameRate="16" MStreamNBitRateControl="0" MStreamNImageQuality="4" MStreamNBitRate="1280" MStreamNCodeMode="H.264H" MStreamNHeight="1296" MStreamNWidth="2304" MVideoStandard="0" MAudioEnable="1" MAudioEncode="G.711A" EStreamMEnable="1" EStreamNType="0" EStreamNFrameRate="16" EStreamNBitRateControl="0" EStreamNImageQuality="4" EStreamNBitRate="1024" EStreamNCodeMode="H.264H" EStreamNHeight="576" EStreamNWidth="704" EVideoStandard="0" EAudioEnable="0" EAudioEncode="G.711A" />
+    </Encode>
+    <PcSyn />
+</IPC>

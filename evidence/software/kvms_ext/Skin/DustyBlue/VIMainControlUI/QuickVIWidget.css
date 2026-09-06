@@ -1,0 +1,10 @@
+QPushButton#btnClose
+{
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/close_n.png);
+}
+QPushButton#btnClose:hover
+{
+	border-image: url(./Skin/DustyBlue/VIMainControlUI/close_h.png);
+}
+
+

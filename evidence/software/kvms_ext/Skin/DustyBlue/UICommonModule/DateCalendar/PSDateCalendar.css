@@ -1,0 +1,33 @@
+
+UICommonMdl--PSDateCalendar {	
+	min-height:28px;
+	max-height:28px;
+	color:#ABB2BD;
+	border-image:url(./Skin/DustyBlue/UICommonModule/DateCalendar/Calendar-n.png) 0 15 0 2;
+	border-width: 0px 15px 0px 2px;
+	text-align:left;
+	padding-left:4px;
+}
+
+UICommonMdl--PSDateCalendar:hover 
+{
+	color:#FFFFFF;
+	border-image:url(./Skin/DustyBlue/UICommonModule/DateCalendar/Calendar-h.png) 0 15 0 2;
+	border-width: 0px 15px 0px 2px;
+}
+
+UICommonMdl--PSDateCalendar:checked
+{
+	color:#FFFFFF;
+	border-image:url(./Skin/DustyBlue/UICommonModule/DateCalendar/Calendar-p.png)  0 15 0 2;
+	border-width: 0px 15px 0px 2px;
+}
+
+
+UICommonMdl--PSDateCalendar:disabled 
+{
+	background-color : #474b54;
+	color:#787878;
+	background-image:url(./Skin/DustyBlue/UICommonModule/DateCalendar/Calendar-d.png)  0 15 0 2;
+	border-width: 0px 15px 0px 2px;
+}

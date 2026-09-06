@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<UserInfo version="1.0">
+	<CurMaxId value="1" />
+	<Users>
+		<User id="1" name="admin" pwd="" type="0"  roleId="1" desc="admin user" right="9223372036854775807" />
+	</Users>
+</UserInfo>

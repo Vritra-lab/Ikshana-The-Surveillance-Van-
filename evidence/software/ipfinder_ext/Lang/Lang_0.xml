@@ -1,0 +1,1999 @@
+﻿<Strings>
+	<item name="ProductName" value="IP Finder" />
+ 	<item name="ProductVer" value="Version: 4.0.4" />
+  	<item name="CopyrightString" value="Date: 31-12-2025"/>
+  	<item name="WebSite" value="https://www.cpplusworld.com/" />
+	<item name="Min" value="Min"/>
+	<item name="Max" value="Max"/>
+	<item name="About" value="About"/>
+	<item name="All" value="All"/>
+	<item name= "Return" value="Return"/>
+	<item name="Username" value="Username"/>
+	<item name="Password" value="Password"/>
+	<item name="Channel" value="Channel"/>
+	<item name="Success" value="Success"/>
+	<item name="Fail" value="Fail"/>
+	<item name="Save successfully." value="Saved successfully."/>
+	<item name="RTSP save successfully." value="RTSP Successfully saved."/>
+	<item name="Attention" value="Notice"/>
+	<item name="Error" value="Error"/>
+	<item name="OK" value="OK"/>
+	<item name="Failed to save." value="Failed to save."/>
+	<item name="RTSP failed to save." value="Failed to save RTSP."/>
+	<item name="Cancel" value="Cancel"/>
+	<item name="Close" value="Close"/>
+	<item name="Video" value="Video"/>
+	<item name="Net" value="Net"/>
+	<item name="Encode" value="Encode"/>
+	<item name="Info" value="System"/>
+	<item name="Save" value="Save"/>
+	<item name="Unknow error,please retry." value="Unknown error, please retry."/>
+	<item name="Color Mode" value="Color Mode"/>
+	<item name="Brightness" value="Brightness"/>
+	<item name="Contrast" value="Contrast"/>
+	<item name="Hue" value="Hue"/>
+	<item name="Saturation" value="Saturation"/>
+	<item name="Default" value="Default"/>
+	<item name="Factory Default" value="Factory Default"/>
+	<item name="Full Screen" value="Full Screen"/>
+	<item name="Video effect setting is not supported." value="Video effect setting is not supported."/>
+	<item name="Failed to get video effect." value="Failed to get video effect."/>
+	<item name="Standard" value="Standard"/>
+	<item name="Soft" value="Soft"/>
+	<item name="Bright" value="Vivid"/>
+	<item name="Setting,please wait..." value="Setting, please wait..."/>
+	<item name="Restore" value="Restore"/>
+	<item name="IP Version" value="IP Version"/>
+	<item name="IP Address" value="IP Address"/>
+	<item name="Subnet Mask" value="Subnet Mask"/>
+	<item name="Subnet" value="Subnet"/>
+	<item name="Link Address" value="Link Address"/>
+	<item name="Gateway" value="Gateway"/>
+	<item name="MAC" value="MAC"/>
+	<item name="TCP" value="TCP"/>
+	<item name="HTTP" value="HTTP"/>
+	<item name="UDP" value="UDP"/>
+	<item name="IPv4" value="IPv4"/>
+	<item name="DHCP" value="DHCP"/>
+	<item name="IPv6" value="IPv6"/>
+	<item name="Save successfully,device need reboot." value="Saved successfully, please reboot."/>
+	<item name="Link Address" value="Link Address"/>
+	<item name="Invalid port." value="Invalid port."/>
+	<item name="Invalid IP address." value="Invalid IP address."/>
+	<item name="Invalid subnet mask." value="Invalid subnet mask."/>
+	<item name="Invalid prefix(1~128)." value="Invalid prefix(1~128)."/>
+	<item name="Invalid gateway." value="Invalid gateway."/>
+	<item name="Invalid TCP port." value="Invalid TCP port."/>
+	<item name="Invalid HTTP port." value="Invalid HTTP port."/>
+	<item name="HTTP port:1~1024 is not recommended." value="HTTP port:1~1024 are not recommended."/>
+	<item name="Invalid UDP port." value="Invalid UDP port."/>
+	<item name="Main Stream" value="Main Stream"/>
+	<item name="Compression" value="Compression"/>
+	<item name="Resolution" value="Resolution"/>
+	<item name="Frame Rate(FPS)" value="Frame Rate"/>
+	<item name="Bit Rate Type" value="Bit Rate Type"/>
+	<item name="CBR" value="CBR"/>
+	<item name="VBR" value="VBR"/>
+	<item name="Quality" value="Quality"/>
+	<item name="Worst" value="Worst"/>
+	<item name="Worse" value="Worse"/>
+	<item name="Bad" value="Bad"/>
+	<item name="Good" value="Good"/>
+	<item name="Better" value="Better"/>
+	<item name="The disk space is less than 10KB,please clean the disk!" value="The disk space is less than 10KB,please clean the disk!"/>
+	<item name="Please check if the folder path exists!" value="Please check if the folder path exists!"/>
+	<item name="File import failed, please check whether the file is opened or whether there is canonical format data." value="File import failed, please check whether the file is opened or whether there is canonical format data."/>
+	<item name="Best" value="Best"/>
+	<item name="Bit Rate(Kb/S)" value="Bit Rate(Kb/S)"/>
+	<item name="Bit Rate(kbps)" value="Bit Rate(kbps)"/>
+	<item name="Recommended" value="Recommended"/>
+	<item name="Regular" value="Regular"/>
+	<item name="Motion" value="Motion"/>
+	<item name="Alarm" value="Alarm"/>
+	<item name="Failed to get bit rate option." value="Failed to get bit rate option."/>
+	<item name="Please retry to get the bit rate option." value="Please retry to get the bit rate reference range."/>
+	<item name="Save successfully, device need to reboot." value="Saved successfully, device need to reboot."/>
+	<item name="Querying bit rate option,please wait." value="Searching bit rate reference range, please wait."/>
+	<item name="Parse data failed." value="Failed to parse data."/>
+	<item name="Invalid bit rate." value="Invalid bit rate."/>
+	<item name="Failed to get channel parameters." value="Failed to get channel parameters."/>
+	<item name="Upgrade File Path" value="Upgrade File Path"/>
+  	<item name="Please select the upgrade file path." value="Please select the upgrade file path."/>
+	<item name="Open File" value="Open File"/>
+	<item name="Upgrade Progress" value="Upgrade Progress"/>
+	<item name="Upgrade" value="Upgrade"/>
+	<item name="Upgrading,please wait..." value="Upgrading, please wait..."/>
+  <item name="Upgrading" value="Upgrading"/>
+	<item name="Open file failed." value="Failed to open file."/>
+	<item name="Not BIOS upgrade file." value="Not BIOS upgrade file."/>
+	<item name="Failed to start upgrading." value="Failed to start upgrading."/>
+	<item name="Failed to send upgrading data." value="Failed to send upgrading data."/>
+	<item name="Transferring files,please wait..." value="Transferring files, please wait..."/>
+	<item name="Failed to stop upgrading." value="Failed to stop upgrading."/>
+	<item name="Upgrade successfully, device need to reboot." value="Upgraded successfully, device is going to reboot."/>
+	<item name="Send upgrade data error." value="Sending data error, failed to upgrade"/>
+	<item name="All data transfered,please wait..." value="All data are transferred, please wait for upgrading..."/>
+	<item name="Now upgrading,please wait..." value="Upgrading, please wait..."/>
+	<item name="System Info" value="System Info"/>
+	<item name="Serial No." value="Serial No."/>
+	<item name="Version" value="Version"/>
+	<item name="Build Date" value="Build Date"/>
+	<item name="No." value="No."/>
+	<item name="Code-Stream Type" value="Code Stream Type"/>
+	<item name="Model" value="Model"/>
+	<item name="IP" value="IP"/>
+	<item name="Port" value="Port"/>
+	<item name="Gateway" value="Gateway"/>
+	<item name="MAC" value="MAC"/>
+	<item name="Config" value="Config"/>
+	<item name="Web Login" value="Web Login"/>
+	<item name="Find number of devices:" value="Find number of device(s) :"/>
+	<item name="       Refresh" value="       Refresh"/>
+	<item name="Refresh to restart search devices." value="Refresh to restart search device(s)."/>
+	<item name="Login" value="Login"/>
+	<item name="    Login" value="   Login"/>
+	<item name="Modify" value="Modify"/>
+	<item name="Login to the device could not be found by broadcast." value="Login the device could not be found by broadcast."/>
+	<item name="Search list by IP or device type." value="Enter IP or device type."/>
+	<item name="Login Error" value="Login Error"/>
+	<item name="Searching,please wait..." value="Searching, please wait..."/>
+	<item name="Login Device" value="Login Device"/>
+	<item name="Now login,please wait..." value="Logging in, please wait..."/>
+	<item name="Failed to get parameters." value="Failed to get parameters."/>
+	<item name="Login Failed" value="Login Failed"/>
+	<item name="Incorrect username or password." value="Incorrect username or password."/>
+	<item name="Login overtime." value="Login overtime."/>
+	<item name="Account has been registered." value="Account has been logged in already."/>
+	<item name="Account has been locked." value="Account has been locked."/>
+	<item name="Account is in the blacklist." value="Account is in the blocklist."/>
+	<item name="System is busy." value="System is busy."/>
+	<item name="Connection failed." value="Connection failed."/>
+	<item name="Modifying,please wait..." value="Modifying, please wait..."/>
+	<item name="IP Modification" value="IP Modification"/>
+	<item name="IP modification successfully." value="Successfully modified IP."/>
+	<item name="IP modification failed." value="Failed to modify IP."/>
+	<item name="IP modification note." value="Note: The device and the PC are not in the same segment or the port is error."/>
+	<item name="Too long characters." value="Character too long."/>
+	<item name="Save current settings." value="Save current settings."/>
+	<item name="Return to the list view." value="Return to the list view."/>
+	<item name="Device is offline:" value="Device is offline :"/>
+	<item name="Please login device first." value="Please login device first."/>
+	<item name="Note:login error,pwd or username." value="Note: login error, please enter correct password or username."/>
+	<item name="Please input username." value="Please input username."/>
+	<item name="Please input IP address." value="Please input IP address."/>
+	<item name="Please input port." value="Please input port."/>
+	<item name="User pwd port is empty." value="Username or password or port is empty."/>
+	<item name="Please input password." value="Please input password."/>
+	<item name="Please input subnet mask." value="Please input subnet mask."/>
+	<item name="Please input prefix." value="Please input prefix."/>
+	<item name="Please input gateway." value="Please input gateway."/>
+	<item name="Please input TCP port." value="Please input TCP port."/>
+	<item name="Please input HTTP port." value="Please input HTTP port."/>
+	<item name="Please input UDP port." value="Please input UDP port."/>
+	<item name="Please input bit rate." value="Please input bit rate."/>
+	<item name="The ports should not be same." value="The ports should not be same."/>
+	<item name="Setting" value="Settings"/>
+	<item name="Prompt" value="Prompt"/>
+	<item name="Broadcast" value="Multicast"/>
+	<item name="Search by IP domain" value="Search by IP domain"/>
+	<item name="Start IP" value="Start IP"/>
+	<item name="IP Number" value="IP Quantity"/>
+	<item name="Batch Upgrade" value="Batch Upgrade"/>
+	<item name="MAC Address" value="MAC Address"/>
+	<item name="Upgrade State" value="Upgrade State"/>
+	<item name="Progress" value="Progress"/>
+	<item name="The old password is empty." value="The old password is empty."/>
+	<item name="Note" value="Note"/>
+	<item name="Open" value="Open"/>
+	<item name="Delete" value="Delete"/>
+	<item name="Add Device" value="Add Device"/>
+	<item name="Login succeed." value="Logged in successfully."/>
+	<item name="Incorrect password." value="The device login password is incorrect."/>
+	<item name="Account doesn't exist." value="Account doesn't exist."/>
+	<item name="Login over time." value="Login over time."/>
+	<item name="Account has been registered." value="Account has been logged in already."/>
+	<item name="Account has been locked." value="Account has been locked."/>
+	<item name="Account is in the blacklist." value="Account is in the blocklist."/>
+	<item name="System is busy." value="System is busy."/>
+	<item name="Connection failed." value="Connection failed."/>
+	<item name="Upgrade succeed." value="Upgraded successfully."/>
+	<item name="Upgrading..." value="Upgrading..."/>
+  <item name="Upgrading" value="Upgrading"/>
+	<item name="Failed to upgrade." value="Failed to upgrade."/>
+	<item name="Failed to send upgrade data." value="Failed to send upgrade data."/>
+	<item name="Sending upgrade data..." value="Sending upgrade data..."/>
+  <item name="Sending upgrade data" value="Sending upgrade data"/>
+	<item name="Stop upgrading." value="Stop Upgrading."/>
+	<item name="Invalid IP number." value="Invalid IP quantity."/>
+	<item name="Please input IP number." value="Please input IP quantity."/>
+	<item name="Stop upgrading,please wait..." value="Stop upgrading, please wait..."/>
+	<item name="The IP address is already in the list." value="The IP address is already in the list."/>
+	<item name="Add Device" value="Add Device"/>
+	<item name="Upgrade timeout." value="Upgrade timeout."/>
+	<item name="The large IP number may increase search time." value="Large quantity of IP addresses may increase search time."/>
+	<item name="No upgrade files." value="No upgrade files."/>
+	<item name="Failed to open file." value="Failed to open file."/>
+	<item name="Manual Add" value="Manual Add"/>
+	<item name="Batch Mode" value="Batch Mode"/>
+	<item name="Single IP" value="Single IP"/>
+	<item name="Settings" value="Settings"/>
+	<item name="IP Range" value="IP Range"/>
+	<item name="End IP" value="End IP"/>
+	<item name="Export" value="Export"/>
+	<item name="Import" value="Import"/>
+	<item name="Export device list succeed!" value="Successfully exported device list!"/>
+	<item name="Export device list failed!" value="Failed to export device list!"/>
+	<item name="Modify User" value="Modify User"/>
+	<item name="Batch Config" value="Batch Config"/>
+	<item name="Batch Modify IP" value="Batch Modify IP"/>
+	<item name="Batch Upgrade" value="Batch Upgrade"/>
+	<item name="Start" value="Start"/>
+	<item name="Upgrade File Path:" value="Upgrade File Path:"/>
+	<item name="Selected number of devices:" value="Selected number of devices:"/>
+	<item name="Selected number of devices:%1" value="Selected number of devices: %1"/>
+	<item name="Please select an upgrade device." value="Please select a device."/>
+	<item name="Please select same type devices." value="Please select same type devices."/>
+	<item name="Upgrade Type:" value="Upgrade Type:"/>
+    <item name="Main Program" value="Main Program"/>
+   	<item name="SCM Program" value="SCM Program"/>
+	<item name="Upgrade Setting" value="Upgrade Setting"/>
+    <item name="Clear Config:" value="Clear Config:"/>
+    <item name="Clear Config Failed." value="Clear config failed."/>
+	<item name="Enable" value="Enable"/>
+	<item name="Sub Stream" value="Sub Stream"/>
+	<item name="Eth" value="Ethernet Card"/>
+	<item name="Wired" value="Wired"/>
+	<item name="Wireless" value="Wireless"/>
+	<item name="BLC Mode" value="BLC Mode"/>
+	<item name="OFF" value="OFF"/>
+	<item name="BLC" value="BLC"/>
+	<item name="WDR" value="WDR"/>
+	<item name="HLC" value="HLC"/>
+	<item name="Ethernet Card" value="Ethernet Card"/>
+	<item name="Operate" value="Operate"/>
+	<item name="SN." value="SN."/>
+	<item name="IP Range is not valid!" value="IP range is not valid!"/>
+	<item name="IP Range is too large!" value="IP range is too large!"/>	
+	<item name="Can't stop upgrading" value="Sending complete, cannot stop upgrading now"/>	
+	<item name="Stop upgrading" value="Stop Upgrading"/>
+	<item name="Batch Config" value="Batch Config"/>
+	<item name="Config File Path:" value="Config File Path:"/>
+	<item name="Default" value="Default"/>
+	<item name="Config State" value="Config State"/>
+	<item name="Select P/N" value="Select P/N"/>
+	<item name="Failed to config." value="Failed to config."/>
+	<item name="Restore default config successfully." value="Restored default config successfully"/>
+	<item name="Restore default config successfully" value="Restored default config successfully"/>
+	<item name="Failed to restore default config." value="Failed to restore default config"/>
+	<item name="Failed to restore default config" value="Failed to restore default config"/>
+	<item name="Config successfully." value="Config successfully."/>
+	<item name="Stop" value="Stop"/>
+	<item name="Device Config" value="Device Config"/>
+	<item name="Log" value="Log"/>
+	<item name="Config device parameter." value="Config device parameter."/>
+	<item name="Save Temp" value="Save Temp"/>
+	<item name="Apply To..." value="Apply To..."/>
+	<item name="Setting search method." value="Setting search method."/>
+	<item name="Save parameters to templet." value="Save parameters to template."/>
+	<item name="Apply to all devices." value="Apply to all device(s)."/>
+	<item name="System Time" value="System Time"/>
+	<item name="PC Time" value="PC Time"/>
+	<item name="Synchronization success." value="Successfully sync time."/>
+	<item name="Synchronization error." value="Failed to sync time."/>
+	<item name="Synchronization success" value="Sync successfully"/>
+	<item name="Synchronization error" value="Synchronization error"/>
+	<item name="Manual Sync" value="Manual Sync"/>
+	<item name="Sync PC" value="Sync PC"/>
+	<item name="Option" value="Option"/>
+	<item name="Video Color" value="Video Color"/>
+	<item name="Code" value="Code"/>
+	<item name="Device Time" value="Device Time"/>
+	<item name="Path:" value="Path:"/>
+	<item name="Browse" value="Browse"/>
+	<item name="Video color config successfully." value="Successfully configured video color."/>
+	<item name="Video color config successfully" value="Successfully configured video color"/>
+	<item name="Failed to video color config" value="Failed to configure video color"/>
+	<item name="Failed to video color config." value="Failed to configure video color."/>
+	<item name="BLC mode config successfully." value="Successfully configured BLC mode."/>
+	<item name="BLC mode config successfully" value="BLC mode config successfully"/>
+	<item name="Failed to BLC mode config." value="Failed to configure BLC mode."/>
+	<item name="Failed to BLC mode config" value="Failed to configure BLC mode"/>
+	<item name="Upgrade timeout" value="Upgrade timeout"/>
+	<item name="Upgrade timeout." value="Upgrade timeout."/>
+	<item name="Restart" value="Restart"/>
+	<item name="Encoded config successfully." value="Successfully configured encode."/>
+	<item name="Encoded config successfully" value="Successfully configured encode"/>
+	<item name="Failed to encoded config." value="Failed to configure encode."/>
+	<item name="Failed to encoded config" value="Failed to configure encode"/>
+	<item name="Eth0" value="Eth0"/>
+	<item name="Eth1" value="Eth1"/>
+	<item name="Eth2" value="Eth2"/>
+	<item name="Eth3" value="Eth3"/>
+	<item name="IP Address Modify" value="Modify IP Address"/>
+	<item name="Start IP" value="Start IP"/>
+	<item name="The IP address, the gateway or the mask is not valid!" value="IP address, gateway or subnet mask is not valid!"/>
+	<item name="Destination IP" value="Destination IP"/>
+	<item name="Modify State" value="Modify State"/>
+	<item name="Time" value="Time"/>
+	<item name="Result" value="Result"/>
+	<item name="Detail" value="Detail"/>
+	<item name="Clear" value="Clear"/>
+	<item name="Query" value="Search"/>
+	<item name="Are you sure to clear log information?" value="Are you sure to clear log information?"/>
+	<item name="Delete log file failed." value="Failed to delete log file."/>
+	<item name="Please select one device at least." value="Please select one device at least."/>
+	<item name="Modify IP" value="Modify IP"/>
+	<item name="Today" value="Today"/>
+	<item name="Yesterday" value="Yesterday"/>
+	<item name="Two days ago" value="Two days ago"/>
+	<item name="Three days ago" value="Three days ago"/>
+	<item name="Please select a config device." value="Please select a device to configure."/>
+	<item name="Save templet succeed!" value="Successfully saved template!"/>
+	<item name="Please select the config file." value="Please select the config file."/>
+	<item name="Query log information." value="Search log information."/>
+	<item name="Clear log information." value="Clear log information."/>
+	<item name="Modify Account" value="Modify Account"/>
+    <item name="Focus Assistant" value="Easy Focus"/>
+	<item name="Sample" value="Sample"/>
+    <item name="Adjust" value="Adjust"/>
+	<item name="Easy Focus" value="Easy Focus"/>
+	<item name="Failed to open focus assistant." value="Failed to open easy focus."/>
+	<item name="The Best Area" value="The Best Area"/>
+	<item name="1.Minimum the focal length" value="1.Minimum focal length"/>
+	<item name="2.Magnify the focus length" value="2.Max focal length"/>
+    <item name="3. Tune the focus" value="3.Adjust focal length"/>
+	<item name="Minimum the focal length before adjust focus,and make sure no moving object before the camera." value="Before adjustment, manually camera focal length to min. Make sure there is no moving object in front of lens."/>
+	<item name="Click the Sample button,and adjust focus length to the max manully." value="Click the Sample button, and adjust focus length to the max manually."/>
+	<item name="Click the Adjust button,and make the instruction line into the best area by adjust camera focus." value="Click the Adjust button, and make the instruction line into the best area by adjusting camera focus."/>
+	<item name="Operating..." value="Operating..."/>
+    <item name="Waiting..." value="Waiting..."/>
+	<item name="Cancel Operation" value="Cancel Operation"/>
+	<item name="Select All" value="Select All"/>
+	<item name="Data has been sended,can not stop upgrade." value="Data has been sent ,cannot stop upgrading."/>
+    <item name="Quit" value="Exit"/>
+	<item name="Quit the batch mode." value="Exit the batch mode."/>
+	<item name="Import device list." value="Import device list."/>
+	<item name="Export device list." value="Export device list."/>
+    <item name="Modify user information in selected rows." value="Modify user information in selected rows."/>
+	<item name="Start batch operation." value="Start batch operation."/>
+	<item name="Please select one device to config at least." value="Please select at least one device to config."/>
+	<item name="Please select one device to upgrade at least." value="Please select at least one device to upgrade."/>
+	<item name="Please select one device to modify ip at least." value="Please select at least one device to modify IP."/>
+	<item name="Stopping,please wait..." value="Stopping, please wait..."/>
+	<item name="Synchronization success!" value="Successfully sync time!"/>
+	<item name="Synchronization error!" value="Failed to sync time!"/>
+	<item name="Batch Operation" value="Batch Operation"/>
+	<item name="The password is incorrect." value="The password is incorrect."/>
+	<item name="Add the device could not be found by broadcast." value="Add the device not found in the list."/>
+	<item name="Delete the device in selected rows." value="Delete the device in selected rows."/>
+	<item name="Restart batch operation in selected rows." value="Restart batch operation in selected rows."/>
+	<item name="Return to the batch mode page." value="Return to the batch mode page."/>
+	<item name="Stop the operation." value="Stop the operation."/>
+	<item name="Operation Manual" value="Operation Manual"/>
+	<item name="Select camera model" value="Select camera model"/>
+	<item name="BatchMode" value="Batch Mode"/>
+	<item name="X-axis Length:" value="X-axis Length:"/>
+	<item name="Y-axis Length:" value="Y-axis Length:"/>
+	<item name="Unit: m" value="Unit: m"/>
+	<item name="IPC Model:" value="IPC Model:"/>
+	<item name="Resolution:" value="Resolution :"/>
+	<item name="Focal Distance:" value="Focal Length:"/>
+	<item name="Object Distance:" value="Object Distance:"/>
+	<item name="Object Width:" value="Object Width:"/>
+	<item name="Scene Simulation" value="Scene Simulation"/>
+	<item name="Installing Suggestion" value="Installing Suggestion"/>
+	<item name="The Camera Height" value="The Camera Height"/>
+	<item name="The Camera Angle" value="The Camera Angle"/>
+	<item name="Longitudinal Section Diagram" value="Vertical Cut Diagram"/>
+	<item name="Cross-section Diagram" value="Horizontal Cut Diagram"/>	
+	<item name="Failed to import config file." value="Failed to import config file."/>
+	<item name="Import config file successfully." value="Imported config file successfully."/>
+	<item name="Set format data successfully." value="Set format data successfully."/>
+	<item name="Set format data successfully" value="Set format data successfully"/>	
+	<item name="Failed to set format data." value="Failed to set format data."/>
+	<item name="Failed to set format data" value="Failed to set format data"/>
+	<item name="Set DST successfully." value="Set DST successfully."/>
+	<item name="Set DST successfully" value="Set DST successfully"/>
+	<item name="Failed to set DST." value="Failed to set DST."/>
+	<item name="Failed to set DST" value="Failed to set DST"/>
+	<item name="Set NTP successfully." value="Set NTP successfully."/>
+	<item name="Set NTP successfully" value="Set NTP successfully"/>
+	<item name="Failed to set NTP." value="Failed to set NTP."/>
+	<item name="Failed to set NTP" value="Failed to set NTP"/>
+	<item name="Template File(XML)" value="Template File(XML)"/>
+	<item name="Please input RTSP port." value="Please input RTSP port."/>
+	<item name="Invalid RTSP port." value="Invalid RTSP port."/>
+	<item name="Day/Night Mode" value="Day/Night Mode"/>
+	<item name="Color" value="Color"/>
+	<item name="Auto" value="Auto"/>
+	<item name="BlackWhite" value="BW"/>
+	<item name="Number of devices:" value="Number of devices:"/>
+	<item name="Other" value="Other"/>
+	<item name="Are you sure to close software?" value="Are you sure to close software?"/>
+	<item name="Recommended Lens" value="Recommended Lens"/>
+	<item name="TempletParameter" value="Template Parameter"/>
+	<item name="System" value="System"/>
+	<item name="Day/Night mode config successfully." value="Successfully configured Day/Night mode." />
+	<item name="Day/Night mode config successfully" value="Day/Night mode config successfully" />
+	<item name="Failed to Day/Night mode config." value="Failed to configure Day/Night mode." />
+	<item name="Failed to Day/Night mode config" value="Failed to Day/Night mode config" />
+	<item name="This excel file has been opend,please close it first." value="This excel file has been opened,please close it first." />
+	<item name="Save data failed!" value="Failed to save data!" />
+	<item name="Help" value="Help" />
+	<item name="Operation Manual.pdf" value="Operation Manual.pdf" />
+	<item name="OpenFile" value="Open File" />
+	<item name="Video parameter of channel" value="Video parameter channel" />
+	<item name="Encode parameter of channel" value="Encode parameter channel" />
+	<item name="Save Templet" value="Save Template" />
+	<item name="Copy parameter" value="Copy parameter" />
+	<item name="eth0" value="eth0" />
+	<item name="eth1" value="eth1" />
+	<item name="eth2" value="eth2" />
+	<item name="eth3" value="eth3" />
+	<item name="Get network information error." value="Failed to get network information." />
+	<item name="Get encode information error." value="Failed to get encode information." />
+	<item name="Save invalid." value="Save invalid." />
+	<item name="The data is wrongful,save invalid." value="The data is invalid , save error." />
+	<item name="Can not config now." value="Can not config now." />
+	<item name="No right,save invalid." value="No right, save error." />
+	<item name="Open preview failed,no right." value="Failed to open preview, no right." />
+	<item name="Open preview failed,the device do not support this operation." value="Failed to open preview, the device do not support this operation." />
+	<item name="Open preview failed,resource is not enough." value="Failed to open preview, resource is not sufficient." />
+	<item name="Open preview failed,the device can not get requested data." value="Failed to open preview, the device can not get requested data." />
+	<item name="Sensor:" value="Sensor:" />
+	<item name="Import File is not valid format!" value="Imported file is not valid format!" />
+	<item name="Open preview failed." value="Failed to open preview." />
+	<item name="CleanConfig" value="Clean Config" />
+	<item name="Clean device config." value="Clean device config." />
+	<item name="Clean device config succeed,rebooting the device and connect it later!" value="Successfully cleaned config, it is rebooting device, please connect later!" />
+	<item name="Clean device config failed!" value="Failed to clean device config" />
+	<item name="Connect device failed!" value="Failed to connect device!" />
+	<item name="Send command failed!" value="Failed to send command!" />
+	<item name="Clean failed,invalid username or password!" value="Failed to clean, invalid username or password!" />
+	<item name="Device is locked!" value="Device is locked!" />
+	<item name="Now clean config,please wait..." value="Now cleaning config, please wait..." />
+	<item name="Clean" value="Clean" />
+	<item name="Default UserName" value="Default Username" />
+	<item name="Default Password" value="Default Password" />
+	<item name="Please input default username." value="Please input default username." />
+	<item name="Please input default password." value="Please input default password." />
+	<item name="IP information failed to save." value="Failed to save IP information." />
+	<item name="Channel Name" value="Channel Name" />
+	<item name="StartModify" value="Start Modify" />
+	<item name="Start batch operation in selected rows." value="Start batch operation in selected rows." />
+	<item name="The IP address is not valid!" value="The IP address is not valid!" />
+	<item name="Same IP" value="Same IP" />
+	<item name="Please modify the default password in time." value="Please modify the default password in time." />
+  	<item name="Timing" value="Timing" />
+    <item name="Device Information" value="Device Information" />
+	<item name="Refresh" value="Refresh" />
+	<item name="Apply to..." value="Apply to..." />
+	<item name="* Or dblclick the device to get the Device Information." value="* Or double click the device to get the device information." />
+  <item name="Reboot" value="Reboot" />
+  <item name="Auto Reboot" value="Auto Reboot" />
+  <item name="Manual Reboot" value="Manual Reboot" />
+  <item name="Never" value="Never" />
+  <item name="Everyday" value="Every day" />
+  <item name="Sunday" value="Sunday" />
+  <item name="Monday" value="Monday" />
+  <item name="Tuesday" value="Tuesday" />
+  <item name="Wednesday" value="Wednesday" />
+  <item name="Thursday" value="Thursday" />
+  <item name="Friday" value="Friday" />
+  <item name="Saturday" value="Saturday" />
+  <item name="PC Time" value="PC Time" />
+  <item name="Default Device" value="Restore Default Setting" />
+  <item name="Configuration operation has been completed." value="Config is complete." /> 
+  <item name="Config Type" value="Config Type" />
+  <item name="Config Result" value="Config Result" />
+  <item name="Operation Type" value="Operation Type" />
+  <item name="Operation Result" value="Operation Result" />
+  <item name="Details" value="Details" />
+  <item name="Upgrade File" value="Upgrade File."/>
+  <item name="Filter" value="Filter"/>
+  <item name="Upgrade operation has been completed." value="Device upgrading is complete."/>
+  <item name="Modify IPs" value="Modify IP"/>
+  <item name="Search IPs" value="Search IP"/>
+  <item name="System Config" value="System Settings"/>
+  <item name="Templet Config" value="Template Setup"/>
+  <item name="Device Information" value="Get Device Info" />
+  <item name="Refresh" value="Refresh" />
+  <item name="Apply to..." value="Apply to..." />
+  <item name="* Or dblclick the device to get the Device Information." value="* or double click device to get device info." />
+  <item name="Please select one device." value="Please select one device." />
+  <item name="Other Tools" value="Other Tool" />
+  <item name="You have choose " value="You have selected " />
+  <item name=" devices" value=" device(s)" />
+  <item name="IPC Template" value="IPC Template" />
+  <item name="DVR Template" value="DVR Template" />
+  <item name="NVR Template" value="NVR Template" />
+  <item name="SD Template" value="PTZ Template" />
+  <item name="Template Manager" value="Template Management" />
+  <item name="Template Application" value="Template Application" />
+  <item name="Apply to Devices" value="Apply to device(s)" />
+  <item name="Other Template>>" value="Other Template>>" />
+  <item name="Template Name" value="Template Name" />
+  <item name="Template Name:" value="Template Name:" />
+  <item name="Template Type:" value="Template Type:" />    
+  <item name="IMAGE" value="Image" />
+  <item name="Encode Config" value="Encode Config" />
+  <item name="Vedio Standard" value="Vedio Standard" />
+  <item name="Video Config:" value="Video Config:" />
+  <item name="Video Config" value="Video Config" />
+  <item name="Color Mode:" value="Color Mode:" />
+  <item name="Brightness:" value="Brightness:"/>
+  <item name="Contrast:" value="Contrast:"/>
+  <item name="Hue:" value="HUE:"/>
+  <item name="Saturation:" value="Saturation:"/>
+  <item name="BLC Mode:" value="BLC Mode:"/>
+  <item name="Day/Night Mode:" value="Day/Night Mode:"/>
+  <item name="WDR:" value="WDR:"/>
+  <item name="HLC:" value="HLC:"/>
+  <item name="Main Stream Config:" value="Main Stream Config:"/>
+  <item name="Extra Stream Config:" value="Sub Stream Config:"/>
+  <item name="Enable:" value="Enable:"/>
+  <item name="Vedio Standard:" value="Video Standard:" />
+  <item name="Stream Type:" value="Stream Type:"/>
+  <item name="Encode Mode:" value="Encode Mode:"/>
+  <item name="Encode Mode" value="Encode Mode"/>
+  <item name="Frame Rate:" value="Frame Rate:"/>
+  <item name="Frame Rate" value="Frame Rate"/>
+  <item name="Bit Rate Control:" value="Bit Stream Control:"/>
+  <item name="Bit Rate Control" value="Bit Stream Control"/>
+  <item name="Image Quality:" value="Image Quality:"/>
+  <item name="Image Quality" value="Image Quality"/>
+  <item name="Bit Rate(kbps):" value="Bit Rate(kbps):"/>
+  <item name="Save As" value="Save as"/>
+  <item name="Load Template" value="Load Template"/>
+  <item name="Using Template" value="Apply"/>
+  <item name="Successfully configed template " value="Successfully configured template "/>
+  <item name="Did not configed template " value="Template not configured "/>
+  <item name=", login failed!" value=", login failed!"/>
+  <item name="Config template " value="Config template "/>
+  <item name=" failed!" value="Failed!"/>
+  <item name="configure " value="configure "/>
+  <item name=" device(s) using template " value=" device(s) using template "/>
+  <item name=", continue?" value=", continue?"/>
+  <item name=" device(s) are configuring template " value=" device(s) are configuring template "/>
+  <item name="devices are canceled configuration template " value="Device is cancelling configtemplate "/>
+  <item name=", please wait......" value=", please wait......"/>
+  <item name="Apply Template" value="Application Template"/>
+  <item name="Encode" value="Encode" />
+  <item name="* Failed to get the device Information, Please check The NetWork or Device." value="* Failed to get the device information, please check the network or device." />
+  <item name="another device is loading,please wait." value="Another device is loading, please wait." />
+  <item name="No template file to apply, please load a template file or edit one!" value="No template file is available, please load or edit one template file." />
+  <item name="Error to load template, It's an invalid template!" value="Loading template error, invalid template." />
+  <item name="Device is offline,please check device version." value="Device is offline, please check device version." />
+  <item name="Whether to save current template?" value="Save current template?" />
+  <item name="The Template Name can't be empty." value="Template name cannot be null." />
+  <item name="Template name can't contain these chars:" value="Template name cannot include the following characters:" />
+  <item name="The file is already exist, do you want to cover?" value="The file exists, do you want to overwrite it?" />
+  <item name="Save Template Failed." value="Save template error." />
+  <item name="please select the devices you need to apply!" value="Please select device(s) to apply to!" />
+  <item name="Default configure:common configure,code configure,video configure,comm configure,alarm configure,videodetect configure,PTZ configure,outputmode configure,channel name configure,videoinoptions configure,CPS configure." value="Default config: common config, code config, video config, alarm config, video detect config, PTZ config, output mode config, channel name config, video in options config, CPS config." />
+  <item name="current network search" value="Current Segment Search" />
+  <item name="other network search" value="Other Segment Search" />
+  <item name="Please select at least ont search method." value="Please select at least one method of search." />
+  <item name="User Name shall only contain numbers, letters and '_'." value="Username shall only contain numbers, letters and '_'." />
+  <item name="User Name shall only contain numbers, letters '@', '.' and '_'." value="Username shall only contain numbers, letters '@', '.' and '_'." />
+  <item name="Password shall only contain numbers and letters." value="Password shall only contain numbers and letters." />
+  <item name="Your input shall only contain numbers, letters and '_'." value="Your input shall only contain numbers, letters and '_'." />
+  <item name="Your input shall only contain numbers." value="Your input shall only contain numbers." />
+  <item name="The IP address, the gateway or the mask is not match!" value="The IP address, the gateway or the mask is not match!" />
+  <item name="Customized" value="Customized" />
+  <item name="Audio/Video" value="Audio/Video" />
+  <item name="Audio" value="Audio" />
+  <item name="Audio Encode" value="Audio Encode" />
+  <item name="Audio Encode:" value="Audio Encode:" />
+  <item name="Gamma" value="Gamma" />
+  <item name="Mirror" value="Mirror" />
+  <item name="Flip" value="Flip" />
+  <item name="Auto iris" value="Auto iris" />
+  <item name="3DNR" value="3DNR" />
+  <item name="WB Mode" value="WB Mode" />
+  <item name="Mode" value="Mode" />
+  <item name="Static" value="Static" />
+  <item name="Video Enable" value="Video Enable"/>
+  <item name="Video Enable:" value="Video Enable:"/>
+  <item name="Sub Video Enable" value="Sub Video Enable"/>
+  <item name="Audio Enable" value="Audio Enable"/>
+  <item name="Audio Enable:" value="Audio Enable:"/>
+  <item name="Are you to stop the Upgrade ?" value="Are you to stop the Upgrade ?"/>
+  <item name="Program is sending file, Are you sure to close software ?" value="Program is sending file, are you sure to close software ?"/>
+  <item name="DST" value="DST" />
+  <item name="NTP/DST" value="NTP/DST" />
+  <item name="NTP/DST Save" value="NTP/DST Save" />
+  <item name="DST Enable" value="DST Enable" />
+  <item name="DST Type" value="DST Type" />
+  <item name="Date" value="Date" />
+  <item name="Week" value="Week" />
+  <item name="Start Time" value="Start Time" />
+  <item name="End Time" value="End Time" />
+  <item name="Jan" value="Jan" />
+  <item name="Feb" value="Feb" />
+  <item name="Mar" value="Mar" />
+  <item name="Apr" value="Apr" />
+  <item name="May" value="May" />
+  <item name="Jun" value="Jun" />
+  <item name="Jul" value="Jul" />
+  <item name="Aug" value="Aug" />
+  <item name="Sep" value="Sep" />
+  <item name="Oct" value="Oct" />
+  <item name="Nov" value="Nov" />
+  <item name="Dec" value="Dec" />
+  <item name="NTP" value="NTP" />
+  <item name="Synchronize with NTP" value="Synchronize with NTP" />
+  <item name="NTP Server" value="NTP Server" />
+  <item name="NTP Port" value="NTP Port" />
+  <item name="Update period" value="Update Period" />
+  <item name="Mintues(0~65535)" value="Minutes(1~30)" />
+  <item name="MAC Error" value="MAC Error" />
+  <item name="IP Error" value="IP Error" />
+  <item name="Others" value="Others" />
+  <item name="    Manual Add" value="    Add" />
+  <item name="    Import" value="    Import" />
+  <item name="    Export" value="    Export" />
+  <item name="Target IP" value="Target IP" />
+  <item name="devices ware selected" value="device(s) selected" />
+  <item name="  Batch Modify IP" value="  Modify IP"/>
+  <item name="     Batch Upgrade" value="     Batch Upgrade"/>
+  <item name="Please select one device to delete at least." value="Please select at least one device to delete." />
+  <item name="Are you sure to delete these devices?" value="Are you sure to delete these devices?" />
+  <item name="  Stop upgrading" value="  Stop upgrading" />
+  <item name="Get DeviceType failed!" value="Failed to get device type!"/>
+  <item name="Get Device Information Failed!" value="Failed to get device information!"/>
+  <item name="Type" value="Type"/>
+  <item name="Invalid application." value="Invalid application."/>
+  <item name="The application directory dose not exist." value="The application directory does not exist."/>
+  <item name="Are you sure to upgrade Tool: " value="Are you sure to upgrade Tool: "/>
+  <item name="Are you sure to install Tool: " value="Are you sure to install Tool: "/>
+  <item name="Confirm" value="Confirm"/>
+  <item name="Failed to install application." value="Failed to install application."/>
+  <item name="Can't remove the select tool." value="Can't remove the select tool."/>
+  <item name="Are you sure to remove Tool: " value="Are you sure to remove Tool: "/>
+  <item name="The application directory is wrong." value="The application directory is wrong."/>
+  <item name="Failed to find file." value="Failed to find file."/>
+  <item name="Failed to make object file directory." value="Failed to make object file directory."/>
+  <item name="Invalid version format." value="Invalid version format."/>
+  <item name="Application has installed already." value="Application has installed already."/>
+  <item name="New version is lower than installed." value="New version is lower than the installed."/>
+  <item name="Warning" value="Warning"/>
+  <item name="Add" value="Add"/>
+  <item name="Edit" value="Edit"/>
+  <item name="Exit" value="Exit"/>
+  <item name="1st" value="1st"/>
+  <item name="2nd" value="2nd"/>
+  <item name="3rd" value="3rd"/>
+  <item name="4th" value="4th"/>
+  <item name="LastWeek" value="Last Week"/>
+  <item name="IP address has existed." value="IP address has existed."/>
+  <item name="Modify Password" value="Modify Password"/>
+  <item name="Batch Modify Password" value="Batch Modify Password"/>
+  <item name="New passwords do not match." value="New password does not match."/>
+  <item name="Password can't be empty." value="Password can't be empty."/>
+  <item name="Modify password failed." value="Failed to modify password."/>
+  <item name="The initial password is used for the first-time starting device only.Please change password immediately to avoid any unauthorized user's operation of the device." value="The initial password is used for the first-time starting device only. Please change password immediately to avoid any unauthorized user's operation of the device."/>
+  <item name="DST Save" value="DST Save"/>
+  <item name="NTS Save" value="NTS Save"/>
+  <item name="NTP" value="NTP"/>
+  <item name="Old Password" value="Old Password"/>
+  <item name="New Password" value="New Password"/>
+  <item name="Confirm Password" value="Confirm Password"/>
+  <item name="Failed to add device:" value="Failed to add device:"/>
+  <item name="Manual add,please wait..." value="Manual add, please wait..."/>
+  <item name="Are you sure to reboot?" value="Are you sure to reboot?" />
+  <item name="NTP server name can only consist of numbers,letters,dots,underline,crossed." value="NTP server name can only consist of numbers, letters, dots, underline, crossed." />
+  <item name="Devices ware found" value="Device(s) found"/>  
+  <item name="Modify Ip succeed" value="Modify IP succeed" />
+  <item name="network error, maybe timeout" value="Network error, maybe timeout." />
+  <item name="return data error" value="Return data error." />
+  <item name="not authorized" value="Not authorized." />
+  <item name="set network config failed" value="Set network config failed." />  
+  <item name="password error,it has exceeded the limit number of times" value="Password error,it has exceeded the limit number of times." />    
+  <item name="password error" value="Password error." />    
+  <item name="user not exist" value="User not exist." />   
+  <item name="login time out" value="Login timeout." />   
+  <item name="account logged" value="Account logged." />   
+  <item name="acount locked" value="Acount locked." />   
+  <item name="acount is blacklisted" value="Acount is in the blocklist." />   
+  <item name="insufficient resources,the system is busy" value="Insufficient resources,the system is busy." />   
+  <item name="exceed the maximum number of connections" value="Exceed the maximum number of connections." /> 
+  <item name="only supports the third generation protocol" value="Only supports the third generation protocol." />     
+  <item name="user permissions beyond group permissions" value="User permissions beyond group permissions." />  
+  <item name="account is being used" value="Account is being used." />  
+  <item name="unknow error, code:" value="Unknow error, code:" />  
+  <item name="Export Template" value="Export" />
+  <item name="Export template from device?" value="Export template from device?" />
+  <item name="Export template from " value="Export template from " />
+  <item name="Device is canceled export template from" value="Device is canceled export template from" />
+  <item name="Export template failed" value="Export template failed" />
+  <item name="Allocate memory failed" value="Allocate memory failed" />
+  <item name="Start to upgrade failed." value="Start to upgrade failed." />
+  <item name="Send file failed." value="Send file failed." />
+  <item name="Upgrade failed." value="Upgrade failed." />
+  <item name="Device is offline." value="Device is offline." />
+  <item name="Upgrade Canceled." value="Upgrade canceled." />
+  <item name="Login failed." value="Login failed." />
+  <item name="Exceeded the maximum connections." value="Exceeded the maximum connections." />
+  <item name="Export device list succeed!" value="Export device list succeed!" />
+  <item name="Export device list failed!" value="Export device list failed!" />
+  <item name="Import device list succeed!" value="Import device list succeed!" />
+  <item name="Import device list failed!" value="Import device list failed!" />
+  <item name="Import device list completed." value="Import device list completed." />
+  <item name="Please select devices to export." value="Please select device(s) to export!" />
+  <item name="SerialNo." value="SerialNo."/>
+  <item name="SubnetMask" value="SubnetMask"/>
+  <item name="another device is getting config,please wait." value="Another device is getting config,please wait." />
+  <item name=", please try to use other tool in Package Center." value=", please try to use other tool in Package Center." />
+  <item name="Broadcast Alternate Port" value="Broadcast Alternate Port" />
+  <item name="Update Timeout(/Min)" value="Update Timeout(/Min)" />
+  <item name="Network Timeout(/Sec)" value="Network Timeout(/Sec)" />
+  <item name="Parameter can't be empty." value="Parameter can't be empty." />
+  <item name="Broadcast searching failed, please modify broadcast alternate port." value="Broadcast searching failed, please modify broadcast alternate port." />
+  <item name="Parameter out of rang." value="Parameter out of rang." />
+  <item name="Sampling Frequency" value="Sampling Frequency" />
+  <item name="IP Finder QA.pdf" value="IP Finder QA_30-08-2022.pdf" />
+  <item name="NIC" value="Local IP" />
+  <item name="ConfigFileManager" value="Profile Management" />
+  <item name="Normal" value="Normal" />
+  <item name="AllDay" value="Full Time" />
+  <item name="ByTime" value="Schedule"/>
+  <item name="AlwaysUse" value="Always Enable"/>
+  <item name="Day" value="Day" />
+  <item name="Night" value="Night" />
+  <item name="Day Start Time" value="Day Start Time" />
+  <item name="Day End Time" value="Day End Time" />
+  <item name="Failed to get config file information." value="Failed to get config file information." />
+  <item name="The time is invalid." value="The time is invalid." />
+  <item name="Save config file succeed." value="Save config file successfully." />
+  <item name="Save config file faild." value="Faild to save config file." />
+  <item name="Set config file faild." value="Faild to set config file." />
+  <item name="Password is incorrect" value="Password is incorrect"/>
+  <item name="ConfigFile" value="Profile"/>
+  <item name="FileManage" value="Profile Management"/>
+  <item name="Weak" value="Weak" />
+  <item name="Middle" value="Medium" />
+  <item name="Strong" value="Strong" />
+  <item name="Please input 8~32 bytes from letters or numbers or symbols." value="Use a password that has 8 to 32 characters, it can be a combination of letter(s), number(s) and symbol(s) with at least two kinds of them. (excluding single quote(&apos;), double quote(&quot;), colon(:), semicolon(;), connection symbol(&amp;))" />
+  <item name="FindPassword?" value="FindPassword?" />
+  <item name="Continue modify password,please import xml file" value="Continue modify password,please import xml file" />
+  <item name="Export XML" value="Export XML" />
+  <item name="Import XML" value="Import XML" />
+  <item name="Please export XML file and send it as attachment to: " value="Please export XML file and send it as attachment to: " />
+  <item name="Export Path:" value="Export Path:" />
+  <item name="BrowsePath" value="BrowsePath" />
+  <item name="BackUp" value="Back" />
+  <item name="Next" value="Next" />
+  <item name="QR Code" value="QR Code" />
+  <item name="XML File" value="XML File" />
+  <item name="Security Code" value="Security Code" />
+  <item name="Security Code is invalid" value="Security code is invalid" />
+  <item name="Can't find device's SN" value="Can't find device's SN"/> 
+  <item name="Export File Failed." value="Export file failed."/>
+  <item name="Import File Failed." value="Import file failed." />
+  <item name="XML file's format is error." value="XML file's format is error." />
+  <item name="Exporting,please wait..." value="Exporting,please wait..."/>
+  <item name="Please import the authorization file named 'result'." value="Please import the authorization file named 'result'." />
+  <item name="Import File:" value="Import File:"/>
+  <item name="New Password length can't be less than 8 bytes." value="New password length can't be less than 8 bytes."/>
+  <item name="New Password length can't be less than " value="New password length can't be less than "/>
+  <item name=" bytes." value=" bytes."/>
+  <item name="Password strength is weak, please reset." value="Password strength is weak, please reset."/>
+  <item name="Password shall only contain letters or numbers or symbols." value="Password shall only contain letters or numbers or symbols." />
+  <item name="SecurityCode can't be empty." value="Security code can't be empty." />
+  <item name="SecurityCode shall only contain numbers and letters." value="Security code shall only contain numbers and letters."/>
+  <item name="Old Password can't be empty." value="Old password can't be empty." />
+  <item name="Find Mode" value="Reset Mode" />
+  <item name="Find Password" value="Reset Password" />
+  <item name="Get password description failed." value="Get password description failed." />
+  <item name="Device Initialize" value="Device initialization"/>
+  <item name="devices uninitialized" value="device(s) have not been initialized"/>
+  <item name="devices not initialized" value="device(s) have not been initialized"/>
+  <item name="Initialize" value="Initialize"/>
+  <item name="Please enter 6-8 characters, the password contains letters(case sensitive), numbers and symbols." value="Please enter 6-8 characters, the password contains letters(case sensitive), numbers and symbols."/>
+  <item name="Bind Phone" value="Bind Mobile Phone"/>
+  <item name="(For password reset)" value="(for password reset)"/>
+  <item name="Phone number" value="Phone Number"/>
+  <item name="Activation" value="Initialization"/>
+  <item name="Activate" value="Initialize"/>
+  <item name="devices have been activated!" value="device(s) is initialized"/>
+  <item name="Finish" value="Finish"/>
+  <item name="Activating, please wait..." value="Initializing, please wait..."/>
+  <item name="Phone number must be 11 numbers." value="Phone number must be 11 numbers."/>
+  <item name="Password input error." value="Must contain at least combination of two types of number, letter and common symbol.Illegal characters are not allowed."/>
+  <item name="Number only." value="Must contains only number."/>
+  <item name="ARCConfig" value="ARCConfig"/>
+  <item name="ACSConfig" value="ACSConfig"/>
+  <item name="VDPConfig" value="VDPConfig"/>
+  <item name="BatchConfig" value="BatchConfig"/>
+  <item name="LensSelector" value="LensSelector"/>
+  <item name="Generate two-dimension code failed." value="Generate two-dimension code failed."/>
+  <item name="input error" value="Invalid String"/>
+  <item name="All of " value="All of "/>
+  <item name=" devices, " value=" device(s), "/>
+  <item name=" devices get description succeed." value=" device(s) get description succeed."/>
+  <item name="Encryption data failed." value="Encryption data failed."/>
+  <item name="Security code error." value="Security code error."/>
+  <item name="Getting,please wait..." value="Getting,please wait..."/>
+  <item name="Security code error" value="Security code error"/>
+  <item name="New password illegal" value="New password illegal"/>
+  <item name="Encryption data failed" value="Encryption data failed"/>
+  <item name="Can't find devices of the same serial number." value="Can't find device(s) of the same serial number."/>
+  <item name="Device network card ip not match" value="Device ethernet card IP does not match"/>
+  <item name="Channel name can't be empty." value="Channel name cannot be null." />
+  <item name="NVR or DVR can't be reset password." value="NVR or DVR can't be reset password by IP Finder." />
+  <item name="Please follow with interest'Company after-sale service'-'My service'-'Reset Password',scan two-dimension code." value="Please follow with interest'Company customer service'-'Bottom Navigation Menu'-'Reset Password', scan two-dimension code."/>
+  <item name="Please download and login'Company after-sale service APP'-'My service'-'Reset Password',scan two-dimension code." value="Please download and login'Company customer service APP'-'My service'-'Reset Password',scan two-dimension code."/>
+  <item name="After scan success,security code will be send to " value="After scanning, send security code to " />
+  <item name="Please scan two-dimension code,and edit a message to 10690067124537." value="Please scan the QR code below and send a SMS to 10690067124537" />
+  <item name="Not same factory,set failed" value="Not same factory,set failed" />
+  <item name="Password shall only contain letters or numbers or symbols(except'''、'&quot;'、':'、';'、'&amp;')." value="Password shall only contain letters or numbers or symbols(except single quote(&apos;), double quote(&quot;), colon(:), semicolon(;), connection symbol(&amp;))." />
+  <item name="SecurityCode error or invalid." value="Security code error or invalid." />
+  <item name="Please download ip and then from Me-Reset device password, scan the following QR code or save the QR code image first and then send to cpplusworld.com as the attachment." value="Please download IP and then from Me-Reset device password, scan the following QR code or save the QR code image first and then send to resetpwd@cpplusworld.com as the attachment."/>
+  <item name="Please save the QR code image first and then send to support_gpwd@cpplusworld.com as the attachment." value="Please save the QR code image first and then send to cpplusworld.com as the attachment."/>
+  <item name="If you select other method, please scan the result and send SMS to CMCC/CTCC: 10690669121821,CUCC:10690067121821." value="If you select other method, please send scanning result to 10690067121821."/>
+  <item name="Please export the password reset request file first and then send to your local agent, salesperson or technical support." value="Please export the password reset request file first and then send to your local agent, salesperson or technical support."/>
+  <item name="Please export the password reset request file first and then send to" value="Please export the password reset request file first and then send to "/>
+  <item name="SecurityCode error or invalid." value="Security code error or invalid."/>
+  <item name="Time out" value="Network error, network timeout."/>
+  <item name="Get password description time out." value="Get password description time out, the device may be not in the LAN or device does not support."/>
+  <item name="PasswordModify" value="Modify Password"/>
+  <item name="PasswordReset" value="Reset Password"/>
+  <item name="Initialized" value="Initialized"/>
+  <item name="yes" value="yes"/>
+  <item name="no" value="no"/>
+  <item name="Not initialized" value="Uninitialized"/>
+  <item name="Device in other network can't be initialized." value="Device in other segment cannot be initialized."/>
+  <item name="Please select one device that have not been initialized." value="Please select an uninitialized device."/>
+  <item name="The List has device lack of initialization information." value="There are devices without given initialization info or with unrecognized initialization info."/>
+  <item name="Email address can't be empty." value="Email address cannot be null."/>
+  <item name="Email address format error." value="Email address format error."/>
+  <item name="Deserialize error" value="Deserialize error"/>
+  <item name="Get password rules failed" value="Get password rules failed"/>
+  <item name="Reset password mode not match" value="Password reset method does not match"/>
+  <item name="Email address" value="Email Address"/>
+  <item name="Bind Email Box" value="Bind Email"/>
+  <item name="Save Image" value="Save Picture"/>
+  <item name="Save image failed." value="Failed to save picture."/>
+  <item name="Save image succeed." value="Successfully saved picture."/>
+  <item name="State" value="Status"/>
+  <item name="*The list only shows device in the LAN, you cannot initialize crossing LAN." value="*The list only shows connected LAN device(s), you cannot initialize crossing LAN."/>
+  <item name="Note: To find password, please connect device to LAN of the host!" value="Note: To reset password, please connect device to LAN of the host!"/>
+  <item name="UnInit" value="Uninitialized"/>
+  <item name="Init" value="Initialized"/>
+  <item name="*After you have set new password, please set password again in Search Setup." value="*After you have set new password, please set password again in &quot;Search Settings&quot;."/>
+  <item name="Initial Status" value="Initial Status"/>
+  <item name="Failed to load data" value="Failed to load data"/>
+  <item name="New password format incorrect" value="New password format incorrect"/>
+  <item name="Device initialized" value="Device initialized"/>
+  <item name="Security code error" value="Security code error"/>
+  <item name="Serialize error" value="Serialize error"/>
+  <item name="Illegal parameter" value="Illegal parameter"/>   
+  <item name="The new password is not allowed to be the same as the old password." value="The new password is not allowed to be the same as the old password." />
+  <item name="Program is operating, please don't close this program." value="Program is operating, please don't close this program."/>
+  <item name="Please download ip and then from Me-Reset device password, scan the following QR code or send QR scan results to support_rpwd@cpplusworld.com." value="Please download IP and then from Me-Reset device password, scan the following QR code or send QR scan results to resetpwd@cpplusworld.com."/>
+  <item name="Please send QR scan results to support_gpwd@cpplusworld.com" value="Please send QR scan results to resetpwd@cpplusworld.com"/> 
+  <item name="Please download gCMOB/iCMOB and then from More-Reset device password, scan the following QR code or send QR scan results to resetpwd@cpplusworld.com as the attachment." value="Please download gCMOB/iCMOB and then from More-->Tools-->Reset Device Password, scan the following QR code or send QR scan results to resetpwd@cpplusworld.com as the attachment."/>    
+  <item name="The new password is not allowed to be the same as the old password." value="The new password is not allowed to be the same as the old password."/>
+  <item name="Cell Phone No." value="Cell Phone No."/>
+  <item name="Email Address" value="Email Address"/> 
+  <item name="Please select the file path." value="Please select the file path."/>   
+  <item name="Device SN" value="Device SN(Device Support InstaOn Only)" />
+  <item name="Add Type" value="Add Type" />
+  <item name="FileManage:" value="FileManage:" />
+  <item name="I Frame Interval" value="I Frame Interval" />
+  <item name="SVC" value="SVC" />
+  <item name="Watermark Settings" value="Watermark Settings" />
+  <item name="Watermark Character" value="Watermark Character" />
+  <item name="Get Water Mark faild." value="Get Water Mark faild." />
+  <item name="I Frame Interval:" value="I Frame Interval:" />
+  <item name="SVC:" value="SVC:" />
+  <item name="search devices failed,please" value="Search failed, please"/>
+  <item name="to get device's information." value="to get device(s) information."/>
+  <item name="click here" value="click here"/>
+  <item name="    Get" value="    Import"/>
+  <item name="    Save" value="    Export"/>
+  <item name="ScalableVersion" value="Upgrade Version"/>
+  <item name="DownLoad" value="Download"/>
+  <item name="Upgrade" value="Upgrade"/>
+  <item name="DownLoad" value="Download"/>
+  <item name="KeyUpgrade" value="Batch Upgrade"/>
+  <item name="checking..." value="Detecting..."/>
+  <item name="check failed" value="Failed"/> 
+  <item name="DownLoadFile" value="Batch Download"/>
+  <item name="Get remote information..." value="Getting remote information…"/> 
+  <item name="Get remote information failed." value="Failed to get remote information."/>
+  <item name="DetailType" value="Detail Type"/>
+  <item name="Port" value="Port"/>
+  <item name="RemoteFlag" value="RemoteFlag"/>
+  <item name="HigherMac" value="Superior MAC"/>
+  <item name="DeviceID" value="DeviceID"/>
+  <item name="Vendor" value="Manufacturer"/>  
+  <item name="DevClass" value="Device Class"/>
+  <item name="Serial" value="Internal Model"/>
+  <item name="Language" value="Language"/>
+  <item name="VideoStandard" value="Video Standard"/> 
+  <item name="SN" value="SN"/>
+  <item name="SWVersion" value="SWVersion"/> 
+  <item name="BuildTime" value="Build Time"/>
+  <item name="HasNewVersion" value="Whether to Upgrade"/>
+  <item name="NewVersion" value="Upgrade Version"/> 
+  <item name="UpgradeFilePath" value="UpgradeFilePath"/>
+  <item name="DownloadStatus" value="Download Status"/>
+  <item name="Device Mac" value="Device Mac"/>
+  <item name="UpgradeFileName" value="UpgradeFileName"/> 
+  <item name="Downloading,please wait..." value="Downloading, please wait…"/>
+  <item name="The count of the remote device is 0." value="The number of remote devices is 0. "/>
+  <item name="no new version" value="It’s the latest version"/>
+  <item name="CheckResult" value="Detection Result"/>
+  <item name="fail,again" value="Failed, retry"/>
+  <item name="finish" value="finish"/>
+  <item name="Expand" value="Expand"/>
+  <item name="Contract" value="Contract"/>
+  <item name="Stop downloading" value="Stop Downloading"/>
+  <item name="Continue" value="Continue"/>
+  <item name="No file can be download." value="No upgrade file can be downloaded."/>
+  <item name="No device can upgrade." value="No device can be upgraded."/>
+  <item name="Now checking,please wait..." value="Detecting, please wait..."/>
+  <item name="CloudUpgrade" value="Online Upgrade"/>
+  <item name="CheckVersion" value="Detected Version"/>
+  <item name="Pause" value="Pause"/>
+  <item name="Are you to cancel the DownLoad ?" value="Are you sure to stop download?"/>
+  <item name="DownLoadPath" value="Download Path"/>
+  <item name="CloudURL" value="Upgrade Server"/>
+  <item name="Please select a device to download." value="Please select the device to be downloaded."/>
+  <item name="Now operating,please wait..." value="Operating, please wait…"/>
+  <item name="Please select a device to check." value="Please select the device to be detected."/>
+  <item name="CheckRefrush" value="Upgrade Detect"/>
+  <item name="Enable cloud upgrade" value="Enable Cloud Upgrade"/>
+  <item name="DeviceName" value="Device Name"/>
+  <item name="File is not exist." value="File does not exist."/>
+  <item name="Export failed, maybe the file is being used by another process." value="Export failed, maybe the file is being used by another process."/>
+  <item name="Local device is not allowed to upgrade when remote device is upgrading" value="Local device is not allowed to upgrade when remote device is upgrading" />
+  <item name="Are you sure to factory default?" value="Are you sure to factory default?"/>
+  <item name="Watermark cannot empty." value="Watermark cannot empty."/>
+  <item name="Auto check note1" value="Notify automatically when updates available. The system checks for updates every day."/>
+  <item name="Auto check note2" value="Online Upgrade is a service that provides you with firmware updates by cloud. This service will collect device information in order to inform you about available firmware updates. Such information may include your device name, firmware version and device identification numbers. Such information is processed for the sole purpose of informing you about firmware updates."/>
+  <item name="Auto Check" value="Auto-check for updates"/>
+  <item name="Cloud Access" value="Instaon"/>
+  <item name="Cloud access note" value="Notifies when updates are available. The system checks for updates daily. To inform you of the latest firmware updates for your device, we need to collect device information such as the IP address, device name, language preference, firmware version and device SN. All collected information is used only for the purposes of verifying the validity of the device and pushing update notifications. You can disable the function at any time in the update menu.."/>
+  <item name="Acount has been initialized succeed, but the cloud settings failed" value="Device initialization succeeded, but cloud access setting and automatic detection failed."/>
+  <item name="Device initialization succeeded, but set automatic detection failed." value="Device initialization succeeded, but set automatic detection failed."/>
+  <item name="CloudEnable" value="Online Upgrade"/>
+  <item name="OverseasCloudURL" value="OverseasCloudURL"/>
+  <item name="Export failed,maybe the 7z tool is not installed." value="Export failed,maybe the 7z tool is not installed."/>
+  <item name="File is not exist,maybe the 7z tool is not installed." value="File does not exist,maybe the 7z tool is not installed."/>
+  <item name="Stop Downloading,please wait..." value="Stop Downloading,please wait..."/>
+  <item name="Start Downloading,please wait..." value="Start Downloading,please wait..."/>
+  <item name="Check Cancel." value="Check Cancel."/>
+  <item name="StopCheck" value="Stop Detecting"/>
+  <item name="Stop Checking,please wait..." value="Stop Checking,please wait..."/>
+  <item name="Are you sure to delete upgrade file in the download directory?" value="Are you sure to delete upgrade file in the download directory?"/>
+  <item name="Upgrade file is not exist." value="Upgrade file does not exist."/>
+  <item name="ClearUpgradeFile" value="Delete Upgrade File(s)"/>
+  <item name="Download Path is not exist." value="Download path does not exist."/>
+  <item name="Download Path is too long." value="Download path is too long."/>
+  <item name="Exporting path is too long." value="Exporting path is too long."/>
+  <item name="Tip: Please enter Domain Name:Port or Domain IP:Port." value="Tip: Please enter “domain name: port” or “domain IP: port”."/>
+  <item name="Import device list failed,maybe template error." value="Import device list failed,maybe template error." />
+  <item name="Upgrade file is delete completed." value="Upgrade file is deleted." />
+  <item name="Upgrade stoping,please wait..." value="Upgrade stoping,please wait..."/>
+  <item name="Export device information." value="Export device information."/>
+  <item name="Import device/updates information." value="Import device/updates information."/>
+  <item name="DownLoadStatus" value="DownLoadStatus"/>
+  <item name="File is not exist.maybe insufficient download path space." value="File is not exist.Maybe insufficient download path space."/>
+  <item name="insufficient download path diskspace." value="Insufficient download path diskspace."/>
+  <item name="Never notify" value="Never notify"/>
+  <item name="FindPwdNotice" value="In order to provide a secure password reset environment, we need to collect your e-mail address, device MAC address, device SN. All collected info is used only for the purposes of verifying device validity and sending a security code to you. Do you agree and want to continue the operation?"/>
+  <item name="CloudNotice" value="To analyze your device malfunction, we need to collect device info such as SN, manufacturer, device type, All collected info is used only for the purposes of analyzing device fault code.  Do you agree and want to continue the operation?"/>
+  <item name="Agree" value="Agree"/>
+  <item name="Disagree" value="Disagree"/>
+  <item name="Video Password:" value="The video password is:"/>
+  <item name="Sorting,please wait..." value="Sorting,please wait..."/>
+  <item name="Video Set" value="Video Settings"/>
+  <item name="Get Video Password" value="Get Video Password"/>
+  <item name="Please select a video file" value="Please select a video file"/>
+  <item name="Select a video file to find password" value="Select a video file"/>
+  <item name="Failed, Not match with this device or video file is destory!" value="Failed. Please check if the video is exported from device or the video is damaged."/>
+  <item name="Note: Choose a few devices, tools will try to find the right device!" value="Note: When multiple devices are selected, the tool will keep trying to get the password from these devices until succeed."/>
+  <item name="DevPassword" value="Device Password"/>
+  <item name="License" value="License"/>
+  <item name="Registered Phone for xml" value="Registered Phone"/>
+  <item name="Import License" value="Import License"/>
+  <item name="Export License" value="Export Device Info"/>
+  <item name="Set to reserved phone number" value="Set to reserved phone"/>
+  <item name="License information not Found" value="License is not found."/>
+  <item name="Export License Failed" value="Failed to export device information."/>
+  <item name="Import License Failed" value="Failed to import license."/>
+  <item name="Select License" value="Select"/>
+  <item name="Registered Phone" value="Registered Phone"/>
+  <item name="Password Reset" value="Password Reset"/>
+  <item name="Reset" value="Reset"/>
+  <item name="Batch Reset" value="Batch Reset"/>
+  <item name="Import Result.xml" value="Import Result.xml"/>
+	<item name="Please select one device to reset password at least." value="Please select one device to reset password at least."/>
+	<item name="QR mode" value="QR Mode"/>
+	<item name="XML mode" value="XML Mode"/>
+	<item name="Support" value="Support"/>
+	<item name="Unknown error" value="Unknown error."/>
+	<item name="PwdReset Success" value="Reset Password Successfully."/>
+	<item name="No reset method is supported!" value="No reset method is supported!"/>
+	<item name="System error" value="System error."/>
+	<item name="Data encryption failed" value="Data encryption failed."/>
+	<item name="The new password does not comply" value="The new password does not comply."/>
+	<item name="Security code %S or phone %S not match" value="Security code %S or phone %S not match."/>
+	<item name="The password reset is closed" value="The password reset is closed."/>
+	<item name="Cannot find the device with SN" value="Cannot find the device with SN."/>
+	<item name="Security code expiration" value="Security code expiration."/>
+	<item name="Failed to check security code, you can use local GUI to reset the password" value="Failed to check security code, you can use local GUI to reset the password."/>
+	<item name="Failed to check security code, you can use app or Ip Finder to reset the password" value="Failed to check security code, you can use app or IP Finder to reset the password."/>
+	<item name="Failed to check security code, you can use web to reset the password" value="Failed to check security code, you can use web to reset the password."/>
+	<item name="Failed to generate security code" value="Failed to generate security code."/>
+	<item name="Failed to get contact information" value="Failed to get contact information."/>
+	<item name="Failed to get QR code information" value="Failed to get QR code information."/>
+	<item name="Cannot reset the uninitialized device" value="Cannot reset the uninitialized device."/>
+	<item name="This contact information is not supported" value="This contact information is not supported."/>
+	<item name="The client response time out" value="The client response time out."/>
+	<item name="Too many attempts, ban check" value="Too many attempts, ban check."/>
+	<item name="The phone number format is not correct" value="The phone number format is not correct."/>
+	<item name="No phone number is reserved!" value="No phone number is reserved!"/>
+	<item name="No email address is reserved!" value="No email address is reserved!"/>
+	<item name="No phone number is reserved, do you want to reset with xml?" value="No phone number is reserved, do you want to reset with xml?"/>	
+  <item name="Password reset has been disabled." value="Password reset has been disabled."/>  
+  <item name="QRcodeHasContactNotify1" value="Dear users, you have reserve your number: "/>
+  <item name="QRcodeHasContactNotify2" value="Follow these steps to reset: "/>
+  <item name="QRcodeNoContactNotify1" value="Dear users, you do not have a reserved number, follow these steps to reset: "/>
+  <item name="QRcodeWeiXinNotify1" value="1 Find 'Company customer service' Wechat official account"/>
+  <item name="QRcodeWeiXinNotify2" value="2 Select Technical Support -> Password Reset."/>
+  <item name="QRcodeWeiXinNotify3" value="3 Scan the qr code of this interface"/>
+  <item name="QRcodeWeiXinNotify4" value="3 Scan the qr code of this interface->Change the phone number"/>
+  <item name="XML reset email" value="resetpwd@cpplusworld.com"/>
+  <item name="No email address is reserved, do you want to reset with xml?" value="No email address is reserved, do you want to reset with xml?"/>
+  <item name="XMLResetNotice" value="The e-mail which send the XML password reset export file, must be enterprise mailbox and be officially verified!"/>
+  <item name="Path length error" value="*The file path is too long, please reselect!"/>
+  <item name="Path length error" value="* File path is too long. Please select again."/>
+  <item name="Login Mode" value="Login Mode"/>
+  <item name="Safe Mode" value="Security Mode"/>
+  <item name="Compatible Mode" value="Compatibility Mode"/>
+  <item name="Compatibale Notice" value="Compatibility Mode has potential security risks. Security Mode is recommended."/>
+  <item name="Are you sure to change Login Mode To Compatible Mode?" value="Compatibility Mode has potential security risks, Do you agree and want to continue?"/>
+  <item name="Login With High Level Security Error" value="Device program version is low. Please upgrade the device or enable [IP Finder] Compatibility Mode."/>
+  <item name="Operate With High Level Security Error" value="Login failed. Device program version is low. Please upgrade the device or enable [IP Finder] Compatibility Mode."/>
+  <item name="Insufficient disk space." value="Low disk space."/>
+  <item name="Insufficient disk space" value="Low disk space"/>
+  <item name="Are you sure to apply package config?" value="Send the config to all devices of the same type. Continue?(Some devices need to be restarted manually to take effect)"/> 
+  <item name="PackConfig Path" value="Config File Storage Path"/> 
+  <item name="Export PackConfig failed" value="Failed to export file config"/> 
+  <item name="Export PackConfig failed." value="Failed to export file config."/> 
+  <item name="Import packconfig failed,maybe template error." value="Failed to import file config. Might be template error."/> 
+  <item name="Import PackConfig failed." value="Failed to import file config."/> 
+  <item name="PackConfig Not Found." value="File config is not found."/> 
+  <item name="PackConfig Not Found" value="File config is not found"/> 
+  <item name="Write Pack Config To Xlsx Failed." value="Failed to write the config in .xlsx file."/>
+  <item name="Video Standard" value="Video Standard"/>
+  <item name="Save Video Standard" value="Save Video Standard"/>
+  <item name="Device NO Support PN" value="The device does not support this standard."/>
+  <item name="Tip Sort Desc" value="Descending"/>
+  <item name="Tip Sort Asc" value="Ascending"/>
+  <item name="Main Defined Bitrate" value="Customized value of main stream cannot be null."/>
+  <item name="Extra Defined Bitrate" value="Customized value of sub stream cannot be null."/>
+  <item name="Default Except" value="Default"/>
+  <item name="Are you sure to default?" value="Are you sure to restore defaults?"/>
+  <item name="ACS" value="ACS"/>
+  <item name="CGI Command" value="CGI Command"/>
+  <item name="Exec" value="Exec"/>
+  <item name="Custom Operate" value="Custom Config"/>
+  <item name="Series Config" value="Series Config"/>
+	<item name="ACS Config" value="Access Control Config"/>
+	<item name="Please select same type of devices." value="Please select same type of devices."/>
+	<item name="No Convert" value="No Convert"/>
+    <item name="Byte Revert Convert" value="Byte Revert"/>
+  <item name="HIDpro Convert" value="HIDpro Convert"/>
+  <item name="Modify Tcp Port" value="Modify Tcp Port"/>
+  <item name="Tcp Port" value="Tcp Port"/>
+  <item name="Query System Log" value="System Log"/>
+  <item name="HardResetTips" value="All Data will be clear"/>
+  <item name="SoftResetTips" value="All Data will be clear without users' data"/>
+  <item name="OK1" value=" OK"/>
+  <item name="StartOn" value="Open"/>
+  <item name="SearchHolder" value="  Search"/>
+  <item name="DiffDirRemind" value="(Please place different certificate types in different folders)"/>
+  <item name="Card Number Convert" value="Card No."/>
+  <item name="Get" value="Get"/>
+	<item name="System Config Options" value="System Config Options"/>
+	<item name="Access Control" value="Access Control"/>  
+	<item name="Network" value="Network"/>  
+	<item name="Card Log" value="Card Log"/>  
+	<item name="Alarm Log" value="Alarm Log"/>  
+	<item name="Personnel Authority" value="Personnel authority"/>  
+	<item name="Please check an item" value="Please check an item"/>
+	<item name="SysTimeZone32InternationalDateLineWest" value="(UTC-12:00) International Date Line West"/>
+	<item name="SysTimeZone31UTC-11" value="(UTC-11:00) Coordinated Universal Time-11"/>
+	<item name="SysTimeZone30AleutianIslands" value="(UTC-10:00) Aleutian Islands"/>
+	<item name="SysTimeZone30Hawaii" value="(UTC-10:00) Hawaii"/>
+	<item name="SysTimeZone36MarquesasIslands" value="(UTC-09:30) Marquesas Islands"/>
+	<item name="SysTimeZone29Alaska" value="(UTC-09:00) Alaska"/>
+	<item name="SysTimeZone29UTC-09" value="(UTC-09:00) Coordinated Universal Time-09"/>
+	<item name="SysTimeZone28LowerCalifornia" value="(UTC-08:00) Baja California"/>
+	<item name="SysTimeZone28UTC-08" value="(UTC-08:00) Coordinated Universal Time-08"/>
+	<item name="SysTimeZone28Pacifictime" value="(UTC-08:00) Pacific Time (US &amp; Canada)"/>
+	<item name="SysTimeZone27Arizona" value="(UTC-07:00) Arizona"/>
+	<item name="SysTimeZone27Chihuahua" value="(UTC-07:00) Chihuahua, La Paz, Mazatlan"/>
+	<item name="SysTimeZone27Mountaintime" value="(UTC-07:00) Mountain Time (US &amp; Canada)"/>
+	<item name="SysTimeZone26CentralAmerica" value="(UTC-06:00) Central America"/>
+	<item name="SysTimeZone26Middletime" value="(UTC-06:00) Central Time (US &amp; Canada)"/>
+	<item name="SysTimeZone26EasterIsland" value="(UTC-06:00) Easter Island"/>
+	<item name="SysTimeZone26Guadalajara" value="(UTC-06:00) Guadalajara, Mexico City, Monterrey"/>
+	<item name="SysTimeZone26Saskatchewan" value="(UTC-06:00) Saskatchewan"/>
+	<item name="SysTimeZone25Bogota" value="(UTC-05:00) Bogota, Lima, Quito, Rio Branco"/>
+	<item name="SysTimeZone25Chetumal" value="(UTC-05:00) Chetumal"/>
+	<item name="SysTimeZone25Easterntime" value="(UTC-05:00) Eastern Time (US &amp; Canada)"/>
+	<item name="SysTimeZone25Haiti" value="(UTC-05:00) Haiti"/>
+	<item name="SysTimeZone25Havana" value="(UTC-05:00) Havana"/>
+	<item name="SysTimeZone25Indiana" value= "(UTC-05:00) Indiana (East)"/>
+	<item name="SysTimeZone24Asuncion" value="(UTC-04:00) Asuncion"/>
+	<item name="SysTimeZone24Atlantictime" value="(UTC-04:00) Atlantic Time (Canada)"/>
+	<item name="SysTimeZone24Caracas" value="(UTC-04:00) Caracas"/>
+	<item name="SysTimeZone24Cuiaba" value="(UTC-04:00) Cuiaba"/>
+	<item name="SysTimeZone24Georgetown" value="(UTC-04:00) Georgetown, La Paz, Manaus, San Juan"/>
+	<item name="SysTimeZone24Santiago" value="(UTC-04:00) Santiago"/>
+	<item name="SysTimeZone24Turks" value="(UTC-04:00) Turks and Caicos"/>
+	<item name="SysTimeZone23Newfoundland" value="(UTC-03:30) Newfoundland"/>
+	<item name="SysTimeZone22Araguaina" value="(UTC-03:00) Araguaina"/>
+	<item name="SysTimeZone22Brasilia" value="(UTC-03:00) Brasilia"/>
+	<item name="SysTimeZone22Cayenne" value="(UTC-03:00) Cayenne, Fortaleza"/>
+	<item name="SysTimeZone22BuenosAires" value="(UTC-03:00) City of Buenos Aires"/>
+	<item name="SysTimeZone22Greenland" value="(UTC-03:00) Greenland"/>
+	<item name="SysTimeZone22MondVeeDya" value="(UTC-03:00) Montevideo"/>
+	<item name="SysTimeZone22SaintPierre" value="(UTC-03:00) Saint Pierre and Miquelon"/>
+	<item name="SysTimeZone22Salvatore" value="(UTC-03:00) Salvador"/>
+	<item name="SysTimeZone21UTC-02" value="(UTC-02:00) Coordinated Universal Time-02"/>
+	<item name="SysTimeZone20Azores" value="(UTC-01:00) Azores"/>
+	<item name="SysTimeZone20CaboVerdeIslands" value="(UTC-01:00) Cabo Verde Is."/>
+	<item name="SysTimeZone0UTC-0" value="(UTC) Coordinated Universal Time"/>
+	<item name="SysTimeZone0Casablanca" value="(UTC+00:00) Casablanca"/>
+	<item name="SysTimeZone0Dublin" value="(UTC+00:00) Dublin, Edinburgh, Lisbon, London"/>
+	<item name="SysTimeZone0Monrovia" value="(UTC+00:00) Monrovia, Reykjavik"/>
+	<item name="SysTimeZone1Amsterdam" value="(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"/>
+	<item name="SysTimeZone1Belgrade" value="(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague"/>
+	<item name="SysTimeZone1Brussels" value="(UTC+01:00) Brussels, Copenhagen, Madrid, Paris"/>
+	<item name="SysTimeZone1Sarajevo" value="(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb"/>
+	<item name="SysTimeZone1CentralandwesternAfrica" value="(UTC+01:00) West Central Africa"/>
+	<item name="SysTimeZone1Windhoek" value="(UTC+01:00) Windhoek"/>
+	<item name="SysTimeZone2Amman" value="(UTC+02:00) Amman"/>
+	<item name="SysTimeZone2Athens" value="(UTC+02:00) Athens, Bucharest"/>
+	<item name="SysTimeZone2Beirut" value="(UTC+02:00) Beirut"/>
+	<item name="SysTimeZone2Cairo" value="(UTC+02:00) Cairo"/>
+	<item name="SysTimeZone2Chisinau" value="(UTC+02:00) Chisinau"/>
+	<item name="SysTimeZone2Damascus" value="(UTC+02:00) Damascus"/>
+	<item name="SysTimeZone2Gaza" value="(UTC+02:00) Gaza, Hebron"/>
+	<item name="SysTimeZone2Harare" value="(UTC+02:00) Harare, Pretoria"/>
+	<item name="SysTimeZone2Helsinki" value="(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"/>
+	<item name="SysTimeZone2Jerusalem" value="(UTC+02:00) Jerusalem"/>
+	<item name="SysTimeZone2Kaliningrad" value="(UTC+02:00) Kaliningrad"/>
+	<item name="SysTimeZone2Tripoli" value="(UTC+02:00) Tripoli"/>
+	<item name="SysTimeZone2EasternEurope" value="(UTC+02:00) E. Europe"/>
+	<item name="SysTimeZone3Baghdad" value="(UTC+03:00) Baghdad"/>
+	<item name="SysTimeZone3Istanbul" value="(UTC+03:00) Istanbul"/>
+	<item name="SysTimeZone3Kuwait" value="(UTC+03:00) Kuwait, Riyadh"/>
+	<item name="SysTimeZone3Minsk" value="(UTC+03:00) Minsk"/>
+	<item name="SysTimeZone3Moscow" value="(UTC+03:00) Moscow, St. Petersburg, Volgograd"/>
+	<item name="SysTimeZone3Nairobi" value="(UTC+03:00) Nairobi"/>
+	<item name="SysTimeZone4Tehran" value="(UTC+03:30) Tehran"/>
+	<item name="SysTimeZone5AbuDhabi" value="(UTC+04:00) Abu Dhabi, Muscat"/>
+	<item name="SysTimeZone5Astrakhan" value="(UTC+04:00) Astrakhan, Ulyanovsk"/>
+	<item name="SysTimeZone5Baku" value="(UTC+04:00) Baku"/>
+	<item name="SysTimeZone5Izhevsk" value="(UTC+04:00) Izhevsk, Samara"/>
+	<item name="SysTimeZone5PortLouis" value="(UTC+04:00) Port Louis"/>
+	<item name="SysTimeZone5Saratov" value="(UTC+04:00) Saratov"/>
+	<item name="SysTimeZone5Tbilisi" value="(UTC+04:00) Tbilisi"/>
+	<item name="SysTimeZone5Yerevan" value="(UTC+04:00) Yerevan"/>
+	<item name="SysTimeZone6Kabul" value="(UTC+04:30) Kabul"/>
+	<item name="SysTimeZone7Ashkhabad" value="(UTC+05:00) Ashgabat, Tashkent"/>
+	<item name="SysTimeZone7Ekaterinburg" value="(UTC+05:00) Ekaterinburg"/>
+	<item name="SysTimeZone7Islamabad" value="(UTC+05:00) Islamabad, Karachi"/>
+	<item name="SysTimeZone8Chennai" value="(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi"/>
+	<item name="SysTimeZone8SriJayawardenapura" value="(UTC+05:30) Sri Jayawardenepura"/>
+	<item name="SysTimeZone9Kathmandu" value="(UTC+05:45) Kathmandu"/>
+	<item name="SysTimeZone10Astana" value="(UTC+06:00) Astana"/>
+	<item name="SysTimeZone10Dhaka" value="(UTC+06:00) Dhaka"/>
+	<item name="SysTimeZone10Omsk" value="(UTC+06:00) Omsk"/>
+	<item name="SysTimeZone11Yangon" value="(UTC+06:30) Yangon (Rangoon)"/>
+	<item name="SysTimeZone12Bangkok" value="(UTC+07:00) Bangkok, Hanoi, Jakarta"/>
+	<item name="SysTimeZone12Barnaul" value="(UTC+07:00) Barnaul, Gorno-Altaysk"/>
+	<item name="SysTimeZone12Hovd" value="(UTC+07:00) Hovd"/>
+	<item name="SysTimeZone12Krasnoyarsk" value="(UTC+07:00) Krasnoyarsk"/>
+	<item name="SysTimeZone12Novosibirsk" value="(UTC+07:00) Novosibirsk"/>
+	<item name="SysTimeZone12Tomsk" value="(UTC+07:00) Tomsk"/>
+	<item name="SysTimeZone13Beijing" value="(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi"/>
+	<item name="SysTimeZone13Irkutsk" value="(UTC+08:00) Irkutsk"/>
+	<item name="SysTimeZone13KualaLumpur" value="(UTC+08:00) Kuala Lumpur, Singapore"/>
+	<item name="SysTimeZone13Perth" value="(UTC+08:00) Perth"/>
+	<item name="SysTimeZone13Taipei" value="(UTC+08:00) Taipei"/>
+	<item name="SysTimeZone13Ulaanbaatar" value="(UTC+08:00) Ulaanbaatar"/>
+	<item name="SysTimeZone37Pyongyang" value="(UTC+08:30) Pyongyang"/>
+	<item name="SysTimeZone38Eucla" value="(UTC+08:45) Eucla"/>
+	<item name="SysTimeZone14Chita" value="(UTC+09:00) Chita"/>
+	<item name="SysTimeZone14Osaka" value="(UTC+09:00) Osaka, Sapporo, Tokyo"/>
+	<item name="SysTimeZone14Seoul" value="(UTC+09:00) Seoul"/>
+	<item name="SysTimeZone14Yakutsk" value="(UTC+09:00) Yakutsk"/>
+	<item name="SysTimeZone15Adelaide" value="(UTC+09:30) Adelaide"/>
+	<item name="SysTimeZone15Darwin" value="(UTC+09:30) Darwin"/>
+	<item name="SysTimeZone16Brisbane" value="(UTC+10:00) Brisbane"/>
+	<item name="SysTimeZone16Canberra" value="(UTC+10:00) Canberra, Melbourne, Sydney"/>
+	<item name="SysTimeZone16Guam" value="(UTC+10:00) Guam, Port Moresby"/>
+	<item name="SysTimeZone16Hobart" value="(UTC+10:00) Hobart"/>
+	<item name="SysTimeZone16Vladivostok" value="(UTC+10:00) Vladivostok"/>
+	<item name="SysTimeZone34LordHoweIsland" value="(UTC+10:30) Lord Howe Island"/>
+	<item name="SysTimeZone17BougainvilleIsland" value="(UTC+11:00) Bougainville Island"/>
+	<item name="SysTimeZone17Chokurdakh" value="(UTC+11:00) Chokurdakh"/>
+	<item name="SysTimeZone17Magadan" value="(UTC+11:00) Magadan"/>
+	<item name="SysTimeZone17NorfolkIsland" value="(UTC+11:00) Norfolk Island"/>
+	<item name="SysTimeZone17Sakhalin" value="(UTC+11:00) Sakhalin"/>
+	<item name="SysTimeZone17SolomonIslands" value="(UTC+11:00) Solomon Is., New Caledonia"/>
+	<item name="SysTimeZone18Anadyr" value="(UTC+12:00) Anadyr, Petropavlovsk-Kamchatsky"/>
+	<item name="SysTimeZone18Auckland" value="(UTC+12:00) Auckland, Wellington"/>
+	<item name="SysTimeZone18UTC+12" value="(UTC+12:00) Coordinated Universal Time+12"/>
+	<item name="SysTimeZone18Fiji" value="(UTC+12:00) Fiji"/>
+	<item name="SysTimeZone39ChathamIslands" value="(UTC+12:45) Chatham Islands"/>
+	<item name="SysTimeZone19UTC+13" value="(UTC+13:00) Coordinated Universal Time+13"/>
+	<item name="SysTimeZone19Nukualofa" value="(UTC+13:00) Nuku'alofa"/>
+	<item name="SysTimeZone19Samoa" value="(UTC+13:00) Samoa"/>
+	<item name="SysTimeZone35KiritimatiIsland" value="(UTC+14:00) Kiritimati Island"/>
+	<item name="Applicable upgrade package size" value="For 100MB–2GB upgrade files"/>
+    <item name="Please input 6 bytes from numbers." value="Please input 6 bytes from numbers."/>
+	<item name="Please input 1~32 bytes from letters or numbers or symbols." value="Please input 1~32 bytes from letters or numbers or symbols." />
+	<item name="Device password specification error." value="Device password specification error."/>
+	<item name="CommPort" value="Reader Serial No."/>
+	<item name="OSDPEnable" value="OSDP Enable"/>
+	<item name="CGI Parm" value="CGI Param"/>
+	<item name="CGI Url is illegal." value="CGI url is illegal."/>
+	<item name="CGI Parm is Not Match." value="CGI param is not matched."/>
+	<item name="Xls Module" value="Xls Template"/>
+	<item name="Open Failed,Please confim install Excel" value="Open failed, please confirm whether Excel is installed."/>
+	<item name="Creat Password" value="Generate Password"/>
+	<item name="Password length：" value="Password Length："/>
+	<item name="Capital Letter" value="Capital Letter"/>
+  <item name="Lower Letter" value="Lower Letter"/>
+  <item name="Number" value="Number"/>
+  <item name="Please input Password Length." value="Please input Password Length."/>
+  <item name="upgrade done,please check excel." value="Upgrade done,please check excel."/>
+  <item name="This excel file has been opened,please save as another file." value="This excel file has been opened,please save as another file."/>
+  <item name="Batch Modify Password done,please check excel." value="Batch Modify Password done,please check excel."/>
+  <item name="Batch Creat Password done,please check excel." value="Batch Creat Password done,please check excel."/>
+  <item name="Batch IP Modify done,please check excel." value="Batch IP Modify done,please check excel."/>
+  <item name="Batch configure encode done,please check excel." value="Batch configure encode done,please check excel."/>
+  <item name="Setting Success" value="Setting Success"/>
+  <item name="Keep account, Password is not allowed" value="Keep account, Password is not allowed."/>
+  <item name="Password length more than 32 characters" value="Password length more than 32 characters"/>
+  <item name="New Password length more than 32 characters or less than 8 characters" value="New Password length more than 32 characters or less than 8 characters"/>
+  <item name="New Password length more than 32 characters or less than 1 characters" value="New Password length more than 32 characters or less than 1 characters"/>
+  <item name="File send completed,OverTime(Check whether the upgrade is succeed)" value="File sending completed, timeout (need to manually check whether the upgrade was successful)"/>
+  <item name="File send Timeout,Please check the network" value="File sending timed out, please check the network"/>
+  <item name="Open file error" value="Fail to open the file."/>
+  <item name="User preferences is wrong" value="User parameter is invalid."/>
+  <item name="login timeout,please check network and try again" value="Login timeout,please check network and try again."/>
+  <item name="Network connection failed" value="Network connection failed."/>
+  <item name="File send failed" value="File sending failed."/>
+  <item name="File send completed,upgrade failed" value="File sending completed-failed during upgrade"/>
+  <item name="Other errors" value="Other errors."/>
+   <item name="Invalid Number." value="Invalid number."/>
+  <item name="Password Length of at least 8." value="The password must be at least 8 characters long."/>
+  <item name="The Section1_S IP addres is not valid!" value="The Section1_S IP addres is not valid!"/>
+  <item name="The Section1_E IP addres is not valid!" value="The Section1_E IP addres is not valid!"/>
+  <item name="The Section2_S IP addres is not valid!" value="The Section2_S IP addres is not valid!"/>
+  <item name="The Section2_E IP addres is not valid!" value="The Section2_E IP addres is not valid!"/>
+  <item name="The Section3_S IP addres is not valid!" value="The Section3_S IP addres is not valid!"/>
+  <item name="The Section3_E IP addres is not valid!" value="The Section3_E IP addres is not valid!"/>
+  <item name="The Section4_S IP addres is not valid!" value="The Section4_S IP addres is not valid!"/>
+  <item name="The Section4_E IP addres is not valid!" value="The Section4_E IP addres is not valid!"/>
+  <item name="The Section5_S IP addres is not valid!" value="The Section5_S IP addres is not valid!"/>
+  <item name="The Section5_S IP addres is not valid!" value="The Section5_S IP addres is not valid!"/>
+  <item name="The Section6_S IP addres is not valid!" value="The Section6_S IP addres is not valid!"/>
+  <item name="The Section6_E IP addres is not valid!" value="The Section6_E IP addres is not valid!"/>
+  <item name="The Section1_S IP addres greater than Section1_E IP addres!" value="The Section1_S IP addres greater than Section1_E IP addres!"/>
+  <item name="The Section2_S IP addres greater than Section2_E IP addres!" value="The Section2_S IP addres greater than Section2_E IP addres!"/>
+  <item name="The Section3_S IP addres greater than Section3_E IP addres!" value="The Section3_S IP addres greater than Section3_E IP addres!"/>
+  <item name="The Section4_S IP addres greater than Section4_E IP addres!" value="The Section4_S IP addres greater than Section4_E IP addres!"/>
+  <item name="The Section5_S IP addres greater than Section5_E IP addres!" value="The Section5_S IP addres greater than Section5_E IP addres!"/>
+  <item name="The Section6_S IP addres greater than Section6_E IP addres!" value="The Section6_S IP addres greater than Section6_E IP addres!"/> 
+  <item name="NewPassword input error,Please include at least the two types from numbers,letters and characters." value="New password input error,Please include at least the two types from numbers,letters and characters."/>
+  <item name="Config Compression input error,Only support H.264 and H.265" value="Config compression input error,Only support H.264 and H.265"/>
+  <item name="Enable Smart Encode error,Only support TRUE and FALSE" value="Enable smart encode error, only support TRUE and FALSE"/>
+  <item name="Main Stream Value error,Please re-enter" value="Main Stream Value error,Please re-enter"/>
+  <item name="Table Config" value="Table Config"/>
+  <item name="Batch CGI Config" value="Batch CGI Config"/>
+  <item name="1kb/s" value="1KB"/>
+  <item name="16kb/s" value="16KB"/>
+  <item name="Upgrade Mode" value="Upgrade Speed(/Time)"/>
+  <item name="Search Setting" value="Search Settings"/>
+  <item name="You have select" value="You have select"/>
+  <item name="Sync Time" value="Sync Time"/>
+  <item name="Set Video Config Failed." value="Failed to set video configuration."/>
+  <item name="Not Support Yet." value="Not support yet."/>
+  <item name="Set ACS Config Failed." value="Failed to set access control configuration!"/>
+  <item name="Save  Card No. Convert succeed." value="Set card number reverse successfully!"/>
+  <item name="Save  Card No. Convert failed." value="Failed to set card number reversal!"/>
+  <item name="Save TcpPort succeed." value="Successfully set the TCP port!"/>
+  <item name="Save TcpPort failed." value="Failed to set TCP port!"/>
+  <item name="Export SysLog succeed." value="Export system log successfully!"/>
+  <item name="Export SysLog failed." value="Failed to export system log!"/>
+  <item name="Config OSDP succeed." value="OSDP configured successfully!"/>
+  <item name="Config OSDP failed." value="Failed to configure OSDP!"/>
+  <item name="IsUpgrading" value="Upgrading"/>
+  <item name="Too many devices, some devices failed to import" value="Too many devices, some devices import failed."/>
+  <item name="CGI Cmd Config" value="CGI Cmd Config"/>
+  <item name="Batch execute cgi commands done,please check excel." value="Batch execute CGI commands done,please check excel."/>
+  <item name="Application is already running" value="Application is already running."/>
+  <item name="Config Comm Bitrate succeed." value="Configure the baud rate successfully!"/>
+  <item name="Config Comm Bitrate failed." value="Failed to configure baud rate!"/>
+  <item name="Device does not support high security level login" value="Device does not support high security level login."/>
+  <item name="Log in repeatedly" value="Log in repeatedly"/>
+  <item name="Device does not insert U shield or u shield information error" value="Device does not insert U shield or u shield information error"/>
+  <item name="Client IP address does not have login permission" value="Client IP address does not have login permission"/>
+  <item name="Device account not initialized, unable to log in" value="Device account not initialized, unable to log in"/>
+  <item name="The device only supports high security level login" value="The device only supports high security level login"/>
+  <item name="Error checking return data" value="Error checking return data"/>
+  <item name="File Name contains illegal symbols." value="File Name contains illegal symbols."/>
+  <item name="User pwd sn is empty" value="The username, password or serial number is empty."/>
+  <item name=" devices." value=" device(s)."/>
+  <item name="No permission to write to folder" value="No permission to write to folder"/>
+  <item name="Security code does not match cell phone number" value="Security code does not match cell phone number"/>
+  <item name="The List has device mac collision." value="The list has some device mac conflicts."/>
+  <item name="The List has device mac addr illegal." value="The List has device mac addr illegal."/>
+  <item name="The List has device info error." value="The List has device info error."/>
+  <item name="Encryption Export Failed readonly" value="Encryption Export Failed readonly"/>
+  <item name="Config compression error" value="Config compression error"/>
+  <item name="Config smart encode error" value="Config smart encode error"/>
+  <item name="Reboot failed" value="Reboot failed."/>
+  <item name="Special Char" value="Common Symbol"/>
+  <item name="Config File" value="Config File" />
+  <item name="Bitrate" value="Bitrate"/>
+  <item name="ACS Devices" value="Access control device(s)"/> 
+  <item name="The disk space is less than 10KB,please clean the disk!" value="The disk space is less than 10KB,please clean the disk!"/> 
+  <item name="Export failed, Dir no write permission" value="Export failed, Dir has no permission"/>
+  <item name="Export failed, Path Length too Long." value="Export failed, Path Length is too Long."/>
+  <item name="Check" value="Check"/>
+  <item name="You have select %1 device(s)." value="You have selected %1  device(s)"/>
+  <item name="Please input 4~8 bytes from numbers." value="Please input 4~8 bytes from numbers."/>
+  <item name="Microsoft Excel file and WPS Office not installed,Please install Microsoft office 2007/2010 or WPS Office" value="Microsoft Excel or WPS Office is not installed. Please install Microsoft Office 2007, Microsoft Office 2010 or WPS Office"/>
+  <item name="Serial No. has existed." value="Serial No. has existed."/>
+  <item name="Device Upgrading" value="Upgrading"/>
+  	<item name="Folder does not exist" value="Folder does not exist"/>
+	<item name="App Config" value="App Config"/>
+	<item name="Android Commission" value="Android Debug"/>
+	<item name="Export Log" value="Export Log"/>
+	<item name="Modify App Config" value="Modify App Config"/>
+	<item name="App Commission" value="ADB Option"/>
+	<item name="Commission" value="OK"/>
+	<item name="APP IP Config" value="APP Registered IP"/>
+	<item name="unable to connect to Android" value="Cannot connect to Android device"/>
+	<item name="Android off-line" value="Android device off-line"/>
+	<item name="Open android debug failed" value="Open android debug failed."/>
+	<item name="Close android debug failed" value="Close android debug failed."/>
+	<item name="android debug disable Success" value="Android debug disable Success"/>
+	<item name="android debug enable Success" value="Android debug enable Success"/>
+	<item name="turn on screen failed" value="Turn on screen failed"/>
+	<item name="turn off screen failed" value="Turn off screen failed"/>
+	<item name="turn on screen Success" value="Turn on screen Success"/>
+	<item name="turn off screen Success" value="Turn off screen Success"/>
+	<item name="CMD failed" value="Unable to identify the validity of the return value of the current command."/>
+	<item name="install apk failed" value="Apk installation failed."/>
+	<item name="CMD error" value="Debug command error."/>
+	<item name="ADB enable" value="ADB Enable"/>
+	<item name="Command can't be empty after shell." value="Shell command cannot be empty."/>
+	<item name="On" value="On"/>
+	<item name="Off" value="Off"/>
+  <item name="User preferences is wrong" value="User parameter is invalid."/>
+<item name="Please select at least one kind of Operation." value="Please select at least one kind of operation."/>
+	<item name="Debug" value="Debug"/>
+	<item name="Debug Command" value="Debug Command"/>
+	<item name="Receive Timeout(s)" value="Receive Timeout(s)"/>
+	<item name="  Export Data Log" value="  Export Data Log"/>
+	<item name="Select Path" value="Select Path"/>
+   <item name="ExportLog" value="Export Log"/>
+	<item name="ExportPath" value="Export Path"/>
+	<item name="Process Warning" value="Progress Update"/>
+	<item name="Packing" value="Packing"/>
+	<item name="Setting Language, please wait..." value="Setting language, please wait..."/>
+	<item name="Acount has been initialized succeed, but the language settings failed" value="Acount has been initialized succeed, but the language settings failed."/>
+	<item name="Android Operator" value="Andriod operation"/>
+	<item name="Execute" value="Execute"/>
+	<item name="Open Template" value="Open Template"/>
+	<item name="Opem Template Failed!" value="Failed to open template!"/>
+	<item name="The file path is too long." value="File path is too long."/> 
+	<item name="FileName invalid" value="Invalid file name"/>
+	<item name="Import device list Failed." value="Failed to import device list." />
+	<item name="row" value="row" />
+    <item name="column" value="column" />
+	<item name="  location:" value="  location:" />
+	<item name="Open Template Failed!" value="Failed to open template!"/>
+	<item name="Building Config" value="Building Config" />
+	<item name="Issue" value="Issue"/>
+	<item name="Issue %ls" value="Issue %ls"/>
+	<item name= "Building" value="Building" />
+	<item name= "Building %ls" value="Building %ls" />
+	<item name= "Unit" value="Unit" />
+	<item name= "Unit %ls" value="Unit %ls" />
+	<item name= "Area" value="Area" />
+	<item name= "Area %ls" value="Area %ls" />
+	<item name="IP Config Failed!" value="IP address configuration failed!" />
+	<item name="Can not been searched!" value="Can not been searched!" />
+	<item name="login failed!" value="login failed!"/>
+	<item name="VTO Type Config Failed!" value="VTO type setting failed!" />
+	<item name="RoomNum Rule Config Failed!" value="The room number rule configuration failed!" />
+	<item name="Building Num or Unit Num Config Failed!" value="Failed to set building number or unit number!" />
+	<item name="Room num or VTO num Config Failed!" value="Failed to set room number or VTO number!" />
+	<item name="Relation Config Failed!" value="Failed to add device to VTO!" />
+	<item name="Reboot Failed!" value="Reboot failed!" />
+	<item name="IP Config Failed![NetWork TimeOut]" value="IP config failed![Network timeout]" />
+	<item name="IP Config Failed![UserName or Password error]" value="IP config failed![Username or password error]" />
+	<item name="Login Failed![NetWork TimeOut]" value="Login failed![Network timeout]" />
+	<item name="Login Failed![UserName or Password error]" value="Login failed![Username or password error]" />
+	<item name="ARC Devices" value="ARC Device(s)"/>   
+	<item name="Android" value="Android"/>
+	<item name="Type of the file is incorrect." value="Type of the file is incorrect."/>
+	<item name="Config successfully." value="Config successfully."/>
+	<item name="SIP Info" value="SIP Info"/>
+	<item name="LoginInfo" value="LoginInfo"/>
+	<item name="DevInfo" value="Device Info"/>
+	<item name="PhysicsInfo" value="PhysicsInfo"/>
+	<item name="Property" value="Property"/>
+	<item name="Maintenance" value="Maintenance"/>
+	<item name="First Name" value="First Name"/>
+	<item name="Last Name" value="Last Name"/>
+	<item name="VTO No." value="VTO No."/>
+	<item name="VTO_WALL" value="Fence Station"/>
+	<item name="VTO_DOOR" value="Unit Door Station"/>
+	<item name="VTO_Second" value="Second Confirmation"/>
+	<item name="Small Apartment" value="Small Apartment"/>
+	<item name="VTO_Villa" value="Villa Station"/>
+	<item name="GroupCall" value="GroupCall"/>
+	<item name="CallRoom" value="CallRoom"/>
+	<item name="Operation Successfully." value="Operation Successfully."/>
+	<item name="Please Login First." value="Please Login First."/>
+	<item name="Password Modification" value="Password Modification"/>
+	<item name="Get password rules failed" value="Get password rules failed"/>   
+	<item name="Net Info" value="Net Info"/>
+	<item name="IP Address:" value="IP Address:"/>
+	<item name="Net Mask:" value="Net Mask:"/>
+	<item name="Gateway:" value="Gateway:"/>
+	<item name="Local Info" value="Local Info"/>
+	<item name="Room" value="Room"/>
+	<item name="Main Room" value="Main Room"/>
+	<item name="Main IP" value="Main IP"/>
+	<item name="Main User" value="Main User"/>
+	<item name="Main Pwd" value="Main Password"/>
+	<item name="SSH Enable" value="SSH Enable"/>
+	<item name="SIP Server" value="SIP Server"/>
+	<item name="Sip Server IP" value="SIP Server IP"/>
+	<item name="Sip Server Port" value="SIP Server Port"/>
+	<item name="Sip Register Pwd" value="SIP Register Pwd"/>
+	<item name="Sip Realm" value="SIP Realm"/>
+	<item name="Login User" value="Login User"/>
+	<item name="Login Pwd" value="Login Password"/>
+	<item name="Initiale Mode" value="Initiale Mode"/>
+	<item name="NetWork Info" value="NetWork Info"/>
+	<item name="MainVTO IP" value="Main VTO IP"/>
+	<item name="MainVTO User" value="Main VTO User"/>
+	<item name="MainVTO Name" value="Main VTO Name"/>
+	<item name="MainVTO Pwd" value="Main VTO Pwd"/>
+	<item name="MainVTO Initiale Mode" value="Main VTO Initiale Mode"/>
+	<item name="SubVTO IP" value="Sub VTO IP"/>
+	<item name="SubVTO User" value="Sub VTO User"/>
+	<item name="SubVTO Name" value="Sub VTO Name"/>
+	<item name="SubVTO Pwd" value="Sub VTO Pwd"/>
+	<item name="SubVTO Initiale Mode" value="Sub VTO Initiale Mode"/>
+	<item name="Main VTO" value="Main VTO"/>
+	<item name="Sub VTO 1" value="Sub VTO 1"/>
+	<item name="Sub VTO 2" value="Sub VTO 2"/>
+	<item name="Sub VTO 3" value="Sub VTO 3"/>
+	<item name="Sub VTO 4" value="Sub VTO 4"/>
+	<item name="Sub VTO 5" value="Sub VTO 5"/>
+	<item name="Sub VTO 6" value="Sub VTO 6"/>
+	<item name="Sub VTO 7" value="Sub VTO 7"/>
+	<item name="Sub VTO 8" value="Sub VTO 8"/>
+	<item name="Sub VTO 9" value="Sub VTO 9"/>
+	<item name="Sub VTO 10" value="Sub VTO 10"/>
+	<item name="Sub VTO 11" value="Sub VTO 11"/>
+	<item name="Sub VTO 12" value="Sub VTO 12"/>
+	<item name="Sub VTO 13" value="Sub VTO 13"/>
+	<item name="Sub VTO 14" value="Sub VTO 14"/>
+	<item name="Sub VTO 15" value="Sub VTO 15"/>
+	<item name="Sub VTO 16" value="Sub VTO 16"/>
+	<item name="Sub VTO 17" value="Sub VTO 17"/>
+	<item name="Sub VTO 18" value="Sub VTO 18"/>
+	<item name="Sub VTO 19" value="Sub VTO 19"/>
+	<item name="Sub VTO 20" value="Sub VTO 20"/>
+	<item name="NetWork Info Set Failed." value="Failed to set network configuration information."/>
+	<item name="VTH Number Info Set Failed." value="Failed to set local information."/>
+	<item name="SIP Info Set Failed." value="SIP server setup failed."/>
+	<item name="VTO Info Set Failed." value="Network terminal setting failed."/>
+	<item name="NetWork Info" value="NetWork Info"/>
+	<item name="Add VTO" value="Add VTO"/>
+	<item name="VTO Name" value="VTO Name"/>
+	<item name="VTO IP" value="VTO IP"/>
+	<item name="Middle No." value="Middle No."/>
+	<item name="VTO Port" value="VTO Port"/>
+	<item name="Max VTO Count is 20." value="The maximum number of VTO is 20."/>
+	<item name="NetWork Termi" value="Network Terminals"/>
+	<item name="Main VTH" value="Main VTH"/>
+	<item name="Sub VTH" value="Sub VTH"/>
+	<item name="Only support VTS devices." value="Only support VTS device(s)."/>
+	<item name="Sip port between 1 and 65535" value="SIP port only supports 1 to 65535."/>
+	<item name="Only support VTH devices." value="Only support VTH device(s)."/>
+	<item name="Only support VTH or VTO devices." value="Only support VTH or VTO device(s)."/>
+	<item name="invalid network configuration information." value="Invalid network configuration information."/>
+	<item name="DevType" value="Device Type"/>  
+	<item name="Room No." value="Room No."/>  
+	<item name="DevName" value="Device Name"/>  
+	<item name="ExtNumber" value="ExtNumber"/>  
+	<item name="MainVTO" value="MainVTO"/>  
+	<item name="ServerType" value="Server Type"/>  
+	<item name="Server IP" value="Server IP"/>
+	<item name="Server Port" value="Server Port"/>
+	<item name="Register PWD" value="Register Pwd"/>
+	<item name="Center Number" value="Center Number"/>
+	<item name="Parameter not legal." value="Invalid parameter."/>
+	<item name="System Type" value="System Type"/>
+	<item name="As SipServer" value="As SIPServer"/>
+	<item name="Server Username" value="Server Username"/>
+	<item name="Server Password" value="Server Password"/>
+	<item name="Domain Name" value="Domain Name"/>
+	<item name="VTO Password" value="VTO Password"/> 
+    <item name="VTODevType" value="VTO device type"/>
+	<item name="Unit Door Station" value="Unit Door Station"/>
+	<item name="Fence Station" value="Fence Station"/>
+	<item name="Config unsuccessfully." value="Config failed."/>
+	<item name="Modify User Password" value="Modify User Password"/>
+	<item name="AlarmConfig" value="Alarm configuration"/>
+	<item name="Alarmd" value="Arm"/>
+	<item name="DisAlarmd" value="Disarm"/>
+	<item name="CGI Operator" value="CGI Operation"/>	
+	<item name="PrivateSIP" value="Private Server"/>
+	<item name="SinglePoint" value="Network Config"/>
+	<item name="User pw" value="User Password"/>
+	<item name="WireZone" value="WireZone"/>
+	<item name="AlarmMode" value="AlarmMode"/>
+	<item name="Reserved Info" value="Reserved Info"/>
+	<item name="IPCInfo" value="IPCInfo"/>
+	<item name="Reserve info set failed." value="Reserve info set failed."/>
+	<item name="Relate IPCInfo failed." value="Related IPC Info failed."/>
+	<item name="Please input correct reserve info." value="Please input correct reserve info."/>
+	<item name="IPC information incorrect." value="IPC information incorrect."/>
+	<item name="VTH SSH Set Failed." value="SSH configuration settings failed."/>
+	<item name="Type" value="Type"/>
+	<item name="NO/NC" value="NO/NC"/>
+	<item name="Status" value="Status"/>
+	<item name="En-Delay" value="En-Delay"/>
+	<item name="Ex-Delay" value="Ex-Delay"/>
+	<item name="IR" value="IR"/>
+	<item name="Gas Sensor" value="Gas Sensor"/>
+	<item name="Smoke Sensor" value="Smoke Sensor"/>
+	<item name="Urgency Btn" value="Urgency Btn"/>
+	<item name="Door Sensor" value="Door Sensor"/>
+	<item name="Stolen Alarm" value="Stolen Alarm"/>
+	<item name="Perimeter" value="Perimeter"/>
+	<item name="Doorbell" value="Doorbell"/>
+	<item name="ON" value="ON"/>
+	<item name="NO" value="NO"/>
+	<item name="NC" value="NC"/>
+	<item name="Instant Alarm" value="Instant Alarm"/>
+	<item name="Delay Alarm" value="Delay Alarm"/>
+	<item name="Bypass" value="Bypass"/>
+	<item name="Remove" value="Remove"/>
+	<item name="Alarmd Password error." value="Arm password error."/>
+	<item name="Disarm password error." value="Disarm password error."/>
+	<item name="Are you sure to disalarmd?" value="Are you sure to disalarmd?"/>
+	<item name="AlarmMode" value="AlarmMode"/>
+	<item name="Stay" value="Stay"/>
+	<item name="Away" value="Away"/>
+	<item name="Sleep" value="Sleep"/>
+	<item name="Custom" value="Custom"/>
+	<item name="Area1" value="Area1"/>
+	<item name="Area2" value="Area2"/>
+	<item name="Area3" value="Area3"/>
+	<item name="Area4" value="Area4"/>
+	<item name="Area5" value="Area5"/>
+	<item name="Area6" value="Area6"/>
+	<item name="Area7" value="Area7"/>
+	<item name="Area8" value="Area8"/>
+	<item name="Current state is disarmed." value="Current state is disarmed."/>
+	<item name="AlarmMode Config" value="AlarmMode Config"/>
+	<item name="AlarmInfo Config" value="AlarmInfo Config"/>
+	<item name="*Please input arm password!" value="*Please input arm password!"/>
+	<item name="*Please input disarm password!" value="*Please input disarm password!"/>
+	<item name="Alarmd Mode" value="Arm mode"/>
+	<item name="Alarmd Password" value="Arm Password"/>
+	<item name="DisAlarmd Password" value="Disarm Password"/>
+	<item name="Reserved information" value="Reserved Information"/>
+	<item name="IPC information" value="IPC Information"/>
+	<item name="IPC Name" value="IPC Name"/>
+	<item name="IPC IP" value="IPC IP"/>
+	<item name="IPC User" value="IPC User"/>
+	<item name="IPC Password" value="IPC Password"/>
+	<item name="StayMode" value="StayMode"/>
+	<item name="AwayMode" value="AwayMode"/>
+	<item name="SleepMode" value="SleepMode"/>
+	<item name="CustomMode" value="CustomMode"/>
+	<item name="FaceData" value="Configure Face"/>
+	<item name="FaceFileCsv" value="Config File Path"/>
+	<item name="Browse" value="Browse"/>
+	<item name="LogFile" value="Log Storage Path"/>
+	<item name="ExportModule" value="Export Template"/>
+	<item name="ImportPics" value="Picture Import"/>
+	<item name="Register Time" value="Register Time"/>
+    <item name="Print log" value="Output Log"/>
+    <item name="Privacy Policy.pdf" value="Privacy Policy(Eng).pdf"/>
+    <item name="Open source statement.pdf" value="Open source statement(Eng).pdf"/>
+    <item name="Agreement.pdf" value="SOFTWARE LICENSE AGREEMENT.pdf"/>
+    <item name="Privacy Policy" value="Privacy Policy"/>
+    <item name="Open Source" value="Open Source"/>
+    <item name="Agreement" value="Agreement"/>
+    <item name="Open Source Statement" value="Open Source Statement"/>
+    <item name="Edit" value="Edit"/>
+    <item name="Please fill in the specific content of CGI command." value="Please fill in the specific content of CGI command."/>
+	<item name="CGICommands" value="CGICommands"/>
+	<item name="Sub Connection failed." value="Sub connection failed."/>
+	<item name="https_protocol" value="https"/>
+	<item name="http_protocol" value="http"/>
+	<item name="CGICommands Type:" value="CGICommands Type:"/>
+	<item name="Operation via http is not safe." value="Operation via http is not safe."/>
+	<item name="Url format error." value="Url format error."/>
+	<item name="CGI configuration in progress, please wait..." value="CGI configuration in progress, please wait..."/>
+	<item name="Batch CGICommands" value="Batch CGI	Commands"/>
+	<item name="CGICommands Param" value="CGICommands Param"/>
+	<item name="Url Path:" value="Url Path:"/>
+	<item name="Url Path" value="Url Path"/>
+	<item name="Stop cgi config" value="Stop cgi config"/>
+	<item name="Operation via http is not safe, continue?" value="Operation via http is not safe, continue?"/>
+	<item name=",Please Click Exclamation mark icon to check the reason" value=",Please click the exclamation mark icon to view the specific error."/>
+	<item name=", please set password again in Search Setup" value=", please set password again in &quot;Search Setting&quot;"/>
+	<item name="Previous label" value="Previous Label"/>
+	<item name="Next label" value="Next Label"/>
+	<item name="SIP's Info error." value="SIP information error."/>
+	<item name="The Device don't support." value="Device does not support."/>
+	<item name="Set FaceFileCsv Path First." value="Please set the face template path first."/>
+	<item name="Export Success." value="Export successfully."/>
+	<item name="Face Operator" value="Import Face"/>
+	<item name="CGI Protocol" value="CGI Protocol"/>
+	<item name="Device Upgrade" value="Device Upgrade"/>
+	<item name="Batch" value="Batch"/>	
+  <item name="User name length more than 31 characters" value="Username length more than 31 characters"/>
+  <item name="Reserved" value="Reserved Email"/>
+  <item name="WhiteListAdd" value="AllowlistAdd"/>
+  <item name="BlackListAdd" value="BlocklistAdd"/>
+  <item name="Account is in the blacklist." value="Account is in the blocklist."/>
+  <item name="acount is blacklisted" value="Account is in the blocklist."/>
+  <item name="Add Black List done,please check excel." value="Add blocklist done,please check excel."/>
+  <item name="Add White List done,please check excel." value="Add allowlist done,please check excel."/>
+  <item name="CertificateMgr" value="Certificate"/>
+  <item name="DevLicense" value="License"/>
+  <item name="user name or password error" value="Username or password error."/>
+  <item name="Incorrect user name or password" value="Incorrect username or password"/> 
+  <item name="The new password cannot be consecutive characters." value="The new password cannot be the same characters."/>
+  <item name="New password illegal." value="New password illegal."/>
+  <item name="IPC-Stream Type" value="Stream Type"/>
+  <item name="IPC Port" value="IPC Port"/>
+  <item name="Ipc port between 1 and 65535" value="IPC port between 1 and 65535"/>
+   <item name="Set Language and reboot" value="Configure and restart"/>
+	<item name="Language choose:" value="Choose a language:"/>
+	<item name="UserID" value="User ID"/>
+	<item name="UserName" value="Username"/>
+	<item name="RoomNum" value="Room Number"/>
+	<item name="PicPath" value="Picture Path"/>
+	<item name="ErrorInfo" value="Error Info"/>
+	<item name="Finish Importing, Partial Records Error!" value="Completed, some import failed, please confirm!"/>
+	<item name="Photo Format Error!" value="Wrong photo format."/>
+	<item name="Photo Over Flow!" value="The number of photos exceeds the limit."/>
+	<item name="Operate Success!" value="Operate successfully."/>
+	<item name="Unkown Error!" value="Other errors."/>
+	<item name="The device is offline or the multicast network is unreachable!" value="The device is offline or the multicast network is unreachable!"/>
+	<item name="Finish Importing!" value="Completed."/>
+	<item name="Bad Request" value="Bad request."/>
+	<item name="Unauthorized" value="Unauthorized."/>
+	<item name="Forbidden" value="The request was rejected by the server."/>
+	<item name="Internal Server Error" value="Internal server error."/>
+	<item name="Not Implemented" value="Not implemented."/>
+	<item name="The character length exceeds the limit, the device may display incompletely, whether to continue to save?" value="The character length exceeds the limit, the device may display incompletely, whether to continue to save？"/>
+	<item name="Only supports VTO/VTH devices for configuration" value="Only supports VTO/VTH device(s) for configuration"/>
+	<item name="Please make sure that the network is stable and the power is not interrupted during the upgrade process. The unstable network and power failure may cause abnormal condition of the equipment!" value="Please make sure that the network is stable and the power is not interrupted during the upgrade process. The unstable network and power failure may cause abnormal condition of the device!"/>
+	<item name="FacePicsConfig" value="Configure Face"/>
+	<item name="Photo Size Exceeds Limit!" value="Picture size exceeded."/>
+	<item name="User Not Exist!" value="User ID does not exist."/>
+	<item name="Extract Feature Failed!" value="Photo feature value extraction failed."/>
+	<item name="Photo Exist!" value="Photo already exists."/>
+	<item name="Access File Failed." value="Failed to read file data."/>
+	<item name="ColNum Error." value="The number of columns does not meet the requirements."/>
+	<item name="UserID Illegal." value="User ID exceeds legal length."/>
+	<item name="PicPath Not Exist." value="Image path access failed."/>
+	<item name="Set LogFile Path First." value="Set log path first."/>
+	<item name="Start Importing, Please Wait!" value="Start importing, please wait!"/>
+	<item name="Failed to import face image!" value="Failed to import face image!"/>
+	<item name="Arming password can't be empty." value="Arm password can't be empty."/>
+	<item name="Disarm password can't be empty." value="Disarm password can't be empty."/>
+	<item name="Please disarm first." value="Please disarm first."/>
+	<item name="VTO No. can't be null." value="VTO No. can't be null."/>
+	<item name="Issue No. can't be null." value="Issue No. can't be null."/>
+	<item name="Building No. can't be null." value="Building No. can't be null."/>
+	<item name="Unit No. can't be null." value="Unit No. can't be null."/>
+	<item name="Please input register time." value="Please input register time."/>
+	<item name="IPC Name can't be empty." value="IPC name can't be empty."/>
+	<item name="Please check IPC Ip Address." value="Please check IPC IP address."/>
+	<item name="Server Port can't be empty." value="Server port can't be empty."/>
+	<item name="Audio Info" value="Audio Info"/>
+	<item name="Audio Type" value="Audio Type"/>
+	<item name="Batch Setting,please wait..." value="Batch Setting,please wait..."/>
+	<item name="Restart after configuration" value="Restart after configuration"/>
+    <item name="Some configurations need to be restarted to take effect." value="Some configurations need to be restarted to take effect."/>
+	<item name="Successfully import " value="Successfully import "/>
+	<item name="VideoInFocus" value="VideoInFocus"/>
+	<item name="Batch configure VSP_GAYS done,please check excel." value="Batch configure VSP_GAYS done,please check excel."/>
+	<item name="Batch configure OSD done,please check excel." value="Batch configure OSD done,please check excel."/>
+	<item name="Batch configure Reboot parame done,please check excel." value="Batch configure reboot parame done,please check excel."/>
+	<item name="Data format error." value="Data format error."/>
+	<item name="Are you to stop the CGICommands ?" value="Are you sure to stop CGI configuration？" />
+	<item name="Stop cgi config,please wait..." value="Stopping CGI configuration, please wait..." />
+	<item name="Device is offline" value="Device is offline" />
+	<item name="install apk Success" value="Install apk successfully." />
+	<item name="Command can't be empty." value="Command can't be empty." />
+	<item name="Timeout can't be 0." value="Timeout can't be 0." />
+	<item name="Failed to parse content!" value="Failed to parse content!" />
+	<item name="Please select upload path." value="Please select upload path." />
+	<item name="Auto hide" value="Auto hide" />
+	<item name="File Name" value="Filename" />
+	<item name="Notification" value="Notification" />
+	<item name="Partial Config Failed!" value="Partial configuration failed." />
+	<item name="Failed to get configuration." value="Failed to get configuration." />
+	<item name="Clear All" value="Clear All" />
+	<item name="Need to click save to take effect!" value="Need to click save to take effect!" />
+	<item name="All IPC Information will be cleared, need to click save to take effect!" value="All IPC Information will be cleared, need to click save to take effect!" />
+	<item name="Password reset in progress, please wait..." value="Password reset in progress, please wait..." />
+	<item name="Common F6" value="VTO Password" />
+	<item name="Batch config common F6 done,please check excel." value="Batch configure VTO Password done,please check excel." />
+	<item name="Form parameter error!" value="Form parameter error!" />
+	<item name="QRcodeFollowWeiXin" value="Scan WeChat and follow 'cpplus Company Customer Service'" />
+	<item name="Wait for retry." value="Wait for retry"/>
+	<item name="Setting Success" value="Set successfully."/>
+	<item name="WaitVdpConfiging" value="Building configuration in progress, please wait..."/>
+	<item name="Fast Add Node" value="Add Node"/>
+	<item name="DeleteNode" value="Delete Node"/>
+	<item name="AddBind" value="Association"/>
+	<item name="Batch AddBind" value="Batch Association"/>
+	<item name="Bind Template" value="Export Node"/>
+	<item name="VDPFastConfig" value="Config"/>
+	<item name="VDPInfoExportExcel" value="Export Table"/>
+	<item name="DevNoBindNode" value="Not Associated"/>
+	<item name="DevBindNode" value="Associated"/>
+	<item name="VDPParameterNotReady" value="The global parameter information is incomplete, please complete it."/>
+	<item name="VTOAsServerOpenEnable" value="VTO is used as a server, the district, building, and unit need to be disabled. Please change the server type or delete the node and add it again."/>
+	<item name="NoselectNode" value="No node is currently selected."/>
+	<item name="Some devices have been bound." value="Does not support repeated addition of associations to devices."/>
+	<item name="Part info not match!" value="Some devices or nodes were not found"/>
+	<item name="BatchBindingTemplate" value="Batch association template"/>
+	<item name="Failed to binding info." value="Export failed!"/>
+	<item name="ConfirmDeleteNode" value="Are you sure to delete the selected node?"/>
+	<item name="AddBindMoreNode" value="Only a single room can be selected for adding association!"/>
+	<item name="NodeHasDev" value="There are already devices under this node!"/>
+	<item name="NoSelectDevNode" value="No device node is currently selected."/>
+	<item name="NodeNotAllowMoreDev" value="Only one device can be associated at a time!"/>
+	<item name="NowCanBind" value="The association type is wrong, please check!"/>
+	<item name="VDPDoorFormNummore" value="The maximum number from the door machine exceeded!"/>
+	<item name="VDPConfigNoSelectDevices" value="Please select the device to be configured!"/>
+	<item name="SelectDevicesContainNOBind" value="The selected devices include unassociated devices!"/>
+	<item name="selected an unassociated device,Only the associated device is exported!" value="Only connected devices can be exported, please check!"/>
+	<item name="VDPNodeNoNode" value="No node found, current operation canceled!"/>
+	<item name="VTPNode" value="Organization tree node"/>
+	<item name="StartAreaNum" value="Starting Area"/>
+	<item name="StaticNum" value="Number"/>
+	<item name="StartBuildingNum" value="Start Building"/>
+	<item name="StartUnitNum" value="Start Unit"/>
+	<item name="UnitDoorMain" value="Unit VTO(Main)"/>
+	<item name="UnitDoorForm" value="Unit VTO(Sub)"/>
+	<item name="UnitConfirm" value="Second Confirmation"/>
+	<item name="UnitVilla" value="Villa Station"/>
+	<item name="Floor" value="Floor"/>
+	<item name="StartFloorNum" value="Start Floor"/>
+	<item name="Room" value="Room"/>
+	<item name="StartRoomNum" value="Start Room"/>
+	<item name="RoomEx" value="Extension"/> 	
+	<item name="StartRoomExNum" value="Start Extension"/>
+	<item name="StartAreaNumNotEmpty" value="The starting area number cannot be empty!"/>
+	<item name="AreaNummore" value="Exceed the maximum number of area!"/>
+	<item name="BuildingNummore" value="Exceed the maximum number of building!"/>
+	<item name="NodeNummore" value="Exceed the maximum number of nodes!"/>
+	<item name="DevPoNode" value="Device node"/>
+	<item name="VDPNodeMDRoom" value="Modify room information"/>
+	<item name="VDPNodeNotRule" value="Room number does not meet the rules!"/>
+	<item name="VDPMdRoomNoChange" value="The room number has not changed!"/>
+	<item name="VDPNodeSelectAll" value="Select All"/>
+	<item name="VDPNodeNoSelect" value="Unselect All"/>
+	<item name="VDPProject" value="Project"/>
+	<item name="AreaAddNum" value="%1 Area"/>
+	<item name="BuildingAddNum" value="%1 Building"/>
+	<item name="UnitAddNum" value="%1 Unit"/>
+	<item name="FloorAddNum" value="%1 Floor"/>
+	<item name="RoomAddNum" value="%1 Room"/>
+	<item name="RoomExMain" value="Host"/>
+	<item name="RoomExAddNum" value="%1 Extension"/>
+	<item name="VDPNodeNoNode" value="No node found, current operation canceled!"/>
+	<item name="Center Number" value="Center Number"/>
+	<item name="VDPSipServer" value="Server Type"/>
+	<item name="VDPSipAddress" value="Server Address"/>
+	<item name="VDPSipPort" value="Server Port"/>
+	<item name="VDPSipUser" value="Server Username"/>
+	<item name="VDPSipPwd" value="Server Password"/>
+	<item name="CenterNumberNotEmpty" value="The center call number cannot be empty!"/>
+	<item name="VDPSipUserNotEmpty" value="Server username cannot be empty!"/>
+	<item name="VDPSipPwdNotEmpty" value="Server password cannot be empty!"/>
+	<item name="VDPRegisterPwdNotEmpty" value="Registration password cannot be empty!"/>
+	<item name="VTOUserNotEmpty" value="VTO username cannot be empty!"/>
+	<item name="VDOPwdNotEmpty" value="VTO password cannot be empty!"/>
+	<item name="VTHUserNotEmpty" value="VTH username cannot be empty!"/>
+	<item name="VTHPwdNotEmpty" value="VTH password cannot be empty!"/>
+	<item name="VDPSipRealName" value="SIP Domain"/>
+	<item name="VDPRegisterPwd" value="Registered PWD"/>
+	<item name="VTOUser" value="VTO Username"/>
+	<item name="VDOPwd" value="VTO Password"/>
+	<item name="VTHUser" value="VTH Username"/>
+	<item name="VTHPwd" value="VTH Password"/>
+	<item name="Export binding info succeed." value="Export successfully!"/>
+	<item name="ServerPortNotEmpty" value="Server port cannot be empty!"/>
+	<item name="ServerAddressNotEmpty" value="Server address cannot be empty!"/>
+	<item name="Invalid server address." value="Invalid server address!"/>
+	<item name="NumNotAllowEmpty" value="The number cannot be empty!"/>
+	<item name="VDPMdRoomNotEmpty" value="The room number cannot be empty!"/>
+	<item name="VDPNodeRoomExNotRule" value="The extension number does not meet the rules!"/>
+	<item name="VDPMdRoomExNoChange" value="The extension number has not changed!"/>
+	<item name="VDPMdRoomExNotEmpty" value="The extension number cannot be empty!"/>
+	<item name="BatchBindNoDevice" value="No device found in the batch association table!"/>
+	<item name="BatchBindNotInSearchList" value="Serial No.: %1, the device was not found in the device list!"/>
+	<item name="BatchBindNotCanBind" value="Serial No.: %1, the association type is wrong, please check!"/>
+	<item name="BatchBindPosWrong" value="Serial No.: %1, the device is already associated, the table position and the node position do not match!"/>
+	<item name="NoselectNodeOrNotAdd" value="The node is not currently selected or the current node does not support associated devices!"/>
+	<item name="TableAreaNumNotEmpty" value="The area code cannot be empty!"/>
+	<item name="TableBuildingNumNotEmpty" value="Building number cannot be empty!"/>
+	<item name="TableUnitNumNotEmpty" value="The unit number cannot be empty!"/>
+	<item name="TableFloorNumNotEmpty" value="The floor number cannot be empty!"/>
+	<item name="TableRoomNumNotEmpty" value="The room number cannot be empty!"/>
+	<item name="TableNotNode" value="The node does not exist! Serial NO.: %1, Node Location: %2!"/>
+	<item name="TableNodeMoerDev" value="The number of devices allowed to be added to the node has exceeded the limit!Serial NO.: %1, Node Location: %2!"/>
+	<item name="TableNoDevBind" value="There is no device to associate!"/>
+	<item name="NodeTreeNoNode" value="The current organization tree node is empty, please operate after creation!"/>
+	<item name="RoomLengthMore" value="The maximum number of floor + room number + connector (- or #) + extension is 7 digits! Some devices may not support settings, do you want to continue?"/>
+	<item name="VDPConfigFinish" value="Configuration operation completed!"/>
+	<item name="ExtNumber" value="Extension No."/>
+	<item name="Path Length too Long." value="Path length is too long."/>
+    <item name="login failed!" value="Login failed!"/>
+	<item name="The List has device mac addr illegal." value="The list has device mac addr illegal."/>
+	<item name="The List has device info error." value="The list has device info error."/>
+	<item name="Fail, Unknown Error" value="Failed, unknown error!"/>
+	<item name="StartBuildingNumNotEmpty" value="The starting building number cannot be empty!"/>
+	<item name="StartUnitNumNotEmpty" value="The starting unit number cannot be empty!"/>
+	<item name="StartFloorNumNotEmpty" value="The starting floor number cannot be empty!"/>
+	<item name="StartRoomNumNotEmpty" value="The starting room number cannot be empty!"/>
+	<item name="StartRoomExNumNotEmpty" value="The starting extension number cannot be empty!"/>
+	<item name="VDPSipRealNameNotEmpty" value="SIP domain cannot be empty!"/>
+	<item name="Template Excel does not exist." value="Template table does not exist!"/>
+	<item name="UnitNummore" value="Exceed the maximum number of unit!"/>
+	<item name="DeviceTree" value="Device Tree"/>
+	<item name="AssociationList" value="Association List"/>
+	<item name="ExtensionNummore" value="Exceed the maximum number of extension!"/>
+	<item name="StartAreaNumNotZero" value="The starting area number cannot be 0!"/>
+	<item name="StartBuildingNumNotZero" value="The starting building number cannot be 0!"/>
+	<item name="StartUnitNumNotZero" value="The starting unit number cannot be 0!"/>
+	<item name="StartFloorNumNotZero" value="The starting floor number cannot be 0!"/>
+	<item name="StartRoomNumNotZero" value="The starting room number cannot be 0!"/>
+	<item name="VDPFastAddNodeTip1" value="*The extension number is 0 and the default is the host."/>
+	<item name="VDPFastAddNodeTip2" value="*The maximum number of device nodes allowed is 10,000."/>
+	<item name="RoomHasDev" value="There are device nodes under the current room node, and extension nodes are not allowed to be added. Do you want to continue?"/>
+	<item name="BatchBindNoDeviceCanBind" value="No associated device found!"/>
+	<item name="VTORestartTip" value="Some devices will automatically restart after configuration"/>
+	<item name="BatchBindFinish" value="The batch association operation is complete!"/>
+	<item name="RootCertNotMatch" value="Root certificate does not match."/>
+	<item name="DevInfo" value="Device Info"/>
+	<item name="NetSetting" value="Network"/>
+	<item name="DevCap Info" value="Features"/>
+	<item name="Ver Info" value="Version"/>
+	<item name="Mod Info" value="Module"/>
+	<item name="AlarmInputNum" value="Number of Alarm Inputs"/>
+	<item name="AlarmOutputNum" value="Number of Alarm Outputs"/>
+	<item name="SubSystemNum" value="Number of Subsystems"/>
+	<item name="AlarmBellNum" value="Number of Sirens"/>
+	<item name="KeyboardNum" value="Number of Keypads"/>
+	<item name="RemoteUserNum" value="Number of Keyfob Users"/>
+	<item name="NetWorkUserNum" value="Number of Web Users"/>
+	<item name="ICCardUserNum" value="Number of IC Card Users"/>
+	<item name="PhoneUserNum" value="Number of Mobile Users"/>
+	<item name="KeyboardUserNum" value="Number of Keypad Users"/>
+	<item name="HardwareVer" value="Hardware Version"/>
+	<item name="MCUVer" value="SCM Version"/>
+	<item name="MBusVer" value="M-Bus Version"/>
+	<item name="WebVer" value="Web Version"/>
+	<item name="SecyrityBaseLineVer" value="Security Baseline Version"/>
+	<item name="ModuleType" value="Module Type"/>
+	<item name="MBusExMod" value="M-Bus Expansion Module"/>
+	<item name="485ExMod" value="RS-485 Expansion Module"/>
+	<item name="Keyboard" value="Keypad"/>
+	<item name="ModuleAddress" value="Module Address"/>
+	<item name="ModuleModel" value="Module Model"/>
+	<item name="ModuleVersion" value="Module Version"/>
+	<item name="2G/4G Info" value="2G/4G"/>
+	<item name="Apply" value="Apply"/>
+	<item name="Refresh" value="Refresh"/>	
+	<item name="Check Enable" value="Enable"/>
+	<item name="Check Dail" value="Enable Mobile Data"/>
+	<item name="Net Type" value="Network Type"/>
+	<item name="APN" value="APN"/>
+	<item name="Auth Mode" value="Authentication Type"/>
+	<item name="DailNumber" value="Dial-up No."/>
+	<item name="NetStateName" value="Network Status"/>	
+	<item name="WirelessSigName" value="Wireless Signal"/>
+	<item name="UNKNOWN" value="Unknown"/>	
+	<item name="ChannelConfig" value="Channel Config"/>
+	<item name="ReaderConfig" value="Card Reader Config"/>
+	<item name="NetWorkPortConfig" value="Network Port Config"/>
+	<item name="AutoRegister" value="Register"/>
+	<item name="HostIP" value="Host IP"/>
+	<item name="HostPort" value="Host Port"/>
+	<item name="AutoRegisterCheck" value="Enable Auto Registration"/>
+	<item name="No2G4GMoudle" value="There is no 2G or 4G Moudle!"/>
+	<item name="The equipment information does not match the production time" value="Device's current information does not match the information set at the time of its production."/>
+	<item name="Join the user experience plan" value="Join Experience Program "/>
+	<item name="PrivacyPolicy" value="Privacy Policy"/>
+	<item name="User experience plan details" value="    Help us improve our software and human-computer interaction technology by joining our User Experience Improvement Program. Through the program, we will collect records on your feature usage, which will not be used to personally identify you. We will use the collected information to analyze software function usage and improve the functions and performance."/>
+	<item name="AllBind Template" value="Export All Nodes"/>
+	<item name="Process Start" value="Application start"/>
+	<item name="Process Stop" value="Application shutdown"/>
+	<item name="VTO Config" value="VTO Config"/>
+	<item name="VTH Config" value="VTH Config"/>
+	<item name="Open Excel and WPS Office failed." value="Failed to open Excel or WPS Office!"/>
+	<item name="IP Finder_Users Manual_V 3.0_072022.pdf" value="IP Finder_Users Manual_V 3.0_072022.pdf"/>
+	<item name="com.SearchMethod" value="IP Login Mode"/>
+	<item name="com.SearchCPMethod" value="CP Mode"/>
+	<item name="com.SearchOrdinaryMethod" value="Normal Mode"/>
+	<item name="OUTPath" value="Export Path"/>
+	<item name="INPath" value="Import Path"/>
+	<item name="LIOUT" value="Export"/>
+	<item name="LIIN" value="Import"/>
+	<item name="LIOUT Tips" value="Export the license"/>
+	<item name="LIIN Tips" value="Import the license into the device."/>
+	<item name="LIProInfo" value="Progress"/>
+	<item name="Whether to automatically match and check the device according to the license package?" value="Whether to automatically match and check the device according to the license package?"/>
+	<item name="com.SecurityQuestionReset" value="Security Question"/>
+	<item name="com.DetermineWhetherToResetPassword" value="Determine whether to reset password using security issues?"/>
+	<item name="com.PasswordCannotBeEmpty" value="Password cannot be empty"/>
+	<item name="com.MustContainFourSymbols" value="Must contain numbers, uppercase letters, lowercase letters, and universal symbols. Illegal characters are not allowed."/>
+	<item name="com.PleaseInput8To32PasswordMustContainFourSymbols" value="Use a password that has 8 to 32 characters, must contain numbers, uppercase letters, lowercase letters, and universal symbols. (excluding single quote(&apos;), double quote(&quot;), colon(:), semicolon(;), connection symbol(&amp;))" />
+	<item name="Auto_Repair" value="One-click reset"/>
+	<item name="AutoRepair Tips" value="If the button is not available, please log in first <br> Reset the license to factory state."/>
+	<item name="jobnumber" value="Job Number"/>
+	<item name="Login" value="Login"/>
+	<item name="LoginOut" value="Logout"/>
+	<item name="Common" value="General"/>
+	<item name="Develp" value="Develp"/>
+	<item name="Repair" value="Repair"/>
+	<item name="One key update License" value="Auto Update license"/>
+	<item name="One key reset License" value="Auto Repair license"/>
+	<item name="One key update License Failed" value="Failed to update license"/>
+	<item name="One key reset License Failed" value="Failed to reset license"/>
+	<item name="PartNumber" value="P/N"/>
+	<item name="One-click repair Tips" value="Reset the license to factory state."/>
+	<item name="The part number cannot be empty" value="The P/N number cannot be empty."/>
+	<item name="AutoUpdate" value="Auto Update"/>
+	<item name="AutoUpdate Tips" value="If the button is not available, please log in first.<br>License authorization of the device according to the algorithm configuration of the material numberrnThe service life is 30 days."/>
+	<item name="com.Passworddonotmatch" value="Password is too weak. Please choose a stronger password."/>
+	<item name="com.PwdIsAllowThanSixDigs" value="The same character appeared more than 6 times in a row in the password. Are you sure you want to continue?"/>
+	<item name="com.PwdIsContainsUsername" value="The password contains the username. Are you sure you want to continue?"/>
+	<item name="com.PwdIsContainReverUsername" value="The password contains the reverse of the username. Are you sure you want to continue?"/>
+	<item name="com.PasswordEqualUserName" value="Your password cannot be the same as your username. Please choose a different password."/>
+	<item name="com.PwdIsEasyToGuess" value="Password is too weak. Please choose a stronger password."/>
+	<item name="Please download CMOB  and then from More-->Tools-->Reset Device Password, scan the following QR code or send QR scan results to support_rpwd@global.dahuatech.com as the attachment." value="Please download CMOB  and then from More-->Tools-->Reset Device Password, scan the following QR code or send QR scan results to support_rpwd@global.dahuatech.com as the attachment."/>
+	<item name="com.PasswoedContainsAdmin" value=" Password is too weak. Please choose a stronger password."/>
+	<item name="com.Question1" value="Question 1﻿What is your favorite children's book?"/>
+	<item name="com.Question2" value="Question 2What was the color of your first cellphone?"/>
+	<item name="com.Question3" value="Question 3What is your time to go to work?"/>
+	<item name="com.Answer3" value="Answer 3"/>
+	<item name="com.Answer1" value="Answer 1"/>
+	<item name="com.Answer2" value="Answer 2"/>
+</Strings>

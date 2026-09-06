@@ -1,0 +1,17 @@
+QWidget#wgtGuideBtn
+{
+	border-image: url(./Skin/DustyBlue/BottomGuide/guide.png);
+	color:#ffffff;
+	font-size:12px;
+}
+
+QPushButton#btnClose
+{
+	border-image: url(./Skin/DustyBlue/BottomGuide/close_n.png);
+}
+QPushButton#btnClose:hover
+{
+	border-image: url(./Skin/DustyBlue/BottomGuide/close_h.png);
+}
+
+

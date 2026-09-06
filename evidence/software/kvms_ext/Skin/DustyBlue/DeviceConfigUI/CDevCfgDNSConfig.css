@@ -1,0 +1,11 @@
+QPushButton#btnDHCPEnable,
+QPushButton#btnAutoDNS
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/switchoff.png);
+}
+
+QPushButton#btnDHCPEnable:checked,
+QPushButton#btnAutoDNS:checked
+{
+	border-image: url(./Skin/DustyBlue/DeviceConfigUI/switchon.png);
+}

@@ -1,0 +1,61 @@
+
+QPushButton#btnInIsIn:disabled,QPushButton#btnOutIsIn:checked:disabled
+{
+	border-image: url(./Skin/theme1/ACS/doorin_disabled.png);
+} 
+ 
+QPushButton#btnInIsIn:pressed,QPushButton#btnOutIsIn:checked:pressed
+{
+	border-image: url(./Skin/theme1/ACS/doorin_pressed.png);
+}
+
+QPushButton#btnInIsIn:hover,QPushButton#btnOutIsIn:checked:hover
+{
+	border-image: url(./Skin/theme1/ACS/doorin_hover.png);
+}
+
+QPushButton#btnInIsIn,QPushButton#btnOutIsIn:checked
+{
+	border-image: url(./Skin/theme1/ACS/doorin_normal.png);
+}
+
+QPushButton#btnOutIsIn:disabled,QPushButton#btnInIsIn:checked:disabled
+{
+	border-image: url(./Skin/theme1/ACS/doorout_disabled.png);
+} 
+ 
+QPushButton#btnOutIsIn:pressed,QPushButton#btnInIsIn:checked:pressed
+{
+	border-image: url(./Skin/theme1/ACS/doorout_pressed.png);
+}
+
+QPushButton#btnOutIsIn:hover,QPushButton#btnInIsIn:checked:hover
+{
+	border-image: url(./Skin/theme1/ACS/doorout_hover.png);
+}
+
+QPushButton#btnOutIsIn,QPushButton#btnInIsIn:checked
+{
+	border-image: url(./Skin/theme1/ACS/doorout_normal.png);
+}
+
+
+QPushButton#btnSectionDetail
+{
+	border-image: url(./Skin/theme1/devmanage/LinkToDevCfg.png) 0 54 0 0;
+}
+
+QPushButton#btnSectionDetail:hover
+{
+	border-image: url(./Skin/theme1/devmanage/LinkToDevCfg.png) 0 36 0 18;
+}
+
+QPushButton#btnSectionDetail:disabled
+{
+	border-image: url(./Skin/theme1/devmanage/LinkToDevCfg.png) 0 0 0 54;
+} 
+ 
+QPushButton#btnSectionDetail:pressed
+{
+	border-image: url(./Skin/theme1/devmanage/LinkToDevCfg.png) 0 18 0 36;
+}

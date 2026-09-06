@@ -1,0 +1,7 @@
+DSGUI--DSTabBar::tab
+{
+	min-width:50px;
+	width:70px;
+	padding-left:10px;
+	padding-right:10px;
+}

@@ -1,0 +1,469 @@
+/*提示框*/
+TipTextEdit
+{
+	background:transparent;
+	borer；none;
+	color:#b1b1b1;
+}
+
+QTableWidgetItem {
+	color:#eeeeee;
+    background-color: rgb(47,51,56);
+}
+
+QTableWidget {
+	color:#eeeeee;
+    background-color: rgb(47,51,56);
+}
+
+DCM--QVideoCoverDlg QFrame#line1,#line2,#line3,#line4,
+DCM--QSmtpDlg QFrame#line_6,#line_4,#line_5,
+DCM--QTcpipCfg QFrame#line,
+DCM--QAlarmCenterDlg QFrame#line_4,
+DCM--QDDNS QFrame#line,
+DCM--QIpPurView QFrame#line_4,
+DCM--QPPPOEDlg QFrame#line_4,
+DCM--QRemoteStore QFrame#line_5,#line,
+DCM--QAlarmLinkCfgCtrl QFrame#line_4,#line,#line_2,#line_3,
+DCM--QAudioDetectDlg QFrame#line_3,#line,#line_2,
+DCM--QLocalAlarm QFrame#line_4,#line,#line_2,#line_5,
+DCM--QStorageDeviceError QFrame#line_4,#line_5,
+DCM--QNoStorageDevice QFrame#line_4,#line_5,
+DCM--QNetDisconnect QFrame#line_4,#line_5,#line_6,
+DCM--QMACConflict QFrame#line_4,#line_5,
+DCM--QIPConflict QFrame#line_4,#line_5,#line_6,
+DCM--QInsufficientSpace QFrame#line_4,#line_2,
+DCM--QIllegalAccess QFrame#line_4,#line_2,
+DCM--QTimeSectionConfig_DefendTime QFrame#line_7
+{
+	border:1px solid #454d55;
+}
+
+/*设备配置主页面*/
+DCM--ClassificationWidget QWidget#wgtButtons
+{
+	background:#2a2e33;
+	border:1px solid #3a3e43;
+	border-top:none;
+}
+
+DCM--ClassificationWidget QPushButton#btnTitle[checked="false"]
+{
+	background:#3a3e43;
+	border:1px solid #3a3e43;
+	padding: 0 18px 0 18px;
+	background-image:url(./Skin/theme1/DevCfg/DownButton.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+	text-align:left;
+	color:#fefefe;
+}
+DCM--ClassificationWidget QPushButton#btnTitle[checked="false"]:hover
+{
+	background-image:url(./Skin/theme1/DevCfg/DownButtonHover.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+}
+DCM--ClassificationWidget QPushButton#btnTitle[checked="false"]:pressed
+{
+	background-image:url(./Skin/theme1/DevCfg/DownButtonPressed.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+}
+DCM--ClassificationWidget QPushButton#btnTitle[checked="false"]:disabled
+{
+	background-image:url(./Skin/theme1/DevCfg/DownButtonDisabled.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+	color:#b1b1b1;
+}
+
+DCM--ClassificationWidget QPushButton#btnTitle[checked="true"]
+{
+	background:#3a3e43;
+	border:1px solid #3a3e43;
+	padding: 0 18px 0 18px;
+	background-image:url(./Skin/theme1/DevCfg/RightButton.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+	text-align:left;
+	color:#fefefe;
+}
+DCM--ClassificationWidget QPushButton#btnTitle[checked="true"]:hover
+{
+	background-image:url(./Skin/theme1/DevCfg/RightButtonHover.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+}
+DCM--ClassificationWidget QPushButton#btnTitle[checked="true"]:pressed
+{
+	background-image:url(./Skin/theme1/DevCfg/RightButtonPressed.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+}
+DCM--ClassificationWidget QPushButton#btnTitle[checked="true"]:disabled
+{
+	background-image:url(./Skin/theme1/DevCfg/RightButtonDisabled.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+	color:#b1b1b1;
+}
+
+DCM--DevcfgHomepageButton,
+DCM--DevcfgHomepageButton:focus
+{
+	color:#fefefe;
+	background:#5d646d;
+	border:1px solid #5d646d;
+	border-radius:2px;
+}
+DCM--DevcfgHomepageButton:hover,
+DCM--DevcfgHomepageButton:pressed
+{
+	background:#0569ff ;
+	border:1px solid #0569ff;
+	border-radius:2px;
+}
+DCM--DevcfgHomepageButton:disabled
+{
+	color:#b1b1b1;
+}
+
+DCM--DevCfgHomePage QWidget#scrollAreaWidget
+{
+	background-color:#1d1f22;
+}
+
+DCM--DevCfgHomePage QWidget#wgtDeviceInfo
+{
+	background:#2a2e33;
+	border:1px solid #3a3e43;
+}
+
+DCM--ChannelComboBox
+{
+	background:#222429;
+	color:#eeeeee;
+	border:none;
+	border-radius:2px;
+	padding: 0px 8px 0px 8px;
+	background-image: url(./Skin/theme1/DevCfg/DropDownNormal.png);
+    background-position: center right;
+	background-origin: content;
+    background-repeat: no-repeat;
+	text-align:left;
+}
+DCM--ChannelComboBox:hover
+{
+	background:#1e2021;
+	border:1px solid #111213;
+	background-image: url(./Skin/theme1/DevCfg/DropDownPress.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+DCM--ChannelComboBox:disabled
+{
+	background:#474b54;
+	color:#787878;
+	border:none;
+	background-image: url(./Skin/theme1/DevCfg/DropDownPress.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+DCM--ChannelButtonWidget
+{
+	background:#1e2021;
+	border:1px solid #111213;
+	border-radius: 2px;
+}
+DCM--ChannelButtonWidget  QScrollArea
+{
+	border:none;
+}
+
+DCM--ChannelButtonWidget QWidget#scrollAreaWidgetContents
+{
+	background:#1e2021;
+}
+
+/*滑条按钮*/
+DCM--UserDefinedSlider QToolButton#btnDecrease,
+DCM--PTZOperateWidget QToolButton#btnZoomDe,
+DCM--PTZOperateWidget QToolButton#btnFocusDe,
+DCM--PTZOperateWidget QToolButton#btnIrisDe
+{
+	border-image:url(./Skin/theme1/DevCfg/SpaceMin.png) 0 30 0 0;
+}
+DCM--UserDefinedSlider QToolButton#btnDecrease:hover,
+DCM--PTZOperateWidget QToolButton#btnZoomDe:hover,
+DCM--PTZOperateWidget QToolButton#btnFocusDe:hover,
+DCM--PTZOperateWidget QToolButton#btnIrisDe:hover
+{
+	border-image:url(./Skin/theme1/DevCfg/SpaceMin.png) 0 20 0 10;
+}
+DCM--UserDefinedSlider QToolButton#btnDecrease:pressed,
+DCM--PTZOperateWidget QToolButton#btnZoomDe:pressed,
+DCM--PTZOperateWidget QToolButton#btnFocusDe:pressed,
+DCM--PTZOperateWidget QToolButton#btnIrisDe:pressed
+{
+	border-image:url(./Skin/theme1/DevCfg/SpaceMin.png) 0 10 0 20;
+}
+DCM--UserDefinedSlider QToolButton#btnDecrease:disabled,
+DCM--PTZOperateWidget QToolButton#btnZoomDe:disabled,
+DCM--PTZOperateWidget QToolButton#btnFocusDe:disabled,
+DCM--PTZOperateWidget QToolButton#btnIrisDe:disabled
+{
+	border-image:url(./Skin/theme1/DevCfg/SpaceMin.png) 0 0 0 30;
+}
+
+DCM--UserDefinedSlider QToolButton#btnAdd,
+DCM--PTZOperateWidget QToolButton#btnZoomAdd,
+DCM--PTZOperateWidget QToolButton#btnFocusAdd,
+DCM--PTZOperateWidget QToolButton#btnIrisAdd
+{
+	border-image:url(./Skin/theme1/DevCfg/SpaceMax.png) 0 30 0 0;
+}
+DCM--UserDefinedSlider QToolButton#btnAdd:hover,
+DCM--PTZOperateWidget QToolButton#btnZoomAdd:hover,
+DCM--PTZOperateWidget QToolButton#btnFocusAdd:hover,
+DCM--PTZOperateWidget QToolButton#btnIrisAdd:hover
+{
+	border-image:url(./Skin/theme1/DevCfg/SpaceMax.png) 0 20 0 10;
+}
+DCM--UserDefinedSlider QToolButton#btnAdd:pressed,
+DCM--PTZOperateWidget QToolButton#btnZoomAdd:pressed,
+DCM--PTZOperateWidget QToolButton#btnFocusAdd:pressed,
+DCM--PTZOperateWidget QToolButton#btnIrisAdd:pressed
+{
+	border-image:url(./Skin/theme1/DevCfg/SpaceMax.png) 0 10 0 20;
+}
+DCM--UserDefinedSlider QToolButton#btnAdd:disabled,
+DCM--PTZOperateWidget QToolButton#btnZoomAdd:disabled,
+DCM--PTZOperateWidget QToolButton#btnFocusAdd:disabled,
+DCM--PTZOperateWidget QToolButton#btnIrisAdd:disabled
+{
+	border-image:url(./Skin/theme1/DevCfg/SpaceMax.png) 0 0 0 30;
+}
+
+DCM--UserDefinedSlider QSlider::groove:horizontal
+{
+    border-image: url(./Skin/theme1/DevCfg/GrooveHor.png);
+	height: 2px;
+}
+DCM--UserDefinedSlider QSlider::handle:horizontal
+{ 
+    background: url(./Skin/theme1/DevCfg/HandleNormal.png) no-repeat;
+    margin: -6px 0;
+    width:8px;
+    height:14px;
+}
+
+DCM--UserDefinedSlider QSlider::handle:horizontal:hover
+{
+    background: url(./Skin/theme1/DevCfg/HandleHover.png) no-repeat;
+}
+
+DCM--UserDefinedSlider QSlider::handle:horizontal:pressed
+{
+    background: url(./Skin/theme1/DevCfg/HandlePressed.png) no-repeat;
+}
+
+DCM--UserDefinedSlider QSlider::handle:horizontal:disabled
+{
+    background: url(./Skin/theme1/DevCfg/HandleDisabled.png) no-repeat;
+}
+
+DCM--QVideoStreamDlg QWidget#scrollAreaWidgetContents
+{
+	background:#2a2e33;
+	border:1px solid #3a3e43;;
+	border-right:1px solid #4c5259;
+}
+DCM--QVideoStreamDlg QWidget#scrollAreaWidgetContents_2
+{
+	background:#2a2e33;
+	border:1px solid #3a3e43;
+	border-left:none;
+}
+DCM--QVideoStreamDlg QLabel#lblStreamType0
+{
+	background:#666a6e;
+	padding-left:10px;
+	border-right:1px solid #4c5259;
+}
+DCM--QVideoStreamDlg QLabel#lblStreamType1
+{
+	background:#666a6e;
+	padding-left:10px;
+}
+DCM--QVideoCoverDlg QWidget#scrollAreaWidgetContents,
+DCM--QAlarmLinkCfgCtrl QWidget#scrollAreaWidgetContents,
+DCM--QRecPlanConfig_DevCfg QWidget#scrollAreaWidgetContents
+{
+	background:#2f3337;
+	border:none;
+}
+DCM--QAudioSettingPage QLabel#lblStreamType0,#lblStreamType1
+{
+	background:#51575e;
+	padding-left:10px;
+	border-right:1px solid #4c5259;
+}
+DCM--QAudioSettingPage QGroupBox#groupBox::title,#groupProperties::title
+{
+	color:#fefefe;
+}
+DCM--QAudioSettingPage QGroupBox#groupBox,#groupProperties
+{
+	border: 1px solid #1a1d20;
+	border-radius:0px;
+}
+DCM--QGroupPlayDlg QLabel#label,#labelAssist
+{
+	background:#51575e;
+	padding-left:10px;
+	border-right:1px solid #4c5259;
+}
+
+/* 视频界面 */
+DCM--NVRPicPropertyWidget QFrame#lineImage,#lineExposure,#lineBackLight,#lineWhiteBalance,#lineDayNight
+{
+	border:1px solid #454d55;
+}
+
+DCM--NVRPicPropertyWidget QWidget#scrollAreaWidgetContents
+{
+	background:#2f3337;
+}
+
+DCM--CTPCPicPropertyWidget QFrame#lineBasic,#lineContrast,#lineGain,#lineFFC
+{
+	border:1px solid #454d55;
+}
+
+DCM--CTPCPicPropertyWidget QWidget#scrollAreaWidgetContents
+{
+	background:#2f3337;
+}
+
+DCM--QSmtpDlg QWidget#scrollAreaWidgetContents
+{
+	background:#2f3337;
+}
+/* 时间设置 */
+DCM--QTimeSectionConfig_DevCfg QFrame#line_7,#line_6,#line_5,#line_4,#line_3,#line_2,#line_1
+{
+	border:1px solid #454d55;
+}
+
+
+DCM--DSNoImpPushButton
+{
+	width:70px;
+	height:24px;
+	border-image: none;
+    padding: 0;
+	/*border: 1px solid #1f2126;*/
+	border-radius: 2px;
+	background-color: #4d535b;
+	color: #ffffff;
+    outline: none;
+	font-size:12px;
+}
+DCM--DSNoImpPushButton:hover
+{
+	border-image: none;
+    padding: 0;
+	/*border: 1px solid #1f2126;*/
+	border-radius: 2px;
+	background-color: #53585e;
+	color: #ffffff;
+    outline: none; 
+}
+DCM--DSNoImpPushButton:pressed
+{
+	border-image: none;
+    padding: 0;
+	/*border: 1px solid #1f2126;*/
+	border-radius: 2px;
+	background-color: #53585e;
+	color: #ffffff;
+    outline: none;
+}
+DCM--DSNoImpPushButton:disabled
+{
+	border-image: none;
+    padding: 0;
+	border-radius: 2px;
+	background-color: #41464b;
+	color: #5a6068;
+    outline: none;
+}
+
+DCM--QExceptionHandlePage DSGUI--DSTabBar::tab
+{
+	min-width:75px;
+	width:110px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+DCM--QAddGroupDlg QTableWidget::item:selected, 
+QTableWidget::branch:selected,
+QTableWidget::item:alternate:selected,
+QTableWidget::item:!alternate:selected
+{
+    background-color:#2F3338;
+    color:#ffffff;
+}
+
+QTableWidget::indicator
+{
+	width:20px;
+    height:20px;
+}
+
+QTableWidget::indicator:unchecked
+{
+    image:url(./Skin/DustyBlue/DSGui/CheckBox/unselect-n.png);
+}
+
+QTableWidget::indicator:unchecked:disabled
+{
+    image:url(./Skin/DustyBlue/DSGui/CheckBox/unselect-d.png);
+}
+
+QTableWidget::indicator:checked
+{
+    image:url(./Skin/DustyBlue/DSGui/CheckBox/select-n.png);
+}
+
+QTableWidget::indicator:checked:hover
+{
+    image:url(./Skin/DustyBlue/DSGui/CheckBox/select-h.png);
+}
+
+QTableWidget::indicator:checked:disabled
+{
+    image:url(./Skin/DustyBlue/DSGui/CheckBox/select-d.png);
+}
+
+QTableWidget::indicator:indeterminate
+{
+    image:url(./Skin/DustyBlue/DSGui/CheckBox/indeterminate-n.png);
+}
+
+QTableWidget::indicator:indeterminate:disabled
+{
+    image:url(./Skin/DustyBlue/DSGui/CheckBox/indeterminate-d.png);
+}
+

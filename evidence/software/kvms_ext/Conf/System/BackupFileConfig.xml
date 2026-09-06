@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<BackupFile>
+	<SystemSetting>
+		<Item path="Conf/User" name="SystemConfig.ini"/>
+		<Item path="Conf/User" name="Settings.ini"/>
+		<Item path="Conf/User" name="WndSplit.xml"/>
+		<Item path="Conf/User" name="role.xml"/>
+		<Item path="Conf/User" name="conf.xml"/>
+		<Item path="Conf/User/Organization" name="*.xml"/>
+		<Item path="Conf/User/OrganizationBackup" name="*.xml"/>
+		<Item path="Conf/User" name="ViewGroup.dat"/>
+		<Item path="Conf/User" name="ViewItem.dat"/>
+		<Item path="Conf/User/EmapImage" name="*.xml"/>
+		<Item path="Conf/User/EmapImage" name="*.png"/>
+		<Item path="Conf/User/EmapImage" name="*.jpg"/>
+		<Item path="Conf/User/EmapImage" name="*.bmp"/>
+		<Item path="Conf/User/FloorInfo" name="*.xml"/>
+		<Item path="Conf/User/FloorInfo" name="*.png"/>
+		<Item path="Conf/User/FloorInfo" name="*.jpg"/>
+		<Item path="Conf/User/FloorInfo" name="*.bmp"/>
+		<Item path="../PC-NVR/Config" name="*"/>
+		<Item path="../PC-NVR/Win32" name="*"/>
+		<Item path="Conf/User" name="DefineDeviceChannelNumber.xml"/>
+		<Item path="Conf/User" name="ClientConfig.xml"/>
+		<Item path="Conf/User" name="code.dat"/>
+		<Item path="Conf/User" name="ReserveDevs.dat"/>
+		<Item path="Conf/User" name="VisitorConfig.ini"/>
+		<Item path="Conf/User" name="TaskScheme.xml"/>
+		<Item path="Conf/User" name="VIConfig.ini"/>
+		<Item path="Conf/User" name="SceneConfig.ini"/>
+		<Item path="Conf/User/VideoIntercom" name="*.xml"/>
+		<Item path="Conf/User" name="AttendanceEventName.ini"/>
+	</SystemSetting>
+	<NormalData>
+		<Item path="Data/User/Database" name="FaceCandidate.db"/>
+		<Item path="Data/User/Database" name="FaceRecognition.db"/>
+		<Item path="Data/User/Database/FaceGather" name="Gather.db"/>
+		<Item path="Data/User/Database" name="AccessControl.db"/>
+		<Item path="Data/User/Database" name="ACSManagerDbFile.db"/>
+		<Item path="Data/User/Database" name="ACSRightDeviceDbFile.db"/>
+		<Item path="Data/User/Database" name="VideoTalk.db"/>
+		<Item path="Data/User/Database" name="AlarmScheme.db"/>
+		<Item path="Data/User/Database" name="ACSEventInfo.db"/>
+		<Item path="Data/User/Database" name="ACSManager.db"/>
+		<Item path="Data/User/Database" name="VehicleManager.db"/>
+		<Item path="Data/User/Database" name="PerimeterManager.db"/>
+		<Item path="Data/User/Database" name="VIRecManager.db"/>
+		<Item path="Data/User/Database" name="adm_log_alarm.db"/>
+		<Item path="Data/User/Database" name="Topoloy.db"/>
+		<Item path="Data/User/Database" name="PassengerFlowStatistics.db"/>
+		<Item path="Data/User/Database" name="VideoTalkDataManager.db"/>
+		<Item path="Data/User/Database" name="DataMemoryManager.db"/>
+		<Item path="Data/User/Database" name="TVWallDBManager.db"/>
+	</NormalData>
+	<Folder>
+		<Item path="Data/User/Picture" name="PersonPic"/>
+		<Item path="" name="VideoIntercom"/>
+	</Folder>
+</BackupFile>

@@ -1,0 +1,12 @@
+MapTVWall
+{
+	background-color: #3A3E43;
+}
+
+MapTVWall QWidget#wgtAll
+{
+	border: 1px solid #242528;
+	background-color: #3A3E43;
+}
+
+

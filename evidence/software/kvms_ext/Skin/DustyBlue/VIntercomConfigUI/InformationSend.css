@@ -1,0 +1,43 @@
+QWidget#wgtTop
+{
+	background: #404449;
+	border-top: 1px solid  #232629;
+	border-bottom: 1px solid  #232629;
+}
+
+QPushButton#btnAdd,
+QPushButton#btnDelete,
+QPushButton#btnSend
+{
+    background:transparent;
+	border:none;
+	color:#c2cad7;
+}
+
+QPushButton#btnAdd:hover,
+QPushButton#btnDelete:hover,
+QPushButton#btnSend:hover
+{
+   background:transparent;
+   border:none;
+   color:#C40123;
+}
+
+QPushButton#btnAdd:pressed,
+QPushButton#btnDelete:pressed,
+QPushButton#btnSend:pressed
+
+{
+   background:transparent;
+   border:none;
+   color:#C40123;
+}
+
+QPushButton#btnAdd:checked,
+QPushButton#btnDelete:checked,
+QPushButton#btnSend:checked
+{
+   background:transparent;
+   border:none;
+   color:#C40123;
+}

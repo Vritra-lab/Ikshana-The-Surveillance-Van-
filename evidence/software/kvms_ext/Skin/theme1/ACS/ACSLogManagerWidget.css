@@ -1,0 +1,12 @@
+QWidget#widgets
+{
+	background-color: #1D1F22;
+}
+
+DSGUI--DSTableView::item:selected,
+DSGUI--DSTableView::branch:selected,
+DSGUI--DSTableView::item:alternate:!selected,
+DSGUI--DSTableView::item:!alternate:!selected
+{	
+	color: none;
+}

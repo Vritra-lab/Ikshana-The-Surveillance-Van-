@@ -1,0 +1,1948 @@
+
+VideoWallWidget QWidget#wgtLeftBar
+{
+	background:#2a2e33;
+	border:none;
+	border-right:1px solid #131314;
+}
+
+VideoWallWidget QPushButton#btnTree[checked="false"],
+VideoWallWidget QPushButton#btnPTZ[checked="false"],
+VideoWallWidget QPushButton#btnFavorite[checked="false"],
+VideoWallWidget QPushButton#btnPreview[checked="false"]
+{
+	background:#3a3e43;
+	border:none;
+	border-right:1px solid #131314;
+	padding: 0 18px 0 18px;
+	background-image:url(./Skin/theme1/DevCfg/DownButton.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+	text-align:left;
+	color:#dddddd;
+}
+
+VideoWallWidget QPushButton#btnTree[checked="false"],
+VideoWallWidget QPushButton#btnPTZ[checked="false"]
+{
+	border-bottom:1px solid #2a2e33;
+}
+
+VideoWallWidget QPushButton#btnTree[checked="false"],
+VideoWallWidget QPushButton#btnFavorite[checked="false"]
+{
+	border-bottom:1px solid #2a2e33;
+}
+
+VideoWallWidget QPushButton#btnTree[checked="true"],
+VideoWallWidget QPushButton#btnPreview[checked="true"],
+VideoWallWidget QPushButton#btnFavorite[checked="true"],
+VideoWallWidget QPushButton#btnPTZ[checked="true"]
+{
+	background:#3a3e43;
+	border:none;
+	border-right:1px solid #131314;
+	padding: 0 18px 0 18px;
+	background-image:url(./Skin/theme1/DevCfg/RightButton.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+	text-align:left;
+	color:#dddddd;
+}
+
+VideoWallWidget QPushButton#btnShowWindowInfo
+{
+	padding: 0 5px 0 12px;
+	text-align:left;
+	color:#ffffff;
+}
+VideoWallWidget QPushButton[checked="true"]#btnShowWindowInfo
+{
+	border-image:url(./Skin/theme1/TV-Matrix/RightButton.png) 0 35 0 5;
+	border-width:0 35px 0 5px;
+}
+VideoWallWidget QPushButton[checked="false"]#btnShowWindowInfo
+{
+	border-image:url(./Skin/theme1/TV-Matrix/DownButton.png) 0 35 0 5;
+	border-width:0 35px 0 5px;
+}
+
+TVThumbNail QLabel#m_screenSplit
+{
+	background-color:#212225;
+}
+
+
+AddPlanDlg QTextEdit#textEdit:disabled
+{
+	background:transparent;
+	color:red;
+}
+
+
+PlanThumbnailWidget QScrollArea#scrollAreaPlan,
+PlanThumbnailWidget QWidget#wgtPlanBtns,
+VideoWallThumbnailWidget QScrollArea#scrollAreaVideoWallConfig,
+VideoWallThumbnailWidget QWidget#wgtVideoConfigBtns
+{
+	border:none;
+	background:#2a2e33;
+}
+
+VideoWallThumbnailWidget QPushButton#btnAddVideoWall
+{
+	background:#2a2e33;
+	icon-size:60px;
+	border:1px solid #131314;
+}
+
+PlanThumbnailItem QToolButton#btnDelete
+{
+	border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PlanThumbnailItem QToolButton#btnDelete:hover
+{
+    border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PlanThumbnailItem QToolButton#btnDelete:pressed
+{
+    border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PlanThumbnailItem QToolButton#btnDelete:disabled
+{
+    border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PlanThumbnailItem QLineEdit#lineEditPlanName,
+PlanThumbnailItem QLineEdit#lineEditPlanName:hover
+{
+	background:transparent;
+	border:none;
+}
+
+PlanThumbnailItem QLineEdit#lineEditPlanName:focus
+{ 
+	background:#222429;
+	border:1px solid #818796;
+} 
+
+VideoWallWidget QPushButton#btnVideoWall,
+VideoWallWidget QPushButton#btnPlan
+{
+	background:transparent;
+	padding: 0 15px 0 15px;
+	background-image:url(./Skin/theme1/DevCfg/DownButton.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+	text-align:left;
+	color:#dddddd;
+}
+
+VideoWallWidget QPushButton#btnAddVideoWall:disabled,
+VideoWallWidget QPushButton#btnPlan:disabled
+{
+	background-image:url(./Skin/theme1/DevCfg/DownButtonDisabled.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-origin: content;
+	color:#787878;
+}
+
+VideoWallWidget QWidget#wgtWallLogo
+{
+	border-image:url(./skin/theme1/tv-matrix/TVWallWall.png) 0 16 0 0;
+    border-width:0 16px 0 0;
+    margin: 0 -16px 0 0;
+}
+VideoWallWidget QWidget#wgtWallLogo:disabled
+{
+	background-image:url(./Skin/theme1/DevCfg/DownButton.png) 0 0 0 16;
+	border-width:0 0 0 16px;
+    margin: 0 0 0 -16px;
+}
+
+VideoWallWidget QWidget#wgtPlanLogo
+{
+	border-image:url(./skin/theme1/tv-matrix/TVWallPlan.png) 0 16 0 0;
+    border-width:0 16px 0 0;
+    margin: 0 -16px 0 0;
+}
+VideoWallWidget QWidget#wgtPlanLogo:disabled
+{
+	background-image:url(./Skin/theme1/DevCfg/TVWallPlan.png) 0 0 0 16;
+	border-width:0 0 0 16px;
+    margin: 0 0 0 -16px;
+}
+
+VideoWallWidget QFrame#lineWall,
+VideoWallWidget QFrame#linePlan
+{
+	min-width:0;
+	max-width:0;
+	border:none;
+	border-left:1px solid #1a1d20;
+	border-right:1px solid #4d5258;
+}
+
+VideoWallWidget QToolButton#pLayout1Btn
+{
+	min-height:17px;
+	max-height:17px;
+	min-width:21px;
+	max-width:21px;
+	border-image:url(./Skin/theme1/TV-Matrix/Win1.png) 0 63 0 0;
+	border-width:0 63px 0 0;
+	margin: 0 -63px 0 0;
+}
+VideoWallWidget QToolButton#pLayout1Btn:hover,
+VideoWallWidget QToolButton#pLayout1Btn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win1.png) 0 42 0 21; 
+    border-width:0 42px 0 21px;
+    margin: 0 -42px 0 -21px;
+    
+}
+VideoWallWidget QToolButton#pLayout1Btn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win1.png) 0 21 0 42; 
+    border-width:0 21px 0 42px;
+    margin: 0 -21px 0 -42px;
+}
+VideoWallWidget QToolButton#pLayout1Btn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win1.png) 0 0 0 63;
+    border-width:0 0 0 63px;
+    margin: 0 0 0 -63px;
+}
+
+VideoWallWidget QToolButton#pLayout4Btn
+{
+	min-height:17px;
+	max-height:17px;
+	min-width:21px;
+	max-width:21px;
+	border-image:url(./Skin/theme1/TV-Matrix/Win4.png) 0 63 0 0;
+	border-width:0 63px 0 0;
+	margin: 0 -63px 0 0;
+}
+VideoWallWidget QToolButton#pLayout4Btn:hover,
+VideoWallWidget QToolButton#pLayout4Btn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win4.png) 0 42 0 21; 
+    border-width:0 42px 0 21px;
+    margin: 0 -42px 0 -21px;
+    
+}
+VideoWallWidget QToolButton#pLayout4Btn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win4.png) 0 21 0 42; 
+    border-width:0 21px 0 42px;
+    margin: 0 -21px 0 -42px;
+}
+VideoWallWidget QToolButton#pLayout4Btn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win4.png) 0 0 0 63;
+    border-width:0 0 0 63px;
+    margin: 0 0 0 -63px;
+}
+
+VideoWallWidget QToolButton#pLayout6Btn
+{
+	min-height:17px;
+	max-height:17px;
+	min-width:21px;
+	max-width:21px;
+	border-image:url(./Skin/theme1/TV-Matrix/Win6.png) 0 63 0 0;
+	border-width:0 63px 0 0;
+	margin: 0 -63px 0 0;
+}
+VideoWallWidget QToolButton#pLayout6Btn:hover,
+VideoWallWidget QToolButton#pLayout6Btn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win6.png) 0 42 0 21; 
+    border-width:0 42px 0 21px;
+    margin: 0 -42px 0 -21px;
+    
+}
+VideoWallWidget QToolButton#pLayout6Btn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win6.png) 0 21 0 42; 
+    border-width:0 21px 0 42px;
+    margin: 0 -21px 0 -42px;
+}
+VideoWallWidget QToolButton#pLayout6Btn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win6.png) 0 0 0 63;
+    border-width:0 0 0 63px;
+    margin: 0 0 0 -63px;
+}
+
+VideoWallWidget QToolButton#pLayout8Btn
+{
+	min-height:17px;
+	max-height:17px;
+	min-width:21px;
+	max-width:21px;
+	border-image:url(./Skin/theme1/TV-Matrix/Win8.png) 0 63 0 0;
+	border-width:0 63px 0 0;
+	margin: 0 -63px 0 0;
+}
+VideoWallWidget QToolButton#pLayout8Btn:hover,
+VideoWallWidget QToolButton#pLayout8Btn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win8.png) 0 42 0 21; 
+    border-width:0 42px 0 21px;
+    margin: 0 -42px 0 -21px;
+    
+}
+VideoWallWidget QToolButton#pLayout8Btn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win8.png) 0 21 0 42; 
+    border-width:0 21px 0 42px;
+    margin: 0 -21px 0 -42px;
+}
+VideoWallWidget QToolButton#pLayout8Btn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win8.png) 0 0 0 63;
+    border-width:0 0 0 63px;
+    margin: 0 0 0 -63px;
+}
+
+VideoWallWidget QToolButton#pLayout9Btn
+{
+	min-height:17px;
+	max-height:17px;
+	min-width:21px;
+	max-width:21px;
+	border-image:url(./Skin/theme1/TV-Matrix/Win9.png) 0 63 0 0;
+	border-width:0 63px 0 0;
+	margin: 0 -63px 0 0;
+}
+VideoWallWidget QToolButton#pLayout9Btn:hover,
+VideoWallWidget QToolButton#pLayout9Btn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win9.png) 0 42 0 21; 
+    border-width:0 42px 0 21px;
+    margin: 0 -42px 0 -21px;
+    
+}
+VideoWallWidget QToolButton#pLayout9Btn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win9.png) 0 21 0 42; 
+    border-width:0 21px 0 42px;
+    margin: 0 -21px 0 -42px;
+}
+VideoWallWidget QToolButton#pLayout9Btn:disabled
+{
+   border-image:url(./Skin/theme1/TV-Matrix/Win9.png) 0 0 0 63;
+    border-width:0 0 0 63px;
+    margin: 0 0 0 -63px;
+}
+
+VideoWallWidget QToolButton#pLayout16Btn
+{
+	min-height:17px;
+	max-height:17px;
+	min-width:21px;
+	max-width:21px;
+	border-image:url(./Skin/theme1/TV-Matrix/Win16.png) 0 63 0 0;
+	border-width:0 63px 0 0;
+	margin: 0 -63px 0 0;
+}
+VideoWallWidget QToolButton#pLayout16Btn:hover,
+VideoWallWidget QToolButton#pLayout16Btn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win16.png) 0 42 0 21; 
+    border-width:0 42px 0 21px;
+    margin: 0 -42px 0 -21px;
+    
+}
+VideoWallWidget QToolButton#pLayout16Btn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win16.png) 0 21 0 42; 
+    border-width:0 21px 0 42px;
+    margin: 0 -21px 0 -42px;
+}
+VideoWallWidget QToolButton#pLayout16Btn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Win16.png) 0 0 0 63;
+    border-width:0 0 0 63px;
+    margin: 0 0 0 -63px;
+}
+
+VideoWallWidget QToolButton#pLayoutMxNBtn
+{
+	min-height:17px;
+	max-height:17px;
+	min-width:21px;
+	max-width:21px;
+	border-image:url(./Skin/theme1/TV-Matrix/WinUser.png) 0 63 0 0;
+	border-width:0 63px 0 0;
+	margin: 0 -63px 0 0;
+}
+VideoWallWidget QToolButton#pLayoutMxNBtn:hover,
+VideoWallWidget QToolButton#pLayoutMxNBtn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/WinUser.png) 0 42 0 21; 
+    border-width:0 42px 0 21px;
+    margin: 0 -42px 0 -21px;
+    
+}
+VideoWallWidget QToolButton#pLayoutMxNBtn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/WinUser.png) 0 21 0 42; 
+    border-width:0 21px 0 42px;
+    margin: 0 -21px 0 -42px;
+}
+VideoWallWidget QToolButton#pLayoutMxNBtn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/WinUser.png) 0 0 0 63;
+    border-width:0 0 0 63px;
+    margin: 0 0 0 -63px;
+}
+
+VideoWallWidget QToolButton#pLayoutClearBtn
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/ToolbarScreenClean.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pLayoutClearBtn:hover,
+VideoWallWidget QToolButton#pLayoutClearBtn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ToolbarScreenClean.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pLayoutClearBtn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ToolbarScreenClean.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pLayoutClearBtn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ToolbarScreenClean.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#pDeleteWindowBtn
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/ListDelete.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pDeleteWindowBtn:hover,
+VideoWallWidget QToolButton#pDeleteWindowBtn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ListDelete.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pDeleteWindowBtn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ListDelete.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pDeleteWindowBtn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ListDelete.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#pCycleWindowBtn[checked="false"]
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/real/tour_start.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pCycleWindowBtn[checked="false"]:hover,
+VideoWallWidget QToolButton#pCycleWindowBtn[checked="false"]:focus
+{
+    border-image:url(./Skin/theme1/real/tour_start.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pCycleWindowBtn[checked="false"]:pressed
+{
+    border-image:url(./Skin/theme1/real/tour_start.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pCycleWindowBtn[checked="false"]:disabled
+{
+    border-image:url(./Skin/theme1/real/tour_start.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#pCycleWindowBtn[checked="true"]
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/real/tour_pause.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pCycleWindowBtn[checked="true"]:hover,
+VideoWallWidget QToolButton#pCycleWindowBtn[checked="true"]:focus
+{
+    border-image:url(./Skin/theme1/real/tour_pause.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pCycleWindowBtn[checked="true"]:pressed
+{
+    border-image:url(./Skin/theme1/real/tour_pause.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pCycleWindowBtn[checked="true"]:disabled
+{
+    border-image:url(./Skin/theme1/real/tour_pause.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#pScreenSwitchBtn
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/ScreenOn.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pScreenSwitchBtn:hover,
+VideoWallWidget QToolButton#pScreenSwitchBtn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ScreenOn.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pScreenSwitchBtn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ScreenOn.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pScreenSwitchBtn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ScreenOn.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#pReloadTVWallBtn
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/Refresh.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pReloadTVWallBtn:hover,
+VideoWallWidget QToolButton#pReloadTVWallBtn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Refresh.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pReloadTVWallBtn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Refresh.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pReloadTVWallBtn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Refresh.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#pMultiSelectBtn[checked="false"]
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/ToolbarWinChooseSingle.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pMultiSelectBtn[checked="false"]::hover,
+VideoWallWidget QToolButton#pMultiSelectBtn[checked="false"]::focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ToolbarWinChooseSingle.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pMultiSelectBtn[checked="false"]::pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ToolbarWinChooseSingle.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pMultiSelectBtn[checked="false"]::disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ToolbarWinChooseSingle.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#pMultiSelectBtn[checked="true"]
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/ToolbarWinChoose.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pMultiSelectBtn[checked="true"]::hover,
+VideoWallWidget QToolButton#pMultiSelectBtn[checked="true"]::focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ToolbarWinChoose.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pMultiSelectBtn[checked="true"]::pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ToolbarWinChoose.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pMultiSelectBtn[checked="true"]::disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/ToolbarWinChoose.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#btnShowNum[checked="true"]
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/ToolbarShowNum.png) 0 18 0 36;
+	border-width:0 18px 0 36px;
+	margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#btnShowNum[checked="false"]
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/ToolbarShowNum.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#btnShowNum[checked="false"]:disabled,
+VideoWallWidget QToolButton#btnShowNum[checked="true"]:disabled
+{
+	border-image:url(./Skin/theme1/TV-Matrix/ToolbarShowNum.png) 0 0 0 54;
+	border-width:0 0 0 54px;
+	margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#btnSupportMove[checked="false"]
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/move.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#btnSupportMove[checked="false"]:disabled
+{
+	border-image:url(./Skin/theme1/TV-Matrix/move.png) 0 0 0 54;
+	border-width:0 0 0 54px;
+	margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#btnSupportMove[checked="true"]
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/move.png) 0 18 0 36;
+	border-width:0 18px 0 36px;
+	margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#btnSupportMove[checked="true"]:disabled
+{
+	border-image:url(./Skin/theme1/TV-Matrix/move.png) 0 0 0 54;
+	border-width:0 0 0 54px;
+	margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#pConfigRotationBtn
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/planConfig.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pConfigRotationBtn:hover,
+VideoWallWidget QToolButton#pConfigRotationBtn:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/planConfig.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pConfigRotationBtn:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/planConfig.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pConfigRotationBtn:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/planConfig.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#pRotationControlBtn[checked="false"]
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/planCycleOff.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pRotationControlBtn[checked="false"]:hover,
+VideoWallWidget QToolButton#pRotationControlBtn[checked="false"]:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/planCycleOff.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pRotationControlBtn[checked="false"]:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/planCycleOff.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pRotationControlBtn[checked="false"]:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/planCycleOff.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#pRotationControlBtn[checked="true"]
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/planCycleOn.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#pRotationControlBtn[checked="true"]:hover,
+VideoWallWidget QToolButton#pRotationControlBtn[checked="true"]:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/planCycleOn.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#pRotationControlBtn[checked="true"]:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/planCycleOn.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#pRotationControlBtn[checked="true"]:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/planCycleOn.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QToolButton#btnSavePlan
+{
+	min-height:18px;
+	max-height:18px;
+	min-width:18px;
+	max-width:18px;
+	border-image:url(./Skin/theme1/TV-Matrix/Save.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+VideoWallWidget QToolButton#btnSavePlan:hover,
+VideoWallWidget QToolButton#btnSavePlan:focus
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Save.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+VideoWallWidget QToolButton#btnSavePlan:pressed
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Save.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+VideoWallWidget QToolButton#btnSavePlan:disabled
+{
+    border-image:url(./Skin/theme1/TV-Matrix/Save.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+VideoWallWidget QChnlView1#m_pCameraSourceView  TableHeaderBtn
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 54 0 0;
+}
+VideoWallWidget QChnlView1#m_pCameraSourceView  TableHeaderBtn:hover
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 36 0 18;
+}
+VideoWallWidget QChnlView1#m_pCameraSourceView  TableHeaderBtn:pressed
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 18 0 36;
+}
+VideoWallWidget QChnlView1#m_pCameraSourceView  TableHeaderBtn:disabled
+{
+	border-image: url(./Skin/theme1/UserMgr/Edit.png) 0 0 0 54;
+}
+
+
+VideoWallWidget QPushButton#btnPlay
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/MonitorTask/ListPreview.png) 0 54 0 0;
+}
+VideoWallWidget QPushButton#btnPlay:hover
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListPreview.png) 0 36 0 18;
+}
+VideoWallWidget QPushButton#btnPlay:pressed
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListPreview.png) 0 18 0 36;
+}
+VideoWallWidget QPushButton#btnPlay:disabled
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListPreview.png) 0 0 0 54;
+}
+
+VideoWallWidget QPushButton#btnUp
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverUp.png) 0 54 0 0;
+}
+VideoWallWidget QPushButton#btnUp:hover
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverUp.png) 0 36 0 18;
+}
+VideoWallWidget QPushButton#btnUp:pressed
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverUp.png) 0 18 0 36;
+}
+VideoWallWidget QPushButton#btnUp:disabled
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverUp.png) 0 0 0 54;
+}
+
+VideoWallWidget QPushButton#btnDown
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverDown.png) 0 54 0 0;
+}
+VideoWallWidget QPushButton#btnDown:hover
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverDown.png) 0 36 0 18;
+}
+VideoWallWidget QPushButton#btnDown:pressed
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverDown.png) 0 18 0 36;
+}
+VideoWallWidget QPushButton#btnDown:disabled
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListMoverDown.png) 0 0 0 54;
+}
+
+VideoWallWidget QPushButton#btnDel
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 54 0 0;
+}
+VideoWallWidget QPushButton#btnDel:hover
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 36 0 18;
+}
+VideoWallWidget QPushButton#btnDel:pressed
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 18 0 36;
+}
+VideoWallWidget QPushButton#btnDel:disabled
+{
+	border-image: url(./Skin/theme1/MonitorTask/ListDelete.png) 0 0 0 54;
+}
+
+PTZControlDlg QFrame#widgetPreview
+{
+	background:#212225;
+	border:1px solid #131314;
+}
+
+PTZWidget QToolButton#m_pBtnPositionOn
+{
+	min-width:42px;
+	max-width:42px;
+	min-height:42px;
+	max-height:42px;
+	border-image:url(./Skin/theme1/real/ptz/PTZ_Position_normal.png);
+}
+PTZWidget QToolButton#m_pBtnPositionOn:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/PTZ_Position_hover.png); 
+}
+PTZWidget QToolButton#m_pBtnPositionOn:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/PTZ_Position_pressed.png); 
+}
+PTZWidget QToolButton#m_pBtnPositionOn:disabled，
+PTZWidget QToolButton#m_pBtnPositionOff:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/PTZ_Position_disabled.png);
+}
+
+PTZWidget QToolButton#m_pBtnPositionOff
+{
+	border-image:url(./Skin/theme1/real/ptz/PTZ_Position_pressed.png); 
+}
+
+PTZWidget QToolButton#m_pBtnEnter
+{
+	min-width:42px;
+	max-width:42px;
+	min-height:42px;
+	max-height:42px;
+	border-image:url(./Skin/theme1/real/ptz/enter_normal.png);
+}
+PTZWidget QToolButton#m_pBtnEnter:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/enter_hover.png);  
+}
+PTZWidget QToolButton#m_pBtnEnter:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/enter_pressed.png); 
+}
+PTZWidget QToolButton#m_pBtnEnter:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/enter_disabled.png);
+}
+
+PTZWidget QToolButton#m_pBtnPTZMenu
+{
+	border-image:url(./Skin/theme1/real/ptz/Menu.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnPTZMenu:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/Menu.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+PTZWidget QToolButton#m_pBtnPTZMenu:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/Menu.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnPTZMenu:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/Menu.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnPTZControl
+{
+	border-image:url(./Skin/theme1/real/ptz/Menu.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnPTZControl:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/Menu.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+    
+}
+PTZWidget QToolButton#m_pBtnPTZControl:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/Menu.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnPTZControl:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/Menu.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnRockerOff
+{
+	border-image:url(./Skin/theme1/real/ptz/Mouse.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnRockerOff:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/Mouse.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px; 
+}
+PTZWidget QToolButton#m_pBtnRockerOff:pressed
+{
+	border-image:url(./Skin/theme1/real/ptz/Mouse.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnRockerOff:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/Mouse.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnRockerOn
+{
+	border-image:url(./Skin/theme1/real/ptz/Mouse.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+
+PTZWidget QToolButton#m_pBtnRockerOn:pressed
+{
+	border-image:url(./Skin/theme1/real/ptz/Mouse.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnRockerOn:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/Mouse.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnZoomInc
+{
+	border-image:url(./Skin/theme1/real/ptz/ZoomInc.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnZoomInc:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/ZoomInc.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#m_pBtnZoomInc:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/ZoomInc.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnZoomInc:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/ZoomInc.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnZoomDec
+{
+	border-image:url(./Skin/theme1/real/ptz/ZoomDec.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnZoomDec:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/ZoomDec.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#m_pBtnZoomDec:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/ZoomDec.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnZoomDec:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/ZoomDec.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnFocusInc
+{
+	border-image:url(./Skin/theme1/real/ptz/FocusInc.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnFocusInc:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/FocusInc.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#m_pBtnFocusInc:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/FocusInc.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnFocusInc:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/FocusInc.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnFocusDec
+{
+	border-image:url(./Skin/theme1/real/ptz/FocusDec.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnFocusDec:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/FocusDec.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#m_pBtnFocusDec:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/FocusDec.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnFocusDec:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/FocusDec.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnApertureInc
+{
+	border-image:url(./Skin/theme1/real/ptz/ApertureInc.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnApertureInc:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/ApertureInc.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#m_pBtnApertureInc:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/ApertureInc.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnApertureInc:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/ApertureInc.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnApertureDec
+{
+	border-image:url(./Skin/theme1/real/ptz/ApertureDec.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnApertureDec:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/ApertureDec.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#m_pBtnApertureDec:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/ApertureDec.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnApertureDec:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/ApertureDec.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnNormal
+{
+	border-image:url(./Skin/theme1/real/ptz/up.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnNormal:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/up.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#m_pBtnNormal:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/up.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnNormal:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/up.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#m_pBtnAdvanced
+{
+	border-image:url(./Skin/theme1/real/ptz/down.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#m_pBtnAdvanced:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/down.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#m_pBtnAdvanced:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/down.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#m_pBtnAdvanced:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/down.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#btnPositontStart
+{
+	border-image:url(./Skin/theme1/real/ptz/Locate.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnPositontStart:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/Locate.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnPositontStart:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/Locate.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnPositontStart:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/Locate.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#btnPresetSetStart
+{
+	border-image:url(./Skin/theme1/real/ptz/PTZ_Set.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnPresetSetStart:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/PTZ_Set.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnPresetSetStart:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/PTZ_Set.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnPresetSetStart:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/PTZ_Set.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#btnPresetBack
+{
+	border-image:url(./Skin/theme1/real/ptz/back.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnPresetBack:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/back.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnPresetBack:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/back.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnPresetBack:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/back.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#btnPresetSetDelete
+{
+	border-image:url(./Skin/theme1/real/ptz/Delete.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnPresetSetDelete:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/Delete.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnPresetSetDelete:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/Delete.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnPresetSetDelete:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/Delete.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#btnSave
+{
+	border-image:url(./Skin/theme1/real/ptz/ok.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnSave:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/ok.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnSave:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/ok.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnSave:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/ok.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#btnCruiseSet
+{
+	border-image:url(./Skin/theme1/real/ptz/PTZ_Set.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnCruiseSet:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/PTZ_Set.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnCruiseSet:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/PTZ_Set.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnCruiseSet:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/PTZ_Set.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+
+PTZWidget QToolButton#btnCruiseOff,
+PTZWidget QToolButton#btnAutoRotateOff,
+PTZWidget QToolButton#btnScanOff,
+PTZWidget QToolButton#btnPatternOff,
+PTZWidget QToolButton#btnAsststOff
+{
+	border-image:url(./Skin/theme1/real/ptz/poweron.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnCruiseOff:hover,
+PTZWidget QToolButton#btnAutoRotateOff:hover,
+PTZWidget QToolButton#btnScanOff:hover,
+PTZWidget QToolButton#btnPatternOff:hover,
+PTZWidget QToolButton#btnAsststOff:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/poweron.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnCruiseOff:pressed,
+PTZWidget QToolButton#btnAutoRotateOff:pressed,
+PTZWidget QToolButton#btnScanOff:pressed,
+PTZWidget QToolButton#btnPatternOff:pressed,
+PTZWidget QToolButton#btnAsststOff:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/poweron.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnCruiseOff:disabled,
+PTZWidget QToolButton#btnAutoRotateOff::disabled,
+PTZWidget QToolButton#btnScanOff:disabled,
+PTZWidget QToolButton#btnPatternOff:disabled,
+PTZWidget QToolButton#btnAsststOff:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/poweron.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#btnCruiseOn,
+PTZWidget QToolButton#btnAutoRotateOn,
+PTZWidget QToolButton#btnScanOn,
+PTZWidget QToolButton#btnPatternOn,
+PTZWidget QToolButton#btnAsststOn
+{
+    border-image:url(./Skin/theme1/real/ptz/poweron.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnCruiseOn:hover,
+PTZWidget QToolButton#btnAutoRotateOn:hover,
+PTZWidget QToolButton#btnScanOn:hover,
+PTZWidget QToolButton#btnPatternOn:hover,
+PTZWidget QToolButton#btnAsststOn:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/poweron.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnCruiseOn:pressed,
+PTZWidget QToolButton#btnAutoRotateOn:pressed,
+PTZWidget QToolButton#btnScanOn:pressed,
+PTZWidget QToolButton#btnPatternOn:pressed,
+PTZWidget QToolButton#btnAsststOn:pressed
+{
+	border-image:url(./Skin/theme1/real/ptz/poweron.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnCruiseOn:disabled,
+PTZWidget QToolButton#btnAutoRotateOn:disabled,
+PTZWidget QToolButton#btnScanOn:disabled,
+PTZWidget QToolButton#btnPatternOn:disabled,
+PTZWidget QToolButton#btnAsststOn:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/poweron.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#btnLeftBoundaryStop
+{
+	border-image:url(./Skin/theme1/real/ptz/scan_left.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnLeftBoundaryStop:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_left.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnLeftBoundaryStop:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_left.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnLeftBoundaryStop:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_left.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 -0 0 -54px;
+}
+
+PTZWidget QToolButton#btnLeftBoundaryStart
+{
+	border-image:url(./Skin/theme1/real/ptz/scan_left.png) 0 18 0 36;
+	border-width:0 18px 0 36px;
+	margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnLeftBoundaryStart:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_left.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px; 
+}
+PTZWidget QToolButton#btnLeftBoundaryStart:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_left.png) 0 54 0 0; 
+    border-width:0 54px 0 0;
+    margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnLeftBoundaryStart:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_left.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 -0 0 -54px;
+}
+
+PTZWidget QToolButton#btnRightBoundaryStop
+{
+	border-image:url(./Skin/theme1/real/ptz/scan_right.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnRightBoundaryStop:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_right.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnRightBoundaryStop:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_right.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnRightBoundaryStop:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_right.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 -0 0 -54px;
+}
+
+PTZWidget QToolButton#btnRightBoundaryStart
+{
+	border-image:url(./Skin/theme1/real/ptz/scan_right.png) 0 18 0 36;
+	border-width:0 18px 0 36px;
+	margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnRightBoundaryStart:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_right.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px; 
+}
+PTZWidget QToolButton#btnRightBoundaryStart:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_right.png) 0 54 0 0; 
+    border-width:0 54px 0 0;
+    margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnRightBoundaryStart:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/scan_right.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 -0 0 -54px;
+}
+
+PTZWidget QToolButton#btnPatternSetOff
+{
+	border-image:url(./Skin/theme1/real/ptz/start_pattern.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnPatternSetOff:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/start_pattern.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnPatternSetOff:pressed
+{
+    border-image:url(./Skin/theme1/real/ptz/start_pattern.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnPatternSetOff:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/start_pattern.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PTZWidget QToolButton#btnPatternSetOn
+{
+    border-image:url(./Skin/theme1/real/ptz/start_pattern.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+PTZWidget QToolButton#btnPatternSetOn:hover
+{
+    border-image:url(./Skin/theme1/real/ptz/start_pattern.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;   
+}
+PTZWidget QToolButton#btnPatternSetOn:pressed
+{
+	border-image:url(./Skin/theme1/real/ptz/start_pattern.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+PTZWidget QToolButton#btnPatternSetOn:disabled
+{
+    border-image:url(./Skin/theme1/real/ptz/start_pattern.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+PlanMaskWidget
+{
+	background:rgb(35,42,54,250);
+}
+
+PlanMaskWidget QLabel#labelTip,
+PlanMaskWidget QLabel#labelShowName
+{
+	min-height:24px;
+	max-height:24px;
+	font-size:18px;
+	color:#C40123;
+}
+
+PlanMaskWidget QPushButton#btnStopCycle
+{
+	background:transparent;
+	border:1px solid #C40123;
+	border-radius:2px;
+	font-size:15px;
+	color:#C40123;
+}
+
+
+PlayBackControlDlg QToolButton#btnPlayStart
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlay.png) 0 90 0 0;
+}
+PlayBackControlDlg QToolButton#btnPlayStart:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlay.png) 0 60 0 30;
+}
+PlayBackControlDlg QToolButton#btnPlayStart:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlay.png) 0 30 0 60;
+}
+PlayBackControlDlg QToolButton#btnPlayStart:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPlay.png) 0 0 0 90;
+}
+
+PlayBackControlDlg QToolButton#btnPlaySuspend
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPause.png) 0 90 0 0;
+}
+PlayBackControlDlg QToolButton#btnPlaySuspend:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPause.png) 0 60 0 30;
+}
+PlayBackControlDlg QToolButton#btnPlaySuspend:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPause.png) 0 30 0 60;
+}
+PlayBackControlDlg QToolButton#btnPlaySuspend:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarPause.png) 0 0 0 90;
+}
+
+PlayBackControlDlg QToolButton#btnStop
+{
+	border-image: url(./Skin/theme1/playback/ToolbarStop.png) 0 72 0 0;
+}
+PlayBackControlDlg QToolButton#btnStop:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarStop.png) 0 48 0 24;
+}
+PlayBackControlDlg QToolButton#btnStop:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarStop.png) 0 24 0 48;
+}
+PlayBackControlDlg QToolButton#btnStop:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarStop.png) 0 0 0 72;
+}
+PlayBackControlDlg QToolButton#btnSingleAhead
+{
+	border-image: url(./Skin/theme1/playback/ToolbarNextFrame.png) 0 72 0 0;
+}
+PlayBackControlDlg QToolButton#btnSingleAhead:hover
+{
+	border-image: url(./Skin/theme1/playback/ToolbarNextFrame.png) 0 48 0 24;
+}
+PlayBackControlDlg QToolButton#btnSingleAhead:pressed
+{
+	border-image: url(./Skin/theme1/playback/ToolbarNextFrame.png) 0 24 0 48;
+}
+PlayBackControlDlg QToolButton#btnSingleAhead:disabled
+{
+	border-image: url(./Skin/theme1/playback/ToolbarNextFrame.png) 0 0 0 72;
+}
+
+PlayBackControlDlg VideoWallSpeedCtrlButton#btnSpeed
+{
+	background:transparent;
+	font-size:10px;
+}
+
+PlayBackControlDlg VideoWallSpeedCtrlButton#btnSpeed:disabled
+{
+	color:#787878;
+}
+
+VideoWallSpeedCtrlWidget
+{
+	background:#27282c;
+}
+
+VideoWallSpeedCtrlWidget QSlider::groove:vertical
+{
+    width:2px;
+    background: #C40123;
+}
+
+VideoWallSpeedCtrlWidget QSlider::handle:vertical
+{ 
+    background: url(./Skin/theme1/real/ptz/ptz_slider_btn.png) no-repeat;
+	margin: 0 -4px;
+    width:11px;
+    height:11px;
+}
+FavoriteManageDlg QWidget#wgtCheck
+{
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                stop:0 rgba(115, 119, 124,255), stop:1 rgb(96, 100, 104, 255));
+}
+
+FavoriteManageDlg QWidget#wgtDelete
+{
+	background: #2f3337;
+}
+
+FavoriteManageDlg QWidget#widgetAdd
+{
+	background: #2f3337;
+}
+
+FavoriteManageDlg QWidget#wgtGroupTreeName
+{
+	background: #2f3337;
+}
+
+FavoriteManageDlg QTreeWidget#treeWidget
+{
+	background: #2f3337;
+}
+
+FavoriteManageDlg QTreeWidget#wgtFavorite
+{
+	background: #2a2e33;
+}
+
+FavoriteManageDlg QPushButton#btnDeleteChannel
+{
+	border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+
+FavoriteManageDlg QPushButton#btnDeleteChannel:hover
+{
+	border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+}
+
+FavoriteManageDlg QPushButton#btnDeleteChannel:pressed
+{
+	border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+
+FavoriteManageDlg QPushButton#btnDeleteChannel:disabled
+{
+	border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+FavoriteManageDlg QPushButton#btnDeleteFavorite
+{
+	border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+
+FavoriteManageDlg QPushButton#btnDeleteFavorite:hover
+{
+	border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+}
+
+FavoriteManageDlg QPushButton#btnDeleteFavorite:pressed
+{
+	border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+
+FavoriteManageDlg QPushButton#btnDeleteFavorite:disabled
+{
+	border-image:url(./skin/theme1/tv-matrix/ListDelete.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+FavoriteManageDlg QPushButton#btnAddFavorite
+{
+	border-image:url(./skin/theme1/tv-matrix/ADD.png) 0 54 0 0;
+	border-width:0 54px 0 0;
+	margin: 0 -54px 0 0;
+}
+
+FavoriteManageDlg QPushButton#btnAddFavorite:hover
+{
+	border-image:url(./skin/theme1/tv-matrix/ADD.png) 0 36 0 18; 
+    border-width:0 36px 0 18px;
+    margin: 0 -36px 0 -18px;
+}
+
+FavoriteManageDlg QPushButton#btnAddFavorite:pressed
+{
+	border-image:url(./skin/theme1/tv-matrix/ADD.png) 0 18 0 36; 
+    border-width:0 18px 0 36px;
+    margin: 0 -18px 0 -36px;
+}
+
+FavoriteManageDlg QPushButton#btnAddFavorite:disabled
+{
+	border-image:url(./skin/theme1/tv-matrix/ADD.png) 0 0 0 54;
+    border-width:0 0 0 54px;
+    margin: 0 0 0 -54px;
+}
+
+FavoriteManageDlg QTreeView::item
+{
+	border: 0px none;
+	padding-right: -5px;
+	height: 20px;
+}
+FavoriteManageDlg QTreeView::item:selected
+{
+	background: #C40123;
+}
+FavoriteManageDlg QTreeView::indicator:unchecked
+{
+	image:url(./Skin/theme1/common/UnCheckedNormal.png);
+}
+
+FavoriteManageDlg QTreeView::indicator:checked
+{
+    image:url(./Skin/theme1/common/CheckedNormal.png);
+}
+
+FavoriteTree QTreeView::branch:closed:has-children:has-siblings
+{
+	image:url(./Skin/theme1/TV-Matrix/RightButton.png);
+}
+
+FavoriteManageDlg QPushButton#btnGroupTree[checked = "false"]
+{
+	background:#2f3337;
+	border:none;
+	border-right:1px solid #131314;
+	text-align:left;
+	padding: 0 18px 0 10px;
+	color:#dddddd;
+}
+FavoriteManageDlg QWidget#wgtGroupTree
+{
+	background: #2a2e33
+}
+
+
+

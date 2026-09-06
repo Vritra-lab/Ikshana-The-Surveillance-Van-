@@ -1,0 +1,125 @@
+AttendanceQuery
+{
+	background-color: #1D1F22;
+}
+AttendanceQuery QWidget#wndTab
+{
+	background-color: #0E0F12;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton
+{
+	color: #b1b1b1;
+}
+AttendanceQuery QWidget#wndTab QPushButton:checked
+{
+	color: #eeeeee;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton:hover
+{
+	color: #ffffff;
+}
+AttendanceQuery QWidget#wndTab QPushButton:disabled
+{
+	color: #787878;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnDetails
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_pending.png) 0 22 0 4;
+}
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnDetails:checked
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_current.png) 0 22 0 4;
+}
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnStatistics
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_pending.png) 0 22 0 4;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnStatistics:checked
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_current.png) 0 22 0 4;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton#btnManualDraw
+{
+	color : #eeeeee;
+}
+
+AttendanceQuery  QComboBox#m_cbDevNameInfo
+{
+	color: #eeeeee;
+	border-radius: 3px;
+	border: 1px solid #222429;
+	height: 24px;
+	padding: 0px 8px 0px 8px;
+	background: #222429;
+    background-image: url(./Skin/theme1/common/arrow_small_normal.png);
+    background-position: center right;
+    background-origin: content;
+    background-repeat: no-repeat;
+}
+
+ACSAttendanceSet QPushButton#btnAttendanceDev,ACSAttendanceSet  QPushButton#btnAttendanceTime,ACSAttendanceSet QPushButton#btnAttendanceClasses,ACSAttendanceSet QPushButton#btnHoliday
+{
+	color: #b1b1b1;
+	border: 0px none;
+	background-color:#3A3E43;	
+}
+
+ACSAttendanceSet QPushButton#btnAttendanceDev:checked,ACSAttendanceSet QPushButton#btnAttendanceTime:checked,ACSAttendanceSet QPushButton#btnAttendanceClasses:checked,ACSAttendanceSet QPushButton#btnHoliday:checked
+{
+	color: #eeeeee;
+	border-bottom: 5px solid #0569FF;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnOverWork
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_pending.png) 0 22 0 4;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnOverWork:checked
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_current.png) 0 22 0 4;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnError
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_pending.png) 0 22 0 4;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnError:checked
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_current.png) 0 22 0 4;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnLeave
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_pending.png) 0 22 0 4;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnLeave:checked
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_current.png) 0 22 0 4;
+}
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnDayOff
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_pending.png) 0 22 0 4;
+}
+
+AttendanceQuery QWidget#wndTab QPushButton#m_BtnDayOff:checked
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_current.png) 0 22 0 4;
+}
+
+
+
+

@@ -1,0 +1,47 @@
+QAlarmEventDisplayWnd QLabel#lblEvents
+{
+	color: #b1b1b1;
+	padding-left: 15px;
+}
+
+QAlarmEventDisplayWnd QPushButton#btnHandlingStatus
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/event_done.png) 0 0 0 16;
+}
+QAlarmEventDisplayWnd QPushButton#btnHandlingStatus:checked
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/event_done.png) 0 16 0 0;
+}
+
+QAlarmEventDisplayWnd QPushButton#btnImg
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/ListPicview.png) 0 54 0 0;
+}
+QAlarmEventDisplayWnd QPushButton#btnImg:hover
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/ListPicview.png) 0 36 0 18;
+}
+QAlarmEventDisplayWnd QPushButton#btnImg:pressed
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/ListPicview.png) 0 18 0 36;
+}
+QAlarmEventDisplayWnd QPushButton#btnImg:disabled
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/ListPicview.png) 0 0 0 54;
+}
+QAlarmEventDisplayWnd QPushButton#btnPlay
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/ListVideoview.png) 0 54 0 0;
+}
+QAlarmEventDisplayWnd QPushButton#btnPlay:hover
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/ListVideoview.png) 0 36 0 18;
+}
+QAlarmEventDisplayWnd QPushButton#btnPlay:pressed
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/ListVideoview.png) 0 18 0 36;
+}
+QAlarmEventDisplayWnd QPushButton#btnPlay:disabled
+{
+	border-image: url(./Skin/DustyBlue/AlarmCenterUI/ListVideoview.png) 0 0 0 54;
+}

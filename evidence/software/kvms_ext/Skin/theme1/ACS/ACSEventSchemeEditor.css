@@ -1,0 +1,325 @@
+
+ACSEventSchemeEditor
+{
+	background-color: #1D1F22;
+}
+ACSEventSchemeEditor QWidget#wndDevTree,
+ACSEventSchemeEditor QWidget#wndOption,
+ACSEventSchemeEditor QWidget#wndSettings,
+ACSEventSchemeEditor QWidget#wndTree,
+ACSEventVideoEditor QWidget#wndDev 
+{
+	border: 1px solid #3A3E43;
+	background-color: #2A2E33;
+}
+ACSEventVideoEditor QTableView
+{
+	border: 1px solid #3A3E43;
+}
+ACSEventSchemeEditor QWidget#wndSubSetting
+{
+	background-color: #2F3337;
+}
+ACSEventSchemeEditor QWidget#wndSetingsHeader
+{
+	background-color: #3A3E43;
+}
+ACSEventSchemeEditor QWidget#scrollAreaWidgetContents
+{
+	background-color: #2A2E33;
+}
+ACSEventSchemeEditor QWidget#wndSub,
+ACSEventSchemeEditor QWidget#wndSubSpace
+{
+	background-color: #292D32;
+}
+ACSEventSchemeEditor QTreeWidget#treeAlarmIn
+{
+	border: 0 none;
+	background: transparent;
+}
+
+ACSEventSchemeEditor QWidget#scrollAreaWidgetContents,
+ACSEventSchemeEditor QTreeWidget#treeAlarmIn,
+ACSEventSchemeEditor QWidget#wndTabContainer,
+ACSEventSchemeEditor QWidget#wndSub
+{
+	border-top: 7px solid qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                stop:0 rgba(39,42,47,255), stop:1 rgba(42,46,51,0));
+}
+
+ACSEventSchemeEditor QWidget#wndOption QPushButton,
+ACSEventSchemeEditor QWidget#wndTabContainer QPushButton,
+ACSEventSchemeEditor QTreeWidget#treeAlarmIn::item
+{
+	color: #b1b1b1;
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton:checked,
+ACSEventSchemeEditor QWidget#wndTabContainer QPushButton:checked,
+ACSEventSchemeEditor QTreeWidget#treeAlarmIn::item:selected
+{
+	color: #eeeeee;
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton:hover,
+ACSEventSchemeEditor QWidget#wndTabContainer QPushButton:hover,
+ACSEventSchemeEditor QTreeWidget#treeAlarmIn::item:hover
+{
+	color: #ffffff;
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton:disabled,
+ACSEventSchemeEditor QWidget#wndTabContainer QPushButton:disabled,
+ACSEventSchemeEditor QTreeWidget#treeAlarmIn:disabled
+{
+	color: #787878;
+}
+
+QAlarmListItemView QWidget#wndMain QAlarmListItem:hover,
+QAlarmListItemView QWidget#wndSub QAlarmListItem:hover,
+QAlarmListItemView QWidget#wndMain QAlarmListItem:checked,
+QAlarmListItemView QWidget#wndSub QAlarmListItem:checked,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnSubControll:hover,
+ACSEventSchemeEditor QTreeWidget#treeAlarmIn::item:hover,
+ACSEventSchemeEditor QTreeWidget#treeAlarmIn::item:selected
+{
+	background-color: #1e2021;
+}
+ACSEventSchemeEditor QTreeWidget#treeAlarmIn::item
+{
+	height: 24px;
+}
+
+ACSEventSchemeEditor QTreeView#treeAlarmIn::branch:closed:has-children
+{
+        image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_normal.png);
+}
+
+ACSEventSchemeEditor QTreeView#treeAlarmIn::branch:open:has-children 
+{
+        image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_normal.png);
+}
+ACSEventSchemeEditor QTreeView#treeAlarmIn
+{
+	padding-left: 10px;
+}
+
+ACSEventSchemeEditor QWidget#wndTabContainer QPushButton
+{
+	border-width: 0 22px 0 4px;
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_pending.png) 0 22 0 4;
+}
+ACSEventSchemeEditor QWidget#wndTabContainer QPushButton:checked
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/tab_current.png) 0 22 0 4;
+}
+
+
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAlarm,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAbnormal,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnNormal,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnExternalAlarm
+{	
+	background-color: #3A3E43; 
+	border: 0px none;
+	border-right: 10px solid transparent;
+	text-align: left;
+	padding: 0 18px 0 10px;
+	
+    background-position: center right;
+    background-origin: padding;
+    background-repeat: no-repeat;
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAlarm:!checked,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAbnormal:!checked,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnNormal:!checked,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnExternalAlarm:!checked,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnSubControll:!checked
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_normal.png);
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAlarm:!checked:hover,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAbnormal:!checked:hover,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnNormal:!checked:hover,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnExternalAlarm:!checked:hover,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnSubControll:!checked:hover
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_hover.png);
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAlarm:!checked:pressed,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAbnormal:!checked:pressed,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnNormal:!checked:pressed,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnExternalAlarm:!checked:pressed,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnSubControll:!checked:pressed
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_pressed.png);
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAlarm:!checked:disabled,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAbnormal:!checked:disabled,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnNormal:!checked:disabled,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnExternalAlarm:!checked:disabled,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnSubControll:!checked:disabled
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_rightClick_disable.png);
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAlarm:checked,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAbnormal:checked,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnNormal:checked,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnExternalAlarm:checked,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnSubControll:checked
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_normal.png);
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAlarm:checked:hover,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAbnormal:checked:hover,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnNormal:checked:hover,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnExternalAlarm:checked:hover,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnSubControll:checked:hover
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_hover.png);
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAlarm:checked:pressed,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAbnormal:checked:pressed,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnNormal:checked:pressed,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnExternalAlarm:checked:pressed,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnSubControll:checked:pressed
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_pressed.png);
+}
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAlarm:checked:disabled,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnAbnormal:checked:disabled,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnNormal:checked:disabled,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnExternalAlarm:checked:disabled,
+ACSEventSchemeEditor QWidget#wndOption QPushButton#btnSubControll:checked:disabled
+{
+    background-image: url(./Skin/theme1/AlarmCtrl/arrow_bottomClick_disable.png);
+}
+
+ACSEventSchemeEditor QAlarmListItem
+{
+	text-align: left;
+	padding: 0 28px 0 20px;
+	border: 0px none;
+}
+ACSEventSchemeEditor QAlarmListItem#btnSubControll
+{	
+	border-right: 10px solid transparent;
+	
+    background-position: center right;
+    background-origin: padding;
+    background-repeat: no-repeat;
+}
+
+ACSEventSchemeEditor QAlarmListItemView QLabel#lblPix,
+ACSEventSchemeEditor QTreeWidget#treeAlarmIn QLabel
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/Choose.png) 0 0 0 0;
+}
+
+ACSEventSchemeEditor QWidget#wndOption QWidget#separator
+{
+	border-top: 1px solid #1A1D20;
+	border-bottom: 1px solid #4C5157;
+}
+
+ACSEventSchemeEditor QAlarmDefenceTimeEditor QPushButton[ImgLock=true]
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/AlarmCtrl/Lock.png) 0 54 0 0;
+}
+ACSEventSchemeEditor QAlarmDefenceTimeEditor QPushButton[ImgLock=true]:hover
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/Lock.png) 0 36 0 18;
+}
+ACSEventSchemeEditor QAlarmDefenceTimeEditor QPushButton[ImgLock=true]:pressed,
+ACSEventSchemeEditor QAlarmDefenceTimeEditor QPushButton[ImgLock=true]:checked
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/Lock.png) 0 18 0 36;
+}
+ACSEventSchemeEditor QAlarmDefenceTimeEditor QPushButton[ImgLock=true]:disabled
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/Lock.png) 0 0 0 54;
+}
+
+ACSEventSchemeEditor QAlarmVideoView QPushButton#btnDel
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/AlarmCtrl/PTZ-Delete.png) 0 54 0 0;
+}
+ACSEventSchemeEditor QAlarmVideoView QPushButton#btnDel:hover
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/PTZ-Delete.png) 0 36 0 18;
+}
+ACSEventSchemeEditor QAlarmVideoView QPushButton#btnDel:pressed
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/PTZ-Delete.png) 0 18 0 36;
+}
+ACSEventSchemeEditor QAlarmVideoView QPushButton#btnDel:disabled
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/PTZ-Delete.png) 0 0 0 54;
+}
+
+ACSEventSchemeEditor QAlarmDayEditor QPushButton#btnDetail
+{
+	border-width: 0;
+	border-image: url(./Skin/theme1/AlarmCtrl/Setting.png) 0 54 0 0;
+}
+ACSEventSchemeEditor QAlarmDayEditor QPushButton#btnDetail:hover
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/Setting.png) 0 36 0 18;
+}
+ACSEventSchemeEditor QAlarmDayEditor QPushButton#btnDetail:pressed
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/Setting.png) 0 18 0 36;
+}
+ACSEventSchemeEditor QAlarmDayEditor QPushButton#btnDetail:disabled
+{
+	border-image: url(./Skin/theme1/AlarmCtrl/Setting.png) 0 0 0 54;
+}
+
+ACSEventSchemeEditor ACSEventCopyToPopup
+{
+	border:1px solid #3A3E43;
+	background: #2F3337;
+}
+ACSEventSchemeEditor ACSEventCopyToPopup QWidget#wndDevTree
+{
+	border:1px solid #3A3E43;
+}
+
+
+
+ACSEventVideoEditor  QPushButton#btnDoor:disabled
+{
+	border-image: url(./Skin/theme1/ACS/btn_door.png) 0 273 0 0;
+}
+ACSEventVideoEditor  QPushButton#btnDoor:checked
+{
+	border-image: url(./Skin/theme1/ACS/btn_door.png) 0 182 0 91;
+}
+ACSEventVideoEditor  QPushButton#btnDoor:pressed
+{
+	border-image: url(./Skin/theme1/ACS/btn_door.png) 0 91 0 182;
+}
+
+ACSEventVideoEditor  QPushButton#btnDoor
+{
+	border-image: url(./Skin/theme1/ACS/btn_door.png) 0 0 0 273;
+}
+
+
+ACSEventVideoEditor  QPushButton#btnVideo:disabled
+{
+	border-image: url(./Skin/theme1/ACS/btn_video.png) 0 273 0 0;
+}
+ACSEventVideoEditor  QPushButton#btnVideo:checked
+{
+	border-image: url(./Skin/theme1/ACS/btn_video.png) 0 182 0 91;
+}
+ACSEventVideoEditor  QPushButton#btnVideo:pressed
+{
+	border-image: url(./Skin/theme1/ACS/btn_video.png) 0 91 0 182;
+}
+
+ACSEventVideoEditor  QPushButton#btnVideo
+{
+	border-image: url(./Skin/theme1/ACS/btn_video.png) 0 0 0 273;
+}

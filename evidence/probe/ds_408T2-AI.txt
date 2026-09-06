@@ -1,0 +1,301 @@
+THINK SECURITY
+
+THINK CP PLUS
+
+CP-UNR-408T2-AI
+8 Ch. PoE H.265 AI Mobile Network Video Recorder
+• Supports 8 Ch. 2MP PoE IP cameras input
+• Support Instastream/ H.265 video compression
+
+• Aviation connectors/ RJ45(Optional)
+• Support 2 HDD and 1 SD card, 3 USB Ports (2.0)
+• Support GPS, Wi-Fi and 3G/4G
+• VGA/TV simultaneous video output
+• Mobile Software: EMSS Pro, iCMOB/gCMOB (Live
+
+view and Playback)
+• CMS Software: EMSS Pro, KVMS Pro (Live view and
+Playback)
+
+System Overview
+
+Functions
+
+The CP PLUS Mobile Network Video Recorder is perfect for any situation whether you are just starting
+your mobile surveillance and have an on-going sophisticated security operation. This MNVR is purposefully built for mobile environments with highresolution recording as well as dual streaming technology. This MNVR comes with an enhanced system
+health monitoring solution that adds to your peace of
+mind by upholding the health level of your security
+system.
+
+Multiple ports
+With kinds of ports, like RS232, RS485, I/O, the video
+recorder can connect with various of accessories, such
+as card reader, fuel sensor, panic button and so on, so
+that the video, audio, alarm and location information
+can be uploaded to VMS.
+
+*Product casing and specifications are subject to change without prior notice
+
+THINK SECURITY
+
+THINK CP PLUS
+
+CP-UNR-408T2-AI
+
+8 Ch. PoE H.265 AI Mobile Network Video Recorder
+Functions
+GPS
+
+Vibration Resistant
+
+This MNVR comes with an in-built GPS to support location
+tracking and relays the current location of the device in realtime to the control room.
+
+This modern MNVR has been crafted with a vibration
+resistant design to prevent damage under harsh conditions or
+environmental pressures.
+
+Improved Management Capabilities
+
+H.265 Video Compression
+
+Flexible channel assignment, automatic IP addressing, dynamic
+camera configuration during alarm, and video management
+integration work together to simplify the system maintenance and management activities.
+
+The most reliable video compression design, which is H.265,
+has been provided in this product. This technology is beneficial for minimising storage costs as well as enabling you to
+save on resolution and the rate of from in the video with the
+help of Intelligent Region Perception to detect motion in each
+frame.
+
+About CP PLUS
+The brand that is on its way to lead the world when it comes to the security and surveillance industry, CP PLUS, keeps
+bombarding the market with the most reliable range of products that have been designed carefully and methodically
+to automate the whole surveillance and security process, no matter how big your premises are.
+It was the initiative to help the public in the area where they are the most vulnerable and to empower the sense of safety
+in our hearts that had conceptualized CP PLUS. And embarking on its mission to make the world a safer and more secure
+place has taken the brand's journey to unprecedented levels even when compared to international competitors.
+
+*Product casing and specifications are subject to change without prior notice
+
+THINK SECURITY
+
+THINK CP PLUS
+
+CP-UNR-408T2-AI
+
+8 Ch. PoE H.265 AI Mobile Network Video Recorder
+Feature
+
+Specification
+
+Processor
+
+High-performance industrial embedded micro-controller
+
+Operating System
+
+Embedded LINUX
+
+Two-way Talk
+
+Supported
+
+Operation Interface
+
+WEB, AV, VGA, HDMI
+
+IP Camera Input
+
+8 PoE Ethernet Ports, all channels 1080P
+Total output power of one group: 36 W (ch1-ch4 as one group, ch5-ch8 as one group)
+Max. output power of a single port: 25.4 W
+
+Video Output
+
+AV OUT x 1, VGA x 1 , HDMI x 1
+
+Compression
+
+H.265, H.264
+
+Encode Strategy
+
+Instastream
+
+Video Frame Rate
+
+PAL: 1-25fps, NTSC: 1-30fps
+
+Video Resolution
+
+800 × 600, 1280x1024
+
+Video Display Split
+
+1/4/8/9
+
+OSD Overlay
+
+Channel, time, GPS position, license plate
+
+Encoding Capacity
+
+1080P/720P/960H/D1/CIF
+
+Dual-Stream
+
+Supported (up to D1 encoding for sub stream)
+
+Image Quality Adjustment
+
+Image quality adjustable across six levels
+
+Protocols
+
+TCP/IP, HTTPS, IPV4/IPV6, DDNS
+
+Audio Compression
+
+G.711A/G.711U/PCM
+
+Audio Input
+
+8 (with Built-in Mic camera)
+
+Audio Output
+
+1 aviation port for audio output
+
+Alarm Input
+
+8 channels for alarm input, 1 channel for pulse speed measuring
+
+Alarm Output
+
+1 channel of controllable 12V alarm output, digital quantity
+
+*Product casing and specifications are subject to change without prior notice
+
+THINK SECURITY
+
+THINK CP PLUS
+Feature
+
+Specification
+
+Hard Disk
+
+2, 2.5-inch SSD HDDs (SATA) up to 2TB Each
+
+SD Card
+
+1 SD card, Up to 256GB
+
+Face Detection and Face
+Recognition
+
+Face capture, face comparison
+
+Record Mode
+
+Auto, Manual, motion detection, schedule, alarm Record alarm > alarm > motion detection >
+schedule
+
+Heat Dissipation
+
+Built-in fan cooling
+
+General Alarm
+
+Motion detection, video tampering and loss, local alarm, camera offline, manual alarm control
+and face blacklist
+
+Abnormal Alarm
+
+No HDD, HDD error, insufficient capacity, illegal login, ACC off, high temperature, rollover,
+battery low voltage, over speed, low speed, collision, tapid turn, rapid speedup, hard braking,
+low battery safety exception, network security exception
+
+Alarm Linkage
+
+Record, snapshot, local external alarm output, buzzer, log, screen prompt, tour
+
+Gyroscope
+
+Supports event detection and alarm such as rollover, collision, rapid speedup/slowdown/turn.
+
+Recording Playback
+
+1, 4
+
+Backup Mode
+
+HDD, USB flash drive and network backup
+
+GPS
+
+Support
+
+Wi-Fi
+
+Supports built-in 2.4 G Wi-Fi modules
+
+3G/4G
+
+Support
+
+Interface Ports
+
+Front panel: 2 × USB 2.0 Rear panel: 1 × USB 2.0 from EXTEND port, 3 Port RS232,
+2 Port RS485, 1 TV Output, 1 Pulse Count, 1 CAN Port
+
+Network Port
+
+1 x RJ45 (10/100/1000Mbps)
+
+Power Supply
+
+DC 6-36V with the built-in UPS (Enables system protection in normal power cut-off and in
+under voltage of vehicle battery.)
+
+Power Consumption
+
+11.1 W (without peripheral)
+Low power consumption: < 0.1W
+
+Operating Temperature
+
+-30 °C to +70°C (–22 °F to +158 °F)
+
+Operating Humidity
+
+10 ~ 95%
+
+*Product casing and specifications are subject to change without prior notice
+
+THINK SECURITY
+
+THINK CP PLUS
+Feature
+
+Specification
+
+Dimensions
+
+1 DIN Front panel: 190 mm × 60 mm (7.5’×2.4’) Rear panel: 180 mm × 50 mm (7.1’×2.0’)
+Depth: 190 mm (7.5’)
+
+Weight
+
+2.93Kg (with packages)
+
+Company Name:
+CP PLUS (Aditya Infotech Ltd.)
+F-28 Okhla Industrial Area, Phase 1,
+New Delhi 110020, INDIA
+Contact Mail ID :- customercare@cpplusworld.com
+*Product casing and specifications are subject to change without prior notice
+
+
